@@ -1,5 +1,4 @@
 from numpy import sin, cos, linspace, array, pi
-import numpy as np
 from materialWriter import makeFuelData, controlRods
 
 class writer(object):
@@ -23,8 +22,7 @@ class writer(object):
         self.nRadialDiv = nRadialDiv
         
         # Radii of each fuel ring
-        radii = np.arange(9) * 1.25984
-
+        radii = array([0.00000, 4.05384, 7.98068, 11.94562, 15.91564, 19.88820])
         
         # Possible angles given number of fuel elements
         def getAngles(l): 
@@ -360,7 +358,7 @@ class writer(object):
         for e in self.elements[1:]:
             ring = e.number // 100 - 1
             location = int(e.location[1:])
-            nums = [1, 6, 12, 18, 24, 30, 36, 42, 48]
+            nums = [1, 6, 12, 18, 24, 30]
             q = self.coord[sum(nums[:ring]) + location - 1]
             x, y = [float(i) for i in q[1:-1].split(',')]
             if location == 1:
@@ -509,8 +507,8 @@ class writer(object):
             f.write(s)
             
 if __name__ == '__main__':
-    nAxialDiv = 1
-    nRadialDiv = 1
+    nAxialDiv = 7
+    nRadialDiv = 7
     data = makeFuelData('currentConfig.txt')
     cntl = controlRods(reg=40, shim=50, pulse=100, safety=10, worthWeighted=True)
     writer(nAxialDiv, nRadialDiv, data, cntl)
