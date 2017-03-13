@@ -507,8 +507,8 @@ class writer(object):
             f.write(s)
             
 if __name__ == '__main__':
-    nAxialDiv = 7
-    nRadialDiv = 7
+    nAxialDiv = 1
+    nRadialDiv = 1
     data = makeFuelData('currentConfig.txt')
     cntl = controlRods(reg=40, shim=50, pulse=100, safety=10, worthWeighted=True)
     writer(nAxialDiv, nRadialDiv, data, cntl)
