@@ -11,7 +11,7 @@ class element(object):
             self.folder = int(self.folder)
         except ValueError:
             pass
-        letter = {'A':1, 'B':2, 'C':3, 'D':4, 'E':5, 'F':6}
+        letter = {'A':1, 'B':2, 'C':3, 'D':4, 'E':5, 'F':6, 'G':7, 'H':8 , 'I':9}
         self.number = 100 * letter[self.location[0]] + int(self.location[1:])
         self.material = {}
         self.density = []
@@ -22,7 +22,7 @@ class element(object):
         
 class makeFuelData(object):
     def __init__(self, fileName):
-        self.nAxialDiv = 7
+        self.nAxialDiv = 1
         self.getFuelData()
         self.fuelArray(fileName)
         self.writeFuelMats()
