@@ -25,8 +25,6 @@ class writer(object):
         # Radii of each fuel ring
         radii = np.arange(9) * 1.25984
 
-        print radii
-        exit()
         
         # Possible angles given number of fuel elements
         def getAngles(l): 
