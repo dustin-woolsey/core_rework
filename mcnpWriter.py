@@ -97,7 +97,7 @@ class writer(object):
                     s += '  {} like {} but u={}\n'.format(ID + 2, IDb - 98, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 3, IDb - 97, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 4, IDb - 96, e.number)
-                    s += '  {} like {} but u={}\n'.format(ID + 5, IDb - 95, e.number)
+                    #s += '  {} like {} but u={}\n'.format(ID + 5, IDb - 95, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 6, IDb - 94, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 7, IDb - 93, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 8, IDb - 92, e.number)
