@@ -34,27 +34,6 @@ class writer(object):
         # Create the file
         self.makeFile(outname)
 
-    def getVolumes(self):
-        self.V = [0.0, 0.0, 23186.1, 7981.87, 0.0, 0.0, 0.0, 0.0, 119806.0, 2876.05,
-                  23.606, 0.0, 0.0, 0.0, 27.2206, 263.299, 0.0, 0.0, 0.0, 292.266,
-                  0.0, 0.0, 0.0, 37.203, 360.755, 0.0, 0.0, 0.0, 23.4395, 153.542, 0.0, 0.0]
-        
-        zmin = -19.05
-        zmax = 19.05
-        rmin = 0.2285
-        rmax = 1.8161
-        
-        R = linspace(rmin, rmax, self.nRadialDiv + 1)
-        Z = linspace(zmin, zmax, self.nAxialDiv + 1)
-        
-        for e in range(self.nFuelElements):
-            self.V += [0.0, 0.0, 0.0, 90.5361, 0.0, 6.24953, 90.5361, 26.3186, 0.0, 0.0, 0.0]
-            for j in range(self.nAxialDiv):
-                for i in range(self.nRadialDiv):
-                    self.V.append(pi * (R[i + 1] ** 2 - R[i] ** 2) * (Z[j + 1] - Z[j]))
-                    
-        self.V += [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 602.17, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 18.099, 4.87847, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-        
     def getFuelCells(self):
         s = ''
         self.fuelID = []
@@ -416,19 +395,7 @@ class writer(object):
         z_fuel_top = 19.05
         self.fuelPlanes = linspace(z_fuel_top, z_fuel_bot, self.nAxialDiv + 1)[1:-1]
         self.fuelPlaneID = [10] + [100 + i for i in range(self.nAxialDiv - 1)] + [13]
-        
-    def writeVolumes(self):
-        # Get the cell volumes
-        self.getVolumes()
-        s = ''
-        
-        s += 'c Volume of each cell\n'
-        s += 'VOL NO '
-        for i, v in enumerate(self.V):
-            s += '{: >9.8g} '.format(v)
-            if (i + 1) % 7 == 0 and i != len(self.V) - 1:
-                s += '&\n       '
-        return s + '\n' 
+
         
     def makeFile(self, outputName):
         self.getFuelPlanes()
@@ -490,7 +457,6 @@ class writer(object):
         s += 'c ******************************************************************************\n'
         s += 'imp:n             0            1 {}r          $ 1, 63012\n'.format(1080 + 85 * self.nRadialDiv * self.nAxialDiv)
         s += 'c ******************************************************************************\n'
-        s += self.writeVolumes()
         s += 'c ******************************************************************************\n'
         s += 'c SOURCE DISTRIBUTED ACROSS THE CORE VOLUME\n'
         s += 'sdef ERG=D1 POS=0 0 -29 AXS=0 0 1 RAD=D2 EXT=D3\n'
