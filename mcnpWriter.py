@@ -78,7 +78,7 @@ class writer(object):
                     s += '  {}   9   -7.9 -14 21                 u={}   $ BOTTOM SS cap\n'.format(ID + 2, e.number)
                     s += '  {}   2   -1.6 14 -13 -202            u={}   $ BOTTOM Axial reflector\n'.format(ID + 3, e.number)
                     s += '  {}   9   -7.9 14 -4 202              u={}   $ Cladding\n'.format(ID + 4, e.number)
-                    s += '  {}   8   -6.5 13 -10 -200            u={}   $ Zirc FILLER\n'.format(ID + 5, e.number)
+                    s += '  {}   20   -6.5 13 -10 -200            u={}   $ Zirc FILLER\n'.format(ID + 5, e.number)
                     s += '  {}   2   -1.6 10 -6 -202             u={}   $ TOP Axial reflector\n'.format(ID + 6, e.number)
                     s += '  {}   3   -0.001239 6 -4 -202         u={}   $ Air gap\n'.format(ID + 7, e.number)
                     s += '  {}   9   -7.9 4 -3                   u={}   $ TOP SS cap\n'.format(ID + 8, e.number)
@@ -87,7 +87,7 @@ class writer(object):
                     ID += 100
                     for i in range(self.nAxialDiv):
                         for j in range(self.nRadialDiv):
-                            s += '  {}  {}  -{:.3f} {: <3d} -{: <3d} {: <4d} -{: <4d} u={}   $ ELEMENT {}-{}.{}-{}  S/N:{}\n'.format(ID + 10 * i + j, matID - abs(half - i), rho[i], self.fuelPlaneID[i + 1], self.fuelPlaneID[i], rings[j], rings[j + 1], e.number, e.location[0], e.location[1:], i + 1, j + 1, e.ID)
+                            s += '  {}  {}  -{:.3f} {: <3d} -{: <3d} {: <4d} -{: <4d} u={}   $ ELEMENT {}-{}.{}-{}  S/N:{}\n'.format(ID + 10 * i + j, 20, rho[i], self.fuelPlaneID[i + 1], self.fuelPlaneID[i], rings[j], rings[j + 1], e.number, e.location[0], e.location[1:], i + 1, j + 1, e.ID)
                             self.fuelID.append(ID + 10 * i + j)
                     IDb = ID
                 else:
@@ -487,6 +487,30 @@ class writer(object):
         s += 'm13   6000.70c          -0.22  $ Shim Rod, 2.5 g/cc\n'
         s += '      5010.70c          -0.1443\n'
         s += '      5011.70c          -0.6357\n'
+        s += 'c ---------------------------------------------------------\n'
+        s += 'c FUEL for neutron transport (by mass fraction)\n'
+        s += 'c (only U-235, U-238)\n'
+        s += 'c ---------------------------------------------------------\n'
+        s += 'm20 92235.60c -0.05000 $ U-235 and mass fraction\n'
+        s += '92238.60c -0.95000 $ U-238 and mass fraction\n'
+
+        s += 'c ---------------------------------------------------------\n'
+        s += 'c CLADDING for neutron transport (by mass fraction)\n'
+        s += 'c (only Zr, Fe, Cr, Sn; neglected impurities in Zr )\n'
+        s += 'c ---------------------------------------------------------\n'
+        s += 'm21 40000.60c -0.98300 $ Natural Zr and mass fraction\n'
+        s += '50000.42c -0.01450 $ Natural Sn and mass fraction\n'
+        s += '26000.55c -0.00150 $ Natural Fe and mass fraction\n'
+        s += '24000.50c -0.00100 $ Natural Cr and mass fraction\n'
+
+        s += 'c ---------------------------------------------------------\n'
+        s += 'c CONTROL RODS for neutron transport (by mass fraction)\n'
+        s += 'c (only B-10, B-11, C)\n'
+        s += 'c ---------------------------------------------------------\n'
+        s += 'm22 5010.66c -0.14425 $ B-10 and mass fraction\n'
+        s += '5011.60c -0.63839 $ O-16 and mass fraction\n'
+        s += '6000.60c -0.21737 $ Natural C and mass fraction\n'
+        s += '\n'
         s += 'c ******************************************************************************\n'
         s += 'imp:n             0            1 {}r          $ 1, 63012\n'.format(1080 + 85 * self.nRadialDiv * self.nAxialDiv)
         s += 'c ******************************************************************************\n'
