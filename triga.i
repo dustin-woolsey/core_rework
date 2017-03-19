@@ -55,1020 +55,5185 @@ c ==============================================================================
   201002   9   -7.9 -14 21                 u=201   $ BOTTOM SS cap
   201003   2   -1.6 14 -13 -202            u=201   $ BOTTOM Axial reflector
   201004   9   -7.9 14 -4 202              u=201   $ Cladding
+  201005   8   -6.5 13 -10 -200            u=201   $ Zirc FILLER
   201006   2   -1.6 10 -6 -202             u=201   $ TOP Axial reflector
   201007   3   -0.001239 6 -4 -202         u=201   $ Air gap
   201008   9   -7.9 4 -3                   u=201   $ TOP SS cap
   201009   9   -7.9 3 -201                 u=201   $ Upper pin
   201010   6   -1 3 201                    u=201   $ Water around pin
-  201100  2011  -6.240 13  -10  -202  u=201   $ ELEMENT B-1.1-1  S/N:6315
+  201100  2011  -6.240 100 -10  200  -2021 u=201   $ ELEMENT B-1.1-1  S/N:6315
+  201101  2011  -6.240 100 -10  2021 -2022 u=201   $ ELEMENT B-1.1-2  S/N:6315
+  201102  2011  -6.240 100 -10  2022 -2023 u=201   $ ELEMENT B-1.1-3  S/N:6315
+  201103  2011  -6.240 100 -10  2023 -2024 u=201   $ ELEMENT B-1.1-4  S/N:6315
+  201104  2011  -6.240 100 -10  2024 -2025 u=201   $ ELEMENT B-1.1-5  S/N:6315
+  201105  2011  -6.240 100 -10  2025 -2026 u=201   $ ELEMENT B-1.1-6  S/N:6315
+  201106  2011  -6.240 100 -10  2026 -202  u=201   $ ELEMENT B-1.1-7  S/N:6315
+  201110  2012  -6.239 101 -100 200  -2021 u=201   $ ELEMENT B-1.2-1  S/N:6315
+  201111  2012  -6.239 101 -100 2021 -2022 u=201   $ ELEMENT B-1.2-2  S/N:6315
+  201112  2012  -6.239 101 -100 2022 -2023 u=201   $ ELEMENT B-1.2-3  S/N:6315
+  201113  2012  -6.239 101 -100 2023 -2024 u=201   $ ELEMENT B-1.2-4  S/N:6315
+  201114  2012  -6.239 101 -100 2024 -2025 u=201   $ ELEMENT B-1.2-5  S/N:6315
+  201115  2012  -6.239 101 -100 2025 -2026 u=201   $ ELEMENT B-1.2-6  S/N:6315
+  201116  2012  -6.239 101 -100 2026 -202  u=201   $ ELEMENT B-1.2-7  S/N:6315
+  201120  2013  -6.239 102 -101 200  -2021 u=201   $ ELEMENT B-1.3-1  S/N:6315
+  201121  2013  -6.239 102 -101 2021 -2022 u=201   $ ELEMENT B-1.3-2  S/N:6315
+  201122  2013  -6.239 102 -101 2022 -2023 u=201   $ ELEMENT B-1.3-3  S/N:6315
+  201123  2013  -6.239 102 -101 2023 -2024 u=201   $ ELEMENT B-1.3-4  S/N:6315
+  201124  2013  -6.239 102 -101 2024 -2025 u=201   $ ELEMENT B-1.3-5  S/N:6315
+  201125  2013  -6.239 102 -101 2025 -2026 u=201   $ ELEMENT B-1.3-6  S/N:6315
+  201126  2013  -6.239 102 -101 2026 -202  u=201   $ ELEMENT B-1.3-7  S/N:6315
+  201130  2014  -6.238 103 -102 200  -2021 u=201   $ ELEMENT B-1.4-1  S/N:6315
+  201131  2014  -6.238 103 -102 2021 -2022 u=201   $ ELEMENT B-1.4-2  S/N:6315
+  201132  2014  -6.238 103 -102 2022 -2023 u=201   $ ELEMENT B-1.4-3  S/N:6315
+  201133  2014  -6.238 103 -102 2023 -2024 u=201   $ ELEMENT B-1.4-4  S/N:6315
+  201134  2014  -6.238 103 -102 2024 -2025 u=201   $ ELEMENT B-1.4-5  S/N:6315
+  201135  2014  -6.238 103 -102 2025 -2026 u=201   $ ELEMENT B-1.4-6  S/N:6315
+  201136  2014  -6.238 103 -102 2026 -202  u=201   $ ELEMENT B-1.4-7  S/N:6315
+  201140  2013  -6.239 104 -103 200  -2021 u=201   $ ELEMENT B-1.5-1  S/N:6315
+  201141  2013  -6.239 104 -103 2021 -2022 u=201   $ ELEMENT B-1.5-2  S/N:6315
+  201142  2013  -6.239 104 -103 2022 -2023 u=201   $ ELEMENT B-1.5-3  S/N:6315
+  201143  2013  -6.239 104 -103 2023 -2024 u=201   $ ELEMENT B-1.5-4  S/N:6315
+  201144  2013  -6.239 104 -103 2024 -2025 u=201   $ ELEMENT B-1.5-5  S/N:6315
+  201145  2013  -6.239 104 -103 2025 -2026 u=201   $ ELEMENT B-1.5-6  S/N:6315
+  201146  2013  -6.239 104 -103 2026 -202  u=201   $ ELEMENT B-1.5-7  S/N:6315
+  201150  2012  -6.239 105 -104 200  -2021 u=201   $ ELEMENT B-1.6-1  S/N:6315
+  201151  2012  -6.239 105 -104 2021 -2022 u=201   $ ELEMENT B-1.6-2  S/N:6315
+  201152  2012  -6.239 105 -104 2022 -2023 u=201   $ ELEMENT B-1.6-3  S/N:6315
+  201153  2012  -6.239 105 -104 2023 -2024 u=201   $ ELEMENT B-1.6-4  S/N:6315
+  201154  2012  -6.239 105 -104 2024 -2025 u=201   $ ELEMENT B-1.6-5  S/N:6315
+  201155  2012  -6.239 105 -104 2025 -2026 u=201   $ ELEMENT B-1.6-6  S/N:6315
+  201156  2012  -6.239 105 -104 2026 -202  u=201   $ ELEMENT B-1.6-7  S/N:6315
+  201160  2011  -6.240 13  -105 200  -2021 u=201   $ ELEMENT B-1.7-1  S/N:6315
+  201161  2011  -6.240 13  -105 2021 -2022 u=201   $ ELEMENT B-1.7-2  S/N:6315
+  201162  2011  -6.240 13  -105 2022 -2023 u=201   $ ELEMENT B-1.7-3  S/N:6315
+  201163  2011  -6.240 13  -105 2023 -2024 u=201   $ ELEMENT B-1.7-4  S/N:6315
+  201164  2011  -6.240 13  -105 2024 -2025 u=201   $ ELEMENT B-1.7-5  S/N:6315
+  201165  2011  -6.240 13  -105 2025 -2026 u=201   $ ELEMENT B-1.7-6  S/N:6315
+  201166  2011  -6.240 13  -105 2026 -202  u=201   $ ELEMENT B-1.7-7  S/N:6315
 c ==============================================================================
   202000 like 201000 but u=202
   202001 like 201001 but u=202
   202002 like 201002 but u=202
   202003 like 201003 but u=202
   202004 like 201004 but u=202
+  202005 like 201005 but u=202
   202006 like 201006 but u=202
   202007 like 201007 but u=202
   202008 like 201008 but u=202
   202009 like 201009 but u=202
   202010 like 201010 but u=202
   202100 like 201100 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-1  S/N:10880
+  202101 like 201101 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-2  S/N:10880
+  202102 like 201102 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-3  S/N:10880
+  202103 like 201103 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-4  S/N:10880
+  202104 like 201104 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-5  S/N:10880
+  202105 like 201105 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-6  S/N:10880
+  202106 like 201106 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.1-7  S/N:10880
+  202110 like 201110 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-1  S/N:10880
+  202111 like 201111 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-2  S/N:10880
+  202112 like 201112 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-3  S/N:10880
+  202113 like 201113 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-4  S/N:10880
+  202114 like 201114 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-5  S/N:10880
+  202115 like 201115 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-6  S/N:10880
+  202116 like 201116 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.2-7  S/N:10880
+  202120 like 201120 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-1  S/N:10880
+  202121 like 201121 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-2  S/N:10880
+  202122 like 201122 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-3  S/N:10880
+  202123 like 201123 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-4  S/N:10880
+  202124 like 201124 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-5  S/N:10880
+  202125 like 201125 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-6  S/N:10880
+  202126 like 201126 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.3-7  S/N:10880
+  202130 like 201130 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-1  S/N:10880
+  202131 like 201131 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-2  S/N:10880
+  202132 like 201132 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-3  S/N:10880
+  202133 like 201133 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-4  S/N:10880
+  202134 like 201134 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-5  S/N:10880
+  202135 like 201135 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-6  S/N:10880
+  202136 like 201136 but mat=2024 rho=-6.386 u=202  $ ELEMENT B-2.4-7  S/N:10880
+  202140 like 201140 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-1  S/N:10880
+  202141 like 201141 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-2  S/N:10880
+  202142 like 201142 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-3  S/N:10880
+  202143 like 201143 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-4  S/N:10880
+  202144 like 201144 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-5  S/N:10880
+  202145 like 201145 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-6  S/N:10880
+  202146 like 201146 but mat=2023 rho=-6.386 u=202  $ ELEMENT B-2.5-7  S/N:10880
+  202150 like 201150 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-1  S/N:10880
+  202151 like 201151 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-2  S/N:10880
+  202152 like 201152 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-3  S/N:10880
+  202153 like 201153 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-4  S/N:10880
+  202154 like 201154 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-5  S/N:10880
+  202155 like 201155 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-6  S/N:10880
+  202156 like 201156 but mat=2022 rho=-6.386 u=202  $ ELEMENT B-2.6-7  S/N:10880
+  202160 like 201160 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-1  S/N:10880
+  202161 like 201161 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-2  S/N:10880
+  202162 like 201162 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-3  S/N:10880
+  202163 like 201163 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-4  S/N:10880
+  202164 like 201164 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-5  S/N:10880
+  202165 like 201165 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-6  S/N:10880
+  202166 like 201166 but mat=2021 rho=-6.386 u=202  $ ELEMENT B-2.7-7  S/N:10880
 c ==============================================================================
   203000 like 201000 but u=203
   203001 like 201001 but u=203
   203002 like 201002 but u=203
   203003 like 201003 but u=203
   203004 like 201004 but u=203
+  203005 like 201005 but u=203
   203006 like 201006 but u=203
   203007 like 201007 but u=203
   203008 like 201008 but u=203
   203009 like 201009 but u=203
   203010 like 201010 but u=203
   203100 like 201100 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-1  S/N:6577
+  203101 like 201101 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-2  S/N:6577
+  203102 like 201102 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-3  S/N:6577
+  203103 like 201103 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-4  S/N:6577
+  203104 like 201104 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-5  S/N:6577
+  203105 like 201105 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-6  S/N:6577
+  203106 like 201106 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.1-7  S/N:6577
+  203110 like 201110 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-1  S/N:6577
+  203111 like 201111 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-2  S/N:6577
+  203112 like 201112 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-3  S/N:6577
+  203113 like 201113 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-4  S/N:6577
+  203114 like 201114 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-5  S/N:6577
+  203115 like 201115 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-6  S/N:6577
+  203116 like 201116 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.2-7  S/N:6577
+  203120 like 201120 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-1  S/N:6577
+  203121 like 201121 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-2  S/N:6577
+  203122 like 201122 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-3  S/N:6577
+  203123 like 201123 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-4  S/N:6577
+  203124 like 201124 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-5  S/N:6577
+  203125 like 201125 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-6  S/N:6577
+  203126 like 201126 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.3-7  S/N:6577
+  203130 like 201130 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-1  S/N:6577
+  203131 like 201131 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-2  S/N:6577
+  203132 like 201132 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-3  S/N:6577
+  203133 like 201133 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-4  S/N:6577
+  203134 like 201134 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-5  S/N:6577
+  203135 like 201135 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-6  S/N:6577
+  203136 like 201136 but mat=2034 rho=-6.238 u=203  $ ELEMENT B-3.4-7  S/N:6577
+  203140 like 201140 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-1  S/N:6577
+  203141 like 201141 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-2  S/N:6577
+  203142 like 201142 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-3  S/N:6577
+  203143 like 201143 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-4  S/N:6577
+  203144 like 201144 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-5  S/N:6577
+  203145 like 201145 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-6  S/N:6577
+  203146 like 201146 but mat=2033 rho=-6.239 u=203  $ ELEMENT B-3.5-7  S/N:6577
+  203150 like 201150 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-1  S/N:6577
+  203151 like 201151 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-2  S/N:6577
+  203152 like 201152 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-3  S/N:6577
+  203153 like 201153 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-4  S/N:6577
+  203154 like 201154 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-5  S/N:6577
+  203155 like 201155 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-6  S/N:6577
+  203156 like 201156 but mat=2032 rho=-6.239 u=203  $ ELEMENT B-3.6-7  S/N:6577
+  203160 like 201160 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-1  S/N:6577
+  203161 like 201161 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-2  S/N:6577
+  203162 like 201162 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-3  S/N:6577
+  203163 like 201163 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-4  S/N:6577
+  203164 like 201164 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-5  S/N:6577
+  203165 like 201165 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-6  S/N:6577
+  203166 like 201166 but mat=2031 rho=-6.240 u=203  $ ELEMENT B-3.7-7  S/N:6577
 c ==============================================================================
   204000 like 201000 but u=204
   204001 like 201001 but u=204
   204002 like 201002 but u=204
   204003 like 201003 but u=204
   204004 like 201004 but u=204
+  204005 like 201005 but u=204
   204006 like 201006 but u=204
   204007 like 201007 but u=204
   204008 like 201008 but u=204
   204009 like 201009 but u=204
   204010 like 201010 but u=204
   204100 like 201100 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-1  S/N:2966
+  204101 like 201101 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-2  S/N:2966
+  204102 like 201102 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-3  S/N:2966
+  204103 like 201103 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-4  S/N:2966
+  204104 like 201104 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-5  S/N:2966
+  204105 like 201105 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-6  S/N:2966
+  204106 like 201106 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.1-7  S/N:2966
+  204110 like 201110 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-1  S/N:2966
+  204111 like 201111 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-2  S/N:2966
+  204112 like 201112 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-3  S/N:2966
+  204113 like 201113 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-4  S/N:2966
+  204114 like 201114 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-5  S/N:2966
+  204115 like 201115 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-6  S/N:2966
+  204116 like 201116 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.2-7  S/N:2966
+  204120 like 201120 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-1  S/N:2966
+  204121 like 201121 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-2  S/N:2966
+  204122 like 201122 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-3  S/N:2966
+  204123 like 201123 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-4  S/N:2966
+  204124 like 201124 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-5  S/N:2966
+  204125 like 201125 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-6  S/N:2966
+  204126 like 201126 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.3-7  S/N:2966
+  204130 like 201130 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-1  S/N:2966
+  204131 like 201131 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-2  S/N:2966
+  204132 like 201132 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-3  S/N:2966
+  204133 like 201133 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-4  S/N:2966
+  204134 like 201134 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-5  S/N:2966
+  204135 like 201135 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-6  S/N:2966
+  204136 like 201136 but mat=2044 rho=-6.304 u=204  $ ELEMENT B-4.4-7  S/N:2966
+  204140 like 201140 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-1  S/N:2966
+  204141 like 201141 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-2  S/N:2966
+  204142 like 201142 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-3  S/N:2966
+  204143 like 201143 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-4  S/N:2966
+  204144 like 201144 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-5  S/N:2966
+  204145 like 201145 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-6  S/N:2966
+  204146 like 201146 but mat=2043 rho=-6.304 u=204  $ ELEMENT B-4.5-7  S/N:2966
+  204150 like 201150 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-1  S/N:2966
+  204151 like 201151 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-2  S/N:2966
+  204152 like 201152 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-3  S/N:2966
+  204153 like 201153 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-4  S/N:2966
+  204154 like 201154 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-5  S/N:2966
+  204155 like 201155 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-6  S/N:2966
+  204156 like 201156 but mat=2042 rho=-6.305 u=204  $ ELEMENT B-4.6-7  S/N:2966
+  204160 like 201160 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-1  S/N:2966
+  204161 like 201161 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-2  S/N:2966
+  204162 like 201162 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-3  S/N:2966
+  204163 like 201163 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-4  S/N:2966
+  204164 like 201164 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-5  S/N:2966
+  204165 like 201165 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-6  S/N:2966
+  204166 like 201166 but mat=2041 rho=-6.306 u=204  $ ELEMENT B-4.7-7  S/N:2966
 c ==============================================================================
   205000 like 201000 but u=205
   205001 like 201001 but u=205
   205002 like 201002 but u=205
   205003 like 201003 but u=205
   205004 like 201004 but u=205
+  205005 like 201005 but u=205
   205006 like 201006 but u=205
   205007 like 201007 but u=205
   205008 like 201008 but u=205
   205009 like 201009 but u=205
   205010 like 201010 but u=205
   205100 like 201100 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-1  S/N:10895
+  205101 like 201101 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-2  S/N:10895
+  205102 like 201102 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-3  S/N:10895
+  205103 like 201103 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-4  S/N:10895
+  205104 like 201104 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-5  S/N:10895
+  205105 like 201105 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-6  S/N:10895
+  205106 like 201106 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.1-7  S/N:10895
+  205110 like 201110 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-1  S/N:10895
+  205111 like 201111 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-2  S/N:10895
+  205112 like 201112 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-3  S/N:10895
+  205113 like 201113 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-4  S/N:10895
+  205114 like 201114 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-5  S/N:10895
+  205115 like 201115 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-6  S/N:10895
+  205116 like 201116 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.2-7  S/N:10895
+  205120 like 201120 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-1  S/N:10895
+  205121 like 201121 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-2  S/N:10895
+  205122 like 201122 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-3  S/N:10895
+  205123 like 201123 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-4  S/N:10895
+  205124 like 201124 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-5  S/N:10895
+  205125 like 201125 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-6  S/N:10895
+  205126 like 201126 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.3-7  S/N:10895
+  205130 like 201130 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-1  S/N:10895
+  205131 like 201131 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-2  S/N:10895
+  205132 like 201132 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-3  S/N:10895
+  205133 like 201133 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-4  S/N:10895
+  205134 like 201134 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-5  S/N:10895
+  205135 like 201135 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-6  S/N:10895
+  205136 like 201136 but mat=2054 rho=-6.406 u=205  $ ELEMENT B-5.4-7  S/N:10895
+  205140 like 201140 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-1  S/N:10895
+  205141 like 201141 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-2  S/N:10895
+  205142 like 201142 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-3  S/N:10895
+  205143 like 201143 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-4  S/N:10895
+  205144 like 201144 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-5  S/N:10895
+  205145 like 201145 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-6  S/N:10895
+  205146 like 201146 but mat=2053 rho=-6.406 u=205  $ ELEMENT B-5.5-7  S/N:10895
+  205150 like 201150 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-1  S/N:10895
+  205151 like 201151 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-2  S/N:10895
+  205152 like 201152 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-3  S/N:10895
+  205153 like 201153 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-4  S/N:10895
+  205154 like 201154 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-5  S/N:10895
+  205155 like 201155 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-6  S/N:10895
+  205156 like 201156 but mat=2052 rho=-6.406 u=205  $ ELEMENT B-5.6-7  S/N:10895
+  205160 like 201160 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-1  S/N:10895
+  205161 like 201161 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-2  S/N:10895
+  205162 like 201162 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-3  S/N:10895
+  205163 like 201163 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-4  S/N:10895
+  205164 like 201164 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-5  S/N:10895
+  205165 like 201165 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-6  S/N:10895
+  205166 like 201166 but mat=2051 rho=-6.406 u=205  $ ELEMENT B-5.7-7  S/N:10895
 c ==============================================================================
   206000 like 201000 but u=206
   206001 like 201001 but u=206
   206002 like 201002 but u=206
   206003 like 201003 but u=206
   206004 like 201004 but u=206
+  206005 like 201005 but u=206
   206006 like 201006 but u=206
   206007 like 201007 but u=206
   206008 like 201008 but u=206
   206009 like 201009 but u=206
   206010 like 201010 but u=206
   206100 like 201100 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-1  S/N:11341
+  206101 like 201101 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-2  S/N:11341
+  206102 like 201102 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-3  S/N:11341
+  206103 like 201103 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-4  S/N:11341
+  206104 like 201104 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-5  S/N:11341
+  206105 like 201105 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-6  S/N:11341
+  206106 like 201106 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.1-7  S/N:11341
+  206110 like 201110 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-1  S/N:11341
+  206111 like 201111 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-2  S/N:11341
+  206112 like 201112 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-3  S/N:11341
+  206113 like 201113 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-4  S/N:11341
+  206114 like 201114 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-5  S/N:11341
+  206115 like 201115 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-6  S/N:11341
+  206116 like 201116 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.2-7  S/N:11341
+  206120 like 201120 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-1  S/N:11341
+  206121 like 201121 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-2  S/N:11341
+  206122 like 201122 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-3  S/N:11341
+  206123 like 201123 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-4  S/N:11341
+  206124 like 201124 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-5  S/N:11341
+  206125 like 201125 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-6  S/N:11341
+  206126 like 201126 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.3-7  S/N:11341
+  206130 like 201130 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-1  S/N:11341
+  206131 like 201131 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-2  S/N:11341
+  206132 like 201132 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-3  S/N:11341
+  206133 like 201133 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-4  S/N:11341
+  206134 like 201134 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-5  S/N:11341
+  206135 like 201135 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-6  S/N:11341
+  206136 like 201136 but mat=2064 rho=-6.372 u=206  $ ELEMENT B-6.4-7  S/N:11341
+  206140 like 201140 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-1  S/N:11341
+  206141 like 201141 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-2  S/N:11341
+  206142 like 201142 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-3  S/N:11341
+  206143 like 201143 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-4  S/N:11341
+  206144 like 201144 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-5  S/N:11341
+  206145 like 201145 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-6  S/N:11341
+  206146 like 201146 but mat=2063 rho=-6.372 u=206  $ ELEMENT B-6.5-7  S/N:11341
+  206150 like 201150 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-1  S/N:11341
+  206151 like 201151 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-2  S/N:11341
+  206152 like 201152 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-3  S/N:11341
+  206153 like 201153 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-4  S/N:11341
+  206154 like 201154 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-5  S/N:11341
+  206155 like 201155 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-6  S/N:11341
+  206156 like 201156 but mat=2062 rho=-6.372 u=206  $ ELEMENT B-6.6-7  S/N:11341
+  206160 like 201160 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-1  S/N:11341
+  206161 like 201161 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-2  S/N:11341
+  206162 like 201162 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-3  S/N:11341
+  206163 like 201163 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-4  S/N:11341
+  206164 like 201164 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-5  S/N:11341
+  206165 like 201165 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-6  S/N:11341
+  206166 like 201166 but mat=2061 rho=-6.372 u=206  $ ELEMENT B-6.7-7  S/N:11341
 c ==============================================================================
   301000 like 201000 but u=301
   301001 like 201001 but u=301
   301002 like 201002 but u=301
   301003 like 201003 but u=301
   301004 like 201004 but u=301
+  301005 like 201005 but u=301
   301006 like 201006 but u=301
   301007 like 201007 but u=301
   301008 like 201008 but u=301
   301009 like 201009 but u=301
   301010 like 201010 but u=301
   301100 like 201100 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-1  S/N:11351
+  301101 like 201101 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-2  S/N:11351
+  301102 like 201102 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-3  S/N:11351
+  301103 like 201103 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-4  S/N:11351
+  301104 like 201104 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-5  S/N:11351
+  301105 like 201105 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-6  S/N:11351
+  301106 like 201106 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.1-7  S/N:11351
+  301110 like 201110 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-1  S/N:11351
+  301111 like 201111 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-2  S/N:11351
+  301112 like 201112 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-3  S/N:11351
+  301113 like 201113 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-4  S/N:11351
+  301114 like 201114 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-5  S/N:11351
+  301115 like 201115 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-6  S/N:11351
+  301116 like 201116 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.2-7  S/N:11351
+  301120 like 201120 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-1  S/N:11351
+  301121 like 201121 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-2  S/N:11351
+  301122 like 201122 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-3  S/N:11351
+  301123 like 201123 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-4  S/N:11351
+  301124 like 201124 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-5  S/N:11351
+  301125 like 201125 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-6  S/N:11351
+  301126 like 201126 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.3-7  S/N:11351
+  301130 like 201130 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-1  S/N:11351
+  301131 like 201131 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-2  S/N:11351
+  301132 like 201132 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-3  S/N:11351
+  301133 like 201133 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-4  S/N:11351
+  301134 like 201134 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-5  S/N:11351
+  301135 like 201135 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-6  S/N:11351
+  301136 like 201136 but mat=3014 rho=-6.406 u=301  $ ELEMENT C-1.4-7  S/N:11351
+  301140 like 201140 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-1  S/N:11351
+  301141 like 201141 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-2  S/N:11351
+  301142 like 201142 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-3  S/N:11351
+  301143 like 201143 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-4  S/N:11351
+  301144 like 201144 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-5  S/N:11351
+  301145 like 201145 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-6  S/N:11351
+  301146 like 201146 but mat=3013 rho=-6.406 u=301  $ ELEMENT C-1.5-7  S/N:11351
+  301150 like 201150 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-1  S/N:11351
+  301151 like 201151 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-2  S/N:11351
+  301152 like 201152 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-3  S/N:11351
+  301153 like 201153 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-4  S/N:11351
+  301154 like 201154 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-5  S/N:11351
+  301155 like 201155 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-6  S/N:11351
+  301156 like 201156 but mat=3012 rho=-6.406 u=301  $ ELEMENT C-1.6-7  S/N:11351
+  301160 like 201160 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-1  S/N:11351
+  301161 like 201161 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-2  S/N:11351
+  301162 like 201162 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-3  S/N:11351
+  301163 like 201163 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-4  S/N:11351
+  301164 like 201164 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-5  S/N:11351
+  301165 like 201165 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-6  S/N:11351
+  301166 like 201166 but mat=3011 rho=-6.406 u=301  $ ELEMENT C-1.7-7  S/N:11351
 c ==============================================================================
   302000 like 201000 but u=302
   302001 like 201001 but u=302
   302002 like 201002 but u=302
   302003 like 201003 but u=302
   302004 like 201004 but u=302
+  302005 like 201005 but u=302
   302006 like 201006 but u=302
   302007 like 201007 but u=302
   302008 like 201008 but u=302
   302009 like 201009 but u=302
   302010 like 201010 but u=302
   302100 like 201100 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-1  S/N:6316
+  302101 like 201101 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-2  S/N:6316
+  302102 like 201102 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-3  S/N:6316
+  302103 like 201103 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-4  S/N:6316
+  302104 like 201104 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-5  S/N:6316
+  302105 like 201105 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-6  S/N:6316
+  302106 like 201106 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.1-7  S/N:6316
+  302110 like 201110 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-1  S/N:6316
+  302111 like 201111 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-2  S/N:6316
+  302112 like 201112 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-3  S/N:6316
+  302113 like 201113 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-4  S/N:6316
+  302114 like 201114 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-5  S/N:6316
+  302115 like 201115 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-6  S/N:6316
+  302116 like 201116 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.2-7  S/N:6316
+  302120 like 201120 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-1  S/N:6316
+  302121 like 201121 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-2  S/N:6316
+  302122 like 201122 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-3  S/N:6316
+  302123 like 201123 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-4  S/N:6316
+  302124 like 201124 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-5  S/N:6316
+  302125 like 201125 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-6  S/N:6316
+  302126 like 201126 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.3-7  S/N:6316
+  302130 like 201130 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-1  S/N:6316
+  302131 like 201131 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-2  S/N:6316
+  302132 like 201132 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-3  S/N:6316
+  302133 like 201133 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-4  S/N:6316
+  302134 like 201134 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-5  S/N:6316
+  302135 like 201135 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-6  S/N:6316
+  302136 like 201136 but mat=3024 rho=-6.239 u=302  $ ELEMENT C-2.4-7  S/N:6316
+  302140 like 201140 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-1  S/N:6316
+  302141 like 201141 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-2  S/N:6316
+  302142 like 201142 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-3  S/N:6316
+  302143 like 201143 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-4  S/N:6316
+  302144 like 201144 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-5  S/N:6316
+  302145 like 201145 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-6  S/N:6316
+  302146 like 201146 but mat=3023 rho=-6.239 u=302  $ ELEMENT C-2.5-7  S/N:6316
+  302150 like 201150 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-1  S/N:6316
+  302151 like 201151 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-2  S/N:6316
+  302152 like 201152 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-3  S/N:6316
+  302153 like 201153 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-4  S/N:6316
+  302154 like 201154 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-5  S/N:6316
+  302155 like 201155 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-6  S/N:6316
+  302156 like 201156 but mat=3022 rho=-6.239 u=302  $ ELEMENT C-2.6-7  S/N:6316
+  302160 like 201160 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-1  S/N:6316
+  302161 like 201161 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-2  S/N:6316
+  302162 like 201162 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-3  S/N:6316
+  302163 like 201163 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-4  S/N:6316
+  302164 like 201164 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-5  S/N:6316
+  302165 like 201165 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-6  S/N:6316
+  302166 like 201166 but mat=3021 rho=-6.240 u=302  $ ELEMENT C-2.7-7  S/N:6316
 c ==============================================================================
   303000 like 201000 but u=303
   303001 like 201001 but u=303
   303002 like 201002 but u=303
   303003 like 201003 but u=303
   303004 like 201004 but u=303
+  303005 like 201005 but u=303
   303006 like 201006 but u=303
   303007 like 201007 but u=303
   303008 like 201008 but u=303
   303009 like 201009 but u=303
   303010 like 201010 but u=303
   303100 like 201100 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-1  S/N:2963
+  303101 like 201101 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-2  S/N:2963
+  303102 like 201102 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-3  S/N:2963
+  303103 like 201103 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-4  S/N:2963
+  303104 like 201104 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-5  S/N:2963
+  303105 like 201105 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-6  S/N:2963
+  303106 like 201106 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.1-7  S/N:2963
+  303110 like 201110 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-1  S/N:2963
+  303111 like 201111 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-2  S/N:2963
+  303112 like 201112 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-3  S/N:2963
+  303113 like 201113 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-4  S/N:2963
+  303114 like 201114 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-5  S/N:2963
+  303115 like 201115 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-6  S/N:2963
+  303116 like 201116 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.2-7  S/N:2963
+  303120 like 201120 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-1  S/N:2963
+  303121 like 201121 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-2  S/N:2963
+  303122 like 201122 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-3  S/N:2963
+  303123 like 201123 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-4  S/N:2963
+  303124 like 201124 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-5  S/N:2963
+  303125 like 201125 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-6  S/N:2963
+  303126 like 201126 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.3-7  S/N:2963
+  303130 like 201130 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-1  S/N:2963
+  303131 like 201131 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-2  S/N:2963
+  303132 like 201132 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-3  S/N:2963
+  303133 like 201133 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-4  S/N:2963
+  303134 like 201134 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-5  S/N:2963
+  303135 like 201135 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-6  S/N:2963
+  303136 like 201136 but mat=3034 rho=-6.337 u=303  $ ELEMENT C-3.4-7  S/N:2963
+  303140 like 201140 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-1  S/N:2963
+  303141 like 201141 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-2  S/N:2963
+  303142 like 201142 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-3  S/N:2963
+  303143 like 201143 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-4  S/N:2963
+  303144 like 201144 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-5  S/N:2963
+  303145 like 201145 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-6  S/N:2963
+  303146 like 201146 but mat=3033 rho=-6.338 u=303  $ ELEMENT C-3.5-7  S/N:2963
+  303150 like 201150 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-1  S/N:2963
+  303151 like 201151 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-2  S/N:2963
+  303152 like 201152 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-3  S/N:2963
+  303153 like 201153 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-4  S/N:2963
+  303154 like 201154 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-5  S/N:2963
+  303155 like 201155 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-6  S/N:2963
+  303156 like 201156 but mat=3032 rho=-6.338 u=303  $ ELEMENT C-3.6-7  S/N:2963
+  303160 like 201160 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-1  S/N:2963
+  303161 like 201161 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-2  S/N:2963
+  303162 like 201162 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-3  S/N:2963
+  303163 like 201163 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-4  S/N:2963
+  303164 like 201164 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-5  S/N:2963
+  303165 like 201165 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-6  S/N:2963
+  303166 like 201166 but mat=3031 rho=-6.339 u=303  $ ELEMENT C-3.7-7  S/N:2963
 c ==============================================================================
   304000 like 201000 but u=304
   304001 like 201001 but u=304
   304002 like 201002 but u=304
   304003 like 201003 but u=304
   304004 like 201004 but u=304
+  304005 like 201005 but u=304
   304006 like 201006 but u=304
   304007 like 201007 but u=304
   304008 like 201008 but u=304
   304009 like 201009 but u=304
   304010 like 201010 but u=304
   304100 like 201100 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-1  S/N:10894
+  304101 like 201101 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-2  S/N:10894
+  304102 like 201102 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-3  S/N:10894
+  304103 like 201103 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-4  S/N:10894
+  304104 like 201104 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-5  S/N:10894
+  304105 like 201105 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-6  S/N:10894
+  304106 like 201106 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.1-7  S/N:10894
+  304110 like 201110 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-1  S/N:10894
+  304111 like 201111 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-2  S/N:10894
+  304112 like 201112 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-3  S/N:10894
+  304113 like 201113 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-4  S/N:10894
+  304114 like 201114 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-5  S/N:10894
+  304115 like 201115 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-6  S/N:10894
+  304116 like 201116 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.2-7  S/N:10894
+  304120 like 201120 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-1  S/N:10894
+  304121 like 201121 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-2  S/N:10894
+  304122 like 201122 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-3  S/N:10894
+  304123 like 201123 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-4  S/N:10894
+  304124 like 201124 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-5  S/N:10894
+  304125 like 201125 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-6  S/N:10894
+  304126 like 201126 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.3-7  S/N:10894
+  304130 like 201130 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-1  S/N:10894
+  304131 like 201131 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-2  S/N:10894
+  304132 like 201132 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-3  S/N:10894
+  304133 like 201133 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-4  S/N:10894
+  304134 like 201134 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-5  S/N:10894
+  304135 like 201135 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-6  S/N:10894
+  304136 like 201136 but mat=3044 rho=-6.406 u=304  $ ELEMENT C-4.4-7  S/N:10894
+  304140 like 201140 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-1  S/N:10894
+  304141 like 201141 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-2  S/N:10894
+  304142 like 201142 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-3  S/N:10894
+  304143 like 201143 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-4  S/N:10894
+  304144 like 201144 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-5  S/N:10894
+  304145 like 201145 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-6  S/N:10894
+  304146 like 201146 but mat=3043 rho=-6.406 u=304  $ ELEMENT C-4.5-7  S/N:10894
+  304150 like 201150 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-1  S/N:10894
+  304151 like 201151 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-2  S/N:10894
+  304152 like 201152 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-3  S/N:10894
+  304153 like 201153 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-4  S/N:10894
+  304154 like 201154 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-5  S/N:10894
+  304155 like 201155 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-6  S/N:10894
+  304156 like 201156 but mat=3042 rho=-6.407 u=304  $ ELEMENT C-4.6-7  S/N:10894
+  304160 like 201160 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-1  S/N:10894
+  304161 like 201161 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-2  S/N:10894
+  304162 like 201162 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-3  S/N:10894
+  304163 like 201163 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-4  S/N:10894
+  304164 like 201164 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-5  S/N:10894
+  304165 like 201165 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-6  S/N:10894
+  304166 like 201166 but mat=3041 rho=-6.407 u=304  $ ELEMENT C-4.7-7  S/N:10894
 c ==============================================================================
   305000 like 201000 but u=305
   305001 like 201001 but u=305
   305002 like 201002 but u=305
   305003 like 201003 but u=305
   305004 like 201004 but u=305
+  305005 like 201005 but u=305
   305006 like 201006 but u=305
   305007 like 201007 but u=305
   305008 like 201008 but u=305
   305009 like 201009 but u=305
   305010 like 201010 but u=305
   305100 like 201100 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-1  S/N:2953
+  305101 like 201101 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-2  S/N:2953
+  305102 like 201102 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-3  S/N:2953
+  305103 like 201103 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-4  S/N:2953
+  305104 like 201104 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-5  S/N:2953
+  305105 like 201105 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-6  S/N:2953
+  305106 like 201106 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.1-7  S/N:2953
+  305110 like 201110 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-1  S/N:2953
+  305111 like 201111 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-2  S/N:2953
+  305112 like 201112 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-3  S/N:2953
+  305113 like 201113 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-4  S/N:2953
+  305114 like 201114 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-5  S/N:2953
+  305115 like 201115 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-6  S/N:2953
+  305116 like 201116 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.2-7  S/N:2953
+  305120 like 201120 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-1  S/N:2953
+  305121 like 201121 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-2  S/N:2953
+  305122 like 201122 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-3  S/N:2953
+  305123 like 201123 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-4  S/N:2953
+  305124 like 201124 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-5  S/N:2953
+  305125 like 201125 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-6  S/N:2953
+  305126 like 201126 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.3-7  S/N:2953
+  305130 like 201130 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-1  S/N:2953
+  305131 like 201131 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-2  S/N:2953
+  305132 like 201132 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-3  S/N:2953
+  305133 like 201133 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-4  S/N:2953
+  305134 like 201134 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-5  S/N:2953
+  305135 like 201135 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-6  S/N:2953
+  305136 like 201136 but mat=3054 rho=-6.587 u=305  $ ELEMENT C-5.4-7  S/N:2953
+  305140 like 201140 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-1  S/N:2953
+  305141 like 201141 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-2  S/N:2953
+  305142 like 201142 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-3  S/N:2953
+  305143 like 201143 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-4  S/N:2953
+  305144 like 201144 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-5  S/N:2953
+  305145 like 201145 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-6  S/N:2953
+  305146 like 201146 but mat=3053 rho=-6.587 u=305  $ ELEMENT C-5.5-7  S/N:2953
+  305150 like 201150 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-1  S/N:2953
+  305151 like 201151 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-2  S/N:2953
+  305152 like 201152 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-3  S/N:2953
+  305153 like 201153 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-4  S/N:2953
+  305154 like 201154 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-5  S/N:2953
+  305155 like 201155 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-6  S/N:2953
+  305156 like 201156 but mat=3052 rho=-6.588 u=305  $ ELEMENT C-5.6-7  S/N:2953
+  305160 like 201160 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-1  S/N:2953
+  305161 like 201161 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-2  S/N:2953
+  305162 like 201162 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-3  S/N:2953
+  305163 like 201163 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-4  S/N:2953
+  305164 like 201164 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-5  S/N:2953
+  305165 like 201165 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-6  S/N:2953
+  305166 like 201166 but mat=3051 rho=-6.588 u=305  $ ELEMENT C-5.7-7  S/N:2953
 c ==============================================================================
   306000 like 201000 but u=306
   306001 like 201001 but u=306
   306002 like 201002 but u=306
   306003 like 201003 but u=306
   306004 like 201004 but u=306
+  306005 like 201005 but u=306
   306006 like 201006 but u=306
   306007 like 201007 but u=306
   306008 like 201008 but u=306
   306009 like 201009 but u=306
   306010 like 201010 but u=306
   306100 like 201100 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-1  S/N:3082
+  306101 like 201101 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-2  S/N:3082
+  306102 like 201102 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-3  S/N:3082
+  306103 like 201103 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-4  S/N:3082
+  306104 like 201104 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-5  S/N:3082
+  306105 like 201105 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-6  S/N:3082
+  306106 like 201106 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.1-7  S/N:3082
+  306110 like 201110 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-1  S/N:3082
+  306111 like 201111 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-2  S/N:3082
+  306112 like 201112 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-3  S/N:3082
+  306113 like 201113 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-4  S/N:3082
+  306114 like 201114 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-5  S/N:3082
+  306115 like 201115 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-6  S/N:3082
+  306116 like 201116 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.2-7  S/N:3082
+  306120 like 201120 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-1  S/N:3082
+  306121 like 201121 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-2  S/N:3082
+  306122 like 201122 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-3  S/N:3082
+  306123 like 201123 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-4  S/N:3082
+  306124 like 201124 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-5  S/N:3082
+  306125 like 201125 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-6  S/N:3082
+  306126 like 201126 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.3-7  S/N:3082
+  306130 like 201130 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-1  S/N:3082
+  306131 like 201131 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-2  S/N:3082
+  306132 like 201132 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-3  S/N:3082
+  306133 like 201133 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-4  S/N:3082
+  306134 like 201134 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-5  S/N:3082
+  306135 like 201135 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-6  S/N:3082
+  306136 like 201136 but mat=3064 rho=-6.071 u=306  $ ELEMENT C-6.4-7  S/N:3082
+  306140 like 201140 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-1  S/N:3082
+  306141 like 201141 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-2  S/N:3082
+  306142 like 201142 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-3  S/N:3082
+  306143 like 201143 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-4  S/N:3082
+  306144 like 201144 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-5  S/N:3082
+  306145 like 201145 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-6  S/N:3082
+  306146 like 201146 but mat=3063 rho=-6.071 u=306  $ ELEMENT C-6.5-7  S/N:3082
+  306150 like 201150 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-1  S/N:3082
+  306151 like 201151 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-2  S/N:3082
+  306152 like 201152 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-3  S/N:3082
+  306153 like 201153 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-4  S/N:3082
+  306154 like 201154 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-5  S/N:3082
+  306155 like 201155 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-6  S/N:3082
+  306156 like 201156 but mat=3062 rho=-6.073 u=306  $ ELEMENT C-6.6-7  S/N:3082
+  306160 like 201160 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-1  S/N:3082
+  306161 like 201161 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-2  S/N:3082
+  306162 like 201162 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-3  S/N:3082
+  306163 like 201163 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-4  S/N:3082
+  306164 like 201164 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-5  S/N:3082
+  306165 like 201165 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-6  S/N:3082
+  306166 like 201166 but mat=3061 rho=-6.074 u=306  $ ELEMENT C-6.7-7  S/N:3082
 c ==============================================================================
   308000 like 201000 but u=308
   308001 like 201001 but u=308
   308002 like 201002 but u=308
   308003 like 201003 but u=308
   308004 like 201004 but u=308
+  308005 like 201005 but u=308
   308006 like 201006 but u=308
   308007 like 201007 but u=308
   308008 like 201008 but u=308
   308009 like 201009 but u=308
   308010 like 201010 but u=308
   308100 like 201100 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-1  S/N:2933
+  308101 like 201101 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-2  S/N:2933
+  308102 like 201102 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-3  S/N:2933
+  308103 like 201103 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-4  S/N:2933
+  308104 like 201104 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-5  S/N:2933
+  308105 like 201105 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-6  S/N:2933
+  308106 like 201106 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.1-7  S/N:2933
+  308110 like 201110 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-1  S/N:2933
+  308111 like 201111 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-2  S/N:2933
+  308112 like 201112 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-3  S/N:2933
+  308113 like 201113 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-4  S/N:2933
+  308114 like 201114 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-5  S/N:2933
+  308115 like 201115 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-6  S/N:2933
+  308116 like 201116 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.2-7  S/N:2933
+  308120 like 201120 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-1  S/N:2933
+  308121 like 201121 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-2  S/N:2933
+  308122 like 201122 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-3  S/N:2933
+  308123 like 201123 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-4  S/N:2933
+  308124 like 201124 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-5  S/N:2933
+  308125 like 201125 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-6  S/N:2933
+  308126 like 201126 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.3-7  S/N:2933
+  308130 like 201130 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-1  S/N:2933
+  308131 like 201131 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-2  S/N:2933
+  308132 like 201132 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-3  S/N:2933
+  308133 like 201133 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-4  S/N:2933
+  308134 like 201134 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-5  S/N:2933
+  308135 like 201135 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-6  S/N:2933
+  308136 like 201136 but mat=3084 rho=-6.330 u=308  $ ELEMENT C-8.4-7  S/N:2933
+  308140 like 201140 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-1  S/N:2933
+  308141 like 201141 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-2  S/N:2933
+  308142 like 201142 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-3  S/N:2933
+  308143 like 201143 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-4  S/N:2933
+  308144 like 201144 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-5  S/N:2933
+  308145 like 201145 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-6  S/N:2933
+  308146 like 201146 but mat=3083 rho=-6.330 u=308  $ ELEMENT C-8.5-7  S/N:2933
+  308150 like 201150 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-1  S/N:2933
+  308151 like 201151 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-2  S/N:2933
+  308152 like 201152 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-3  S/N:2933
+  308153 like 201153 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-4  S/N:2933
+  308154 like 201154 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-5  S/N:2933
+  308155 like 201155 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-6  S/N:2933
+  308156 like 201156 but mat=3082 rho=-6.331 u=308  $ ELEMENT C-8.6-7  S/N:2933
+  308160 like 201160 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-1  S/N:2933
+  308161 like 201161 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-2  S/N:2933
+  308162 like 201162 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-3  S/N:2933
+  308163 like 201163 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-4  S/N:2933
+  308164 like 201164 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-5  S/N:2933
+  308165 like 201165 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-6  S/N:2933
+  308166 like 201166 but mat=3081 rho=-6.331 u=308  $ ELEMENT C-8.7-7  S/N:2933
 c ==============================================================================
   309000 like 201000 but u=309
   309001 like 201001 but u=309
   309002 like 201002 but u=309
   309003 like 201003 but u=309
   309004 like 201004 but u=309
+  309005 like 201005 but u=309
   309006 like 201006 but u=309
   309007 like 201007 but u=309
   309008 like 201008 but u=309
   309009 like 201009 but u=309
   309010 like 201010 but u=309
   309100 like 201100 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-1  S/N:6314
+  309101 like 201101 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-2  S/N:6314
+  309102 like 201102 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-3  S/N:6314
+  309103 like 201103 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-4  S/N:6314
+  309104 like 201104 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-5  S/N:6314
+  309105 like 201105 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-6  S/N:6314
+  309106 like 201106 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.1-7  S/N:6314
+  309110 like 201110 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-1  S/N:6314
+  309111 like 201111 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-2  S/N:6314
+  309112 like 201112 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-3  S/N:6314
+  309113 like 201113 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-4  S/N:6314
+  309114 like 201114 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-5  S/N:6314
+  309115 like 201115 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-6  S/N:6314
+  309116 like 201116 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.2-7  S/N:6314
+  309120 like 201120 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-1  S/N:6314
+  309121 like 201121 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-2  S/N:6314
+  309122 like 201122 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-3  S/N:6314
+  309123 like 201123 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-4  S/N:6314
+  309124 like 201124 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-5  S/N:6314
+  309125 like 201125 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-6  S/N:6314
+  309126 like 201126 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.3-7  S/N:6314
+  309130 like 201130 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-1  S/N:6314
+  309131 like 201131 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-2  S/N:6314
+  309132 like 201132 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-3  S/N:6314
+  309133 like 201133 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-4  S/N:6314
+  309134 like 201134 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-5  S/N:6314
+  309135 like 201135 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-6  S/N:6314
+  309136 like 201136 but mat=3094 rho=-6.239 u=309  $ ELEMENT C-9.4-7  S/N:6314
+  309140 like 201140 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-1  S/N:6314
+  309141 like 201141 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-2  S/N:6314
+  309142 like 201142 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-3  S/N:6314
+  309143 like 201143 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-4  S/N:6314
+  309144 like 201144 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-5  S/N:6314
+  309145 like 201145 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-6  S/N:6314
+  309146 like 201146 but mat=3093 rho=-6.239 u=309  $ ELEMENT C-9.5-7  S/N:6314
+  309150 like 201150 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-1  S/N:6314
+  309151 like 201151 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-2  S/N:6314
+  309152 like 201152 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-3  S/N:6314
+  309153 like 201153 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-4  S/N:6314
+  309154 like 201154 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-5  S/N:6314
+  309155 like 201155 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-6  S/N:6314
+  309156 like 201156 but mat=3092 rho=-6.239 u=309  $ ELEMENT C-9.6-7  S/N:6314
+  309160 like 201160 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-1  S/N:6314
+  309161 like 201161 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-2  S/N:6314
+  309162 like 201162 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-3  S/N:6314
+  309163 like 201163 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-4  S/N:6314
+  309164 like 201164 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-5  S/N:6314
+  309165 like 201165 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-6  S/N:6314
+  309166 like 201166 but mat=3091 rho=-6.240 u=309  $ ELEMENT C-9.7-7  S/N:6314
 c ==============================================================================
   310000 like 201000 but u=310
   310001 like 201001 but u=310
   310002 like 201002 but u=310
   310003 like 201003 but u=310
   310004 like 201004 but u=310
+  310005 like 201005 but u=310
   310006 like 201006 but u=310
   310007 like 201007 but u=310
   310008 like 201008 but u=310
   310009 like 201009 but u=310
   310010 like 201010 but u=310
   310100 like 201100 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-1  S/N:6527
+  310101 like 201101 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-2  S/N:6527
+  310102 like 201102 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-3  S/N:6527
+  310103 like 201103 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-4  S/N:6527
+  310104 like 201104 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-5  S/N:6527
+  310105 like 201105 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-6  S/N:6527
+  310106 like 201106 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.1-7  S/N:6527
+  310110 like 201110 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-1  S/N:6527
+  310111 like 201111 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-2  S/N:6527
+  310112 like 201112 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-3  S/N:6527
+  310113 like 201113 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-4  S/N:6527
+  310114 like 201114 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-5  S/N:6527
+  310115 like 201115 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-6  S/N:6527
+  310116 like 201116 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.2-7  S/N:6527
+  310120 like 201120 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-1  S/N:6527
+  310121 like 201121 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-2  S/N:6527
+  310122 like 201122 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-3  S/N:6527
+  310123 like 201123 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-4  S/N:6527
+  310124 like 201124 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-5  S/N:6527
+  310125 like 201125 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-6  S/N:6527
+  310126 like 201126 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.3-7  S/N:6527
+  310130 like 201130 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-1  S/N:6527
+  310131 like 201131 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-2  S/N:6527
+  310132 like 201132 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-3  S/N:6527
+  310133 like 201133 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-4  S/N:6527
+  310134 like 201134 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-5  S/N:6527
+  310135 like 201135 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-6  S/N:6527
+  310136 like 201136 but mat=3104 rho=-6.239 u=310  $ ELEMENT C-10.4-7  S/N:6527
+  310140 like 201140 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-1  S/N:6527
+  310141 like 201141 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-2  S/N:6527
+  310142 like 201142 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-3  S/N:6527
+  310143 like 201143 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-4  S/N:6527
+  310144 like 201144 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-5  S/N:6527
+  310145 like 201145 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-6  S/N:6527
+  310146 like 201146 but mat=3103 rho=-6.239 u=310  $ ELEMENT C-10.5-7  S/N:6527
+  310150 like 201150 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-1  S/N:6527
+  310151 like 201151 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-2  S/N:6527
+  310152 like 201152 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-3  S/N:6527
+  310153 like 201153 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-4  S/N:6527
+  310154 like 201154 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-5  S/N:6527
+  310155 like 201155 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-6  S/N:6527
+  310156 like 201156 but mat=3102 rho=-6.239 u=310  $ ELEMENT C-10.6-7  S/N:6527
+  310160 like 201160 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-1  S/N:6527
+  310161 like 201161 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-2  S/N:6527
+  310162 like 201162 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-3  S/N:6527
+  310163 like 201163 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-4  S/N:6527
+  310164 like 201164 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-5  S/N:6527
+  310165 like 201165 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-6  S/N:6527
+  310166 like 201166 but mat=3101 rho=-6.240 u=310  $ ELEMENT C-10.7-7  S/N:6527
 c ==============================================================================
   311000 like 201000 but u=311
   311001 like 201001 but u=311
   311002 like 201002 but u=311
   311003 like 201003 but u=311
   311004 like 201004 but u=311
+  311005 like 201005 but u=311
   311006 like 201006 but u=311
   311007 like 201007 but u=311
   311008 like 201008 but u=311
   311009 like 201009 but u=311
   311010 like 201010 but u=311
   311100 like 201100 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-1  S/N:6317
+  311101 like 201101 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-2  S/N:6317
+  311102 like 201102 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-3  S/N:6317
+  311103 like 201103 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-4  S/N:6317
+  311104 like 201104 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-5  S/N:6317
+  311105 like 201105 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-6  S/N:6317
+  311106 like 201106 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.1-7  S/N:6317
+  311110 like 201110 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-1  S/N:6317
+  311111 like 201111 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-2  S/N:6317
+  311112 like 201112 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-3  S/N:6317
+  311113 like 201113 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-4  S/N:6317
+  311114 like 201114 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-5  S/N:6317
+  311115 like 201115 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-6  S/N:6317
+  311116 like 201116 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.2-7  S/N:6317
+  311120 like 201120 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-1  S/N:6317
+  311121 like 201121 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-2  S/N:6317
+  311122 like 201122 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-3  S/N:6317
+  311123 like 201123 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-4  S/N:6317
+  311124 like 201124 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-5  S/N:6317
+  311125 like 201125 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-6  S/N:6317
+  311126 like 201126 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.3-7  S/N:6317
+  311130 like 201130 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-1  S/N:6317
+  311131 like 201131 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-2  S/N:6317
+  311132 like 201132 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-3  S/N:6317
+  311133 like 201133 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-4  S/N:6317
+  311134 like 201134 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-5  S/N:6317
+  311135 like 201135 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-6  S/N:6317
+  311136 like 201136 but mat=3114 rho=-6.238 u=311  $ ELEMENT C-11.4-7  S/N:6317
+  311140 like 201140 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-1  S/N:6317
+  311141 like 201141 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-2  S/N:6317
+  311142 like 201142 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-3  S/N:6317
+  311143 like 201143 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-4  S/N:6317
+  311144 like 201144 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-5  S/N:6317
+  311145 like 201145 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-6  S/N:6317
+  311146 like 201146 but mat=3113 rho=-6.239 u=311  $ ELEMENT C-11.5-7  S/N:6317
+  311150 like 201150 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-1  S/N:6317
+  311151 like 201151 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-2  S/N:6317
+  311152 like 201152 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-3  S/N:6317
+  311153 like 201153 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-4  S/N:6317
+  311154 like 201154 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-5  S/N:6317
+  311155 like 201155 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-6  S/N:6317
+  311156 like 201156 but mat=3112 rho=-6.239 u=311  $ ELEMENT C-11.6-7  S/N:6317
+  311160 like 201160 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-1  S/N:6317
+  311161 like 201161 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-2  S/N:6317
+  311162 like 201162 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-3  S/N:6317
+  311163 like 201163 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-4  S/N:6317
+  311164 like 201164 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-5  S/N:6317
+  311165 like 201165 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-6  S/N:6317
+  311166 like 201166 but mat=3111 rho=-6.240 u=311  $ ELEMENT C-11.7-7  S/N:6317
 c ==============================================================================
   312000 like 201000 but u=312
   312001 like 201001 but u=312
   312002 like 201002 but u=312
   312003 like 201003 but u=312
   312004 like 201004 but u=312
+  312005 like 201005 but u=312
   312006 like 201006 but u=312
   312007 like 201007 but u=312
   312008 like 201008 but u=312
   312009 like 201009 but u=312
   312010 like 201010 but u=312
   312100 like 201100 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-1  S/N:6526
+  312101 like 201101 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-2  S/N:6526
+  312102 like 201102 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-3  S/N:6526
+  312103 like 201103 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-4  S/N:6526
+  312104 like 201104 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-5  S/N:6526
+  312105 like 201105 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-6  S/N:6526
+  312106 like 201106 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.1-7  S/N:6526
+  312110 like 201110 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-1  S/N:6526
+  312111 like 201111 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-2  S/N:6526
+  312112 like 201112 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-3  S/N:6526
+  312113 like 201113 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-4  S/N:6526
+  312114 like 201114 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-5  S/N:6526
+  312115 like 201115 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-6  S/N:6526
+  312116 like 201116 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.2-7  S/N:6526
+  312120 like 201120 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-1  S/N:6526
+  312121 like 201121 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-2  S/N:6526
+  312122 like 201122 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-3  S/N:6526
+  312123 like 201123 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-4  S/N:6526
+  312124 like 201124 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-5  S/N:6526
+  312125 like 201125 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-6  S/N:6526
+  312126 like 201126 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.3-7  S/N:6526
+  312130 like 201130 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-1  S/N:6526
+  312131 like 201131 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-2  S/N:6526
+  312132 like 201132 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-3  S/N:6526
+  312133 like 201133 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-4  S/N:6526
+  312134 like 201134 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-5  S/N:6526
+  312135 like 201135 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-6  S/N:6526
+  312136 like 201136 but mat=3124 rho=-6.239 u=312  $ ELEMENT C-12.4-7  S/N:6526
+  312140 like 201140 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-1  S/N:6526
+  312141 like 201141 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-2  S/N:6526
+  312142 like 201142 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-3  S/N:6526
+  312143 like 201143 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-4  S/N:6526
+  312144 like 201144 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-5  S/N:6526
+  312145 like 201145 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-6  S/N:6526
+  312146 like 201146 but mat=3123 rho=-6.239 u=312  $ ELEMENT C-12.5-7  S/N:6526
+  312150 like 201150 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-1  S/N:6526
+  312151 like 201151 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-2  S/N:6526
+  312152 like 201152 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-3  S/N:6526
+  312153 like 201153 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-4  S/N:6526
+  312154 like 201154 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-5  S/N:6526
+  312155 like 201155 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-6  S/N:6526
+  312156 like 201156 but mat=3122 rho=-6.240 u=312  $ ELEMENT C-12.6-7  S/N:6526
+  312160 like 201160 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-1  S/N:6526
+  312161 like 201161 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-2  S/N:6526
+  312162 like 201162 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-3  S/N:6526
+  312163 like 201163 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-4  S/N:6526
+  312164 like 201164 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-5  S/N:6526
+  312165 like 201165 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-6  S/N:6526
+  312166 like 201166 but mat=3121 rho=-6.240 u=312  $ ELEMENT C-12.7-7  S/N:6526
 c ==============================================================================
   401000 like 201000 but u=401
   401001 like 201001 but u=401
   401002 like 201002 but u=401
   401003 like 201003 but u=401
   401004 like 201004 but u=401
+  401005 like 201005 but u=401
   401006 like 201006 but u=401
   401007 like 201007 but u=401
   401008 like 201008 but u=401
   401009 like 201009 but u=401
   401010 like 201010 but u=401
   401100 like 201100 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-1  S/N:3380
+  401101 like 201101 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-2  S/N:3380
+  401102 like 201102 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-3  S/N:3380
+  401103 like 201103 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-4  S/N:3380
+  401104 like 201104 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-5  S/N:3380
+  401105 like 201105 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-6  S/N:3380
+  401106 like 201106 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.1-7  S/N:3380
+  401110 like 201110 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-1  S/N:3380
+  401111 like 201111 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-2  S/N:3380
+  401112 like 201112 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-3  S/N:3380
+  401113 like 201113 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-4  S/N:3380
+  401114 like 201114 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-5  S/N:3380
+  401115 like 201115 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-6  S/N:3380
+  401116 like 201116 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.2-7  S/N:3380
+  401120 like 201120 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-1  S/N:3380
+  401121 like 201121 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-2  S/N:3380
+  401122 like 201122 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-3  S/N:3380
+  401123 like 201123 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-4  S/N:3380
+  401124 like 201124 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-5  S/N:3380
+  401125 like 201125 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-6  S/N:3380
+  401126 like 201126 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.3-7  S/N:3380
+  401130 like 201130 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-1  S/N:3380
+  401131 like 201131 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-2  S/N:3380
+  401132 like 201132 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-3  S/N:3380
+  401133 like 201133 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-4  S/N:3380
+  401134 like 201134 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-5  S/N:3380
+  401135 like 201135 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-6  S/N:3380
+  401136 like 201136 but mat=4014 rho=-6.070 u=401  $ ELEMENT D-1.4-7  S/N:3380
+  401140 like 201140 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-1  S/N:3380
+  401141 like 201141 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-2  S/N:3380
+  401142 like 201142 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-3  S/N:3380
+  401143 like 201143 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-4  S/N:3380
+  401144 like 201144 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-5  S/N:3380
+  401145 like 201145 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-6  S/N:3380
+  401146 like 201146 but mat=4013 rho=-6.070 u=401  $ ELEMENT D-1.5-7  S/N:3380
+  401150 like 201150 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-1  S/N:3380
+  401151 like 201151 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-2  S/N:3380
+  401152 like 201152 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-3  S/N:3380
+  401153 like 201153 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-4  S/N:3380
+  401154 like 201154 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-5  S/N:3380
+  401155 like 201155 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-6  S/N:3380
+  401156 like 201156 but mat=4012 rho=-6.071 u=401  $ ELEMENT D-1.6-7  S/N:3380
+  401160 like 201160 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-1  S/N:3380
+  401161 like 201161 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-2  S/N:3380
+  401162 like 201162 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-3  S/N:3380
+  401163 like 201163 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-4  S/N:3380
+  401164 like 201164 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-5  S/N:3380
+  401165 like 201165 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-6  S/N:3380
+  401166 like 201166 but mat=4011 rho=-6.073 u=401  $ ELEMENT D-1.7-7  S/N:3380
 c ==============================================================================
   402000 like 201000 but u=402
   402001 like 201001 but u=402
   402002 like 201002 but u=402
   402003 like 201003 but u=402
   402004 like 201004 but u=402
+  402005 like 201005 but u=402
   402006 like 201006 but u=402
   402007 like 201007 but u=402
   402008 like 201008 but u=402
   402009 like 201009 but u=402
   402010 like 201010 but u=402
   402100 like 201100 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-1  S/N:3330
+  402101 like 201101 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-2  S/N:3330
+  402102 like 201102 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-3  S/N:3330
+  402103 like 201103 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-4  S/N:3330
+  402104 like 201104 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-5  S/N:3330
+  402105 like 201105 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-6  S/N:3330
+  402106 like 201106 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.1-7  S/N:3330
+  402110 like 201110 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-1  S/N:3330
+  402111 like 201111 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-2  S/N:3330
+  402112 like 201112 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-3  S/N:3330
+  402113 like 201113 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-4  S/N:3330
+  402114 like 201114 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-5  S/N:3330
+  402115 like 201115 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-6  S/N:3330
+  402116 like 201116 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.2-7  S/N:3330
+  402120 like 201120 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-1  S/N:3330
+  402121 like 201121 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-2  S/N:3330
+  402122 like 201122 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-3  S/N:3330
+  402123 like 201123 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-4  S/N:3330
+  402124 like 201124 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-5  S/N:3330
+  402125 like 201125 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-6  S/N:3330
+  402126 like 201126 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.3-7  S/N:3330
+  402130 like 201130 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-1  S/N:3330
+  402131 like 201131 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-2  S/N:3330
+  402132 like 201132 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-3  S/N:3330
+  402133 like 201133 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-4  S/N:3330
+  402134 like 201134 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-5  S/N:3330
+  402135 like 201135 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-6  S/N:3330
+  402136 like 201136 but mat=4024 rho=-6.235 u=402  $ ELEMENT D-2.4-7  S/N:3330
+  402140 like 201140 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-1  S/N:3330
+  402141 like 201141 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-2  S/N:3330
+  402142 like 201142 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-3  S/N:3330
+  402143 like 201143 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-4  S/N:3330
+  402144 like 201144 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-5  S/N:3330
+  402145 like 201145 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-6  S/N:3330
+  402146 like 201146 but mat=4023 rho=-6.235 u=402  $ ELEMENT D-2.5-7  S/N:3330
+  402150 like 201150 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-1  S/N:3330
+  402151 like 201151 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-2  S/N:3330
+  402152 like 201152 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-3  S/N:3330
+  402153 like 201153 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-4  S/N:3330
+  402154 like 201154 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-5  S/N:3330
+  402155 like 201155 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-6  S/N:3330
+  402156 like 201156 but mat=4022 rho=-6.236 u=402  $ ELEMENT D-2.6-7  S/N:3330
+  402160 like 201160 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-1  S/N:3330
+  402161 like 201161 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-2  S/N:3330
+  402162 like 201162 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-3  S/N:3330
+  402163 like 201163 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-4  S/N:3330
+  402164 like 201164 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-5  S/N:3330
+  402165 like 201165 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-6  S/N:3330
+  402166 like 201166 but mat=4021 rho=-6.237 u=402  $ ELEMENT D-2.7-7  S/N:3330
 c ==============================================================================
   403000 like 201000 but u=403
   403001 like 201001 but u=403
   403002 like 201002 but u=403
   403003 like 201003 but u=403
   403004 like 201004 but u=403
+  403005 like 201005 but u=403
   403006 like 201006 but u=403
   403007 like 201007 but u=403
   403008 like 201008 but u=403
   403009 like 201009 but u=403
   403010 like 201010 but u=403
   403100 like 201100 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-1  S/N:10706
+  403101 like 201101 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-2  S/N:10706
+  403102 like 201102 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-3  S/N:10706
+  403103 like 201103 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-4  S/N:10706
+  403104 like 201104 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-5  S/N:10706
+  403105 like 201105 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-6  S/N:10706
+  403106 like 201106 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.1-7  S/N:10706
+  403110 like 201110 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-1  S/N:10706
+  403111 like 201111 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-2  S/N:10706
+  403112 like 201112 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-3  S/N:10706
+  403113 like 201113 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-4  S/N:10706
+  403114 like 201114 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-5  S/N:10706
+  403115 like 201115 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-6  S/N:10706
+  403116 like 201116 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.2-7  S/N:10706
+  403120 like 201120 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-1  S/N:10706
+  403121 like 201121 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-2  S/N:10706
+  403122 like 201122 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-3  S/N:10706
+  403123 like 201123 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-4  S/N:10706
+  403124 like 201124 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-5  S/N:10706
+  403125 like 201125 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-6  S/N:10706
+  403126 like 201126 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.3-7  S/N:10706
+  403130 like 201130 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-1  S/N:10706
+  403131 like 201131 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-2  S/N:10706
+  403132 like 201132 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-3  S/N:10706
+  403133 like 201133 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-4  S/N:10706
+  403134 like 201134 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-5  S/N:10706
+  403135 like 201135 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-6  S/N:10706
+  403136 like 201136 but mat=4034 rho=-6.242 u=403  $ ELEMENT D-3.4-7  S/N:10706
+  403140 like 201140 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-1  S/N:10706
+  403141 like 201141 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-2  S/N:10706
+  403142 like 201142 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-3  S/N:10706
+  403143 like 201143 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-4  S/N:10706
+  403144 like 201144 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-5  S/N:10706
+  403145 like 201145 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-6  S/N:10706
+  403146 like 201146 but mat=4033 rho=-6.242 u=403  $ ELEMENT D-3.5-7  S/N:10706
+  403150 like 201150 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-1  S/N:10706
+  403151 like 201151 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-2  S/N:10706
+  403152 like 201152 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-3  S/N:10706
+  403153 like 201153 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-4  S/N:10706
+  403154 like 201154 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-5  S/N:10706
+  403155 like 201155 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-6  S/N:10706
+  403156 like 201156 but mat=4032 rho=-6.242 u=403  $ ELEMENT D-3.6-7  S/N:10706
+  403160 like 201160 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-1  S/N:10706
+  403161 like 201161 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-2  S/N:10706
+  403162 like 201162 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-3  S/N:10706
+  403163 like 201163 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-4  S/N:10706
+  403164 like 201164 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-5  S/N:10706
+  403165 like 201165 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-6  S/N:10706
+  403166 like 201166 but mat=4031 rho=-6.242 u=403  $ ELEMENT D-3.7-7  S/N:10706
 c ==============================================================================
   405000 like 201000 but u=405
   405001 like 201001 but u=405
   405002 like 201002 but u=405
   405003 like 201003 but u=405
   405004 like 201004 but u=405
+  405005 like 201005 but u=405
   405006 like 201006 but u=405
   405007 like 201007 but u=405
   405008 like 201008 but u=405
   405009 like 201009 but u=405
   405010 like 201010 but u=405
   405100 like 201100 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-1  S/N:3144
+  405101 like 201101 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-2  S/N:3144
+  405102 like 201102 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-3  S/N:3144
+  405103 like 201103 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-4  S/N:3144
+  405104 like 201104 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-5  S/N:3144
+  405105 like 201105 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-6  S/N:3144
+  405106 like 201106 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.1-7  S/N:3144
+  405110 like 201110 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-1  S/N:3144
+  405111 like 201111 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-2  S/N:3144
+  405112 like 201112 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-3  S/N:3144
+  405113 like 201113 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-4  S/N:3144
+  405114 like 201114 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-5  S/N:3144
+  405115 like 201115 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-6  S/N:3144
+  405116 like 201116 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.2-7  S/N:3144
+  405120 like 201120 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-1  S/N:3144
+  405121 like 201121 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-2  S/N:3144
+  405122 like 201122 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-3  S/N:3144
+  405123 like 201123 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-4  S/N:3144
+  405124 like 201124 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-5  S/N:3144
+  405125 like 201125 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-6  S/N:3144
+  405126 like 201126 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.3-7  S/N:3144
+  405130 like 201130 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-1  S/N:3144
+  405131 like 201131 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-2  S/N:3144
+  405132 like 201132 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-3  S/N:3144
+  405133 like 201133 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-4  S/N:3144
+  405134 like 201134 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-5  S/N:3144
+  405135 like 201135 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-6  S/N:3144
+  405136 like 201136 but mat=4054 rho=-6.069 u=405  $ ELEMENT D-5.4-7  S/N:3144
+  405140 like 201140 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-1  S/N:3144
+  405141 like 201141 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-2  S/N:3144
+  405142 like 201142 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-3  S/N:3144
+  405143 like 201143 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-4  S/N:3144
+  405144 like 201144 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-5  S/N:3144
+  405145 like 201145 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-6  S/N:3144
+  405146 like 201146 but mat=4053 rho=-6.070 u=405  $ ELEMENT D-5.5-7  S/N:3144
+  405150 like 201150 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-1  S/N:3144
+  405151 like 201151 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-2  S/N:3144
+  405152 like 201152 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-3  S/N:3144
+  405153 like 201153 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-4  S/N:3144
+  405154 like 201154 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-5  S/N:3144
+  405155 like 201155 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-6  S/N:3144
+  405156 like 201156 but mat=4052 rho=-6.071 u=405  $ ELEMENT D-5.6-7  S/N:3144
+  405160 like 201160 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-1  S/N:3144
+  405161 like 201161 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-2  S/N:3144
+  405162 like 201162 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-3  S/N:3144
+  405163 like 201163 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-4  S/N:3144
+  405164 like 201164 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-5  S/N:3144
+  405165 like 201165 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-6  S/N:3144
+  405166 like 201166 but mat=4051 rho=-6.072 u=405  $ ELEMENT D-5.7-7  S/N:3144
 c ==============================================================================
   406000 like 201000 but u=406
   406001 like 201001 but u=406
   406002 like 201002 but u=406
   406003 like 201003 but u=406
   406004 like 201004 but u=406
+  406005 like 201005 but u=406
   406006 like 201006 but u=406
   406007 like 201007 but u=406
   406008 like 201008 but u=406
   406009 like 201009 but u=406
   406010 like 201010 but u=406
   406100 like 201100 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-1  S/N:6224
+  406101 like 201101 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-2  S/N:6224
+  406102 like 201102 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-3  S/N:6224
+  406103 like 201103 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-4  S/N:6224
+  406104 like 201104 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-5  S/N:6224
+  406105 like 201105 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-6  S/N:6224
+  406106 like 201106 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.1-7  S/N:6224
+  406110 like 201110 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-1  S/N:6224
+  406111 like 201111 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-2  S/N:6224
+  406112 like 201112 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-3  S/N:6224
+  406113 like 201113 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-4  S/N:6224
+  406114 like 201114 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-5  S/N:6224
+  406115 like 201115 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-6  S/N:6224
+  406116 like 201116 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.2-7  S/N:6224
+  406120 like 201120 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-1  S/N:6224
+  406121 like 201121 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-2  S/N:6224
+  406122 like 201122 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-3  S/N:6224
+  406123 like 201123 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-4  S/N:6224
+  406124 like 201124 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-5  S/N:6224
+  406125 like 201125 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-6  S/N:6224
+  406126 like 201126 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.3-7  S/N:6224
+  406130 like 201130 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-1  S/N:6224
+  406131 like 201131 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-2  S/N:6224
+  406132 like 201132 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-3  S/N:6224
+  406133 like 201133 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-4  S/N:6224
+  406134 like 201134 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-5  S/N:6224
+  406135 like 201135 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-6  S/N:6224
+  406136 like 201136 but mat=4064 rho=-6.403 u=406  $ ELEMENT D-6.4-7  S/N:6224
+  406140 like 201140 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-1  S/N:6224
+  406141 like 201141 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-2  S/N:6224
+  406142 like 201142 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-3  S/N:6224
+  406143 like 201143 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-4  S/N:6224
+  406144 like 201144 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-5  S/N:6224
+  406145 like 201145 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-6  S/N:6224
+  406146 like 201146 but mat=4063 rho=-6.403 u=406  $ ELEMENT D-6.5-7  S/N:6224
+  406150 like 201150 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-1  S/N:6224
+  406151 like 201151 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-2  S/N:6224
+  406152 like 201152 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-3  S/N:6224
+  406153 like 201153 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-4  S/N:6224
+  406154 like 201154 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-5  S/N:6224
+  406155 like 201155 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-6  S/N:6224
+  406156 like 201156 but mat=4062 rho=-6.404 u=406  $ ELEMENT D-6.6-7  S/N:6224
+  406160 like 201160 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-1  S/N:6224
+  406161 like 201161 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-2  S/N:6224
+  406162 like 201162 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-3  S/N:6224
+  406163 like 201163 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-4  S/N:6224
+  406164 like 201164 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-5  S/N:6224
+  406165 like 201165 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-6  S/N:6224
+  406166 like 201166 but mat=4061 rho=-6.404 u=406  $ ELEMENT D-6.7-7  S/N:6224
 c ==============================================================================
   407000 like 201000 but u=407
   407001 like 201001 but u=407
   407002 like 201002 but u=407
   407003 like 201003 but u=407
   407004 like 201004 but u=407
+  407005 like 201005 but u=407
   407006 like 201006 but u=407
   407007 like 201007 but u=407
   407008 like 201008 but u=407
   407009 like 201009 but u=407
   407010 like 201010 but u=407
   407100 like 201100 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-1  S/N:3018
+  407101 like 201101 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-2  S/N:3018
+  407102 like 201102 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-3  S/N:3018
+  407103 like 201103 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-4  S/N:3018
+  407104 like 201104 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-5  S/N:3018
+  407105 like 201105 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-6  S/N:3018
+  407106 like 201106 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.1-7  S/N:3018
+  407110 like 201110 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-1  S/N:3018
+  407111 like 201111 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-2  S/N:3018
+  407112 like 201112 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-3  S/N:3018
+  407113 like 201113 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-4  S/N:3018
+  407114 like 201114 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-5  S/N:3018
+  407115 like 201115 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-6  S/N:3018
+  407116 like 201116 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.2-7  S/N:3018
+  407120 like 201120 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-1  S/N:3018
+  407121 like 201121 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-2  S/N:3018
+  407122 like 201122 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-3  S/N:3018
+  407123 like 201123 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-4  S/N:3018
+  407124 like 201124 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-5  S/N:3018
+  407125 like 201125 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-6  S/N:3018
+  407126 like 201126 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.3-7  S/N:3018
+  407130 like 201130 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-1  S/N:3018
+  407131 like 201131 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-2  S/N:3018
+  407132 like 201132 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-3  S/N:3018
+  407133 like 201133 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-4  S/N:3018
+  407134 like 201134 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-5  S/N:3018
+  407135 like 201135 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-6  S/N:3018
+  407136 like 201136 but mat=4074 rho=-6.233 u=407  $ ELEMENT D-7.4-7  S/N:3018
+  407140 like 201140 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-1  S/N:3018
+  407141 like 201141 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-2  S/N:3018
+  407142 like 201142 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-3  S/N:3018
+  407143 like 201143 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-4  S/N:3018
+  407144 like 201144 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-5  S/N:3018
+  407145 like 201145 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-6  S/N:3018
+  407146 like 201146 but mat=4073 rho=-6.234 u=407  $ ELEMENT D-7.5-7  S/N:3018
+  407150 like 201150 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-1  S/N:3018
+  407151 like 201151 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-2  S/N:3018
+  407152 like 201152 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-3  S/N:3018
+  407153 like 201153 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-4  S/N:3018
+  407154 like 201154 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-5  S/N:3018
+  407155 like 201155 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-6  S/N:3018
+  407156 like 201156 but mat=4072 rho=-6.235 u=407  $ ELEMENT D-7.6-7  S/N:3018
+  407160 like 201160 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-1  S/N:3018
+  407161 like 201161 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-2  S/N:3018
+  407162 like 201162 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-3  S/N:3018
+  407163 like 201163 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-4  S/N:3018
+  407164 like 201164 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-5  S/N:3018
+  407165 like 201165 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-6  S/N:3018
+  407166 like 201166 but mat=4071 rho=-6.237 u=407  $ ELEMENT D-7.7-7  S/N:3018
 c ==============================================================================
   408000 like 201000 but u=408
   408001 like 201001 but u=408
   408002 like 201002 but u=408
   408003 like 201003 but u=408
   408004 like 201004 but u=408
+  408005 like 201005 but u=408
   408006 like 201006 but u=408
   408007 like 201007 but u=408
   408008 like 201008 but u=408
   408009 like 201009 but u=408
   408010 like 201010 but u=408
   408100 like 201100 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-1  S/N:3105
+  408101 like 201101 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-2  S/N:3105
+  408102 like 201102 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-3  S/N:3105
+  408103 like 201103 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-4  S/N:3105
+  408104 like 201104 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-5  S/N:3105
+  408105 like 201105 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-6  S/N:3105
+  408106 like 201106 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.1-7  S/N:3105
+  408110 like 201110 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-1  S/N:3105
+  408111 like 201111 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-2  S/N:3105
+  408112 like 201112 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-3  S/N:3105
+  408113 like 201113 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-4  S/N:3105
+  408114 like 201114 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-5  S/N:3105
+  408115 like 201115 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-6  S/N:3105
+  408116 like 201116 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.2-7  S/N:3105
+  408120 like 201120 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-1  S/N:3105
+  408121 like 201121 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-2  S/N:3105
+  408122 like 201122 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-3  S/N:3105
+  408123 like 201123 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-4  S/N:3105
+  408124 like 201124 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-5  S/N:3105
+  408125 like 201125 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-6  S/N:3105
+  408126 like 201126 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.3-7  S/N:3105
+  408130 like 201130 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-1  S/N:3105
+  408131 like 201131 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-2  S/N:3105
+  408132 like 201132 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-3  S/N:3105
+  408133 like 201133 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-4  S/N:3105
+  408134 like 201134 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-5  S/N:3105
+  408135 like 201135 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-6  S/N:3105
+  408136 like 201136 but mat=4084 rho=-6.070 u=408  $ ELEMENT D-8.4-7  S/N:3105
+  408140 like 201140 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-1  S/N:3105
+  408141 like 201141 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-2  S/N:3105
+  408142 like 201142 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-3  S/N:3105
+  408143 like 201143 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-4  S/N:3105
+  408144 like 201144 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-5  S/N:3105
+  408145 like 201145 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-6  S/N:3105
+  408146 like 201146 but mat=4083 rho=-6.070 u=408  $ ELEMENT D-8.5-7  S/N:3105
+  408150 like 201150 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-1  S/N:3105
+  408151 like 201151 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-2  S/N:3105
+  408152 like 201152 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-3  S/N:3105
+  408153 like 201153 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-4  S/N:3105
+  408154 like 201154 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-5  S/N:3105
+  408155 like 201155 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-6  S/N:3105
+  408156 like 201156 but mat=4082 rho=-6.071 u=408  $ ELEMENT D-8.6-7  S/N:3105
+  408160 like 201160 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-1  S/N:3105
+  408161 like 201161 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-2  S/N:3105
+  408162 like 201162 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-3  S/N:3105
+  408163 like 201163 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-4  S/N:3105
+  408164 like 201164 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-5  S/N:3105
+  408165 like 201165 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-6  S/N:3105
+  408166 like 201166 but mat=4081 rho=-6.073 u=408  $ ELEMENT D-8.7-7  S/N:3105
 c ==============================================================================
   409000 like 201000 but u=409
   409001 like 201001 but u=409
   409002 like 201002 but u=409
   409003 like 201003 but u=409
   409004 like 201004 but u=409
+  409005 like 201005 but u=409
   409006 like 201006 but u=409
   409007 like 201007 but u=409
   409008 like 201008 but u=409
   409009 like 201009 but u=409
   409010 like 201010 but u=409
   409100 like 201100 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-1  S/N:2452
+  409101 like 201101 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-2  S/N:2452
+  409102 like 201102 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-3  S/N:2452
+  409103 like 201103 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-4  S/N:2452
+  409104 like 201104 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-5  S/N:2452
+  409105 like 201105 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-6  S/N:2452
+  409106 like 201106 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.1-7  S/N:2452
+  409110 like 201110 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-1  S/N:2452
+  409111 like 201111 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-2  S/N:2452
+  409112 like 201112 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-3  S/N:2452
+  409113 like 201113 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-4  S/N:2452
+  409114 like 201114 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-5  S/N:2452
+  409115 like 201115 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-6  S/N:2452
+  409116 like 201116 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.2-7  S/N:2452
+  409120 like 201120 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-1  S/N:2452
+  409121 like 201121 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-2  S/N:2452
+  409122 like 201122 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-3  S/N:2452
+  409123 like 201123 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-4  S/N:2452
+  409124 like 201124 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-5  S/N:2452
+  409125 like 201125 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-6  S/N:2452
+  409126 like 201126 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.3-7  S/N:2452
+  409130 like 201130 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-1  S/N:2452
+  409131 like 201131 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-2  S/N:2452
+  409132 like 201132 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-3  S/N:2452
+  409133 like 201133 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-4  S/N:2452
+  409134 like 201134 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-5  S/N:2452
+  409135 like 201135 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-6  S/N:2452
+  409136 like 201136 but mat=4094 rho=-6.070 u=409  $ ELEMENT D-9.4-7  S/N:2452
+  409140 like 201140 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-1  S/N:2452
+  409141 like 201141 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-2  S/N:2452
+  409142 like 201142 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-3  S/N:2452
+  409143 like 201143 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-4  S/N:2452
+  409144 like 201144 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-5  S/N:2452
+  409145 like 201145 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-6  S/N:2452
+  409146 like 201146 but mat=4093 rho=-6.071 u=409  $ ELEMENT D-9.5-7  S/N:2452
+  409150 like 201150 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-1  S/N:2452
+  409151 like 201151 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-2  S/N:2452
+  409152 like 201152 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-3  S/N:2452
+  409153 like 201153 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-4  S/N:2452
+  409154 like 201154 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-5  S/N:2452
+  409155 like 201155 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-6  S/N:2452
+  409156 like 201156 but mat=4092 rho=-6.072 u=409  $ ELEMENT D-9.6-7  S/N:2452
+  409160 like 201160 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-1  S/N:2452
+  409161 like 201161 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-2  S/N:2452
+  409162 like 201162 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-3  S/N:2452
+  409163 like 201163 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-4  S/N:2452
+  409164 like 201164 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-5  S/N:2452
+  409165 like 201165 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-6  S/N:2452
+  409166 like 201166 but mat=4091 rho=-6.073 u=409  $ ELEMENT D-9.7-7  S/N:2452
 c ==============================================================================
   410000 like 201000 but u=410
   410001 like 201001 but u=410
   410002 like 201002 but u=410
   410003 like 201003 but u=410
   410004 like 201004 but u=410
+  410005 like 201005 but u=410
   410006 like 201006 but u=410
   410007 like 201007 but u=410
   410008 like 201008 but u=410
   410009 like 201009 but u=410
   410010 like 201010 but u=410
   410100 like 201100 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-1  S/N:10893
+  410101 like 201101 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-2  S/N:10893
+  410102 like 201102 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-3  S/N:10893
+  410103 like 201103 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-4  S/N:10893
+  410104 like 201104 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-5  S/N:10893
+  410105 like 201105 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-6  S/N:10893
+  410106 like 201106 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.1-7  S/N:10893
+  410110 like 201110 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-1  S/N:10893
+  410111 like 201111 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-2  S/N:10893
+  410112 like 201112 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-3  S/N:10893
+  410113 like 201113 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-4  S/N:10893
+  410114 like 201114 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-5  S/N:10893
+  410115 like 201115 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-6  S/N:10893
+  410116 like 201116 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.2-7  S/N:10893
+  410120 like 201120 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-1  S/N:10893
+  410121 like 201121 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-2  S/N:10893
+  410122 like 201122 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-3  S/N:10893
+  410123 like 201123 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-4  S/N:10893
+  410124 like 201124 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-5  S/N:10893
+  410125 like 201125 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-6  S/N:10893
+  410126 like 201126 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.3-7  S/N:10893
+  410130 like 201130 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-1  S/N:10893
+  410131 like 201131 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-2  S/N:10893
+  410132 like 201132 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-3  S/N:10893
+  410133 like 201133 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-4  S/N:10893
+  410134 like 201134 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-5  S/N:10893
+  410135 like 201135 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-6  S/N:10893
+  410136 like 201136 but mat=4104 rho=-6.407 u=410  $ ELEMENT D-10.4-7  S/N:10893
+  410140 like 201140 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-1  S/N:10893
+  410141 like 201141 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-2  S/N:10893
+  410142 like 201142 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-3  S/N:10893
+  410143 like 201143 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-4  S/N:10893
+  410144 like 201144 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-5  S/N:10893
+  410145 like 201145 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-6  S/N:10893
+  410146 like 201146 but mat=4103 rho=-6.407 u=410  $ ELEMENT D-10.5-7  S/N:10893
+  410150 like 201150 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-1  S/N:10893
+  410151 like 201151 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-2  S/N:10893
+  410152 like 201152 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-3  S/N:10893
+  410153 like 201153 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-4  S/N:10893
+  410154 like 201154 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-5  S/N:10893
+  410155 like 201155 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-6  S/N:10893
+  410156 like 201156 but mat=4102 rho=-6.407 u=410  $ ELEMENT D-10.6-7  S/N:10893
+  410160 like 201160 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-1  S/N:10893
+  410161 like 201161 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-2  S/N:10893
+  410162 like 201162 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-3  S/N:10893
+  410163 like 201163 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-4  S/N:10893
+  410164 like 201164 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-5  S/N:10893
+  410165 like 201165 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-6  S/N:10893
+  410166 like 201166 but mat=4101 rho=-6.407 u=410  $ ELEMENT D-10.7-7  S/N:10893
 c ==============================================================================
   411000 like 201000 but u=411
   411001 like 201001 but u=411
   411002 like 201002 but u=411
   411003 like 201003 but u=411
   411004 like 201004 but u=411
+  411005 like 201005 but u=411
   411006 like 201006 but u=411
   411007 like 201007 but u=411
   411008 like 201008 but u=411
   411009 like 201009 but u=411
   411010 like 201010 but u=411
   411100 like 201100 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-1  S/N:2435
+  411101 like 201101 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-2  S/N:2435
+  411102 like 201102 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-3  S/N:2435
+  411103 like 201103 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-4  S/N:2435
+  411104 like 201104 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-5  S/N:2435
+  411105 like 201105 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-6  S/N:2435
+  411106 like 201106 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.1-7  S/N:2435
+  411110 like 201110 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-1  S/N:2435
+  411111 like 201111 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-2  S/N:2435
+  411112 like 201112 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-3  S/N:2435
+  411113 like 201113 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-4  S/N:2435
+  411114 like 201114 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-5  S/N:2435
+  411115 like 201115 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-6  S/N:2435
+  411116 like 201116 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.2-7  S/N:2435
+  411120 like 201120 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-1  S/N:2435
+  411121 like 201121 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-2  S/N:2435
+  411122 like 201122 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-3  S/N:2435
+  411123 like 201123 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-4  S/N:2435
+  411124 like 201124 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-5  S/N:2435
+  411125 like 201125 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-6  S/N:2435
+  411126 like 201126 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.3-7  S/N:2435
+  411130 like 201130 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-1  S/N:2435
+  411131 like 201131 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-2  S/N:2435
+  411132 like 201132 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-3  S/N:2435
+  411133 like 201133 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-4  S/N:2435
+  411134 like 201134 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-5  S/N:2435
+  411135 like 201135 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-6  S/N:2435
+  411136 like 201136 but mat=4114 rho=-5.937 u=411  $ ELEMENT D-11.4-7  S/N:2435
+  411140 like 201140 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-1  S/N:2435
+  411141 like 201141 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-2  S/N:2435
+  411142 like 201142 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-3  S/N:2435
+  411143 like 201143 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-4  S/N:2435
+  411144 like 201144 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-5  S/N:2435
+  411145 like 201145 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-6  S/N:2435
+  411146 like 201146 but mat=4113 rho=-5.938 u=411  $ ELEMENT D-11.5-7  S/N:2435
+  411150 like 201150 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-1  S/N:2435
+  411151 like 201151 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-2  S/N:2435
+  411152 like 201152 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-3  S/N:2435
+  411153 like 201153 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-4  S/N:2435
+  411154 like 201154 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-5  S/N:2435
+  411155 like 201155 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-6  S/N:2435
+  411156 like 201156 but mat=4112 rho=-5.939 u=411  $ ELEMENT D-11.6-7  S/N:2435
+  411160 like 201160 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-1  S/N:2435
+  411161 like 201161 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-2  S/N:2435
+  411162 like 201162 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-3  S/N:2435
+  411163 like 201163 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-4  S/N:2435
+  411164 like 201164 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-5  S/N:2435
+  411165 like 201165 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-6  S/N:2435
+  411166 like 201166 but mat=4111 rho=-5.940 u=411  $ ELEMENT D-11.7-7  S/N:2435
 c ==============================================================================
   412000 like 201000 but u=412
   412001 like 201001 but u=412
   412002 like 201002 but u=412
   412003 like 201003 but u=412
   412004 like 201004 but u=412
+  412005 like 201005 but u=412
   412006 like 201006 but u=412
   412007 like 201007 but u=412
   412008 like 201008 but u=412
   412009 like 201009 but u=412
   412010 like 201010 but u=412
   412100 like 201100 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-1  S/N:3876
+  412101 like 201101 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-2  S/N:3876
+  412102 like 201102 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-3  S/N:3876
+  412103 like 201103 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-4  S/N:3876
+  412104 like 201104 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-5  S/N:3876
+  412105 like 201105 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-6  S/N:3876
+  412106 like 201106 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.1-7  S/N:3876
+  412110 like 201110 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-1  S/N:3876
+  412111 like 201111 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-2  S/N:3876
+  412112 like 201112 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-3  S/N:3876
+  412113 like 201113 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-4  S/N:3876
+  412114 like 201114 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-5  S/N:3876
+  412115 like 201115 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-6  S/N:3876
+  412116 like 201116 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.2-7  S/N:3876
+  412120 like 201120 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-1  S/N:3876
+  412121 like 201121 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-2  S/N:3876
+  412122 like 201122 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-3  S/N:3876
+  412123 like 201123 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-4  S/N:3876
+  412124 like 201124 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-5  S/N:3876
+  412125 like 201125 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-6  S/N:3876
+  412126 like 201126 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.3-7  S/N:3876
+  412130 like 201130 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-1  S/N:3876
+  412131 like 201131 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-2  S/N:3876
+  412132 like 201132 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-3  S/N:3876
+  412133 like 201133 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-4  S/N:3876
+  412134 like 201134 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-5  S/N:3876
+  412135 like 201135 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-6  S/N:3876
+  412136 like 201136 but mat=4124 rho=-6.234 u=412  $ ELEMENT D-12.4-7  S/N:3876
+  412140 like 201140 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-1  S/N:3876
+  412141 like 201141 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-2  S/N:3876
+  412142 like 201142 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-3  S/N:3876
+  412143 like 201143 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-4  S/N:3876
+  412144 like 201144 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-5  S/N:3876
+  412145 like 201145 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-6  S/N:3876
+  412146 like 201146 but mat=4123 rho=-6.235 u=412  $ ELEMENT D-12.5-7  S/N:3876
+  412150 like 201150 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-1  S/N:3876
+  412151 like 201151 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-2  S/N:3876
+  412152 like 201152 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-3  S/N:3876
+  412153 like 201153 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-4  S/N:3876
+  412154 like 201154 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-5  S/N:3876
+  412155 like 201155 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-6  S/N:3876
+  412156 like 201156 but mat=4122 rho=-6.236 u=412  $ ELEMENT D-12.6-7  S/N:3876
+  412160 like 201160 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-1  S/N:3876
+  412161 like 201161 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-2  S/N:3876
+  412162 like 201162 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-3  S/N:3876
+  412163 like 201163 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-4  S/N:3876
+  412164 like 201164 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-5  S/N:3876
+  412165 like 201165 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-6  S/N:3876
+  412166 like 201166 but mat=4121 rho=-6.237 u=412  $ ELEMENT D-12.7-7  S/N:3876
 c ==============================================================================
   413000 like 201000 but u=413
   413001 like 201001 but u=413
   413002 like 201002 but u=413
   413003 like 201003 but u=413
   413004 like 201004 but u=413
+  413005 like 201005 but u=413
   413006 like 201006 but u=413
   413007 like 201007 but u=413
   413008 like 201008 but u=413
   413009 like 201009 but u=413
   413010 like 201010 but u=413
   413100 like 201100 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-1  S/N:3696
+  413101 like 201101 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-2  S/N:3696
+  413102 like 201102 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-3  S/N:3696
+  413103 like 201103 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-4  S/N:3696
+  413104 like 201104 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-5  S/N:3696
+  413105 like 201105 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-6  S/N:3696
+  413106 like 201106 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.1-7  S/N:3696
+  413110 like 201110 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-1  S/N:3696
+  413111 like 201111 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-2  S/N:3696
+  413112 like 201112 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-3  S/N:3696
+  413113 like 201113 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-4  S/N:3696
+  413114 like 201114 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-5  S/N:3696
+  413115 like 201115 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-6  S/N:3696
+  413116 like 201116 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.2-7  S/N:3696
+  413120 like 201120 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-1  S/N:3696
+  413121 like 201121 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-2  S/N:3696
+  413122 like 201122 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-3  S/N:3696
+  413123 like 201123 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-4  S/N:3696
+  413124 like 201124 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-5  S/N:3696
+  413125 like 201125 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-6  S/N:3696
+  413126 like 201126 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.3-7  S/N:3696
+  413130 like 201130 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-1  S/N:3696
+  413131 like 201131 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-2  S/N:3696
+  413132 like 201132 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-3  S/N:3696
+  413133 like 201133 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-4  S/N:3696
+  413134 like 201134 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-5  S/N:3696
+  413135 like 201135 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-6  S/N:3696
+  413136 like 201136 but mat=4134 rho=-6.071 u=413  $ ELEMENT D-13.4-7  S/N:3696
+  413140 like 201140 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-1  S/N:3696
+  413141 like 201141 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-2  S/N:3696
+  413142 like 201142 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-3  S/N:3696
+  413143 like 201143 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-4  S/N:3696
+  413144 like 201144 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-5  S/N:3696
+  413145 like 201145 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-6  S/N:3696
+  413146 like 201146 but mat=4133 rho=-6.071 u=413  $ ELEMENT D-13.5-7  S/N:3696
+  413150 like 201150 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-1  S/N:3696
+  413151 like 201151 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-2  S/N:3696
+  413152 like 201152 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-3  S/N:3696
+  413153 like 201153 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-4  S/N:3696
+  413154 like 201154 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-5  S/N:3696
+  413155 like 201155 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-6  S/N:3696
+  413156 like 201156 but mat=4132 rho=-6.072 u=413  $ ELEMENT D-13.6-7  S/N:3696
+  413160 like 201160 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-1  S/N:3696
+  413161 like 201161 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-2  S/N:3696
+  413162 like 201162 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-3  S/N:3696
+  413163 like 201163 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-4  S/N:3696
+  413164 like 201164 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-5  S/N:3696
+  413165 like 201165 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-6  S/N:3696
+  413166 like 201166 but mat=4131 rho=-6.073 u=413  $ ELEMENT D-13.7-7  S/N:3696
 c ==============================================================================
   414000 like 201000 but u=414
   414001 like 201001 but u=414
   414002 like 201002 but u=414
   414003 like 201003 but u=414
   414004 like 201004 but u=414
+  414005 like 201005 but u=414
   414006 like 201006 but u=414
   414007 like 201007 but u=414
   414008 like 201008 but u=414
   414009 like 201009 but u=414
   414010 like 201010 but u=414
   414100 like 201100 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-1  S/N:3494
+  414101 like 201101 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-2  S/N:3494
+  414102 like 201102 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-3  S/N:3494
+  414103 like 201103 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-4  S/N:3494
+  414104 like 201104 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-5  S/N:3494
+  414105 like 201105 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-6  S/N:3494
+  414106 like 201106 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.1-7  S/N:3494
+  414110 like 201110 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-1  S/N:3494
+  414111 like 201111 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-2  S/N:3494
+  414112 like 201112 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-3  S/N:3494
+  414113 like 201113 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-4  S/N:3494
+  414114 like 201114 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-5  S/N:3494
+  414115 like 201115 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-6  S/N:3494
+  414116 like 201116 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.2-7  S/N:3494
+  414120 like 201120 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-1  S/N:3494
+  414121 like 201121 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-2  S/N:3494
+  414122 like 201122 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-3  S/N:3494
+  414123 like 201123 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-4  S/N:3494
+  414124 like 201124 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-5  S/N:3494
+  414125 like 201125 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-6  S/N:3494
+  414126 like 201126 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.3-7  S/N:3494
+  414130 like 201130 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-1  S/N:3494
+  414131 like 201131 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-2  S/N:3494
+  414132 like 201132 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-3  S/N:3494
+  414133 like 201133 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-4  S/N:3494
+  414134 like 201134 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-5  S/N:3494
+  414135 like 201135 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-6  S/N:3494
+  414136 like 201136 but mat=4144 rho=-6.399 u=414  $ ELEMENT D-14.4-7  S/N:3494
+  414140 like 201140 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-1  S/N:3494
+  414141 like 201141 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-2  S/N:3494
+  414142 like 201142 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-3  S/N:3494
+  414143 like 201143 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-4  S/N:3494
+  414144 like 201144 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-5  S/N:3494
+  414145 like 201145 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-6  S/N:3494
+  414146 like 201146 but mat=4143 rho=-6.399 u=414  $ ELEMENT D-14.5-7  S/N:3494
+  414150 like 201150 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-1  S/N:3494
+  414151 like 201151 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-2  S/N:3494
+  414152 like 201152 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-3  S/N:3494
+  414153 like 201153 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-4  S/N:3494
+  414154 like 201154 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-5  S/N:3494
+  414155 like 201155 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-6  S/N:3494
+  414156 like 201156 but mat=4142 rho=-6.401 u=414  $ ELEMENT D-14.6-7  S/N:3494
+  414160 like 201160 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-1  S/N:3494
+  414161 like 201161 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-2  S/N:3494
+  414162 like 201162 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-3  S/N:3494
+  414163 like 201163 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-4  S/N:3494
+  414164 like 201164 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-5  S/N:3494
+  414165 like 201165 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-6  S/N:3494
+  414166 like 201166 but mat=4141 rho=-6.402 u=414  $ ELEMENT D-14.7-7  S/N:3494
 c ==============================================================================
   415000 like 201000 but u=415
   415001 like 201001 but u=415
   415002 like 201002 but u=415
   415003 like 201003 but u=415
   415004 like 201004 but u=415
+  415005 like 201005 but u=415
   415006 like 201006 but u=415
   415007 like 201007 but u=415
   415008 like 201008 but u=415
   415009 like 201009 but u=415
   415010 like 201010 but u=415
   415100 like 201100 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-1  S/N:3501
+  415101 like 201101 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-2  S/N:3501
+  415102 like 201102 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-3  S/N:3501
+  415103 like 201103 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-4  S/N:3501
+  415104 like 201104 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-5  S/N:3501
+  415105 like 201105 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-6  S/N:3501
+  415106 like 201106 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.1-7  S/N:3501
+  415110 like 201110 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-1  S/N:3501
+  415111 like 201111 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-2  S/N:3501
+  415112 like 201112 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-3  S/N:3501
+  415113 like 201113 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-4  S/N:3501
+  415114 like 201114 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-5  S/N:3501
+  415115 like 201115 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-6  S/N:3501
+  415116 like 201116 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.2-7  S/N:3501
+  415120 like 201120 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-1  S/N:3501
+  415121 like 201121 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-2  S/N:3501
+  415122 like 201122 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-3  S/N:3501
+  415123 like 201123 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-4  S/N:3501
+  415124 like 201124 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-5  S/N:3501
+  415125 like 201125 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-6  S/N:3501
+  415126 like 201126 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.3-7  S/N:3501
+  415130 like 201130 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-1  S/N:3501
+  415131 like 201131 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-2  S/N:3501
+  415132 like 201132 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-3  S/N:3501
+  415133 like 201133 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-4  S/N:3501
+  415134 like 201134 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-5  S/N:3501
+  415135 like 201135 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-6  S/N:3501
+  415136 like 201136 but mat=4154 rho=-6.235 u=415  $ ELEMENT D-15.4-7  S/N:3501
+  415140 like 201140 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-1  S/N:3501
+  415141 like 201141 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-2  S/N:3501
+  415142 like 201142 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-3  S/N:3501
+  415143 like 201143 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-4  S/N:3501
+  415144 like 201144 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-5  S/N:3501
+  415145 like 201145 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-6  S/N:3501
+  415146 like 201146 but mat=4153 rho=-6.235 u=415  $ ELEMENT D-15.5-7  S/N:3501
+  415150 like 201150 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-1  S/N:3501
+  415151 like 201151 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-2  S/N:3501
+  415152 like 201152 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-3  S/N:3501
+  415153 like 201153 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-4  S/N:3501
+  415154 like 201154 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-5  S/N:3501
+  415155 like 201155 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-6  S/N:3501
+  415156 like 201156 but mat=4152 rho=-6.236 u=415  $ ELEMENT D-15.6-7  S/N:3501
+  415160 like 201160 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-1  S/N:3501
+  415161 like 201161 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-2  S/N:3501
+  415162 like 201162 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-3  S/N:3501
+  415163 like 201163 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-4  S/N:3501
+  415164 like 201164 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-5  S/N:3501
+  415165 like 201165 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-6  S/N:3501
+  415166 like 201166 but mat=4151 rho=-6.237 u=415  $ ELEMENT D-15.7-7  S/N:3501
 c ==============================================================================
   417000 like 201000 but u=417
   417001 like 201001 but u=417
   417002 like 201002 but u=417
   417003 like 201003 but u=417
   417004 like 201004 but u=417
+  417005 like 201005 but u=417
   417006 like 201006 but u=417
   417007 like 201007 but u=417
   417008 like 201008 but u=417
   417009 like 201009 but u=417
   417010 like 201010 but u=417
   417100 like 201100 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-1  S/N:3498
+  417101 like 201101 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-2  S/N:3498
+  417102 like 201102 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-3  S/N:3498
+  417103 like 201103 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-4  S/N:3498
+  417104 like 201104 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-5  S/N:3498
+  417105 like 201105 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-6  S/N:3498
+  417106 like 201106 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.1-7  S/N:3498
+  417110 like 201110 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-1  S/N:3498
+  417111 like 201111 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-2  S/N:3498
+  417112 like 201112 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-3  S/N:3498
+  417113 like 201113 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-4  S/N:3498
+  417114 like 201114 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-5  S/N:3498
+  417115 like 201115 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-6  S/N:3498
+  417116 like 201116 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.2-7  S/N:3498
+  417120 like 201120 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-1  S/N:3498
+  417121 like 201121 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-2  S/N:3498
+  417122 like 201122 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-3  S/N:3498
+  417123 like 201123 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-4  S/N:3498
+  417124 like 201124 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-5  S/N:3498
+  417125 like 201125 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-6  S/N:3498
+  417126 like 201126 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.3-7  S/N:3498
+  417130 like 201130 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-1  S/N:3498
+  417131 like 201131 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-2  S/N:3498
+  417132 like 201132 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-3  S/N:3498
+  417133 like 201133 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-4  S/N:3498
+  417134 like 201134 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-5  S/N:3498
+  417135 like 201135 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-6  S/N:3498
+  417136 like 201136 but mat=4174 rho=-6.235 u=417  $ ELEMENT D-17.4-7  S/N:3498
+  417140 like 201140 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-1  S/N:3498
+  417141 like 201141 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-2  S/N:3498
+  417142 like 201142 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-3  S/N:3498
+  417143 like 201143 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-4  S/N:3498
+  417144 like 201144 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-5  S/N:3498
+  417145 like 201145 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-6  S/N:3498
+  417146 like 201146 but mat=4173 rho=-6.235 u=417  $ ELEMENT D-17.5-7  S/N:3498
+  417150 like 201150 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-1  S/N:3498
+  417151 like 201151 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-2  S/N:3498
+  417152 like 201152 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-3  S/N:3498
+  417153 like 201153 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-4  S/N:3498
+  417154 like 201154 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-5  S/N:3498
+  417155 like 201155 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-6  S/N:3498
+  417156 like 201156 but mat=4172 rho=-6.236 u=417  $ ELEMENT D-17.6-7  S/N:3498
+  417160 like 201160 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-1  S/N:3498
+  417161 like 201161 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-2  S/N:3498
+  417162 like 201162 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-3  S/N:3498
+  417163 like 201163 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-4  S/N:3498
+  417164 like 201164 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-5  S/N:3498
+  417165 like 201165 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-6  S/N:3498
+  417166 like 201166 but mat=4171 rho=-6.237 u=417  $ ELEMENT D-17.7-7  S/N:3498
 c ==============================================================================
   418000 like 201000 but u=418
   418001 like 201001 but u=418
   418002 like 201002 but u=418
   418003 like 201003 but u=418
   418004 like 201004 but u=418
+  418005 like 201005 but u=418
   418006 like 201006 but u=418
   418007 like 201007 but u=418
   418008 like 201008 but u=418
   418009 like 201009 but u=418
   418010 like 201010 but u=418
   418100 like 201100 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-1  S/N:3336
+  418101 like 201101 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-2  S/N:3336
+  418102 like 201102 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-3  S/N:3336
+  418103 like 201103 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-4  S/N:3336
+  418104 like 201104 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-5  S/N:3336
+  418105 like 201105 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-6  S/N:3336
+  418106 like 201106 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.1-7  S/N:3336
+  418110 like 201110 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-1  S/N:3336
+  418111 like 201111 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-2  S/N:3336
+  418112 like 201112 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-3  S/N:3336
+  418113 like 201113 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-4  S/N:3336
+  418114 like 201114 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-5  S/N:3336
+  418115 like 201115 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-6  S/N:3336
+  418116 like 201116 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.2-7  S/N:3336
+  418120 like 201120 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-1  S/N:3336
+  418121 like 201121 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-2  S/N:3336
+  418122 like 201122 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-3  S/N:3336
+  418123 like 201123 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-4  S/N:3336
+  418124 like 201124 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-5  S/N:3336
+  418125 like 201125 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-6  S/N:3336
+  418126 like 201126 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.3-7  S/N:3336
+  418130 like 201130 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-1  S/N:3336
+  418131 like 201131 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-2  S/N:3336
+  418132 like 201132 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-3  S/N:3336
+  418133 like 201133 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-4  S/N:3336
+  418134 like 201134 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-5  S/N:3336
+  418135 like 201135 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-6  S/N:3336
+  418136 like 201136 but mat=4184 rho=-6.071 u=418  $ ELEMENT D-18.4-7  S/N:3336
+  418140 like 201140 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-1  S/N:3336
+  418141 like 201141 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-2  S/N:3336
+  418142 like 201142 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-3  S/N:3336
+  418143 like 201143 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-4  S/N:3336
+  418144 like 201144 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-5  S/N:3336
+  418145 like 201145 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-6  S/N:3336
+  418146 like 201146 but mat=4183 rho=-6.071 u=418  $ ELEMENT D-18.5-7  S/N:3336
+  418150 like 201150 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-1  S/N:3336
+  418151 like 201151 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-2  S/N:3336
+  418152 like 201152 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-3  S/N:3336
+  418153 like 201153 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-4  S/N:3336
+  418154 like 201154 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-5  S/N:3336
+  418155 like 201155 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-6  S/N:3336
+  418156 like 201156 but mat=4182 rho=-6.072 u=418  $ ELEMENT D-18.6-7  S/N:3336
+  418160 like 201160 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-1  S/N:3336
+  418161 like 201161 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-2  S/N:3336
+  418162 like 201162 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-3  S/N:3336
+  418163 like 201163 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-4  S/N:3336
+  418164 like 201164 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-5  S/N:3336
+  418165 like 201165 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-6  S/N:3336
+  418166 like 201166 but mat=4181 rho=-6.073 u=418  $ ELEMENT D-18.7-7  S/N:3336
 c ==============================================================================
   502000 like 201000 but u=502
   502001 like 201001 but u=502
   502002 like 201002 but u=502
   502003 like 201003 but u=502
   502004 like 201004 but u=502
+  502005 like 201005 but u=502
   502006 like 201006 but u=502
   502007 like 201007 but u=502
   502008 like 201008 but u=502
   502009 like 201009 but u=502
   502010 like 201010 but u=502
   502100 like 201100 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-1  S/N:2986
+  502101 like 201101 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-2  S/N:2986
+  502102 like 201102 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-3  S/N:2986
+  502103 like 201103 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-4  S/N:2986
+  502104 like 201104 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-5  S/N:2986
+  502105 like 201105 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-6  S/N:2986
+  502106 like 201106 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.1-7  S/N:2986
+  502110 like 201110 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-1  S/N:2986
+  502111 like 201111 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-2  S/N:2986
+  502112 like 201112 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-3  S/N:2986
+  502113 like 201113 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-4  S/N:2986
+  502114 like 201114 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-5  S/N:2986
+  502115 like 201115 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-6  S/N:2986
+  502116 like 201116 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.2-7  S/N:2986
+  502120 like 201120 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-1  S/N:2986
+  502121 like 201121 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-2  S/N:2986
+  502122 like 201122 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-3  S/N:2986
+  502123 like 201123 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-4  S/N:2986
+  502124 like 201124 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-5  S/N:2986
+  502125 like 201125 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-6  S/N:2986
+  502126 like 201126 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.3-7  S/N:2986
+  502130 like 201130 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-1  S/N:2986
+  502131 like 201131 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-2  S/N:2986
+  502132 like 201132 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-3  S/N:2986
+  502133 like 201133 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-4  S/N:2986
+  502134 like 201134 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-5  S/N:2986
+  502135 like 201135 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-6  S/N:2986
+  502136 like 201136 but mat=5024 rho=-6.326 u=502  $ ELEMENT E-2.4-7  S/N:2986
+  502140 like 201140 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-1  S/N:2986
+  502141 like 201141 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-2  S/N:2986
+  502142 like 201142 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-3  S/N:2986
+  502143 like 201143 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-4  S/N:2986
+  502144 like 201144 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-5  S/N:2986
+  502145 like 201145 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-6  S/N:2986
+  502146 like 201146 but mat=5023 rho=-6.326 u=502  $ ELEMENT E-2.5-7  S/N:2986
+  502150 like 201150 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-1  S/N:2986
+  502151 like 201151 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-2  S/N:2986
+  502152 like 201152 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-3  S/N:2986
+  502153 like 201153 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-4  S/N:2986
+  502154 like 201154 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-5  S/N:2986
+  502155 like 201155 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-6  S/N:2986
+  502156 like 201156 but mat=5022 rho=-6.327 u=502  $ ELEMENT E-2.6-7  S/N:2986
+  502160 like 201160 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-1  S/N:2986
+  502161 like 201161 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-2  S/N:2986
+  502162 like 201162 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-3  S/N:2986
+  502163 like 201163 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-4  S/N:2986
+  502164 like 201164 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-5  S/N:2986
+  502165 like 201165 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-6  S/N:2986
+  502166 like 201166 but mat=5021 rho=-6.327 u=502  $ ELEMENT E-2.7-7  S/N:2986
 c ==============================================================================
   503000 like 201000 but u=503
   503001 like 201001 but u=503
   503002 like 201002 but u=503
   503003 like 201003 but u=503
   503004 like 201004 but u=503
+  503005 like 201005 but u=503
   503006 like 201006 but u=503
   503007 like 201007 but u=503
   503008 like 201008 but u=503
   503009 like 201009 but u=503
   503010 like 201010 but u=503
   503100 like 201100 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-1  S/N:2458
+  503101 like 201101 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-2  S/N:2458
+  503102 like 201102 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-3  S/N:2458
+  503103 like 201103 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-4  S/N:2458
+  503104 like 201104 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-5  S/N:2458
+  503105 like 201105 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-6  S/N:2458
+  503106 like 201106 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.1-7  S/N:2458
+  503110 like 201110 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-1  S/N:2458
+  503111 like 201111 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-2  S/N:2458
+  503112 like 201112 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-3  S/N:2458
+  503113 like 201113 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-4  S/N:2458
+  503114 like 201114 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-5  S/N:2458
+  503115 like 201115 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-6  S/N:2458
+  503116 like 201116 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.2-7  S/N:2458
+  503120 like 201120 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-1  S/N:2458
+  503121 like 201121 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-2  S/N:2458
+  503122 like 201122 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-3  S/N:2458
+  503123 like 201123 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-4  S/N:2458
+  503124 like 201124 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-5  S/N:2458
+  503125 like 201125 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-6  S/N:2458
+  503126 like 201126 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.3-7  S/N:2458
+  503130 like 201130 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-1  S/N:2458
+  503131 like 201131 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-2  S/N:2458
+  503132 like 201132 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-3  S/N:2458
+  503133 like 201133 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-4  S/N:2458
+  503134 like 201134 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-5  S/N:2458
+  503135 like 201135 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-6  S/N:2458
+  503136 like 201136 but mat=5034 rho=-5.937 u=503  $ ELEMENT E-3.4-7  S/N:2458
+  503140 like 201140 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-1  S/N:2458
+  503141 like 201141 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-2  S/N:2458
+  503142 like 201142 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-3  S/N:2458
+  503143 like 201143 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-4  S/N:2458
+  503144 like 201144 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-5  S/N:2458
+  503145 like 201145 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-6  S/N:2458
+  503146 like 201146 but mat=5033 rho=-5.937 u=503  $ ELEMENT E-3.5-7  S/N:2458
+  503150 like 201150 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-1  S/N:2458
+  503151 like 201151 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-2  S/N:2458
+  503152 like 201152 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-3  S/N:2458
+  503153 like 201153 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-4  S/N:2458
+  503154 like 201154 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-5  S/N:2458
+  503155 like 201155 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-6  S/N:2458
+  503156 like 201156 but mat=5032 rho=-5.938 u=503  $ ELEMENT E-3.6-7  S/N:2458
+  503160 like 201160 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-1  S/N:2458
+  503161 like 201161 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-2  S/N:2458
+  503162 like 201162 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-3  S/N:2458
+  503163 like 201163 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-4  S/N:2458
+  503164 like 201164 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-5  S/N:2458
+  503165 like 201165 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-6  S/N:2458
+  503166 like 201166 but mat=5031 rho=-5.939 u=503  $ ELEMENT E-3.7-7  S/N:2458
 c ==============================================================================
   504000 like 201000 but u=504
   504001 like 201001 but u=504
   504002 like 201002 but u=504
   504003 like 201003 but u=504
   504004 like 201004 but u=504
+  504005 like 201005 but u=504
   504006 like 201006 but u=504
   504007 like 201007 but u=504
   504008 like 201008 but u=504
   504009 like 201009 but u=504
   504010 like 201010 but u=504
   504100 like 201100 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-1  S/N:3006
+  504101 like 201101 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-2  S/N:3006
+  504102 like 201102 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-3  S/N:3006
+  504103 like 201103 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-4  S/N:3006
+  504104 like 201104 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-5  S/N:3006
+  504105 like 201105 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-6  S/N:3006
+  504106 like 201106 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.1-7  S/N:3006
+  504110 like 201110 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-1  S/N:3006
+  504111 like 201111 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-2  S/N:3006
+  504112 like 201112 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-3  S/N:3006
+  504113 like 201113 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-4  S/N:3006
+  504114 like 201114 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-5  S/N:3006
+  504115 like 201115 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-6  S/N:3006
+  504116 like 201116 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.2-7  S/N:3006
+  504120 like 201120 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-1  S/N:3006
+  504121 like 201121 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-2  S/N:3006
+  504122 like 201122 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-3  S/N:3006
+  504123 like 201123 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-4  S/N:3006
+  504124 like 201124 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-5  S/N:3006
+  504125 like 201125 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-6  S/N:3006
+  504126 like 201126 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.3-7  S/N:3006
+  504130 like 201130 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-1  S/N:3006
+  504131 like 201131 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-2  S/N:3006
+  504132 like 201132 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-3  S/N:3006
+  504133 like 201133 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-4  S/N:3006
+  504134 like 201134 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-5  S/N:3006
+  504135 like 201135 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-6  S/N:3006
+  504136 like 201136 but mat=5044 rho=-6.071 u=504  $ ELEMENT E-4.4-7  S/N:3006
+  504140 like 201140 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-1  S/N:3006
+  504141 like 201141 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-2  S/N:3006
+  504142 like 201142 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-3  S/N:3006
+  504143 like 201143 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-4  S/N:3006
+  504144 like 201144 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-5  S/N:3006
+  504145 like 201145 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-6  S/N:3006
+  504146 like 201146 but mat=5043 rho=-6.071 u=504  $ ELEMENT E-4.5-7  S/N:3006
+  504150 like 201150 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-1  S/N:3006
+  504151 like 201151 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-2  S/N:3006
+  504152 like 201152 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-3  S/N:3006
+  504153 like 201153 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-4  S/N:3006
+  504154 like 201154 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-5  S/N:3006
+  504155 like 201155 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-6  S/N:3006
+  504156 like 201156 but mat=5042 rho=-6.072 u=504  $ ELEMENT E-4.6-7  S/N:3006
+  504160 like 201160 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-1  S/N:3006
+  504161 like 201161 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-2  S/N:3006
+  504162 like 201162 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-3  S/N:3006
+  504163 like 201163 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-4  S/N:3006
+  504164 like 201164 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-5  S/N:3006
+  504165 like 201165 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-6  S/N:3006
+  504166 like 201166 but mat=5041 rho=-6.074 u=504  $ ELEMENT E-4.7-7  S/N:3006
 c ==============================================================================
   505000 like 201000 but u=505
   505001 like 201001 but u=505
   505002 like 201002 but u=505
   505003 like 201003 but u=505
   505004 like 201004 but u=505
+  505005 like 201005 but u=505
   505006 like 201006 but u=505
   505007 like 201007 but u=505
   505008 like 201008 but u=505
   505009 like 201009 but u=505
   505010 like 201010 but u=505
   505100 like 201100 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-1  S/N:5014
+  505101 like 201101 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-2  S/N:5014
+  505102 like 201102 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-3  S/N:5014
+  505103 like 201103 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-4  S/N:5014
+  505104 like 201104 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-5  S/N:5014
+  505105 like 201105 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-6  S/N:5014
+  505106 like 201106 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.1-7  S/N:5014
+  505110 like 201110 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-1  S/N:5014
+  505111 like 201111 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-2  S/N:5014
+  505112 like 201112 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-3  S/N:5014
+  505113 like 201113 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-4  S/N:5014
+  505114 like 201114 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-5  S/N:5014
+  505115 like 201115 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-6  S/N:5014
+  505116 like 201116 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.2-7  S/N:5014
+  505120 like 201120 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-1  S/N:5014
+  505121 like 201121 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-2  S/N:5014
+  505122 like 201122 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-3  S/N:5014
+  505123 like 201123 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-4  S/N:5014
+  505124 like 201124 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-5  S/N:5014
+  505125 like 201125 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-6  S/N:5014
+  505126 like 201126 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.3-7  S/N:5014
+  505130 like 201130 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-1  S/N:5014
+  505131 like 201131 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-2  S/N:5014
+  505132 like 201132 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-3  S/N:5014
+  505133 like 201133 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-4  S/N:5014
+  505134 like 201134 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-5  S/N:5014
+  505135 like 201135 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-6  S/N:5014
+  505136 like 201136 but mat=5054 rho=-6.230 u=505  $ ELEMENT E-5.4-7  S/N:5014
+  505140 like 201140 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-1  S/N:5014
+  505141 like 201141 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-2  S/N:5014
+  505142 like 201142 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-3  S/N:5014
+  505143 like 201143 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-4  S/N:5014
+  505144 like 201144 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-5  S/N:5014
+  505145 like 201145 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-6  S/N:5014
+  505146 like 201146 but mat=5053 rho=-6.231 u=505  $ ELEMENT E-5.5-7  S/N:5014
+  505150 like 201150 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-1  S/N:5014
+  505151 like 201151 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-2  S/N:5014
+  505152 like 201152 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-3  S/N:5014
+  505153 like 201153 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-4  S/N:5014
+  505154 like 201154 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-5  S/N:5014
+  505155 like 201155 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-6  S/N:5014
+  505156 like 201156 but mat=5052 rho=-6.233 u=505  $ ELEMENT E-5.6-7  S/N:5014
+  505160 like 201160 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-1  S/N:5014
+  505161 like 201161 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-2  S/N:5014
+  505162 like 201162 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-3  S/N:5014
+  505163 like 201163 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-4  S/N:5014
+  505164 like 201164 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-5  S/N:5014
+  505165 like 201165 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-6  S/N:5014
+  505166 like 201166 but mat=5051 rho=-6.235 u=505  $ ELEMENT E-5.7-7  S/N:5014
 c ==============================================================================
   506000 like 201000 but u=506
   506001 like 201001 but u=506
   506002 like 201002 but u=506
   506003 like 201003 but u=506
   506004 like 201004 but u=506
+  506005 like 201005 but u=506
   506006 like 201006 but u=506
   506007 like 201007 but u=506
   506008 like 201008 but u=506
   506009 like 201009 but u=506
   506010 like 201010 but u=506
   506100 like 201100 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-1  S/N:4744
+  506101 like 201101 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-2  S/N:4744
+  506102 like 201102 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-3  S/N:4744
+  506103 like 201103 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-4  S/N:4744
+  506104 like 201104 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-5  S/N:4744
+  506105 like 201105 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-6  S/N:4744
+  506106 like 201106 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.1-7  S/N:4744
+  506110 like 201110 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-1  S/N:4744
+  506111 like 201111 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-2  S/N:4744
+  506112 like 201112 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-3  S/N:4744
+  506113 like 201113 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-4  S/N:4744
+  506114 like 201114 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-5  S/N:4744
+  506115 like 201115 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-6  S/N:4744
+  506116 like 201116 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.2-7  S/N:4744
+  506120 like 201120 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-1  S/N:4744
+  506121 like 201121 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-2  S/N:4744
+  506122 like 201122 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-3  S/N:4744
+  506123 like 201123 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-4  S/N:4744
+  506124 like 201124 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-5  S/N:4744
+  506125 like 201125 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-6  S/N:4744
+  506126 like 201126 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.3-7  S/N:4744
+  506130 like 201130 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-1  S/N:4744
+  506131 like 201131 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-2  S/N:4744
+  506132 like 201132 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-3  S/N:4744
+  506133 like 201133 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-4  S/N:4744
+  506134 like 201134 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-5  S/N:4744
+  506135 like 201135 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-6  S/N:4744
+  506136 like 201136 but mat=5064 rho=-6.231 u=506  $ ELEMENT E-6.4-7  S/N:4744
+  506140 like 201140 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-1  S/N:4744
+  506141 like 201141 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-2  S/N:4744
+  506142 like 201142 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-3  S/N:4744
+  506143 like 201143 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-4  S/N:4744
+  506144 like 201144 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-5  S/N:4744
+  506145 like 201145 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-6  S/N:4744
+  506146 like 201146 but mat=5063 rho=-6.231 u=506  $ ELEMENT E-6.5-7  S/N:4744
+  506150 like 201150 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-1  S/N:4744
+  506151 like 201151 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-2  S/N:4744
+  506152 like 201152 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-3  S/N:4744
+  506153 like 201153 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-4  S/N:4744
+  506154 like 201154 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-5  S/N:4744
+  506155 like 201155 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-6  S/N:4744
+  506156 like 201156 but mat=5062 rho=-6.233 u=506  $ ELEMENT E-6.6-7  S/N:4744
+  506160 like 201160 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-1  S/N:4744
+  506161 like 201161 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-2  S/N:4744
+  506162 like 201162 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-3  S/N:4744
+  506163 like 201163 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-4  S/N:4744
+  506164 like 201164 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-5  S/N:4744
+  506165 like 201165 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-6  S/N:4744
+  506166 like 201166 but mat=5061 rho=-6.235 u=506  $ ELEMENT E-6.7-7  S/N:4744
 c ==============================================================================
   507000 like 201000 but u=507
   507001 like 201001 but u=507
   507002 like 201002 but u=507
   507003 like 201003 but u=507
   507004 like 201004 but u=507
+  507005 like 201005 but u=507
   507006 like 201006 but u=507
   507007 like 201007 but u=507
   507008 like 201008 but u=507
   507009 like 201009 but u=507
   507010 like 201010 but u=507
   507100 like 201100 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-1  S/N:3147
+  507101 like 201101 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-2  S/N:3147
+  507102 like 201102 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-3  S/N:3147
+  507103 like 201103 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-4  S/N:3147
+  507104 like 201104 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-5  S/N:3147
+  507105 like 201105 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-6  S/N:3147
+  507106 like 201106 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.1-7  S/N:3147
+  507110 like 201110 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-1  S/N:3147
+  507111 like 201111 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-2  S/N:3147
+  507112 like 201112 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-3  S/N:3147
+  507113 like 201113 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-4  S/N:3147
+  507114 like 201114 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-5  S/N:3147
+  507115 like 201115 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-6  S/N:3147
+  507116 like 201116 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.2-7  S/N:3147
+  507120 like 201120 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-1  S/N:3147
+  507121 like 201121 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-2  S/N:3147
+  507122 like 201122 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-3  S/N:3147
+  507123 like 201123 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-4  S/N:3147
+  507124 like 201124 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-5  S/N:3147
+  507125 like 201125 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-6  S/N:3147
+  507126 like 201126 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.3-7  S/N:3147
+  507130 like 201130 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-1  S/N:3147
+  507131 like 201131 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-2  S/N:3147
+  507132 like 201132 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-3  S/N:3147
+  507133 like 201133 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-4  S/N:3147
+  507134 like 201134 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-5  S/N:3147
+  507135 like 201135 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-6  S/N:3147
+  507136 like 201136 but mat=5074 rho=-5.935 u=507  $ ELEMENT E-7.4-7  S/N:3147
+  507140 like 201140 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-1  S/N:3147
+  507141 like 201141 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-2  S/N:3147
+  507142 like 201142 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-3  S/N:3147
+  507143 like 201143 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-4  S/N:3147
+  507144 like 201144 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-5  S/N:3147
+  507145 like 201145 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-6  S/N:3147
+  507146 like 201146 but mat=5073 rho=-5.935 u=507  $ ELEMENT E-7.5-7  S/N:3147
+  507150 like 201150 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-1  S/N:3147
+  507151 like 201151 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-2  S/N:3147
+  507152 like 201152 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-3  S/N:3147
+  507153 like 201153 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-4  S/N:3147
+  507154 like 201154 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-5  S/N:3147
+  507155 like 201155 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-6  S/N:3147
+  507156 like 201156 but mat=5072 rho=-5.937 u=507  $ ELEMENT E-7.6-7  S/N:3147
+  507160 like 201160 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-1  S/N:3147
+  507161 like 201161 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-2  S/N:3147
+  507162 like 201162 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-3  S/N:3147
+  507163 like 201163 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-4  S/N:3147
+  507164 like 201164 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-5  S/N:3147
+  507165 like 201165 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-6  S/N:3147
+  507166 like 201166 but mat=5071 rho=-5.938 u=507  $ ELEMENT E-7.7-7  S/N:3147
 c ==============================================================================
   508000 like 201000 but u=508
   508001 like 201001 but u=508
   508002 like 201002 but u=508
   508003 like 201003 but u=508
   508004 like 201004 but u=508
+  508005 like 201005 but u=508
   508006 like 201006 but u=508
   508007 like 201007 but u=508
   508008 like 201008 but u=508
   508009 like 201009 but u=508
   508010 like 201010 but u=508
   508100 like 201100 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-1  S/N:4991
+  508101 like 201101 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-2  S/N:4991
+  508102 like 201102 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-3  S/N:4991
+  508103 like 201103 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-4  S/N:4991
+  508104 like 201104 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-5  S/N:4991
+  508105 like 201105 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-6  S/N:4991
+  508106 like 201106 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.1-7  S/N:4991
+  508110 like 201110 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-1  S/N:4991
+  508111 like 201111 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-2  S/N:4991
+  508112 like 201112 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-3  S/N:4991
+  508113 like 201113 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-4  S/N:4991
+  508114 like 201114 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-5  S/N:4991
+  508115 like 201115 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-6  S/N:4991
+  508116 like 201116 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.2-7  S/N:4991
+  508120 like 201120 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-1  S/N:4991
+  508121 like 201121 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-2  S/N:4991
+  508122 like 201122 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-3  S/N:4991
+  508123 like 201123 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-4  S/N:4991
+  508124 like 201124 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-5  S/N:4991
+  508125 like 201125 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-6  S/N:4991
+  508126 like 201126 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.3-7  S/N:4991
+  508130 like 201130 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-1  S/N:4991
+  508131 like 201131 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-2  S/N:4991
+  508132 like 201132 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-3  S/N:4991
+  508133 like 201133 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-4  S/N:4991
+  508134 like 201134 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-5  S/N:4991
+  508135 like 201135 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-6  S/N:4991
+  508136 like 201136 but mat=5084 rho=-6.230 u=508  $ ELEMENT E-8.4-7  S/N:4991
+  508140 like 201140 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-1  S/N:4991
+  508141 like 201141 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-2  S/N:4991
+  508142 like 201142 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-3  S/N:4991
+  508143 like 201143 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-4  S/N:4991
+  508144 like 201144 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-5  S/N:4991
+  508145 like 201145 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-6  S/N:4991
+  508146 like 201146 but mat=5083 rho=-6.231 u=508  $ ELEMENT E-8.5-7  S/N:4991
+  508150 like 201150 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-1  S/N:4991
+  508151 like 201151 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-2  S/N:4991
+  508152 like 201152 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-3  S/N:4991
+  508153 like 201153 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-4  S/N:4991
+  508154 like 201154 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-5  S/N:4991
+  508155 like 201155 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-6  S/N:4991
+  508156 like 201156 but mat=5082 rho=-6.233 u=508  $ ELEMENT E-8.6-7  S/N:4991
+  508160 like 201160 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-1  S/N:4991
+  508161 like 201161 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-2  S/N:4991
+  508162 like 201162 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-3  S/N:4991
+  508163 like 201163 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-4  S/N:4991
+  508164 like 201164 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-5  S/N:4991
+  508165 like 201165 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-6  S/N:4991
+  508166 like 201166 but mat=5081 rho=-6.235 u=508  $ ELEMENT E-8.7-7  S/N:4991
 c ==============================================================================
   509000 like 201000 but u=509
   509001 like 201001 but u=509
   509002 like 201002 but u=509
   509003 like 201003 but u=509
   509004 like 201004 but u=509
+  509005 like 201005 but u=509
   509006 like 201006 but u=509
   509007 like 201007 but u=509
   509008 like 201008 but u=509
   509009 like 201009 but u=509
   509010 like 201010 but u=509
   509100 like 201100 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-1  S/N:4742
+  509101 like 201101 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-2  S/N:4742
+  509102 like 201102 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-3  S/N:4742
+  509103 like 201103 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-4  S/N:4742
+  509104 like 201104 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-5  S/N:4742
+  509105 like 201105 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-6  S/N:4742
+  509106 like 201106 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.1-7  S/N:4742
+  509110 like 201110 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-1  S/N:4742
+  509111 like 201111 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-2  S/N:4742
+  509112 like 201112 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-3  S/N:4742
+  509113 like 201113 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-4  S/N:4742
+  509114 like 201114 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-5  S/N:4742
+  509115 like 201115 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-6  S/N:4742
+  509116 like 201116 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.2-7  S/N:4742
+  509120 like 201120 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-1  S/N:4742
+  509121 like 201121 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-2  S/N:4742
+  509122 like 201122 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-3  S/N:4742
+  509123 like 201123 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-4  S/N:4742
+  509124 like 201124 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-5  S/N:4742
+  509125 like 201125 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-6  S/N:4742
+  509126 like 201126 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.3-7  S/N:4742
+  509130 like 201130 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-1  S/N:4742
+  509131 like 201131 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-2  S/N:4742
+  509132 like 201132 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-3  S/N:4742
+  509133 like 201133 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-4  S/N:4742
+  509134 like 201134 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-5  S/N:4742
+  509135 like 201135 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-6  S/N:4742
+  509136 like 201136 but mat=5094 rho=-6.225 u=509  $ ELEMENT E-9.4-7  S/N:4742
+  509140 like 201140 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-1  S/N:4742
+  509141 like 201141 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-2  S/N:4742
+  509142 like 201142 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-3  S/N:4742
+  509143 like 201143 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-4  S/N:4742
+  509144 like 201144 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-5  S/N:4742
+  509145 like 201145 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-6  S/N:4742
+  509146 like 201146 but mat=5093 rho=-6.226 u=509  $ ELEMENT E-9.5-7  S/N:4742
+  509150 like 201150 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-1  S/N:4742
+  509151 like 201151 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-2  S/N:4742
+  509152 like 201152 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-3  S/N:4742
+  509153 like 201153 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-4  S/N:4742
+  509154 like 201154 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-5  S/N:4742
+  509155 like 201155 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-6  S/N:4742
+  509156 like 201156 but mat=5092 rho=-6.228 u=509  $ ELEMENT E-9.6-7  S/N:4742
+  509160 like 201160 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-1  S/N:4742
+  509161 like 201161 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-2  S/N:4742
+  509162 like 201162 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-3  S/N:4742
+  509163 like 201163 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-4  S/N:4742
+  509164 like 201164 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-5  S/N:4742
+  509165 like 201165 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-6  S/N:4742
+  509166 like 201166 but mat=5091 rho=-6.231 u=509  $ ELEMENT E-9.7-7  S/N:4742
 c ==============================================================================
   510000 like 201000 but u=510
   510001 like 201001 but u=510
   510002 like 201002 but u=510
   510003 like 201003 but u=510
   510004 like 201004 but u=510
+  510005 like 201005 but u=510
   510006 like 201006 but u=510
   510007 like 201007 but u=510
   510008 like 201008 but u=510
   510009 like 201009 but u=510
   510010 like 201010 but u=510
   510100 like 201100 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-1  S/N:4351
+  510101 like 201101 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-2  S/N:4351
+  510102 like 201102 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-3  S/N:4351
+  510103 like 201103 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-4  S/N:4351
+  510104 like 201104 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-5  S/N:4351
+  510105 like 201105 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-6  S/N:4351
+  510106 like 201106 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.1-7  S/N:4351
+  510110 like 201110 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-1  S/N:4351
+  510111 like 201111 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-2  S/N:4351
+  510112 like 201112 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-3  S/N:4351
+  510113 like 201113 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-4  S/N:4351
+  510114 like 201114 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-5  S/N:4351
+  510115 like 201115 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-6  S/N:4351
+  510116 like 201116 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.2-7  S/N:4351
+  510120 like 201120 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-1  S/N:4351
+  510121 like 201121 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-2  S/N:4351
+  510122 like 201122 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-3  S/N:4351
+  510123 like 201123 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-4  S/N:4351
+  510124 like 201124 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-5  S/N:4351
+  510125 like 201125 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-6  S/N:4351
+  510126 like 201126 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.3-7  S/N:4351
+  510130 like 201130 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-1  S/N:4351
+  510131 like 201131 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-2  S/N:4351
+  510132 like 201132 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-3  S/N:4351
+  510133 like 201133 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-4  S/N:4351
+  510134 like 201134 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-5  S/N:4351
+  510135 like 201135 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-6  S/N:4351
+  510136 like 201136 but mat=5104 rho=-6.392 u=510  $ ELEMENT E-10.4-7  S/N:4351
+  510140 like 201140 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-1  S/N:4351
+  510141 like 201141 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-2  S/N:4351
+  510142 like 201142 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-3  S/N:4351
+  510143 like 201143 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-4  S/N:4351
+  510144 like 201144 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-5  S/N:4351
+  510145 like 201145 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-6  S/N:4351
+  510146 like 201146 but mat=5103 rho=-6.392 u=510  $ ELEMENT E-10.5-7  S/N:4351
+  510150 like 201150 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-1  S/N:4351
+  510151 like 201151 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-2  S/N:4351
+  510152 like 201152 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-3  S/N:4351
+  510153 like 201153 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-4  S/N:4351
+  510154 like 201154 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-5  S/N:4351
+  510155 like 201155 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-6  S/N:4351
+  510156 like 201156 but mat=5102 rho=-6.395 u=510  $ ELEMENT E-10.6-7  S/N:4351
+  510160 like 201160 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-1  S/N:4351
+  510161 like 201161 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-2  S/N:4351
+  510162 like 201162 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-3  S/N:4351
+  510163 like 201163 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-4  S/N:4351
+  510164 like 201164 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-5  S/N:4351
+  510165 like 201165 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-6  S/N:4351
+  510166 like 201166 but mat=5101 rho=-6.397 u=510  $ ELEMENT E-10.7-7  S/N:4351
 c ==============================================================================
   511000 like 201000 but u=511
   511001 like 201001 but u=511
   511002 like 201002 but u=511
   511003 like 201003 but u=511
   511004 like 201004 but u=511
+  511005 like 201005 but u=511
   511006 like 201006 but u=511
   511007 like 201007 but u=511
   511008 like 201008 but u=511
   511009 like 201009 but u=511
   511010 like 201010 but u=511
   511100 like 201100 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-1  S/N:3107
+  511101 like 201101 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-2  S/N:3107
+  511102 like 201102 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-3  S/N:3107
+  511103 like 201103 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-4  S/N:3107
+  511104 like 201104 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-5  S/N:3107
+  511105 like 201105 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-6  S/N:3107
+  511106 like 201106 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.1-7  S/N:3107
+  511110 like 201110 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-1  S/N:3107
+  511111 like 201111 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-2  S/N:3107
+  511112 like 201112 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-3  S/N:3107
+  511113 like 201113 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-4  S/N:3107
+  511114 like 201114 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-5  S/N:3107
+  511115 like 201115 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-6  S/N:3107
+  511116 like 201116 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.2-7  S/N:3107
+  511120 like 201120 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-1  S/N:3107
+  511121 like 201121 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-2  S/N:3107
+  511122 like 201122 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-3  S/N:3107
+  511123 like 201123 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-4  S/N:3107
+  511124 like 201124 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-5  S/N:3107
+  511125 like 201125 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-6  S/N:3107
+  511126 like 201126 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.3-7  S/N:3107
+  511130 like 201130 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-1  S/N:3107
+  511131 like 201131 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-2  S/N:3107
+  511132 like 201132 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-3  S/N:3107
+  511133 like 201133 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-4  S/N:3107
+  511134 like 201134 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-5  S/N:3107
+  511135 like 201135 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-6  S/N:3107
+  511136 like 201136 but mat=5114 rho=-6.069 u=511  $ ELEMENT E-11.4-7  S/N:3107
+  511140 like 201140 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-1  S/N:3107
+  511141 like 201141 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-2  S/N:3107
+  511142 like 201142 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-3  S/N:3107
+  511143 like 201143 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-4  S/N:3107
+  511144 like 201144 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-5  S/N:3107
+  511145 like 201145 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-6  S/N:3107
+  511146 like 201146 but mat=5113 rho=-6.069 u=511  $ ELEMENT E-11.5-7  S/N:3107
+  511150 like 201150 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-1  S/N:3107
+  511151 like 201151 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-2  S/N:3107
+  511152 like 201152 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-3  S/N:3107
+  511153 like 201153 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-4  S/N:3107
+  511154 like 201154 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-5  S/N:3107
+  511155 like 201155 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-6  S/N:3107
+  511156 like 201156 but mat=5112 rho=-6.070 u=511  $ ELEMENT E-11.6-7  S/N:3107
+  511160 like 201160 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-1  S/N:3107
+  511161 like 201161 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-2  S/N:3107
+  511162 like 201162 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-3  S/N:3107
+  511163 like 201163 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-4  S/N:3107
+  511164 like 201164 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-5  S/N:3107
+  511165 like 201165 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-6  S/N:3107
+  511166 like 201166 but mat=5111 rho=-6.072 u=511  $ ELEMENT E-11.7-7  S/N:3107
 c ==============================================================================
   512000 like 201000 but u=512
   512001 like 201001 but u=512
   512002 like 201002 but u=512
   512003 like 201003 but u=512
   512004 like 201004 but u=512
+  512005 like 201005 but u=512
   512006 like 201006 but u=512
   512007 like 201007 but u=512
   512008 like 201008 but u=512
   512009 like 201009 but u=512
   512010 like 201010 but u=512
   512100 like 201100 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-1  S/N:3690
+  512101 like 201101 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-2  S/N:3690
+  512102 like 201102 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-3  S/N:3690
+  512103 like 201103 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-4  S/N:3690
+  512104 like 201104 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-5  S/N:3690
+  512105 like 201105 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-6  S/N:3690
+  512106 like 201106 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.1-7  S/N:3690
+  512110 like 201110 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-1  S/N:3690
+  512111 like 201111 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-2  S/N:3690
+  512112 like 201112 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-3  S/N:3690
+  512113 like 201113 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-4  S/N:3690
+  512114 like 201114 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-5  S/N:3690
+  512115 like 201115 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-6  S/N:3690
+  512116 like 201116 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.2-7  S/N:3690
+  512120 like 201120 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-1  S/N:3690
+  512121 like 201121 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-2  S/N:3690
+  512122 like 201122 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-3  S/N:3690
+  512123 like 201123 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-4  S/N:3690
+  512124 like 201124 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-5  S/N:3690
+  512125 like 201125 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-6  S/N:3690
+  512126 like 201126 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.3-7  S/N:3690
+  512130 like 201130 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-1  S/N:3690
+  512131 like 201131 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-2  S/N:3690
+  512132 like 201132 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-3  S/N:3690
+  512133 like 201133 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-4  S/N:3690
+  512134 like 201134 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-5  S/N:3690
+  512135 like 201135 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-6  S/N:3690
+  512136 like 201136 but mat=5124 rho=-6.235 u=512  $ ELEMENT E-12.4-7  S/N:3690
+  512140 like 201140 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-1  S/N:3690
+  512141 like 201141 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-2  S/N:3690
+  512142 like 201142 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-3  S/N:3690
+  512143 like 201143 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-4  S/N:3690
+  512144 like 201144 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-5  S/N:3690
+  512145 like 201145 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-6  S/N:3690
+  512146 like 201146 but mat=5123 rho=-6.236 u=512  $ ELEMENT E-12.5-7  S/N:3690
+  512150 like 201150 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-1  S/N:3690
+  512151 like 201151 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-2  S/N:3690
+  512152 like 201152 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-3  S/N:3690
+  512153 like 201153 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-4  S/N:3690
+  512154 like 201154 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-5  S/N:3690
+  512155 like 201155 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-6  S/N:3690
+  512156 like 201156 but mat=5122 rho=-6.237 u=512  $ ELEMENT E-12.6-7  S/N:3690
+  512160 like 201160 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-1  S/N:3690
+  512161 like 201161 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-2  S/N:3690
+  512162 like 201162 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-3  S/N:3690
+  512163 like 201163 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-4  S/N:3690
+  512164 like 201164 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-5  S/N:3690
+  512165 like 201165 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-6  S/N:3690
+  512166 like 201166 but mat=5121 rho=-6.238 u=512  $ ELEMENT E-12.7-7  S/N:3690
 c ==============================================================================
   513000 like 201000 but u=513
   513001 like 201001 but u=513
   513002 like 201002 but u=513
   513003 like 201003 but u=513
   513004 like 201004 but u=513
+  513005 like 201005 but u=513
   513006 like 201006 but u=513
   513007 like 201007 but u=513
   513008 like 201008 but u=513
   513009 like 201009 but u=513
   513010 like 201010 but u=513
   513100 like 201100 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-1  S/N:2987
+  513101 like 201101 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-2  S/N:2987
+  513102 like 201102 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-3  S/N:2987
+  513103 like 201103 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-4  S/N:2987
+  513104 like 201104 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-5  S/N:2987
+  513105 like 201105 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-6  S/N:2987
+  513106 like 201106 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.1-7  S/N:2987
+  513110 like 201110 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-1  S/N:2987
+  513111 like 201111 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-2  S/N:2987
+  513112 like 201112 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-3  S/N:2987
+  513113 like 201113 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-4  S/N:2987
+  513114 like 201114 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-5  S/N:2987
+  513115 like 201115 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-6  S/N:2987
+  513116 like 201116 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.2-7  S/N:2987
+  513120 like 201120 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-1  S/N:2987
+  513121 like 201121 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-2  S/N:2987
+  513122 like 201122 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-3  S/N:2987
+  513123 like 201123 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-4  S/N:2987
+  513124 like 201124 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-5  S/N:2987
+  513125 like 201125 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-6  S/N:2987
+  513126 like 201126 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.3-7  S/N:2987
+  513130 like 201130 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-1  S/N:2987
+  513131 like 201131 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-2  S/N:2987
+  513132 like 201132 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-3  S/N:2987
+  513133 like 201133 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-4  S/N:2987
+  513134 like 201134 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-5  S/N:2987
+  513135 like 201135 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-6  S/N:2987
+  513136 like 201136 but mat=5134 rho=-6.369 u=513  $ ELEMENT E-13.4-7  S/N:2987
+  513140 like 201140 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-1  S/N:2987
+  513141 like 201141 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-2  S/N:2987
+  513142 like 201142 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-3  S/N:2987
+  513143 like 201143 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-4  S/N:2987
+  513144 like 201144 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-5  S/N:2987
+  513145 like 201145 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-6  S/N:2987
+  513146 like 201146 but mat=5133 rho=-6.369 u=513  $ ELEMENT E-13.5-7  S/N:2987
+  513150 like 201150 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-1  S/N:2987
+  513151 like 201151 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-2  S/N:2987
+  513152 like 201152 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-3  S/N:2987
+  513153 like 201153 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-4  S/N:2987
+  513154 like 201154 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-5  S/N:2987
+  513155 like 201155 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-6  S/N:2987
+  513156 like 201156 but mat=5132 rho=-6.370 u=513  $ ELEMENT E-13.6-7  S/N:2987
+  513160 like 201160 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-1  S/N:2987
+  513161 like 201161 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-2  S/N:2987
+  513162 like 201162 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-3  S/N:2987
+  513163 like 201163 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-4  S/N:2987
+  513164 like 201164 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-5  S/N:2987
+  513165 like 201165 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-6  S/N:2987
+  513166 like 201166 but mat=5131 rho=-6.370 u=513  $ ELEMENT E-13.7-7  S/N:2987
 c ==============================================================================
   514000 like 201000 but u=514
   514001 like 201001 but u=514
   514002 like 201002 but u=514
   514003 like 201003 but u=514
   514004 like 201004 but u=514
+  514005 like 201005 but u=514
   514006 like 201006 but u=514
   514007 like 201007 but u=514
   514008 like 201008 but u=514
   514009 like 201009 but u=514
   514010 like 201010 but u=514
   514100 like 201100 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-1  S/N:3118
+  514101 like 201101 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-2  S/N:3118
+  514102 like 201102 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-3  S/N:3118
+  514103 like 201103 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-4  S/N:3118
+  514104 like 201104 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-5  S/N:3118
+  514105 like 201105 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-6  S/N:3118
+  514106 like 201106 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.1-7  S/N:3118
+  514110 like 201110 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-1  S/N:3118
+  514111 like 201111 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-2  S/N:3118
+  514112 like 201112 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-3  S/N:3118
+  514113 like 201113 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-4  S/N:3118
+  514114 like 201114 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-5  S/N:3118
+  514115 like 201115 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-6  S/N:3118
+  514116 like 201116 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.2-7  S/N:3118
+  514120 like 201120 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-1  S/N:3118
+  514121 like 201121 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-2  S/N:3118
+  514122 like 201122 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-3  S/N:3118
+  514123 like 201123 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-4  S/N:3118
+  514124 like 201124 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-5  S/N:3118
+  514125 like 201125 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-6  S/N:3118
+  514126 like 201126 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.3-7  S/N:3118
+  514130 like 201130 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-1  S/N:3118
+  514131 like 201131 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-2  S/N:3118
+  514132 like 201132 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-3  S/N:3118
+  514133 like 201133 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-4  S/N:3118
+  514134 like 201134 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-5  S/N:3118
+  514135 like 201135 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-6  S/N:3118
+  514136 like 201136 but mat=5144 rho=-6.070 u=514  $ ELEMENT E-14.4-7  S/N:3118
+  514140 like 201140 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-1  S/N:3118
+  514141 like 201141 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-2  S/N:3118
+  514142 like 201142 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-3  S/N:3118
+  514143 like 201143 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-4  S/N:3118
+  514144 like 201144 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-5  S/N:3118
+  514145 like 201145 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-6  S/N:3118
+  514146 like 201146 but mat=5143 rho=-6.070 u=514  $ ELEMENT E-14.5-7  S/N:3118
+  514150 like 201150 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-1  S/N:3118
+  514151 like 201151 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-2  S/N:3118
+  514152 like 201152 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-3  S/N:3118
+  514153 like 201153 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-4  S/N:3118
+  514154 like 201154 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-5  S/N:3118
+  514155 like 201155 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-6  S/N:3118
+  514156 like 201156 but mat=5142 rho=-6.072 u=514  $ ELEMENT E-14.6-7  S/N:3118
+  514160 like 201160 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-1  S/N:3118
+  514161 like 201161 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-2  S/N:3118
+  514162 like 201162 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-3  S/N:3118
+  514163 like 201163 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-4  S/N:3118
+  514164 like 201164 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-5  S/N:3118
+  514165 like 201165 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-6  S/N:3118
+  514166 like 201166 but mat=5141 rho=-6.073 u=514  $ ELEMENT E-14.7-7  S/N:3118
 c ==============================================================================
   515000 like 201000 but u=515
   515001 like 201001 but u=515
   515002 like 201002 but u=515
   515003 like 201003 but u=515
   515004 like 201004 but u=515
+  515005 like 201005 but u=515
   515006 like 201006 but u=515
   515007 like 201007 but u=515
   515008 like 201008 but u=515
   515009 like 201009 but u=515
   515010 like 201010 but u=515
   515100 like 201100 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-1  S/N:2934
+  515101 like 201101 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-2  S/N:2934
+  515102 like 201102 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-3  S/N:2934
+  515103 like 201103 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-4  S/N:2934
+  515104 like 201104 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-5  S/N:2934
+  515105 like 201105 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-6  S/N:2934
+  515106 like 201106 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.1-7  S/N:2934
+  515110 like 201110 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-1  S/N:2934
+  515111 like 201111 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-2  S/N:2934
+  515112 like 201112 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-3  S/N:2934
+  515113 like 201113 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-4  S/N:2934
+  515114 like 201114 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-5  S/N:2934
+  515115 like 201115 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-6  S/N:2934
+  515116 like 201116 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.2-7  S/N:2934
+  515120 like 201120 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-1  S/N:2934
+  515121 like 201121 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-2  S/N:2934
+  515122 like 201122 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-3  S/N:2934
+  515123 like 201123 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-4  S/N:2934
+  515124 like 201124 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-5  S/N:2934
+  515125 like 201125 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-6  S/N:2934
+  515126 like 201126 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.3-7  S/N:2934
+  515130 like 201130 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-1  S/N:2934
+  515131 like 201131 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-2  S/N:2934
+  515132 like 201132 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-3  S/N:2934
+  515133 like 201133 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-4  S/N:2934
+  515134 like 201134 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-5  S/N:2934
+  515135 like 201135 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-6  S/N:2934
+  515136 like 201136 but mat=5154 rho=-6.384 u=515  $ ELEMENT E-15.4-7  S/N:2934
+  515140 like 201140 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-1  S/N:2934
+  515141 like 201141 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-2  S/N:2934
+  515142 like 201142 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-3  S/N:2934
+  515143 like 201143 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-4  S/N:2934
+  515144 like 201144 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-5  S/N:2934
+  515145 like 201145 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-6  S/N:2934
+  515146 like 201146 but mat=5153 rho=-6.384 u=515  $ ELEMENT E-15.5-7  S/N:2934
+  515150 like 201150 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-1  S/N:2934
+  515151 like 201151 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-2  S/N:2934
+  515152 like 201152 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-3  S/N:2934
+  515153 like 201153 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-4  S/N:2934
+  515154 like 201154 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-5  S/N:2934
+  515155 like 201155 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-6  S/N:2934
+  515156 like 201156 but mat=5152 rho=-6.384 u=515  $ ELEMENT E-15.6-7  S/N:2934
+  515160 like 201160 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-1  S/N:2934
+  515161 like 201161 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-2  S/N:2934
+  515162 like 201162 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-3  S/N:2934
+  515163 like 201163 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-4  S/N:2934
+  515164 like 201164 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-5  S/N:2934
+  515165 like 201165 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-6  S/N:2934
+  515166 like 201166 but mat=5151 rho=-6.385 u=515  $ ELEMENT E-15.7-7  S/N:2934
 c ==============================================================================
   516000 like 201000 but u=516
   516001 like 201001 but u=516
   516002 like 201002 but u=516
   516003 like 201003 but u=516
   516004 like 201004 but u=516
+  516005 like 201005 but u=516
   516006 like 201006 but u=516
   516007 like 201007 but u=516
   516008 like 201008 but u=516
   516009 like 201009 but u=516
   516010 like 201010 but u=516
   516100 like 201100 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-1  S/N:4343
+  516101 like 201101 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-2  S/N:4343
+  516102 like 201102 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-3  S/N:4343
+  516103 like 201103 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-4  S/N:4343
+  516104 like 201104 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-5  S/N:4343
+  516105 like 201105 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-6  S/N:4343
+  516106 like 201106 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.1-7  S/N:4343
+  516110 like 201110 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-1  S/N:4343
+  516111 like 201111 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-2  S/N:4343
+  516112 like 201112 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-3  S/N:4343
+  516113 like 201113 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-4  S/N:4343
+  516114 like 201114 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-5  S/N:4343
+  516115 like 201115 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-6  S/N:4343
+  516116 like 201116 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.2-7  S/N:4343
+  516120 like 201120 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-1  S/N:4343
+  516121 like 201121 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-2  S/N:4343
+  516122 like 201122 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-3  S/N:4343
+  516123 like 201123 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-4  S/N:4343
+  516124 like 201124 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-5  S/N:4343
+  516125 like 201125 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-6  S/N:4343
+  516126 like 201126 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.3-7  S/N:4343
+  516130 like 201130 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-1  S/N:4343
+  516131 like 201131 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-2  S/N:4343
+  516132 like 201132 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-3  S/N:4343
+  516133 like 201133 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-4  S/N:4343
+  516134 like 201134 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-5  S/N:4343
+  516135 like 201135 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-6  S/N:4343
+  516136 like 201136 but mat=5164 rho=-6.230 u=516  $ ELEMENT E-16.4-7  S/N:4343
+  516140 like 201140 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-1  S/N:4343
+  516141 like 201141 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-2  S/N:4343
+  516142 like 201142 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-3  S/N:4343
+  516143 like 201143 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-4  S/N:4343
+  516144 like 201144 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-5  S/N:4343
+  516145 like 201145 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-6  S/N:4343
+  516146 like 201146 but mat=5163 rho=-6.230 u=516  $ ELEMENT E-16.5-7  S/N:4343
+  516150 like 201150 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-1  S/N:4343
+  516151 like 201151 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-2  S/N:4343
+  516152 like 201152 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-3  S/N:4343
+  516153 like 201153 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-4  S/N:4343
+  516154 like 201154 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-5  S/N:4343
+  516155 like 201155 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-6  S/N:4343
+  516156 like 201156 but mat=5162 rho=-6.232 u=516  $ ELEMENT E-16.6-7  S/N:4343
+  516160 like 201160 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-1  S/N:4343
+  516161 like 201161 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-2  S/N:4343
+  516162 like 201162 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-3  S/N:4343
+  516163 like 201163 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-4  S/N:4343
+  516164 like 201164 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-5  S/N:4343
+  516165 like 201165 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-6  S/N:4343
+  516166 like 201166 but mat=5161 rho=-6.234 u=516  $ ELEMENT E-16.7-7  S/N:4343
 c ==============================================================================
   517000 like 201000 but u=517
   517001 like 201001 but u=517
   517002 like 201002 but u=517
   517003 like 201003 but u=517
   517004 like 201004 but u=517
+  517005 like 201005 but u=517
   517006 like 201006 but u=517
   517007 like 201007 but u=517
   517008 like 201008 but u=517
   517009 like 201009 but u=517
   517010 like 201010 but u=517
   517100 like 201100 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-1  S/N:3517
+  517101 like 201101 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-2  S/N:3517
+  517102 like 201102 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-3  S/N:3517
+  517103 like 201103 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-4  S/N:3517
+  517104 like 201104 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-5  S/N:3517
+  517105 like 201105 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-6  S/N:3517
+  517106 like 201106 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.1-7  S/N:3517
+  517110 like 201110 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-1  S/N:3517
+  517111 like 201111 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-2  S/N:3517
+  517112 like 201112 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-3  S/N:3517
+  517113 like 201113 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-4  S/N:3517
+  517114 like 201114 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-5  S/N:3517
+  517115 like 201115 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-6  S/N:3517
+  517116 like 201116 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.2-7  S/N:3517
+  517120 like 201120 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-1  S/N:3517
+  517121 like 201121 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-2  S/N:3517
+  517122 like 201122 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-3  S/N:3517
+  517123 like 201123 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-4  S/N:3517
+  517124 like 201124 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-5  S/N:3517
+  517125 like 201125 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-6  S/N:3517
+  517126 like 201126 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.3-7  S/N:3517
+  517130 like 201130 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-1  S/N:3517
+  517131 like 201131 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-2  S/N:3517
+  517132 like 201132 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-3  S/N:3517
+  517133 like 201133 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-4  S/N:3517
+  517134 like 201134 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-5  S/N:3517
+  517135 like 201135 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-6  S/N:3517
+  517136 like 201136 but mat=5174 rho=-6.238 u=517  $ ELEMENT E-17.4-7  S/N:3517
+  517140 like 201140 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-1  S/N:3517
+  517141 like 201141 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-2  S/N:3517
+  517142 like 201142 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-3  S/N:3517
+  517143 like 201143 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-4  S/N:3517
+  517144 like 201144 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-5  S/N:3517
+  517145 like 201145 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-6  S/N:3517
+  517146 like 201146 but mat=5173 rho=-6.238 u=517  $ ELEMENT E-17.5-7  S/N:3517
+  517150 like 201150 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-1  S/N:3517
+  517151 like 201151 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-2  S/N:3517
+  517152 like 201152 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-3  S/N:3517
+  517153 like 201153 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-4  S/N:3517
+  517154 like 201154 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-5  S/N:3517
+  517155 like 201155 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-6  S/N:3517
+  517156 like 201156 but mat=5172 rho=-6.239 u=517  $ ELEMENT E-17.6-7  S/N:3517
+  517160 like 201160 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-1  S/N:3517
+  517161 like 201161 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-2  S/N:3517
+  517162 like 201162 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-3  S/N:3517
+  517163 like 201163 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-4  S/N:3517
+  517164 like 201164 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-5  S/N:3517
+  517165 like 201165 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-6  S/N:3517
+  517166 like 201166 but mat=5171 rho=-6.239 u=517  $ ELEMENT E-17.7-7  S/N:3517
 c ==============================================================================
   518000 like 201000 but u=518
   518001 like 201001 but u=518
   518002 like 201002 but u=518
   518003 like 201003 but u=518
   518004 like 201004 but u=518
+  518005 like 201005 but u=518
   518006 like 201006 but u=518
   518007 like 201007 but u=518
   518008 like 201008 but u=518
   518009 like 201009 but u=518
   518010 like 201010 but u=518
   518100 like 201100 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-1  S/N:3502
+  518101 like 201101 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-2  S/N:3502
+  518102 like 201102 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-3  S/N:3502
+  518103 like 201103 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-4  S/N:3502
+  518104 like 201104 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-5  S/N:3502
+  518105 like 201105 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-6  S/N:3502
+  518106 like 201106 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.1-7  S/N:3502
+  518110 like 201110 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-1  S/N:3502
+  518111 like 201111 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-2  S/N:3502
+  518112 like 201112 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-3  S/N:3502
+  518113 like 201113 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-4  S/N:3502
+  518114 like 201114 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-5  S/N:3502
+  518115 like 201115 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-6  S/N:3502
+  518116 like 201116 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.2-7  S/N:3502
+  518120 like 201120 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-1  S/N:3502
+  518121 like 201121 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-2  S/N:3502
+  518122 like 201122 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-3  S/N:3502
+  518123 like 201123 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-4  S/N:3502
+  518124 like 201124 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-5  S/N:3502
+  518125 like 201125 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-6  S/N:3502
+  518126 like 201126 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.3-7  S/N:3502
+  518130 like 201130 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-1  S/N:3502
+  518131 like 201131 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-2  S/N:3502
+  518132 like 201132 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-3  S/N:3502
+  518133 like 201133 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-4  S/N:3502
+  518134 like 201134 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-5  S/N:3502
+  518135 like 201135 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-6  S/N:3502
+  518136 like 201136 but mat=5184 rho=-6.073 u=518  $ ELEMENT E-18.4-7  S/N:3502
+  518140 like 201140 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-1  S/N:3502
+  518141 like 201141 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-2  S/N:3502
+  518142 like 201142 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-3  S/N:3502
+  518143 like 201143 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-4  S/N:3502
+  518144 like 201144 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-5  S/N:3502
+  518145 like 201145 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-6  S/N:3502
+  518146 like 201146 but mat=5183 rho=-6.074 u=518  $ ELEMENT E-18.5-7  S/N:3502
+  518150 like 201150 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-1  S/N:3502
+  518151 like 201151 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-2  S/N:3502
+  518152 like 201152 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-3  S/N:3502
+  518153 like 201153 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-4  S/N:3502
+  518154 like 201154 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-5  S/N:3502
+  518155 like 201155 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-6  S/N:3502
+  518156 like 201156 but mat=5182 rho=-6.074 u=518  $ ELEMENT E-18.6-7  S/N:3502
+  518160 like 201160 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-1  S/N:3502
+  518161 like 201161 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-2  S/N:3502
+  518162 like 201162 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-3  S/N:3502
+  518163 like 201163 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-4  S/N:3502
+  518164 like 201164 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-5  S/N:3502
+  518165 like 201165 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-6  S/N:3502
+  518166 like 201166 but mat=5181 rho=-6.075 u=518  $ ELEMENT E-18.7-7  S/N:3502
 c ==============================================================================
   519000 like 201000 but u=519
   519001 like 201001 but u=519
   519002 like 201002 but u=519
   519003 like 201003 but u=519
   519004 like 201004 but u=519
+  519005 like 201005 but u=519
   519006 like 201006 but u=519
   519007 like 201007 but u=519
   519008 like 201008 but u=519
   519009 like 201009 but u=519
   519010 like 201010 but u=519
   519100 like 201100 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-1  S/N:3503
+  519101 like 201101 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-2  S/N:3503
+  519102 like 201102 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-3  S/N:3503
+  519103 like 201103 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-4  S/N:3503
+  519104 like 201104 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-5  S/N:3503
+  519105 like 201105 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-6  S/N:3503
+  519106 like 201106 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.1-7  S/N:3503
+  519110 like 201110 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-1  S/N:3503
+  519111 like 201111 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-2  S/N:3503
+  519112 like 201112 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-3  S/N:3503
+  519113 like 201113 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-4  S/N:3503
+  519114 like 201114 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-5  S/N:3503
+  519115 like 201115 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-6  S/N:3503
+  519116 like 201116 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.2-7  S/N:3503
+  519120 like 201120 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-1  S/N:3503
+  519121 like 201121 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-2  S/N:3503
+  519122 like 201122 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-3  S/N:3503
+  519123 like 201123 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-4  S/N:3503
+  519124 like 201124 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-5  S/N:3503
+  519125 like 201125 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-6  S/N:3503
+  519126 like 201126 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.3-7  S/N:3503
+  519130 like 201130 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-1  S/N:3503
+  519131 like 201131 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-2  S/N:3503
+  519132 like 201132 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-3  S/N:3503
+  519133 like 201133 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-4  S/N:3503
+  519134 like 201134 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-5  S/N:3503
+  519135 like 201135 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-6  S/N:3503
+  519136 like 201136 but mat=5194 rho=-6.235 u=519  $ ELEMENT E-19.4-7  S/N:3503
+  519140 like 201140 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-1  S/N:3503
+  519141 like 201141 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-2  S/N:3503
+  519142 like 201142 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-3  S/N:3503
+  519143 like 201143 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-4  S/N:3503
+  519144 like 201144 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-5  S/N:3503
+  519145 like 201145 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-6  S/N:3503
+  519146 like 201146 but mat=5193 rho=-6.236 u=519  $ ELEMENT E-19.5-7  S/N:3503
+  519150 like 201150 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-1  S/N:3503
+  519151 like 201151 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-2  S/N:3503
+  519152 like 201152 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-3  S/N:3503
+  519153 like 201153 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-4  S/N:3503
+  519154 like 201154 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-5  S/N:3503
+  519155 like 201155 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-6  S/N:3503
+  519156 like 201156 but mat=5192 rho=-6.237 u=519  $ ELEMENT E-19.6-7  S/N:3503
+  519160 like 201160 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-1  S/N:3503
+  519161 like 201161 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-2  S/N:3503
+  519162 like 201162 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-3  S/N:3503
+  519163 like 201163 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-4  S/N:3503
+  519164 like 201164 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-5  S/N:3503
+  519165 like 201165 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-6  S/N:3503
+  519166 like 201166 but mat=5191 rho=-6.238 u=519  $ ELEMENT E-19.7-7  S/N:3503
 c ==============================================================================
   520000 like 201000 but u=520
   520001 like 201001 but u=520
   520002 like 201002 but u=520
   520003 like 201003 but u=520
   520004 like 201004 but u=520
+  520005 like 201005 but u=520
   520006 like 201006 but u=520
   520007 like 201007 but u=520
   520008 like 201008 but u=520
   520009 like 201009 but u=520
   520010 like 201010 but u=520
   520100 like 201100 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-1  S/N:3009
+  520101 like 201101 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-2  S/N:3009
+  520102 like 201102 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-3  S/N:3009
+  520103 like 201103 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-4  S/N:3009
+  520104 like 201104 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-5  S/N:3009
+  520105 like 201105 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-6  S/N:3009
+  520106 like 201106 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.1-7  S/N:3009
+  520110 like 201110 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-1  S/N:3009
+  520111 like 201111 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-2  S/N:3009
+  520112 like 201112 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-3  S/N:3009
+  520113 like 201113 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-4  S/N:3009
+  520114 like 201114 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-5  S/N:3009
+  520115 like 201115 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-6  S/N:3009
+  520116 like 201116 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.2-7  S/N:3009
+  520120 like 201120 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-1  S/N:3009
+  520121 like 201121 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-2  S/N:3009
+  520122 like 201122 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-3  S/N:3009
+  520123 like 201123 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-4  S/N:3009
+  520124 like 201124 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-5  S/N:3009
+  520125 like 201125 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-6  S/N:3009
+  520126 like 201126 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.3-7  S/N:3009
+  520130 like 201130 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-1  S/N:3009
+  520131 like 201131 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-2  S/N:3009
+  520132 like 201132 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-3  S/N:3009
+  520133 like 201133 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-4  S/N:3009
+  520134 like 201134 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-5  S/N:3009
+  520135 like 201135 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-6  S/N:3009
+  520136 like 201136 but mat=5204 rho=-6.234 u=520  $ ELEMENT E-20.4-7  S/N:3009
+  520140 like 201140 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-1  S/N:3009
+  520141 like 201141 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-2  S/N:3009
+  520142 like 201142 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-3  S/N:3009
+  520143 like 201143 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-4  S/N:3009
+  520144 like 201144 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-5  S/N:3009
+  520145 like 201145 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-6  S/N:3009
+  520146 like 201146 but mat=5203 rho=-6.235 u=520  $ ELEMENT E-20.5-7  S/N:3009
+  520150 like 201150 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-1  S/N:3009
+  520151 like 201151 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-2  S/N:3009
+  520152 like 201152 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-3  S/N:3009
+  520153 like 201153 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-4  S/N:3009
+  520154 like 201154 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-5  S/N:3009
+  520155 like 201155 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-6  S/N:3009
+  520156 like 201156 but mat=5202 rho=-6.236 u=520  $ ELEMENT E-20.6-7  S/N:3009
+  520160 like 201160 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-1  S/N:3009
+  520161 like 201161 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-2  S/N:3009
+  520162 like 201162 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-3  S/N:3009
+  520163 like 201163 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-4  S/N:3009
+  520164 like 201164 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-5  S/N:3009
+  520165 like 201165 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-6  S/N:3009
+  520166 like 201166 but mat=5201 rho=-6.237 u=520  $ ELEMENT E-20.7-7  S/N:3009
 c ==============================================================================
   521000 like 201000 but u=521
   521001 like 201001 but u=521
   521002 like 201002 but u=521
   521003 like 201003 but u=521
   521004 like 201004 but u=521
+  521005 like 201005 but u=521
   521006 like 201006 but u=521
   521007 like 201007 but u=521
   521008 like 201008 but u=521
   521009 like 201009 but u=521
   521010 like 201010 but u=521
   521100 like 201100 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-1  S/N:3011
+  521101 like 201101 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-2  S/N:3011
+  521102 like 201102 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-3  S/N:3011
+  521103 like 201103 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-4  S/N:3011
+  521104 like 201104 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-5  S/N:3011
+  521105 like 201105 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-6  S/N:3011
+  521106 like 201106 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.1-7  S/N:3011
+  521110 like 201110 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-1  S/N:3011
+  521111 like 201111 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-2  S/N:3011
+  521112 like 201112 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-3  S/N:3011
+  521113 like 201113 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-4  S/N:3011
+  521114 like 201114 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-5  S/N:3011
+  521115 like 201115 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-6  S/N:3011
+  521116 like 201116 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.2-7  S/N:3011
+  521120 like 201120 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-1  S/N:3011
+  521121 like 201121 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-2  S/N:3011
+  521122 like 201122 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-3  S/N:3011
+  521123 like 201123 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-4  S/N:3011
+  521124 like 201124 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-5  S/N:3011
+  521125 like 201125 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-6  S/N:3011
+  521126 like 201126 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.3-7  S/N:3011
+  521130 like 201130 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-1  S/N:3011
+  521131 like 201131 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-2  S/N:3011
+  521132 like 201132 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-3  S/N:3011
+  521133 like 201133 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-4  S/N:3011
+  521134 like 201134 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-5  S/N:3011
+  521135 like 201135 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-6  S/N:3011
+  521136 like 201136 but mat=5214 rho=-6.234 u=521  $ ELEMENT E-21.4-7  S/N:3011
+  521140 like 201140 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-1  S/N:3011
+  521141 like 201141 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-2  S/N:3011
+  521142 like 201142 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-3  S/N:3011
+  521143 like 201143 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-4  S/N:3011
+  521144 like 201144 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-5  S/N:3011
+  521145 like 201145 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-6  S/N:3011
+  521146 like 201146 but mat=5213 rho=-6.234 u=521  $ ELEMENT E-21.5-7  S/N:3011
+  521150 like 201150 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-1  S/N:3011
+  521151 like 201151 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-2  S/N:3011
+  521152 like 201152 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-3  S/N:3011
+  521153 like 201153 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-4  S/N:3011
+  521154 like 201154 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-5  S/N:3011
+  521155 like 201155 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-6  S/N:3011
+  521156 like 201156 but mat=5212 rho=-6.235 u=521  $ ELEMENT E-21.6-7  S/N:3011
+  521160 like 201160 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-1  S/N:3011
+  521161 like 201161 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-2  S/N:3011
+  521162 like 201162 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-3  S/N:3011
+  521163 like 201163 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-4  S/N:3011
+  521164 like 201164 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-5  S/N:3011
+  521165 like 201165 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-6  S/N:3011
+  521166 like 201166 but mat=5211 rho=-6.237 u=521  $ ELEMENT E-21.7-7  S/N:3011
 c ==============================================================================
   522000 like 201000 but u=522
   522001 like 201001 but u=522
   522002 like 201002 but u=522
   522003 like 201003 but u=522
   522004 like 201004 but u=522
+  522005 like 201005 but u=522
   522006 like 201006 but u=522
   522007 like 201007 but u=522
   522008 like 201008 but u=522
   522009 like 201009 but u=522
   522010 like 201010 but u=522
   522100 like 201100 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-1  S/N:3014
+  522101 like 201101 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-2  S/N:3014
+  522102 like 201102 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-3  S/N:3014
+  522103 like 201103 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-4  S/N:3014
+  522104 like 201104 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-5  S/N:3014
+  522105 like 201105 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-6  S/N:3014
+  522106 like 201106 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.1-7  S/N:3014
+  522110 like 201110 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-1  S/N:3014
+  522111 like 201111 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-2  S/N:3014
+  522112 like 201112 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-3  S/N:3014
+  522113 like 201113 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-4  S/N:3014
+  522114 like 201114 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-5  S/N:3014
+  522115 like 201115 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-6  S/N:3014
+  522116 like 201116 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.2-7  S/N:3014
+  522120 like 201120 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-1  S/N:3014
+  522121 like 201121 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-2  S/N:3014
+  522122 like 201122 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-3  S/N:3014
+  522123 like 201123 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-4  S/N:3014
+  522124 like 201124 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-5  S/N:3014
+  522125 like 201125 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-6  S/N:3014
+  522126 like 201126 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.3-7  S/N:3014
+  522130 like 201130 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-1  S/N:3014
+  522131 like 201131 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-2  S/N:3014
+  522132 like 201132 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-3  S/N:3014
+  522133 like 201133 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-4  S/N:3014
+  522134 like 201134 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-5  S/N:3014
+  522135 like 201135 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-6  S/N:3014
+  522136 like 201136 but mat=5224 rho=-6.234 u=522  $ ELEMENT E-22.4-7  S/N:3014
+  522140 like 201140 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-1  S/N:3014
+  522141 like 201141 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-2  S/N:3014
+  522142 like 201142 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-3  S/N:3014
+  522143 like 201143 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-4  S/N:3014
+  522144 like 201144 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-5  S/N:3014
+  522145 like 201145 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-6  S/N:3014
+  522146 like 201146 but mat=5223 rho=-6.234 u=522  $ ELEMENT E-22.5-7  S/N:3014
+  522150 like 201150 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-1  S/N:3014
+  522151 like 201151 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-2  S/N:3014
+  522152 like 201152 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-3  S/N:3014
+  522153 like 201153 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-4  S/N:3014
+  522154 like 201154 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-5  S/N:3014
+  522155 like 201155 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-6  S/N:3014
+  522156 like 201156 but mat=5222 rho=-6.235 u=522  $ ELEMENT E-22.6-7  S/N:3014
+  522160 like 201160 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-1  S/N:3014
+  522161 like 201161 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-2  S/N:3014
+  522162 like 201162 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-3  S/N:3014
+  522163 like 201163 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-4  S/N:3014
+  522164 like 201164 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-5  S/N:3014
+  522165 like 201165 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-6  S/N:3014
+  522166 like 201166 but mat=5221 rho=-6.237 u=522  $ ELEMENT E-22.7-7  S/N:3014
 c ==============================================================================
   523000 like 201000 but u=523
   523001 like 201001 but u=523
   523002 like 201002 but u=523
   523003 like 201003 but u=523
   523004 like 201004 but u=523
+  523005 like 201005 but u=523
   523006 like 201006 but u=523
   523007 like 201007 but u=523
   523008 like 201008 but u=523
   523009 like 201009 but u=523
   523010 like 201010 but u=523
   523100 like 201100 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-1  S/N:3008
+  523101 like 201101 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-2  S/N:3008
+  523102 like 201102 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-3  S/N:3008
+  523103 like 201103 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-4  S/N:3008
+  523104 like 201104 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-5  S/N:3008
+  523105 like 201105 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-6  S/N:3008
+  523106 like 201106 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.1-7  S/N:3008
+  523110 like 201110 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-1  S/N:3008
+  523111 like 201111 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-2  S/N:3008
+  523112 like 201112 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-3  S/N:3008
+  523113 like 201113 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-4  S/N:3008
+  523114 like 201114 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-5  S/N:3008
+  523115 like 201115 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-6  S/N:3008
+  523116 like 201116 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.2-7  S/N:3008
+  523120 like 201120 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-1  S/N:3008
+  523121 like 201121 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-2  S/N:3008
+  523122 like 201122 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-3  S/N:3008
+  523123 like 201123 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-4  S/N:3008
+  523124 like 201124 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-5  S/N:3008
+  523125 like 201125 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-6  S/N:3008
+  523126 like 201126 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.3-7  S/N:3008
+  523130 like 201130 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-1  S/N:3008
+  523131 like 201131 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-2  S/N:3008
+  523132 like 201132 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-3  S/N:3008
+  523133 like 201133 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-4  S/N:3008
+  523134 like 201134 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-5  S/N:3008
+  523135 like 201135 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-6  S/N:3008
+  523136 like 201136 but mat=5234 rho=-6.071 u=523  $ ELEMENT E-23.4-7  S/N:3008
+  523140 like 201140 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-1  S/N:3008
+  523141 like 201141 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-2  S/N:3008
+  523142 like 201142 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-3  S/N:3008
+  523143 like 201143 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-4  S/N:3008
+  523144 like 201144 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-5  S/N:3008
+  523145 like 201145 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-6  S/N:3008
+  523146 like 201146 but mat=5233 rho=-6.071 u=523  $ ELEMENT E-23.5-7  S/N:3008
+  523150 like 201150 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-1  S/N:3008
+  523151 like 201151 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-2  S/N:3008
+  523152 like 201152 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-3  S/N:3008
+  523153 like 201153 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-4  S/N:3008
+  523154 like 201154 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-5  S/N:3008
+  523155 like 201155 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-6  S/N:3008
+  523156 like 201156 but mat=5232 rho=-6.072 u=523  $ ELEMENT E-23.6-7  S/N:3008
+  523160 like 201160 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-1  S/N:3008
+  523161 like 201161 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-2  S/N:3008
+  523162 like 201162 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-3  S/N:3008
+  523163 like 201163 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-4  S/N:3008
+  523164 like 201164 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-5  S/N:3008
+  523165 like 201165 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-6  S/N:3008
+  523166 like 201166 but mat=5231 rho=-6.073 u=523  $ ELEMENT E-23.7-7  S/N:3008
 c ==============================================================================
   524000 like 201000 but u=524
   524001 like 201001 but u=524
   524002 like 201002 but u=524
   524003 like 201003 but u=524
   524004 like 201004 but u=524
+  524005 like 201005 but u=524
   524006 like 201006 but u=524
   524007 like 201007 but u=524
   524008 like 201008 but u=524
   524009 like 201009 but u=524
   524010 like 201010 but u=524
   524100 like 201100 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-1  S/N:3111
+  524101 like 201101 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-2  S/N:3111
+  524102 like 201102 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-3  S/N:3111
+  524103 like 201103 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-4  S/N:3111
+  524104 like 201104 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-5  S/N:3111
+  524105 like 201105 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-6  S/N:3111
+  524106 like 201106 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.1-7  S/N:3111
+  524110 like 201110 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-1  S/N:3111
+  524111 like 201111 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-2  S/N:3111
+  524112 like 201112 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-3  S/N:3111
+  524113 like 201113 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-4  S/N:3111
+  524114 like 201114 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-5  S/N:3111
+  524115 like 201115 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-6  S/N:3111
+  524116 like 201116 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.2-7  S/N:3111
+  524120 like 201120 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-1  S/N:3111
+  524121 like 201121 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-2  S/N:3111
+  524122 like 201122 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-3  S/N:3111
+  524123 like 201123 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-4  S/N:3111
+  524124 like 201124 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-5  S/N:3111
+  524125 like 201125 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-6  S/N:3111
+  524126 like 201126 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.3-7  S/N:3111
+  524130 like 201130 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-1  S/N:3111
+  524131 like 201131 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-2  S/N:3111
+  524132 like 201132 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-3  S/N:3111
+  524133 like 201133 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-4  S/N:3111
+  524134 like 201134 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-5  S/N:3111
+  524135 like 201135 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-6  S/N:3111
+  524136 like 201136 but mat=5244 rho=-6.070 u=524  $ ELEMENT E-24.4-7  S/N:3111
+  524140 like 201140 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-1  S/N:3111
+  524141 like 201141 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-2  S/N:3111
+  524142 like 201142 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-3  S/N:3111
+  524143 like 201143 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-4  S/N:3111
+  524144 like 201144 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-5  S/N:3111
+  524145 like 201145 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-6  S/N:3111
+  524146 like 201146 but mat=5243 rho=-6.070 u=524  $ ELEMENT E-24.5-7  S/N:3111
+  524150 like 201150 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-1  S/N:3111
+  524151 like 201151 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-2  S/N:3111
+  524152 like 201152 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-3  S/N:3111
+  524153 like 201153 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-4  S/N:3111
+  524154 like 201154 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-5  S/N:3111
+  524155 like 201155 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-6  S/N:3111
+  524156 like 201156 but mat=5242 rho=-6.071 u=524  $ ELEMENT E-24.6-7  S/N:3111
+  524160 like 201160 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-1  S/N:3111
+  524161 like 201161 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-2  S/N:3111
+  524162 like 201162 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-3  S/N:3111
+  524163 like 201163 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-4  S/N:3111
+  524164 like 201164 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-5  S/N:3111
+  524165 like 201165 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-6  S/N:3111
+  524166 like 201166 but mat=5241 rho=-6.073 u=524  $ ELEMENT E-24.7-7  S/N:3111
 c ==============================================================================
   601000 like 201000 but u=601
   601001 like 201001 but u=601
   601002 like 201002 but u=601
   601003 like 201003 but u=601
   601004 like 201004 but u=601
+  601005 like 201005 but u=601
   601006 like 201006 but u=601
   601007 like 201007 but u=601
   601008 like 201008 but u=601
   601009 like 201009 but u=601
   601010 like 201010 but u=601
   601100 like 201100 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-1  S/N:5017
+  601101 like 201101 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-2  S/N:5017
+  601102 like 201102 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-3  S/N:5017
+  601103 like 201103 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-4  S/N:5017
+  601104 like 201104 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-5  S/N:5017
+  601105 like 201105 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-6  S/N:5017
+  601106 like 201106 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.1-7  S/N:5017
+  601110 like 201110 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-1  S/N:5017
+  601111 like 201111 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-2  S/N:5017
+  601112 like 201112 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-3  S/N:5017
+  601113 like 201113 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-4  S/N:5017
+  601114 like 201114 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-5  S/N:5017
+  601115 like 201115 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-6  S/N:5017
+  601116 like 201116 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.2-7  S/N:5017
+  601120 like 201120 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-1  S/N:5017
+  601121 like 201121 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-2  S/N:5017
+  601122 like 201122 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-3  S/N:5017
+  601123 like 201123 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-4  S/N:5017
+  601124 like 201124 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-5  S/N:5017
+  601125 like 201125 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-6  S/N:5017
+  601126 like 201126 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.3-7  S/N:5017
+  601130 like 201130 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-1  S/N:5017
+  601131 like 201131 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-2  S/N:5017
+  601132 like 201132 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-3  S/N:5017
+  601133 like 201133 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-4  S/N:5017
+  601134 like 201134 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-5  S/N:5017
+  601135 like 201135 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-6  S/N:5017
+  601136 like 201136 but mat=6014 rho=-6.229 u=601  $ ELEMENT F-1.4-7  S/N:5017
+  601140 like 201140 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-1  S/N:5017
+  601141 like 201141 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-2  S/N:5017
+  601142 like 201142 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-3  S/N:5017
+  601143 like 201143 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-4  S/N:5017
+  601144 like 201144 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-5  S/N:5017
+  601145 like 201145 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-6  S/N:5017
+  601146 like 201146 but mat=6013 rho=-6.229 u=601  $ ELEMENT F-1.5-7  S/N:5017
+  601150 like 201150 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-1  S/N:5017
+  601151 like 201151 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-2  S/N:5017
+  601152 like 201152 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-3  S/N:5017
+  601153 like 201153 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-4  S/N:5017
+  601154 like 201154 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-5  S/N:5017
+  601155 like 201155 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-6  S/N:5017
+  601156 like 201156 but mat=6012 rho=-6.231 u=601  $ ELEMENT F-1.6-7  S/N:5017
+  601160 like 201160 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-1  S/N:5017
+  601161 like 201161 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-2  S/N:5017
+  601162 like 201162 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-3  S/N:5017
+  601163 like 201163 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-4  S/N:5017
+  601164 like 201164 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-5  S/N:5017
+  601165 like 201165 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-6  S/N:5017
+  601166 like 201166 but mat=6011 rho=-6.234 u=601  $ ELEMENT F-1.7-7  S/N:5017
 c ==============================================================================
   602000 like 201000 but u=602
   602001 like 201001 but u=602
   602002 like 201002 but u=602
   602003 like 201003 but u=602
   602004 like 201004 but u=602
+  602005 like 201005 but u=602
   602006 like 201006 but u=602
   602007 like 201007 but u=602
   602008 like 201008 but u=602
   602009 like 201009 but u=602
   602010 like 201010 but u=602
   602100 like 201100 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-1  S/N:5018
+  602101 like 201101 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-2  S/N:5018
+  602102 like 201102 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-3  S/N:5018
+  602103 like 201103 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-4  S/N:5018
+  602104 like 201104 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-5  S/N:5018
+  602105 like 201105 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-6  S/N:5018
+  602106 like 201106 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.1-7  S/N:5018
+  602110 like 201110 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-1  S/N:5018
+  602111 like 201111 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-2  S/N:5018
+  602112 like 201112 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-3  S/N:5018
+  602113 like 201113 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-4  S/N:5018
+  602114 like 201114 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-5  S/N:5018
+  602115 like 201115 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-6  S/N:5018
+  602116 like 201116 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.2-7  S/N:5018
+  602120 like 201120 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-1  S/N:5018
+  602121 like 201121 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-2  S/N:5018
+  602122 like 201122 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-3  S/N:5018
+  602123 like 201123 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-4  S/N:5018
+  602124 like 201124 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-5  S/N:5018
+  602125 like 201125 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-6  S/N:5018
+  602126 like 201126 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.3-7  S/N:5018
+  602130 like 201130 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-1  S/N:5018
+  602131 like 201131 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-2  S/N:5018
+  602132 like 201132 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-3  S/N:5018
+  602133 like 201133 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-4  S/N:5018
+  602134 like 201134 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-5  S/N:5018
+  602135 like 201135 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-6  S/N:5018
+  602136 like 201136 but mat=6024 rho=-6.229 u=602  $ ELEMENT F-2.4-7  S/N:5018
+  602140 like 201140 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-1  S/N:5018
+  602141 like 201141 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-2  S/N:5018
+  602142 like 201142 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-3  S/N:5018
+  602143 like 201143 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-4  S/N:5018
+  602144 like 201144 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-5  S/N:5018
+  602145 like 201145 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-6  S/N:5018
+  602146 like 201146 but mat=6023 rho=-6.230 u=602  $ ELEMENT F-2.5-7  S/N:5018
+  602150 like 201150 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-1  S/N:5018
+  602151 like 201151 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-2  S/N:5018
+  602152 like 201152 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-3  S/N:5018
+  602153 like 201153 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-4  S/N:5018
+  602154 like 201154 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-5  S/N:5018
+  602155 like 201155 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-6  S/N:5018
+  602156 like 201156 but mat=6022 rho=-6.232 u=602  $ ELEMENT F-2.6-7  S/N:5018
+  602160 like 201160 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-1  S/N:5018
+  602161 like 201161 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-2  S/N:5018
+  602162 like 201162 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-3  S/N:5018
+  602163 like 201163 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-4  S/N:5018
+  602164 like 201164 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-5  S/N:5018
+  602165 like 201165 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-6  S/N:5018
+  602166 like 201166 but mat=6021 rho=-6.234 u=602  $ ELEMENT F-2.7-7  S/N:5018
 c ==============================================================================
   603000 like 201000 but u=603
   603001 like 201001 but u=603
   603002 like 201002 but u=603
   603003 like 201003 but u=603
   603004 like 201004 but u=603
+  603005 like 201005 but u=603
   603006 like 201006 but u=603
   603007 like 201007 but u=603
   603008 like 201008 but u=603
   603009 like 201009 but u=603
   603010 like 201010 but u=603
   603100 like 201100 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-1  S/N:5027
+  603101 like 201101 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-2  S/N:5027
+  603102 like 201102 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-3  S/N:5027
+  603103 like 201103 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-4  S/N:5027
+  603104 like 201104 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-5  S/N:5027
+  603105 like 201105 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-6  S/N:5027
+  603106 like 201106 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.1-7  S/N:5027
+  603110 like 201110 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-1  S/N:5027
+  603111 like 201111 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-2  S/N:5027
+  603112 like 201112 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-3  S/N:5027
+  603113 like 201113 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-4  S/N:5027
+  603114 like 201114 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-5  S/N:5027
+  603115 like 201115 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-6  S/N:5027
+  603116 like 201116 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.2-7  S/N:5027
+  603120 like 201120 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-1  S/N:5027
+  603121 like 201121 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-2  S/N:5027
+  603122 like 201122 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-3  S/N:5027
+  603123 like 201123 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-4  S/N:5027
+  603124 like 201124 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-5  S/N:5027
+  603125 like 201125 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-6  S/N:5027
+  603126 like 201126 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.3-7  S/N:5027
+  603130 like 201130 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-1  S/N:5027
+  603131 like 201131 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-2  S/N:5027
+  603132 like 201132 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-3  S/N:5027
+  603133 like 201133 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-4  S/N:5027
+  603134 like 201134 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-5  S/N:5027
+  603135 like 201135 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-6  S/N:5027
+  603136 like 201136 but mat=6034 rho=-6.393 u=603  $ ELEMENT F-3.4-7  S/N:5027
+  603140 like 201140 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-1  S/N:5027
+  603141 like 201141 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-2  S/N:5027
+  603142 like 201142 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-3  S/N:5027
+  603143 like 201143 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-4  S/N:5027
+  603144 like 201144 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-5  S/N:5027
+  603145 like 201145 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-6  S/N:5027
+  603146 like 201146 but mat=6033 rho=-6.394 u=603  $ ELEMENT F-3.5-7  S/N:5027
+  603150 like 201150 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-1  S/N:5027
+  603151 like 201151 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-2  S/N:5027
+  603152 like 201152 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-3  S/N:5027
+  603153 like 201153 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-4  S/N:5027
+  603154 like 201154 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-5  S/N:5027
+  603155 like 201155 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-6  S/N:5027
+  603156 like 201156 but mat=6032 rho=-6.396 u=603  $ ELEMENT F-3.6-7  S/N:5027
+  603160 like 201160 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-1  S/N:5027
+  603161 like 201161 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-2  S/N:5027
+  603162 like 201162 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-3  S/N:5027
+  603163 like 201163 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-4  S/N:5027
+  603164 like 201164 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-5  S/N:5027
+  603165 like 201165 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-6  S/N:5027
+  603166 like 201166 but mat=6031 rho=-6.398 u=603  $ ELEMENT F-3.7-7  S/N:5027
 c ==============================================================================
   604000 like 201000 but u=604
   604001 like 201001 but u=604
   604002 like 201002 but u=604
   604003 like 201003 but u=604
   604004 like 201004 but u=604
+  604005 like 201005 but u=604
   604006 like 201006 but u=604
   604007 like 201007 but u=604
   604008 like 201008 but u=604
   604009 like 201009 but u=604
   604010 like 201010 but u=604
   604100 like 201100 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-1  S/N:5021
+  604101 like 201101 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-2  S/N:5021
+  604102 like 201102 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-3  S/N:5021
+  604103 like 201103 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-4  S/N:5021
+  604104 like 201104 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-5  S/N:5021
+  604105 like 201105 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-6  S/N:5021
+  604106 like 201106 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.1-7  S/N:5021
+  604110 like 201110 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-1  S/N:5021
+  604111 like 201111 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-2  S/N:5021
+  604112 like 201112 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-3  S/N:5021
+  604113 like 201113 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-4  S/N:5021
+  604114 like 201114 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-5  S/N:5021
+  604115 like 201115 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-6  S/N:5021
+  604116 like 201116 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.2-7  S/N:5021
+  604120 like 201120 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-1  S/N:5021
+  604121 like 201121 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-2  S/N:5021
+  604122 like 201122 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-3  S/N:5021
+  604123 like 201123 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-4  S/N:5021
+  604124 like 201124 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-5  S/N:5021
+  604125 like 201125 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-6  S/N:5021
+  604126 like 201126 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.3-7  S/N:5021
+  604130 like 201130 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-1  S/N:5021
+  604131 like 201131 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-2  S/N:5021
+  604132 like 201132 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-3  S/N:5021
+  604133 like 201133 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-4  S/N:5021
+  604134 like 201134 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-5  S/N:5021
+  604135 like 201135 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-6  S/N:5021
+  604136 like 201136 but mat=6044 rho=-6.229 u=604  $ ELEMENT F-4.4-7  S/N:5021
+  604140 like 201140 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-1  S/N:5021
+  604141 like 201141 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-2  S/N:5021
+  604142 like 201142 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-3  S/N:5021
+  604143 like 201143 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-4  S/N:5021
+  604144 like 201144 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-5  S/N:5021
+  604145 like 201145 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-6  S/N:5021
+  604146 like 201146 but mat=6043 rho=-6.230 u=604  $ ELEMENT F-4.5-7  S/N:5021
+  604150 like 201150 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-1  S/N:5021
+  604151 like 201151 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-2  S/N:5021
+  604152 like 201152 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-3  S/N:5021
+  604153 like 201153 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-4  S/N:5021
+  604154 like 201154 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-5  S/N:5021
+  604155 like 201155 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-6  S/N:5021
+  604156 like 201156 but mat=6042 rho=-6.232 u=604  $ ELEMENT F-4.6-7  S/N:5021
+  604160 like 201160 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-1  S/N:5021
+  604161 like 201161 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-2  S/N:5021
+  604162 like 201162 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-3  S/N:5021
+  604163 like 201163 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-4  S/N:5021
+  604164 like 201164 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-5  S/N:5021
+  604165 like 201165 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-6  S/N:5021
+  604166 like 201166 but mat=6041 rho=-6.234 u=604  $ ELEMENT F-4.7-7  S/N:5021
 c ==============================================================================
   605000 like 201000 but u=605
   605001 like 201001 but u=605
   605002 like 201002 but u=605
   605003 like 201003 but u=605
   605004 like 201004 but u=605
+  605005 like 201005 but u=605
   605006 like 201006 but u=605
   605007 like 201007 but u=605
   605008 like 201008 but u=605
   605009 like 201009 but u=605
   605010 like 201010 but u=605
   605100 like 201100 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-1  S/N:5026
+  605101 like 201101 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-2  S/N:5026
+  605102 like 201102 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-3  S/N:5026
+  605103 like 201103 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-4  S/N:5026
+  605104 like 201104 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-5  S/N:5026
+  605105 like 201105 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-6  S/N:5026
+  605106 like 201106 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.1-7  S/N:5026
+  605110 like 201110 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-1  S/N:5026
+  605111 like 201111 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-2  S/N:5026
+  605112 like 201112 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-3  S/N:5026
+  605113 like 201113 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-4  S/N:5026
+  605114 like 201114 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-5  S/N:5026
+  605115 like 201115 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-6  S/N:5026
+  605116 like 201116 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.2-7  S/N:5026
+  605120 like 201120 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-1  S/N:5026
+  605121 like 201121 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-2  S/N:5026
+  605122 like 201122 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-3  S/N:5026
+  605123 like 201123 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-4  S/N:5026
+  605124 like 201124 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-5  S/N:5026
+  605125 like 201125 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-6  S/N:5026
+  605126 like 201126 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.3-7  S/N:5026
+  605130 like 201130 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-1  S/N:5026
+  605131 like 201131 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-2  S/N:5026
+  605132 like 201132 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-3  S/N:5026
+  605133 like 201133 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-4  S/N:5026
+  605134 like 201134 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-5  S/N:5026
+  605135 like 201135 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-6  S/N:5026
+  605136 like 201136 but mat=6054 rho=-6.229 u=605  $ ELEMENT F-5.4-7  S/N:5026
+  605140 like 201140 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-1  S/N:5026
+  605141 like 201141 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-2  S/N:5026
+  605142 like 201142 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-3  S/N:5026
+  605143 like 201143 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-4  S/N:5026
+  605144 like 201144 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-5  S/N:5026
+  605145 like 201145 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-6  S/N:5026
+  605146 like 201146 but mat=6053 rho=-6.230 u=605  $ ELEMENT F-5.5-7  S/N:5026
+  605150 like 201150 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-1  S/N:5026
+  605151 like 201151 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-2  S/N:5026
+  605152 like 201152 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-3  S/N:5026
+  605153 like 201153 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-4  S/N:5026
+  605154 like 201154 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-5  S/N:5026
+  605155 like 201155 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-6  S/N:5026
+  605156 like 201156 but mat=6052 rho=-6.232 u=605  $ ELEMENT F-5.6-7  S/N:5026
+  605160 like 201160 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-1  S/N:5026
+  605161 like 201161 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-2  S/N:5026
+  605162 like 201162 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-3  S/N:5026
+  605163 like 201163 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-4  S/N:5026
+  605164 like 201164 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-5  S/N:5026
+  605165 like 201165 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-6  S/N:5026
+  605166 like 201166 but mat=6051 rho=-6.234 u=605  $ ELEMENT F-5.7-7  S/N:5026
 c ==============================================================================
   606000 like 201000 but u=606
   606001 like 201001 but u=606
   606002 like 201002 but u=606
   606003 like 201003 but u=606
   606004 like 201004 but u=606
+  606005 like 201005 but u=606
   606006 like 201006 but u=606
   606007 like 201007 but u=606
   606008 like 201008 but u=606
   606009 like 201009 but u=606
   606010 like 201010 but u=606
   606100 like 201100 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-1  S/N:6223
+  606101 like 201101 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-2  S/N:6223
+  606102 like 201102 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-3  S/N:6223
+  606103 like 201103 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-4  S/N:6223
+  606104 like 201104 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-5  S/N:6223
+  606105 like 201105 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-6  S/N:6223
+  606106 like 201106 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.1-7  S/N:6223
+  606110 like 201110 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-1  S/N:6223
+  606111 like 201111 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-2  S/N:6223
+  606112 like 201112 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-3  S/N:6223
+  606113 like 201113 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-4  S/N:6223
+  606114 like 201114 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-5  S/N:6223
+  606115 like 201115 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-6  S/N:6223
+  606116 like 201116 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.2-7  S/N:6223
+  606120 like 201120 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-1  S/N:6223
+  606121 like 201121 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-2  S/N:6223
+  606122 like 201122 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-3  S/N:6223
+  606123 like 201123 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-4  S/N:6223
+  606124 like 201124 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-5  S/N:6223
+  606125 like 201125 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-6  S/N:6223
+  606126 like 201126 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.3-7  S/N:6223
+  606130 like 201130 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-1  S/N:6223
+  606131 like 201131 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-2  S/N:6223
+  606132 like 201132 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-3  S/N:6223
+  606133 like 201133 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-4  S/N:6223
+  606134 like 201134 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-5  S/N:6223
+  606135 like 201135 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-6  S/N:6223
+  606136 like 201136 but mat=6064 rho=-6.403 u=606  $ ELEMENT F-6.4-7  S/N:6223
+  606140 like 201140 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-1  S/N:6223
+  606141 like 201141 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-2  S/N:6223
+  606142 like 201142 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-3  S/N:6223
+  606143 like 201143 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-4  S/N:6223
+  606144 like 201144 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-5  S/N:6223
+  606145 like 201145 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-6  S/N:6223
+  606146 like 201146 but mat=6063 rho=-6.404 u=606  $ ELEMENT F-6.5-7  S/N:6223
+  606150 like 201150 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-1  S/N:6223
+  606151 like 201151 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-2  S/N:6223
+  606152 like 201152 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-3  S/N:6223
+  606153 like 201153 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-4  S/N:6223
+  606154 like 201154 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-5  S/N:6223
+  606155 like 201155 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-6  S/N:6223
+  606156 like 201156 but mat=6062 rho=-6.404 u=606  $ ELEMENT F-6.6-7  S/N:6223
+  606160 like 201160 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-1  S/N:6223
+  606161 like 201161 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-2  S/N:6223
+  606162 like 201162 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-3  S/N:6223
+  606163 like 201163 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-4  S/N:6223
+  606164 like 201164 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-5  S/N:6223
+  606165 like 201165 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-6  S/N:6223
+  606166 like 201166 but mat=6061 rho=-6.405 u=606  $ ELEMENT F-6.7-7  S/N:6223
 c ==============================================================================
   607000 like 201000 but u=607
   607001 like 201001 but u=607
   607002 like 201002 but u=607
   607003 like 201003 but u=607
   607004 like 201004 but u=607
+  607005 like 201005 but u=607
   607006 like 201006 but u=607
   607007 like 201007 but u=607
   607008 like 201008 but u=607
   607009 like 201009 but u=607
   607010 like 201010 but u=607
   607100 like 201100 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-1  S/N:5256
+  607101 like 201101 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-2  S/N:5256
+  607102 like 201102 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-3  S/N:5256
+  607103 like 201103 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-4  S/N:5256
+  607104 like 201104 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-5  S/N:5256
+  607105 like 201105 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-6  S/N:5256
+  607106 like 201106 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.1-7  S/N:5256
+  607110 like 201110 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-1  S/N:5256
+  607111 like 201111 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-2  S/N:5256
+  607112 like 201112 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-3  S/N:5256
+  607113 like 201113 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-4  S/N:5256
+  607114 like 201114 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-5  S/N:5256
+  607115 like 201115 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-6  S/N:5256
+  607116 like 201116 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.2-7  S/N:5256
+  607120 like 201120 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-1  S/N:5256
+  607121 like 201121 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-2  S/N:5256
+  607122 like 201122 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-3  S/N:5256
+  607123 like 201123 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-4  S/N:5256
+  607124 like 201124 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-5  S/N:5256
+  607125 like 201125 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-6  S/N:5256
+  607126 like 201126 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.3-7  S/N:5256
+  607130 like 201130 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-1  S/N:5256
+  607131 like 201131 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-2  S/N:5256
+  607132 like 201132 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-3  S/N:5256
+  607133 like 201133 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-4  S/N:5256
+  607134 like 201134 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-5  S/N:5256
+  607135 like 201135 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-6  S/N:5256
+  607136 like 201136 but mat=6074 rho=-6.228 u=607  $ ELEMENT F-7.4-7  S/N:5256
+  607140 like 201140 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-1  S/N:5256
+  607141 like 201141 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-2  S/N:5256
+  607142 like 201142 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-3  S/N:5256
+  607143 like 201143 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-4  S/N:5256
+  607144 like 201144 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-5  S/N:5256
+  607145 like 201145 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-6  S/N:5256
+  607146 like 201146 but mat=6073 rho=-6.229 u=607  $ ELEMENT F-7.5-7  S/N:5256
+  607150 like 201150 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-1  S/N:5256
+  607151 like 201151 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-2  S/N:5256
+  607152 like 201152 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-3  S/N:5256
+  607153 like 201153 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-4  S/N:5256
+  607154 like 201154 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-5  S/N:5256
+  607155 like 201155 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-6  S/N:5256
+  607156 like 201156 but mat=6072 rho=-6.231 u=607  $ ELEMENT F-7.6-7  S/N:5256
+  607160 like 201160 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-1  S/N:5256
+  607161 like 201161 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-2  S/N:5256
+  607162 like 201162 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-3  S/N:5256
+  607163 like 201163 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-4  S/N:5256
+  607164 like 201164 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-5  S/N:5256
+  607165 like 201165 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-6  S/N:5256
+  607166 like 201166 but mat=6071 rho=-6.233 u=607  $ ELEMENT F-7.7-7  S/N:5256
 c ==============================================================================
   608000 like 201000 but u=608
   608001 like 201001 but u=608
   608002 like 201002 but u=608
   608003 like 201003 but u=608
   608004 like 201004 but u=608
+  608005 like 201005 but u=608
   608006 like 201006 but u=608
   608007 like 201007 but u=608
   608008 like 201008 but u=608
   608009 like 201009 but u=608
   608010 like 201010 but u=608
   608100 like 201100 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-1  S/N:6525
+  608101 like 201101 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-2  S/N:6525
+  608102 like 201102 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-3  S/N:6525
+  608103 like 201103 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-4  S/N:6525
+  608104 like 201104 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-5  S/N:6525
+  608105 like 201105 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-6  S/N:6525
+  608106 like 201106 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.1-7  S/N:6525
+  608110 like 201110 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-1  S/N:6525
+  608111 like 201111 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-2  S/N:6525
+  608112 like 201112 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-3  S/N:6525
+  608113 like 201113 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-4  S/N:6525
+  608114 like 201114 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-5  S/N:6525
+  608115 like 201115 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-6  S/N:6525
+  608116 like 201116 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.2-7  S/N:6525
+  608120 like 201120 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-1  S/N:6525
+  608121 like 201121 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-2  S/N:6525
+  608122 like 201122 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-3  S/N:6525
+  608123 like 201123 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-4  S/N:6525
+  608124 like 201124 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-5  S/N:6525
+  608125 like 201125 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-6  S/N:6525
+  608126 like 201126 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.3-7  S/N:6525
+  608130 like 201130 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-1  S/N:6525
+  608131 like 201131 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-2  S/N:6525
+  608132 like 201132 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-3  S/N:6525
+  608133 like 201133 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-4  S/N:6525
+  608134 like 201134 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-5  S/N:6525
+  608135 like 201135 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-6  S/N:6525
+  608136 like 201136 but mat=6084 rho=-6.239 u=608  $ ELEMENT F-8.4-7  S/N:6525
+  608140 like 201140 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-1  S/N:6525
+  608141 like 201141 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-2  S/N:6525
+  608142 like 201142 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-3  S/N:6525
+  608143 like 201143 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-4  S/N:6525
+  608144 like 201144 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-5  S/N:6525
+  608145 like 201145 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-6  S/N:6525
+  608146 like 201146 but mat=6083 rho=-6.239 u=608  $ ELEMENT F-8.5-7  S/N:6525
+  608150 like 201150 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-1  S/N:6525
+  608151 like 201151 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-2  S/N:6525
+  608152 like 201152 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-3  S/N:6525
+  608153 like 201153 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-4  S/N:6525
+  608154 like 201154 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-5  S/N:6525
+  608155 like 201155 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-6  S/N:6525
+  608156 like 201156 but mat=6082 rho=-6.239 u=608  $ ELEMENT F-8.6-7  S/N:6525
+  608160 like 201160 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-1  S/N:6525
+  608161 like 201161 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-2  S/N:6525
+  608162 like 201162 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-3  S/N:6525
+  608163 like 201163 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-4  S/N:6525
+  608164 like 201164 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-5  S/N:6525
+  608165 like 201165 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-6  S/N:6525
+  608166 like 201166 but mat=6081 rho=-6.240 u=608  $ ELEMENT F-8.7-7  S/N:6525
 c ==============================================================================
   609000 like 201000 but u=609
   609001 like 201001 but u=609
   609002 like 201002 but u=609
   609003 like 201003 but u=609
   609004 like 201004 but u=609
+  609005 like 201005 but u=609
   609006 like 201006 but u=609
   609007 like 201007 but u=609
   609008 like 201008 but u=609
   609009 like 201009 but u=609
   609010 like 201010 but u=609
   609100 like 201100 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-1  S/N:5001
+  609101 like 201101 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-2  S/N:5001
+  609102 like 201102 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-3  S/N:5001
+  609103 like 201103 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-4  S/N:5001
+  609104 like 201104 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-5  S/N:5001
+  609105 like 201105 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-6  S/N:5001
+  609106 like 201106 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.1-7  S/N:5001
+  609110 like 201110 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-1  S/N:5001
+  609111 like 201111 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-2  S/N:5001
+  609112 like 201112 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-3  S/N:5001
+  609113 like 201113 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-4  S/N:5001
+  609114 like 201114 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-5  S/N:5001
+  609115 like 201115 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-6  S/N:5001
+  609116 like 201116 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.2-7  S/N:5001
+  609120 like 201120 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-1  S/N:5001
+  609121 like 201121 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-2  S/N:5001
+  609122 like 201122 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-3  S/N:5001
+  609123 like 201123 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-4  S/N:5001
+  609124 like 201124 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-5  S/N:5001
+  609125 like 201125 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-6  S/N:5001
+  609126 like 201126 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.3-7  S/N:5001
+  609130 like 201130 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-1  S/N:5001
+  609131 like 201131 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-2  S/N:5001
+  609132 like 201132 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-3  S/N:5001
+  609133 like 201133 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-4  S/N:5001
+  609134 like 201134 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-5  S/N:5001
+  609135 like 201135 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-6  S/N:5001
+  609136 like 201136 but mat=6094 rho=-6.230 u=609  $ ELEMENT F-9.4-7  S/N:5001
+  609140 like 201140 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-1  S/N:5001
+  609141 like 201141 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-2  S/N:5001
+  609142 like 201142 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-3  S/N:5001
+  609143 like 201143 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-4  S/N:5001
+  609144 like 201144 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-5  S/N:5001
+  609145 like 201145 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-6  S/N:5001
+  609146 like 201146 but mat=6093 rho=-6.231 u=609  $ ELEMENT F-9.5-7  S/N:5001
+  609150 like 201150 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-1  S/N:5001
+  609151 like 201151 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-2  S/N:5001
+  609152 like 201152 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-3  S/N:5001
+  609153 like 201153 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-4  S/N:5001
+  609154 like 201154 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-5  S/N:5001
+  609155 like 201155 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-6  S/N:5001
+  609156 like 201156 but mat=6092 rho=-6.233 u=609  $ ELEMENT F-9.6-7  S/N:5001
+  609160 like 201160 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-1  S/N:5001
+  609161 like 201161 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-2  S/N:5001
+  609162 like 201162 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-3  S/N:5001
+  609163 like 201163 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-4  S/N:5001
+  609164 like 201164 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-5  S/N:5001
+  609165 like 201165 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-6  S/N:5001
+  609166 like 201166 but mat=6091 rho=-6.235 u=609  $ ELEMENT F-9.7-7  S/N:5001
 c ==============================================================================
   611000 like 201000 but u=611
   611001 like 201001 but u=611
   611002 like 201002 but u=611
   611003 like 201003 but u=611
   611004 like 201004 but u=611
+  611005 like 201005 but u=611
   611006 like 201006 but u=611
   611007 like 201007 but u=611
   611008 like 201008 but u=611
   611009 like 201009 but u=611
   611010 like 201010 but u=611
   611100 like 201100 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-1  S/N:5949
+  611101 like 201101 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-2  S/N:5949
+  611102 like 201102 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-3  S/N:5949
+  611103 like 201103 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-4  S/N:5949
+  611104 like 201104 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-5  S/N:5949
+  611105 like 201105 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-6  S/N:5949
+  611106 like 201106 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.1-7  S/N:5949
+  611110 like 201110 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-1  S/N:5949
+  611111 like 201111 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-2  S/N:5949
+  611112 like 201112 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-3  S/N:5949
+  611113 like 201113 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-4  S/N:5949
+  611114 like 201114 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-5  S/N:5949
+  611115 like 201115 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-6  S/N:5949
+  611116 like 201116 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.2-7  S/N:5949
+  611120 like 201120 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-1  S/N:5949
+  611121 like 201121 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-2  S/N:5949
+  611122 like 201122 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-3  S/N:5949
+  611123 like 201123 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-4  S/N:5949
+  611124 like 201124 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-5  S/N:5949
+  611125 like 201125 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-6  S/N:5949
+  611126 like 201126 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.3-7  S/N:5949
+  611130 like 201130 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-1  S/N:5949
+  611131 like 201131 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-2  S/N:5949
+  611132 like 201132 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-3  S/N:5949
+  611133 like 201133 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-4  S/N:5949
+  611134 like 201134 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-5  S/N:5949
+  611135 like 201135 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-6  S/N:5949
+  611136 like 201136 but mat=6114 rho=-6.227 u=611  $ ELEMENT F-11.4-7  S/N:5949
+  611140 like 201140 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-1  S/N:5949
+  611141 like 201141 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-2  S/N:5949
+  611142 like 201142 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-3  S/N:5949
+  611143 like 201143 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-4  S/N:5949
+  611144 like 201144 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-5  S/N:5949
+  611145 like 201145 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-6  S/N:5949
+  611146 like 201146 but mat=6113 rho=-6.228 u=611  $ ELEMENT F-11.5-7  S/N:5949
+  611150 like 201150 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-1  S/N:5949
+  611151 like 201151 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-2  S/N:5949
+  611152 like 201152 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-3  S/N:5949
+  611153 like 201153 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-4  S/N:5949
+  611154 like 201154 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-5  S/N:5949
+  611155 like 201155 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-6  S/N:5949
+  611156 like 201156 but mat=6112 rho=-6.230 u=611  $ ELEMENT F-11.6-7  S/N:5949
+  611160 like 201160 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-1  S/N:5949
+  611161 like 201161 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-2  S/N:5949
+  611162 like 201162 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-3  S/N:5949
+  611163 like 201163 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-4  S/N:5949
+  611164 like 201164 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-5  S/N:5949
+  611165 like 201165 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-6  S/N:5949
+  611166 like 201166 but mat=6111 rho=-6.232 u=611  $ ELEMENT F-11.7-7  S/N:5949
 c ==============================================================================
   612000 like 201000 but u=612
   612001 like 201001 but u=612
   612002 like 201002 but u=612
   612003 like 201003 but u=612
   612004 like 201004 but u=612
+  612005 like 201005 but u=612
   612006 like 201006 but u=612
   612007 like 201007 but u=612
   612008 like 201008 but u=612
   612009 like 201009 but u=612
   612010 like 201010 but u=612
   612100 like 201100 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-1  S/N:2900
+  612101 like 201101 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-2  S/N:2900
+  612102 like 201102 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-3  S/N:2900
+  612103 like 201103 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-4  S/N:2900
+  612104 like 201104 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-5  S/N:2900
+  612105 like 201105 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-6  S/N:2900
+  612106 like 201106 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.1-7  S/N:2900
+  612110 like 201110 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-1  S/N:2900
+  612111 like 201111 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-2  S/N:2900
+  612112 like 201112 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-3  S/N:2900
+  612113 like 201113 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-4  S/N:2900
+  612114 like 201114 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-5  S/N:2900
+  612115 like 201115 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-6  S/N:2900
+  612116 like 201116 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.2-7  S/N:2900
+  612120 like 201120 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-1  S/N:2900
+  612121 like 201121 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-2  S/N:2900
+  612122 like 201122 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-3  S/N:2900
+  612123 like 201123 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-4  S/N:2900
+  612124 like 201124 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-5  S/N:2900
+  612125 like 201125 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-6  S/N:2900
+  612126 like 201126 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.3-7  S/N:2900
+  612130 like 201130 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-1  S/N:2900
+  612131 like 201131 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-2  S/N:2900
+  612132 like 201132 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-3  S/N:2900
+  612133 like 201133 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-4  S/N:2900
+  612134 like 201134 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-5  S/N:2900
+  612135 like 201135 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-6  S/N:2900
+  612136 like 201136 but mat=6124 rho=-6.501 u=612  $ ELEMENT F-12.4-7  S/N:2900
+  612140 like 201140 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-1  S/N:2900
+  612141 like 201141 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-2  S/N:2900
+  612142 like 201142 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-3  S/N:2900
+  612143 like 201143 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-4  S/N:2900
+  612144 like 201144 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-5  S/N:2900
+  612145 like 201145 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-6  S/N:2900
+  612146 like 201146 but mat=6123 rho=-6.501 u=612  $ ELEMENT F-12.5-7  S/N:2900
+  612150 like 201150 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-1  S/N:2900
+  612151 like 201151 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-2  S/N:2900
+  612152 like 201152 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-3  S/N:2900
+  612153 like 201153 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-4  S/N:2900
+  612154 like 201154 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-5  S/N:2900
+  612155 like 201155 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-6  S/N:2900
+  612156 like 201156 but mat=6122 rho=-6.501 u=612  $ ELEMENT F-12.6-7  S/N:2900
+  612160 like 201160 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-1  S/N:2900
+  612161 like 201161 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-2  S/N:2900
+  612162 like 201162 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-3  S/N:2900
+  612163 like 201163 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-4  S/N:2900
+  612164 like 201164 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-5  S/N:2900
+  612165 like 201165 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-6  S/N:2900
+  612166 like 201166 but mat=6121 rho=-6.502 u=612  $ ELEMENT F-12.7-7  S/N:2900
 c ==============================================================================
   613000 like 201000 but u=613
   613001 like 201001 but u=613
   613002 like 201002 but u=613
   613003 like 201003 but u=613
   613004 like 201004 but u=613
+  613005 like 201005 but u=613
   613006 like 201006 but u=613
   613007 like 201007 but u=613
   613008 like 201008 but u=613
   613009 like 201009 but u=613
   613010 like 201010 but u=613
   613100 like 201100 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-1  S/N:3329
+  613101 like 201101 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-2  S/N:3329
+  613102 like 201102 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-3  S/N:3329
+  613103 like 201103 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-4  S/N:3329
+  613104 like 201104 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-5  S/N:3329
+  613105 like 201105 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-6  S/N:3329
+  613106 like 201106 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.1-7  S/N:3329
+  613110 like 201110 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-1  S/N:3329
+  613111 like 201111 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-2  S/N:3329
+  613112 like 201112 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-3  S/N:3329
+  613113 like 201113 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-4  S/N:3329
+  613114 like 201114 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-5  S/N:3329
+  613115 like 201115 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-6  S/N:3329
+  613116 like 201116 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.2-7  S/N:3329
+  613120 like 201120 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-1  S/N:3329
+  613121 like 201121 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-2  S/N:3329
+  613122 like 201122 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-3  S/N:3329
+  613123 like 201123 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-4  S/N:3329
+  613124 like 201124 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-5  S/N:3329
+  613125 like 201125 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-6  S/N:3329
+  613126 like 201126 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.3-7  S/N:3329
+  613130 like 201130 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-1  S/N:3329
+  613131 like 201131 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-2  S/N:3329
+  613132 like 201132 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-3  S/N:3329
+  613133 like 201133 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-4  S/N:3329
+  613134 like 201134 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-5  S/N:3329
+  613135 like 201135 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-6  S/N:3329
+  613136 like 201136 but mat=6134 rho=-6.069 u=613  $ ELEMENT F-13.4-7  S/N:3329
+  613140 like 201140 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-1  S/N:3329
+  613141 like 201141 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-2  S/N:3329
+  613142 like 201142 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-3  S/N:3329
+  613143 like 201143 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-4  S/N:3329
+  613144 like 201144 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-5  S/N:3329
+  613145 like 201145 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-6  S/N:3329
+  613146 like 201146 but mat=6133 rho=-6.070 u=613  $ ELEMENT F-13.5-7  S/N:3329
+  613150 like 201150 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-1  S/N:3329
+  613151 like 201151 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-2  S/N:3329
+  613152 like 201152 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-3  S/N:3329
+  613153 like 201153 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-4  S/N:3329
+  613154 like 201154 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-5  S/N:3329
+  613155 like 201155 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-6  S/N:3329
+  613156 like 201156 but mat=6132 rho=-6.071 u=613  $ ELEMENT F-13.6-7  S/N:3329
+  613160 like 201160 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-1  S/N:3329
+  613161 like 201161 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-2  S/N:3329
+  613162 like 201162 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-3  S/N:3329
+  613163 like 201163 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-4  S/N:3329
+  613164 like 201164 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-5  S/N:3329
+  613165 like 201165 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-6  S/N:3329
+  613166 like 201166 but mat=6131 rho=-6.072 u=613  $ ELEMENT F-13.7-7  S/N:3329
 c ==============================================================================
   614000 like 201000 but u=614
   614001 like 201001 but u=614
   614002 like 201002 but u=614
   614003 like 201003 but u=614
   614004 like 201004 but u=614
+  614005 like 201005 but u=614
   614006 like 201006 but u=614
   614007 like 201007 but u=614
   614008 like 201008 but u=614
   614009 like 201009 but u=614
   614010 like 201010 but u=614
   614100 like 201100 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-1  S/N:5653
+  614101 like 201101 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-2  S/N:5653
+  614102 like 201102 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-3  S/N:5653
+  614103 like 201103 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-4  S/N:5653
+  614104 like 201104 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-5  S/N:5653
+  614105 like 201105 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-6  S/N:5653
+  614106 like 201106 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.1-7  S/N:5653
+  614110 like 201110 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-1  S/N:5653
+  614111 like 201111 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-2  S/N:5653
+  614112 like 201112 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-3  S/N:5653
+  614113 like 201113 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-4  S/N:5653
+  614114 like 201114 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-5  S/N:5653
+  614115 like 201115 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-6  S/N:5653
+  614116 like 201116 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.2-7  S/N:5653
+  614120 like 201120 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-1  S/N:5653
+  614121 like 201121 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-2  S/N:5653
+  614122 like 201122 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-3  S/N:5653
+  614123 like 201123 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-4  S/N:5653
+  614124 like 201124 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-5  S/N:5653
+  614125 like 201125 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-6  S/N:5653
+  614126 like 201126 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.3-7  S/N:5653
+  614130 like 201130 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-1  S/N:5653
+  614131 like 201131 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-2  S/N:5653
+  614132 like 201132 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-3  S/N:5653
+  614133 like 201133 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-4  S/N:5653
+  614134 like 201134 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-5  S/N:5653
+  614135 like 201135 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-6  S/N:5653
+  614136 like 201136 but mat=6144 rho=-6.227 u=614  $ ELEMENT F-14.4-7  S/N:5653
+  614140 like 201140 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-1  S/N:5653
+  614141 like 201141 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-2  S/N:5653
+  614142 like 201142 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-3  S/N:5653
+  614143 like 201143 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-4  S/N:5653
+  614144 like 201144 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-5  S/N:5653
+  614145 like 201145 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-6  S/N:5653
+  614146 like 201146 but mat=6143 rho=-6.228 u=614  $ ELEMENT F-14.5-7  S/N:5653
+  614150 like 201150 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-1  S/N:5653
+  614151 like 201151 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-2  S/N:5653
+  614152 like 201152 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-3  S/N:5653
+  614153 like 201153 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-4  S/N:5653
+  614154 like 201154 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-5  S/N:5653
+  614155 like 201155 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-6  S/N:5653
+  614156 like 201156 but mat=6142 rho=-6.230 u=614  $ ELEMENT F-14.6-7  S/N:5653
+  614160 like 201160 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-1  S/N:5653
+  614161 like 201161 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-2  S/N:5653
+  614162 like 201162 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-3  S/N:5653
+  614163 like 201163 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-4  S/N:5653
+  614164 like 201164 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-5  S/N:5653
+  614165 like 201165 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-6  S/N:5653
+  614166 like 201166 but mat=6141 rho=-6.232 u=614  $ ELEMENT F-14.7-7  S/N:5653
 c ==============================================================================
   615000 like 201000 but u=615
   615001 like 201001 but u=615
   615002 like 201002 but u=615
   615003 like 201003 but u=615
   615004 like 201004 but u=615
+  615005 like 201005 but u=615
   615006 like 201006 but u=615
   615007 like 201007 but u=615
   615008 like 201008 but u=615
   615009 like 201009 but u=615
   615010 like 201010 but u=615
   615100 like 201100 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-1  S/N:2448
+  615101 like 201101 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-2  S/N:2448
+  615102 like 201102 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-3  S/N:2448
+  615103 like 201103 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-4  S/N:2448
+  615104 like 201104 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-5  S/N:2448
+  615105 like 201105 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-6  S/N:2448
+  615106 like 201106 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.1-7  S/N:2448
+  615110 like 201110 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-1  S/N:2448
+  615111 like 201111 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-2  S/N:2448
+  615112 like 201112 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-3  S/N:2448
+  615113 like 201113 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-4  S/N:2448
+  615114 like 201114 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-5  S/N:2448
+  615115 like 201115 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-6  S/N:2448
+  615116 like 201116 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.2-7  S/N:2448
+  615120 like 201120 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-1  S/N:2448
+  615121 like 201121 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-2  S/N:2448
+  615122 like 201122 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-3  S/N:2448
+  615123 like 201123 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-4  S/N:2448
+  615124 like 201124 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-5  S/N:2448
+  615125 like 201125 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-6  S/N:2448
+  615126 like 201126 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.3-7  S/N:2448
+  615130 like 201130 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-1  S/N:2448
+  615131 like 201131 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-2  S/N:2448
+  615132 like 201132 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-3  S/N:2448
+  615133 like 201133 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-4  S/N:2448
+  615134 like 201134 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-5  S/N:2448
+  615135 like 201135 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-6  S/N:2448
+  615136 like 201136 but mat=6154 rho=-5.936 u=615  $ ELEMENT F-15.4-7  S/N:2448
+  615140 like 201140 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-1  S/N:2448
+  615141 like 201141 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-2  S/N:2448
+  615142 like 201142 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-3  S/N:2448
+  615143 like 201143 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-4  S/N:2448
+  615144 like 201144 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-5  S/N:2448
+  615145 like 201145 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-6  S/N:2448
+  615146 like 201146 but mat=6153 rho=-5.937 u=615  $ ELEMENT F-15.5-7  S/N:2448
+  615150 like 201150 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-1  S/N:2448
+  615151 like 201151 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-2  S/N:2448
+  615152 like 201152 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-3  S/N:2448
+  615153 like 201153 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-4  S/N:2448
+  615154 like 201154 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-5  S/N:2448
+  615155 like 201155 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-6  S/N:2448
+  615156 like 201156 but mat=6152 rho=-5.938 u=615  $ ELEMENT F-15.6-7  S/N:2448
+  615160 like 201160 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-1  S/N:2448
+  615161 like 201161 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-2  S/N:2448
+  615162 like 201162 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-3  S/N:2448
+  615163 like 201163 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-4  S/N:2448
+  615164 like 201164 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-5  S/N:2448
+  615165 like 201165 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-6  S/N:2448
+  615166 like 201166 but mat=6151 rho=-5.939 u=615  $ ELEMENT F-15.7-7  S/N:2448
 c ==============================================================================
   616000 like 201000 but u=616
   616001 like 201001 but u=616
   616002 like 201002 but u=616
   616003 like 201003 but u=616
   616004 like 201004 but u=616
+  616005 like 201005 but u=616
   616006 like 201006 but u=616
   616007 like 201007 but u=616
   616008 like 201008 but u=616
   616009 like 201009 but u=616
   616010 like 201010 but u=616
   616100 like 201100 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-1  S/N:5655
+  616101 like 201101 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-2  S/N:5655
+  616102 like 201102 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-3  S/N:5655
+  616103 like 201103 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-4  S/N:5655
+  616104 like 201104 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-5  S/N:5655
+  616105 like 201105 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-6  S/N:5655
+  616106 like 201106 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.1-7  S/N:5655
+  616110 like 201110 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-1  S/N:5655
+  616111 like 201111 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-2  S/N:5655
+  616112 like 201112 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-3  S/N:5655
+  616113 like 201113 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-4  S/N:5655
+  616114 like 201114 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-5  S/N:5655
+  616115 like 201115 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-6  S/N:5655
+  616116 like 201116 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.2-7  S/N:5655
+  616120 like 201120 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-1  S/N:5655
+  616121 like 201121 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-2  S/N:5655
+  616122 like 201122 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-3  S/N:5655
+  616123 like 201123 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-4  S/N:5655
+  616124 like 201124 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-5  S/N:5655
+  616125 like 201125 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-6  S/N:5655
+  616126 like 201126 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.3-7  S/N:5655
+  616130 like 201130 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-1  S/N:5655
+  616131 like 201131 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-2  S/N:5655
+  616132 like 201132 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-3  S/N:5655
+  616133 like 201133 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-4  S/N:5655
+  616134 like 201134 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-5  S/N:5655
+  616135 like 201135 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-6  S/N:5655
+  616136 like 201136 but mat=6164 rho=-6.227 u=616  $ ELEMENT F-16.4-7  S/N:5655
+  616140 like 201140 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-1  S/N:5655
+  616141 like 201141 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-2  S/N:5655
+  616142 like 201142 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-3  S/N:5655
+  616143 like 201143 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-4  S/N:5655
+  616144 like 201144 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-5  S/N:5655
+  616145 like 201145 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-6  S/N:5655
+  616146 like 201146 but mat=6163 rho=-6.228 u=616  $ ELEMENT F-16.5-7  S/N:5655
+  616150 like 201150 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-1  S/N:5655
+  616151 like 201151 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-2  S/N:5655
+  616152 like 201152 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-3  S/N:5655
+  616153 like 201153 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-4  S/N:5655
+  616154 like 201154 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-5  S/N:5655
+  616155 like 201155 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-6  S/N:5655
+  616156 like 201156 but mat=6162 rho=-6.230 u=616  $ ELEMENT F-16.6-7  S/N:5655
+  616160 like 201160 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-1  S/N:5655
+  616161 like 201161 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-2  S/N:5655
+  616162 like 201162 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-3  S/N:5655
+  616163 like 201163 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-4  S/N:5655
+  616164 like 201164 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-5  S/N:5655
+  616165 like 201165 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-6  S/N:5655
+  616166 like 201166 but mat=6161 rho=-6.232 u=616  $ ELEMENT F-16.7-7  S/N:5655
 c ==============================================================================
   617000 like 201000 but u=617
   617001 like 201001 but u=617
   617002 like 201002 but u=617
   617003 like 201003 but u=617
   617004 like 201004 but u=617
+  617005 like 201005 but u=617
   617006 like 201006 but u=617
   617007 like 201007 but u=617
   617008 like 201008 but u=617
   617009 like 201009 but u=617
   617010 like 201010 but u=617
   617100 like 201100 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-1  S/N:5939
+  617101 like 201101 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-2  S/N:5939
+  617102 like 201102 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-3  S/N:5939
+  617103 like 201103 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-4  S/N:5939
+  617104 like 201104 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-5  S/N:5939
+  617105 like 201105 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-6  S/N:5939
+  617106 like 201106 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.1-7  S/N:5939
+  617110 like 201110 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-1  S/N:5939
+  617111 like 201111 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-2  S/N:5939
+  617112 like 201112 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-3  S/N:5939
+  617113 like 201113 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-4  S/N:5939
+  617114 like 201114 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-5  S/N:5939
+  617115 like 201115 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-6  S/N:5939
+  617116 like 201116 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.2-7  S/N:5939
+  617120 like 201120 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-1  S/N:5939
+  617121 like 201121 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-2  S/N:5939
+  617122 like 201122 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-3  S/N:5939
+  617123 like 201123 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-4  S/N:5939
+  617124 like 201124 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-5  S/N:5939
+  617125 like 201125 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-6  S/N:5939
+  617126 like 201126 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.3-7  S/N:5939
+  617130 like 201130 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-1  S/N:5939
+  617131 like 201131 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-2  S/N:5939
+  617132 like 201132 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-3  S/N:5939
+  617133 like 201133 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-4  S/N:5939
+  617134 like 201134 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-5  S/N:5939
+  617135 like 201135 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-6  S/N:5939
+  617136 like 201136 but mat=6174 rho=-6.226 u=617  $ ELEMENT F-17.4-7  S/N:5939
+  617140 like 201140 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-1  S/N:5939
+  617141 like 201141 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-2  S/N:5939
+  617142 like 201142 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-3  S/N:5939
+  617143 like 201143 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-4  S/N:5939
+  617144 like 201144 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-5  S/N:5939
+  617145 like 201145 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-6  S/N:5939
+  617146 like 201146 but mat=6173 rho=-6.227 u=617  $ ELEMENT F-17.5-7  S/N:5939
+  617150 like 201150 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-1  S/N:5939
+  617151 like 201151 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-2  S/N:5939
+  617152 like 201152 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-3  S/N:5939
+  617153 like 201153 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-4  S/N:5939
+  617154 like 201154 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-5  S/N:5939
+  617155 like 201155 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-6  S/N:5939
+  617156 like 201156 but mat=6172 rho=-6.229 u=617  $ ELEMENT F-17.6-7  S/N:5939
+  617160 like 201160 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-1  S/N:5939
+  617161 like 201161 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-2  S/N:5939
+  617162 like 201162 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-3  S/N:5939
+  617163 like 201163 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-4  S/N:5939
+  617164 like 201164 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-5  S/N:5939
+  617165 like 201165 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-6  S/N:5939
+  617166 like 201166 but mat=6171 rho=-6.232 u=617  $ ELEMENT F-17.7-7  S/N:5939
 c ==============================================================================
   618000 like 201000 but u=618
   618001 like 201001 but u=618
   618002 like 201002 but u=618
   618003 like 201003 but u=618
   618004 like 201004 but u=618
+  618005 like 201005 but u=618
   618006 like 201006 but u=618
   618007 like 201007 but u=618
   618008 like 201008 but u=618
   618009 like 201009 but u=618
   618010 like 201010 but u=618
   618100 like 201100 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-1  S/N:5946
+  618101 like 201101 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-2  S/N:5946
+  618102 like 201102 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-3  S/N:5946
+  618103 like 201103 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-4  S/N:5946
+  618104 like 201104 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-5  S/N:5946
+  618105 like 201105 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-6  S/N:5946
+  618106 like 201106 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.1-7  S/N:5946
+  618110 like 201110 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-1  S/N:5946
+  618111 like 201111 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-2  S/N:5946
+  618112 like 201112 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-3  S/N:5946
+  618113 like 201113 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-4  S/N:5946
+  618114 like 201114 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-5  S/N:5946
+  618115 like 201115 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-6  S/N:5946
+  618116 like 201116 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.2-7  S/N:5946
+  618120 like 201120 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-1  S/N:5946
+  618121 like 201121 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-2  S/N:5946
+  618122 like 201122 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-3  S/N:5946
+  618123 like 201123 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-4  S/N:5946
+  618124 like 201124 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-5  S/N:5946
+  618125 like 201125 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-6  S/N:5946
+  618126 like 201126 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.3-7  S/N:5946
+  618130 like 201130 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-1  S/N:5946
+  618131 like 201131 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-2  S/N:5946
+  618132 like 201132 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-3  S/N:5946
+  618133 like 201133 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-4  S/N:5946
+  618134 like 201134 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-5  S/N:5946
+  618135 like 201135 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-6  S/N:5946
+  618136 like 201136 but mat=6184 rho=-6.227 u=618  $ ELEMENT F-18.4-7  S/N:5946
+  618140 like 201140 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-1  S/N:5946
+  618141 like 201141 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-2  S/N:5946
+  618142 like 201142 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-3  S/N:5946
+  618143 like 201143 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-4  S/N:5946
+  618144 like 201144 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-5  S/N:5946
+  618145 like 201145 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-6  S/N:5946
+  618146 like 201146 but mat=6183 rho=-6.227 u=618  $ ELEMENT F-18.5-7  S/N:5946
+  618150 like 201150 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-1  S/N:5946
+  618151 like 201151 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-2  S/N:5946
+  618152 like 201152 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-3  S/N:5946
+  618153 like 201153 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-4  S/N:5946
+  618154 like 201154 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-5  S/N:5946
+  618155 like 201155 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-6  S/N:5946
+  618156 like 201156 but mat=6182 rho=-6.230 u=618  $ ELEMENT F-18.6-7  S/N:5946
+  618160 like 201160 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-1  S/N:5946
+  618161 like 201161 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-2  S/N:5946
+  618162 like 201162 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-3  S/N:5946
+  618163 like 201163 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-4  S/N:5946
+  618164 like 201164 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-5  S/N:5946
+  618165 like 201165 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-6  S/N:5946
+  618166 like 201166 but mat=6181 rho=-6.232 u=618  $ ELEMENT F-18.7-7  S/N:5946
 c ==============================================================================
   619000 like 201000 but u=619
   619001 like 201001 but u=619
   619002 like 201002 but u=619
   619003 like 201003 but u=619
   619004 like 201004 but u=619
+  619005 like 201005 but u=619
   619006 like 201006 but u=619
   619007 like 201007 but u=619
   619008 like 201008 but u=619
   619009 like 201009 but u=619
   619010 like 201010 but u=619
   619100 like 201100 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-1  S/N:3113
+  619101 like 201101 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-2  S/N:3113
+  619102 like 201102 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-3  S/N:3113
+  619103 like 201103 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-4  S/N:3113
+  619104 like 201104 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-5  S/N:3113
+  619105 like 201105 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-6  S/N:3113
+  619106 like 201106 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.1-7  S/N:3113
+  619110 like 201110 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-1  S/N:3113
+  619111 like 201111 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-2  S/N:3113
+  619112 like 201112 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-3  S/N:3113
+  619113 like 201113 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-4  S/N:3113
+  619114 like 201114 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-5  S/N:3113
+  619115 like 201115 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-6  S/N:3113
+  619116 like 201116 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.2-7  S/N:3113
+  619120 like 201120 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-1  S/N:3113
+  619121 like 201121 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-2  S/N:3113
+  619122 like 201122 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-3  S/N:3113
+  619123 like 201123 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-4  S/N:3113
+  619124 like 201124 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-5  S/N:3113
+  619125 like 201125 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-6  S/N:3113
+  619126 like 201126 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.3-7  S/N:3113
+  619130 like 201130 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-1  S/N:3113
+  619131 like 201131 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-2  S/N:3113
+  619132 like 201132 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-3  S/N:3113
+  619133 like 201133 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-4  S/N:3113
+  619134 like 201134 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-5  S/N:3113
+  619135 like 201135 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-6  S/N:3113
+  619136 like 201136 but mat=6194 rho=-6.070 u=619  $ ELEMENT F-19.4-7  S/N:3113
+  619140 like 201140 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-1  S/N:3113
+  619141 like 201141 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-2  S/N:3113
+  619142 like 201142 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-3  S/N:3113
+  619143 like 201143 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-4  S/N:3113
+  619144 like 201144 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-5  S/N:3113
+  619145 like 201145 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-6  S/N:3113
+  619146 like 201146 but mat=6193 rho=-6.070 u=619  $ ELEMENT F-19.5-7  S/N:3113
+  619150 like 201150 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-1  S/N:3113
+  619151 like 201151 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-2  S/N:3113
+  619152 like 201152 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-3  S/N:3113
+  619153 like 201153 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-4  S/N:3113
+  619154 like 201154 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-5  S/N:3113
+  619155 like 201155 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-6  S/N:3113
+  619156 like 201156 but mat=6192 rho=-6.072 u=619  $ ELEMENT F-19.6-7  S/N:3113
+  619160 like 201160 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-1  S/N:3113
+  619161 like 201161 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-2  S/N:3113
+  619162 like 201162 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-3  S/N:3113
+  619163 like 201163 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-4  S/N:3113
+  619164 like 201164 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-5  S/N:3113
+  619165 like 201165 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-6  S/N:3113
+  619166 like 201166 but mat=6191 rho=-6.073 u=619  $ ELEMENT F-19.7-7  S/N:3113
 c ==============================================================================
   620000 like 201000 but u=620
   620001 like 201001 but u=620
   620002 like 201002 but u=620
   620003 like 201003 but u=620
   620004 like 201004 but u=620
+  620005 like 201005 but u=620
   620006 like 201006 but u=620
   620007 like 201007 but u=620
   620008 like 201008 but u=620
   620009 like 201009 but u=620
   620010 like 201010 but u=620
   620100 like 201100 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-1  S/N:2949
+  620101 like 201101 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-2  S/N:2949
+  620102 like 201102 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-3  S/N:2949
+  620103 like 201103 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-4  S/N:2949
+  620104 like 201104 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-5  S/N:2949
+  620105 like 201105 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-6  S/N:2949
+  620106 like 201106 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.1-7  S/N:2949
+  620110 like 201110 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-1  S/N:2949
+  620111 like 201111 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-2  S/N:2949
+  620112 like 201112 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-3  S/N:2949
+  620113 like 201113 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-4  S/N:2949
+  620114 like 201114 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-5  S/N:2949
+  620115 like 201115 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-6  S/N:2949
+  620116 like 201116 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.2-7  S/N:2949
+  620120 like 201120 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-1  S/N:2949
+  620121 like 201121 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-2  S/N:2949
+  620122 like 201122 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-3  S/N:2949
+  620123 like 201123 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-4  S/N:2949
+  620124 like 201124 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-5  S/N:2949
+  620125 like 201125 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-6  S/N:2949
+  620126 like 201126 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.3-7  S/N:2949
+  620130 like 201130 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-1  S/N:2949
+  620131 like 201131 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-2  S/N:2949
+  620132 like 201132 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-3  S/N:2949
+  620133 like 201133 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-4  S/N:2949
+  620134 like 201134 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-5  S/N:2949
+  620135 like 201135 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-6  S/N:2949
+  620136 like 201136 but mat=6204 rho=-6.306 u=620  $ ELEMENT F-20.4-7  S/N:2949
+  620140 like 201140 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-1  S/N:2949
+  620141 like 201141 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-2  S/N:2949
+  620142 like 201142 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-3  S/N:2949
+  620143 like 201143 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-4  S/N:2949
+  620144 like 201144 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-5  S/N:2949
+  620145 like 201145 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-6  S/N:2949
+  620146 like 201146 but mat=6203 rho=-6.306 u=620  $ ELEMENT F-20.5-7  S/N:2949
+  620150 like 201150 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-1  S/N:2949
+  620151 like 201151 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-2  S/N:2949
+  620152 like 201152 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-3  S/N:2949
+  620153 like 201153 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-4  S/N:2949
+  620154 like 201154 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-5  S/N:2949
+  620155 like 201155 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-6  S/N:2949
+  620156 like 201156 but mat=6202 rho=-6.306 u=620  $ ELEMENT F-20.6-7  S/N:2949
+  620160 like 201160 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-1  S/N:2949
+  620161 like 201161 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-2  S/N:2949
+  620162 like 201162 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-3  S/N:2949
+  620163 like 201163 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-4  S/N:2949
+  620164 like 201164 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-5  S/N:2949
+  620165 like 201165 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-6  S/N:2949
+  620166 like 201166 but mat=6201 rho=-6.307 u=620  $ ELEMENT F-20.7-7  S/N:2949
 c ==============================================================================
   621000 like 201000 but u=621
   621001 like 201001 but u=621
   621002 like 201002 but u=621
   621003 like 201003 but u=621
   621004 like 201004 but u=621
+  621005 like 201005 but u=621
   621006 like 201006 but u=621
   621007 like 201007 but u=621
   621008 like 201008 but u=621
   621009 like 201009 but u=621
   621010 like 201010 but u=621
   621100 like 201100 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-1  S/N:5649
+  621101 like 201101 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-2  S/N:5649
+  621102 like 201102 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-3  S/N:5649
+  621103 like 201103 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-4  S/N:5649
+  621104 like 201104 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-5  S/N:5649
+  621105 like 201105 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-6  S/N:5649
+  621106 like 201106 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.1-7  S/N:5649
+  621110 like 201110 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-1  S/N:5649
+  621111 like 201111 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-2  S/N:5649
+  621112 like 201112 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-3  S/N:5649
+  621113 like 201113 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-4  S/N:5649
+  621114 like 201114 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-5  S/N:5649
+  621115 like 201115 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-6  S/N:5649
+  621116 like 201116 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.2-7  S/N:5649
+  621120 like 201120 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-1  S/N:5649
+  621121 like 201121 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-2  S/N:5649
+  621122 like 201122 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-3  S/N:5649
+  621123 like 201123 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-4  S/N:5649
+  621124 like 201124 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-5  S/N:5649
+  621125 like 201125 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-6  S/N:5649
+  621126 like 201126 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.3-7  S/N:5649
+  621130 like 201130 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-1  S/N:5649
+  621131 like 201131 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-2  S/N:5649
+  621132 like 201132 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-3  S/N:5649
+  621133 like 201133 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-4  S/N:5649
+  621134 like 201134 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-5  S/N:5649
+  621135 like 201135 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-6  S/N:5649
+  621136 like 201136 but mat=6214 rho=-6.229 u=621  $ ELEMENT F-21.4-7  S/N:5649
+  621140 like 201140 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-1  S/N:5649
+  621141 like 201141 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-2  S/N:5649
+  621142 like 201142 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-3  S/N:5649
+  621143 like 201143 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-4  S/N:5649
+  621144 like 201144 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-5  S/N:5649
+  621145 like 201145 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-6  S/N:5649
+  621146 like 201146 but mat=6213 rho=-6.230 u=621  $ ELEMENT F-21.5-7  S/N:5649
+  621150 like 201150 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-1  S/N:5649
+  621151 like 201151 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-2  S/N:5649
+  621152 like 201152 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-3  S/N:5649
+  621153 like 201153 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-4  S/N:5649
+  621154 like 201154 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-5  S/N:5649
+  621155 like 201155 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-6  S/N:5649
+  621156 like 201156 but mat=6212 rho=-6.232 u=621  $ ELEMENT F-21.6-7  S/N:5649
+  621160 like 201160 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-1  S/N:5649
+  621161 like 201161 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-2  S/N:5649
+  621162 like 201162 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-3  S/N:5649
+  621163 like 201163 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-4  S/N:5649
+  621164 like 201164 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-5  S/N:5649
+  621165 like 201165 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-6  S/N:5649
+  621166 like 201166 but mat=6211 rho=-6.234 u=621  $ ELEMENT F-21.7-7  S/N:5649
 c ==============================================================================
   622000 like 201000 but u=622
   622001 like 201001 but u=622
   622002 like 201002 but u=622
   622003 like 201003 but u=622
   622004 like 201004 but u=622
+  622005 like 201005 but u=622
   622006 like 201006 but u=622
   622007 like 201007 but u=622
   622008 like 201008 but u=622
   622009 like 201009 but u=622
   622010 like 201010 but u=622
   622100 like 201100 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-1  S/N:2917
+  622101 like 201101 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-2  S/N:2917
+  622102 like 201102 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-3  S/N:2917
+  622103 like 201103 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-4  S/N:2917
+  622104 like 201104 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-5  S/N:2917
+  622105 like 201105 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-6  S/N:2917
+  622106 like 201106 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.1-7  S/N:2917
+  622110 like 201110 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-1  S/N:2917
+  622111 like 201111 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-2  S/N:2917
+  622112 like 201112 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-3  S/N:2917
+  622113 like 201113 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-4  S/N:2917
+  622114 like 201114 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-5  S/N:2917
+  622115 like 201115 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-6  S/N:2917
+  622116 like 201116 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.2-7  S/N:2917
+  622120 like 201120 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-1  S/N:2917
+  622121 like 201121 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-2  S/N:2917
+  622122 like 201122 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-3  S/N:2917
+  622123 like 201123 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-4  S/N:2917
+  622124 like 201124 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-5  S/N:2917
+  622125 like 201125 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-6  S/N:2917
+  622126 like 201126 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.3-7  S/N:2917
+  622130 like 201130 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-1  S/N:2917
+  622131 like 201131 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-2  S/N:2917
+  622132 like 201132 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-3  S/N:2917
+  622133 like 201133 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-4  S/N:2917
+  622134 like 201134 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-5  S/N:2917
+  622135 like 201135 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-6  S/N:2917
+  622136 like 201136 but mat=6224 rho=-6.030 u=622  $ ELEMENT F-22.4-7  S/N:2917
+  622140 like 201140 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-1  S/N:2917
+  622141 like 201141 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-2  S/N:2917
+  622142 like 201142 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-3  S/N:2917
+  622143 like 201143 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-4  S/N:2917
+  622144 like 201144 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-5  S/N:2917
+  622145 like 201145 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-6  S/N:2917
+  622146 like 201146 but mat=6223 rho=-6.030 u=622  $ ELEMENT F-22.5-7  S/N:2917
+  622150 like 201150 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-1  S/N:2917
+  622151 like 201151 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-2  S/N:2917
+  622152 like 201152 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-3  S/N:2917
+  622153 like 201153 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-4  S/N:2917
+  622154 like 201154 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-5  S/N:2917
+  622155 like 201155 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-6  S/N:2917
+  622156 like 201156 but mat=6222 rho=-6.030 u=622  $ ELEMENT F-22.6-7  S/N:2917
+  622160 like 201160 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-1  S/N:2917
+  622161 like 201161 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-2  S/N:2917
+  622162 like 201162 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-3  S/N:2917
+  622163 like 201163 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-4  S/N:2917
+  622164 like 201164 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-5  S/N:2917
+  622165 like 201165 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-6  S/N:2917
+  622166 like 201166 but mat=6221 rho=-6.031 u=622  $ ELEMENT F-22.7-7  S/N:2917
 c ==============================================================================
   623000 like 201000 but u=623
   623001 like 201001 but u=623
   623002 like 201002 but u=623
   623003 like 201003 but u=623
   623004 like 201004 but u=623
+  623005 like 201005 but u=623
   623006 like 201006 but u=623
   623007 like 201007 but u=623
   623008 like 201008 but u=623
   623009 like 201009 but u=623
   623010 like 201010 but u=623
   623100 like 201100 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-1  S/N:5000
+  623101 like 201101 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-2  S/N:5000
+  623102 like 201102 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-3  S/N:5000
+  623103 like 201103 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-4  S/N:5000
+  623104 like 201104 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-5  S/N:5000
+  623105 like 201105 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-6  S/N:5000
+  623106 like 201106 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.1-7  S/N:5000
+  623110 like 201110 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-1  S/N:5000
+  623111 like 201111 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-2  S/N:5000
+  623112 like 201112 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-3  S/N:5000
+  623113 like 201113 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-4  S/N:5000
+  623114 like 201114 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-5  S/N:5000
+  623115 like 201115 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-6  S/N:5000
+  623116 like 201116 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.2-7  S/N:5000
+  623120 like 201120 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-1  S/N:5000
+  623121 like 201121 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-2  S/N:5000
+  623122 like 201122 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-3  S/N:5000
+  623123 like 201123 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-4  S/N:5000
+  623124 like 201124 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-5  S/N:5000
+  623125 like 201125 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-6  S/N:5000
+  623126 like 201126 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.3-7  S/N:5000
+  623130 like 201130 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-1  S/N:5000
+  623131 like 201131 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-2  S/N:5000
+  623132 like 201132 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-3  S/N:5000
+  623133 like 201133 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-4  S/N:5000
+  623134 like 201134 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-5  S/N:5000
+  623135 like 201135 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-6  S/N:5000
+  623136 like 201136 but mat=6234 rho=-6.227 u=623  $ ELEMENT F-23.4-7  S/N:5000
+  623140 like 201140 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-1  S/N:5000
+  623141 like 201141 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-2  S/N:5000
+  623142 like 201142 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-3  S/N:5000
+  623143 like 201143 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-4  S/N:5000
+  623144 like 201144 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-5  S/N:5000
+  623145 like 201145 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-6  S/N:5000
+  623146 like 201146 but mat=6233 rho=-6.228 u=623  $ ELEMENT F-23.5-7  S/N:5000
+  623150 like 201150 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-1  S/N:5000
+  623151 like 201151 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-2  S/N:5000
+  623152 like 201152 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-3  S/N:5000
+  623153 like 201153 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-4  S/N:5000
+  623154 like 201154 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-5  S/N:5000
+  623155 like 201155 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-6  S/N:5000
+  623156 like 201156 but mat=6232 rho=-6.230 u=623  $ ELEMENT F-23.6-7  S/N:5000
+  623160 like 201160 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-1  S/N:5000
+  623161 like 201161 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-2  S/N:5000
+  623162 like 201162 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-3  S/N:5000
+  623163 like 201163 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-4  S/N:5000
+  623164 like 201164 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-5  S/N:5000
+  623165 like 201165 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-6  S/N:5000
+  623166 like 201166 but mat=6231 rho=-6.232 u=623  $ ELEMENT F-23.7-7  S/N:5000
 c ==============================================================================
   624000 like 201000 but u=624
   624001 like 201001 but u=624
   624002 like 201002 but u=624
   624003 like 201003 but u=624
   624004 like 201004 but u=624
+  624005 like 201005 but u=624
   624006 like 201006 but u=624
   624007 like 201007 but u=624
   624008 like 201008 but u=624
   624009 like 201009 but u=624
   624010 like 201010 but u=624
   624100 like 201100 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-1  S/N:5948
+  624101 like 201101 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-2  S/N:5948
+  624102 like 201102 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-3  S/N:5948
+  624103 like 201103 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-4  S/N:5948
+  624104 like 201104 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-5  S/N:5948
+  624105 like 201105 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-6  S/N:5948
+  624106 like 201106 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.1-7  S/N:5948
+  624110 like 201110 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-1  S/N:5948
+  624111 like 201111 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-2  S/N:5948
+  624112 like 201112 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-3  S/N:5948
+  624113 like 201113 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-4  S/N:5948
+  624114 like 201114 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-5  S/N:5948
+  624115 like 201115 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-6  S/N:5948
+  624116 like 201116 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.2-7  S/N:5948
+  624120 like 201120 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-1  S/N:5948
+  624121 like 201121 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-2  S/N:5948
+  624122 like 201122 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-3  S/N:5948
+  624123 like 201123 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-4  S/N:5948
+  624124 like 201124 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-5  S/N:5948
+  624125 like 201125 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-6  S/N:5948
+  624126 like 201126 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.3-7  S/N:5948
+  624130 like 201130 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-1  S/N:5948
+  624131 like 201131 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-2  S/N:5948
+  624132 like 201132 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-3  S/N:5948
+  624133 like 201133 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-4  S/N:5948
+  624134 like 201134 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-5  S/N:5948
+  624135 like 201135 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-6  S/N:5948
+  624136 like 201136 but mat=6244 rho=-6.226 u=624  $ ELEMENT F-24.4-7  S/N:5948
+  624140 like 201140 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-1  S/N:5948
+  624141 like 201141 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-2  S/N:5948
+  624142 like 201142 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-3  S/N:5948
+  624143 like 201143 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-4  S/N:5948
+  624144 like 201144 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-5  S/N:5948
+  624145 like 201145 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-6  S/N:5948
+  624146 like 201146 but mat=6243 rho=-6.227 u=624  $ ELEMENT F-24.5-7  S/N:5948
+  624150 like 201150 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-1  S/N:5948
+  624151 like 201151 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-2  S/N:5948
+  624152 like 201152 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-3  S/N:5948
+  624153 like 201153 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-4  S/N:5948
+  624154 like 201154 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-5  S/N:5948
+  624155 like 201155 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-6  S/N:5948
+  624156 like 201156 but mat=6242 rho=-6.229 u=624  $ ELEMENT F-24.6-7  S/N:5948
+  624160 like 201160 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-1  S/N:5948
+  624161 like 201161 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-2  S/N:5948
+  624162 like 201162 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-3  S/N:5948
+  624163 like 201163 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-4  S/N:5948
+  624164 like 201164 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-5  S/N:5948
+  624165 like 201165 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-6  S/N:5948
+  624166 like 201166 but mat=6241 rho=-6.232 u=624  $ ELEMENT F-24.7-7  S/N:5948
 c ==============================================================================
   625000 like 201000 but u=625
   625001 like 201001 but u=625
   625002 like 201002 but u=625
   625003 like 201003 but u=625
   625004 like 201004 but u=625
+  625005 like 201005 but u=625
   625006 like 201006 but u=625
   625007 like 201007 but u=625
   625008 like 201008 but u=625
   625009 like 201009 but u=625
   625010 like 201010 but u=625
   625100 like 201100 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-1  S/N:5022
+  625101 like 201101 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-2  S/N:5022
+  625102 like 201102 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-3  S/N:5022
+  625103 like 201103 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-4  S/N:5022
+  625104 like 201104 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-5  S/N:5022
+  625105 like 201105 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-6  S/N:5022
+  625106 like 201106 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.1-7  S/N:5022
+  625110 like 201110 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-1  S/N:5022
+  625111 like 201111 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-2  S/N:5022
+  625112 like 201112 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-3  S/N:5022
+  625113 like 201113 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-4  S/N:5022
+  625114 like 201114 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-5  S/N:5022
+  625115 like 201115 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-6  S/N:5022
+  625116 like 201116 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.2-7  S/N:5022
+  625120 like 201120 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-1  S/N:5022
+  625121 like 201121 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-2  S/N:5022
+  625122 like 201122 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-3  S/N:5022
+  625123 like 201123 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-4  S/N:5022
+  625124 like 201124 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-5  S/N:5022
+  625125 like 201125 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-6  S/N:5022
+  625126 like 201126 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.3-7  S/N:5022
+  625130 like 201130 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-1  S/N:5022
+  625131 like 201131 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-2  S/N:5022
+  625132 like 201132 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-3  S/N:5022
+  625133 like 201133 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-4  S/N:5022
+  625134 like 201134 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-5  S/N:5022
+  625135 like 201135 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-6  S/N:5022
+  625136 like 201136 but mat=6254 rho=-6.227 u=625  $ ELEMENT F-25.4-7  S/N:5022
+  625140 like 201140 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-1  S/N:5022
+  625141 like 201141 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-2  S/N:5022
+  625142 like 201142 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-3  S/N:5022
+  625143 like 201143 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-4  S/N:5022
+  625144 like 201144 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-5  S/N:5022
+  625145 like 201145 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-6  S/N:5022
+  625146 like 201146 but mat=6253 rho=-6.228 u=625  $ ELEMENT F-25.5-7  S/N:5022
+  625150 like 201150 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-1  S/N:5022
+  625151 like 201151 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-2  S/N:5022
+  625152 like 201152 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-3  S/N:5022
+  625153 like 201153 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-4  S/N:5022
+  625154 like 201154 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-5  S/N:5022
+  625155 like 201155 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-6  S/N:5022
+  625156 like 201156 but mat=6252 rho=-6.230 u=625  $ ELEMENT F-25.6-7  S/N:5022
+  625160 like 201160 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-1  S/N:5022
+  625161 like 201161 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-2  S/N:5022
+  625162 like 201162 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-3  S/N:5022
+  625163 like 201163 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-4  S/N:5022
+  625164 like 201164 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-5  S/N:5022
+  625165 like 201165 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-6  S/N:5022
+  625166 like 201166 but mat=6251 rho=-6.233 u=625  $ ELEMENT F-25.7-7  S/N:5022
 c ==============================================================================
   626000 like 201000 but u=626
   626001 like 201001 but u=626
   626002 like 201002 but u=626
   626003 like 201003 but u=626
   626004 like 201004 but u=626
+  626005 like 201005 but u=626
   626006 like 201006 but u=626
   626007 like 201007 but u=626
   626008 like 201008 but u=626
   626009 like 201009 but u=626
   626010 like 201010 but u=626
   626100 like 201100 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-1  S/N:2907
+  626101 like 201101 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-2  S/N:2907
+  626102 like 201102 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-3  S/N:2907
+  626103 like 201103 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-4  S/N:2907
+  626104 like 201104 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-5  S/N:2907
+  626105 like 201105 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-6  S/N:2907
+  626106 like 201106 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.1-7  S/N:2907
+  626110 like 201110 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-1  S/N:2907
+  626111 like 201111 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-2  S/N:2907
+  626112 like 201112 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-3  S/N:2907
+  626113 like 201113 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-4  S/N:2907
+  626114 like 201114 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-5  S/N:2907
+  626115 like 201115 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-6  S/N:2907
+  626116 like 201116 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.2-7  S/N:2907
+  626120 like 201120 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-1  S/N:2907
+  626121 like 201121 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-2  S/N:2907
+  626122 like 201122 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-3  S/N:2907
+  626123 like 201123 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-4  S/N:2907
+  626124 like 201124 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-5  S/N:2907
+  626125 like 201125 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-6  S/N:2907
+  626126 like 201126 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.3-7  S/N:2907
+  626130 like 201130 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-1  S/N:2907
+  626131 like 201131 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-2  S/N:2907
+  626132 like 201132 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-3  S/N:2907
+  626133 like 201133 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-4  S/N:2907
+  626134 like 201134 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-5  S/N:2907
+  626135 like 201135 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-6  S/N:2907
+  626136 like 201136 but mat=6264 rho=-6.494 u=626  $ ELEMENT F-26.4-7  S/N:2907
+  626140 like 201140 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-1  S/N:2907
+  626141 like 201141 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-2  S/N:2907
+  626142 like 201142 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-3  S/N:2907
+  626143 like 201143 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-4  S/N:2907
+  626144 like 201144 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-5  S/N:2907
+  626145 like 201145 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-6  S/N:2907
+  626146 like 201146 but mat=6263 rho=-6.494 u=626  $ ELEMENT F-26.5-7  S/N:2907
+  626150 like 201150 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-1  S/N:2907
+  626151 like 201151 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-2  S/N:2907
+  626152 like 201152 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-3  S/N:2907
+  626153 like 201153 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-4  S/N:2907
+  626154 like 201154 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-5  S/N:2907
+  626155 like 201155 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-6  S/N:2907
+  626156 like 201156 but mat=6262 rho=-6.495 u=626  $ ELEMENT F-26.6-7  S/N:2907
+  626160 like 201160 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-1  S/N:2907
+  626161 like 201161 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-2  S/N:2907
+  626162 like 201162 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-3  S/N:2907
+  626163 like 201163 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-4  S/N:2907
+  626164 like 201164 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-5  S/N:2907
+  626165 like 201165 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-6  S/N:2907
+  626166 like 201166 but mat=6261 rho=-6.495 u=626  $ ELEMENT F-26.7-7  S/N:2907
 c ==============================================================================
   627000 like 201000 but u=627
   627001 like 201001 but u=627
   627002 like 201002 but u=627
   627003 like 201003 but u=627
   627004 like 201004 but u=627
+  627005 like 201005 but u=627
   627006 like 201006 but u=627
   627007 like 201007 but u=627
   627008 like 201008 but u=627
   627009 like 201009 but u=627
   627010 like 201010 but u=627
   627100 like 201100 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-1  S/N:5944
+  627101 like 201101 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-2  S/N:5944
+  627102 like 201102 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-3  S/N:5944
+  627103 like 201103 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-4  S/N:5944
+  627104 like 201104 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-5  S/N:5944
+  627105 like 201105 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-6  S/N:5944
+  627106 like 201106 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.1-7  S/N:5944
+  627110 like 201110 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-1  S/N:5944
+  627111 like 201111 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-2  S/N:5944
+  627112 like 201112 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-3  S/N:5944
+  627113 like 201113 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-4  S/N:5944
+  627114 like 201114 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-5  S/N:5944
+  627115 like 201115 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-6  S/N:5944
+  627116 like 201116 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.2-7  S/N:5944
+  627120 like 201120 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-1  S/N:5944
+  627121 like 201121 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-2  S/N:5944
+  627122 like 201122 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-3  S/N:5944
+  627123 like 201123 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-4  S/N:5944
+  627124 like 201124 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-5  S/N:5944
+  627125 like 201125 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-6  S/N:5944
+  627126 like 201126 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.3-7  S/N:5944
+  627130 like 201130 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-1  S/N:5944
+  627131 like 201131 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-2  S/N:5944
+  627132 like 201132 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-3  S/N:5944
+  627133 like 201133 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-4  S/N:5944
+  627134 like 201134 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-5  S/N:5944
+  627135 like 201135 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-6  S/N:5944
+  627136 like 201136 but mat=6274 rho=-6.391 u=627  $ ELEMENT F-27.4-7  S/N:5944
+  627140 like 201140 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-1  S/N:5944
+  627141 like 201141 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-2  S/N:5944
+  627142 like 201142 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-3  S/N:5944
+  627143 like 201143 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-4  S/N:5944
+  627144 like 201144 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-5  S/N:5944
+  627145 like 201145 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-6  S/N:5944
+  627146 like 201146 but mat=6273 rho=-6.391 u=627  $ ELEMENT F-27.5-7  S/N:5944
+  627150 like 201150 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-1  S/N:5944
+  627151 like 201151 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-2  S/N:5944
+  627152 like 201152 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-3  S/N:5944
+  627153 like 201153 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-4  S/N:5944
+  627154 like 201154 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-5  S/N:5944
+  627155 like 201155 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-6  S/N:5944
+  627156 like 201156 but mat=6272 rho=-6.394 u=627  $ ELEMENT F-27.6-7  S/N:5944
+  627160 like 201160 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-1  S/N:5944
+  627161 like 201161 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-2  S/N:5944
+  627162 like 201162 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-3  S/N:5944
+  627163 like 201163 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-4  S/N:5944
+  627164 like 201164 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-5  S/N:5944
+  627165 like 201165 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-6  S/N:5944
+  627166 like 201166 but mat=6271 rho=-6.396 u=627  $ ELEMENT F-27.7-7  S/N:5944
 c ==============================================================================
   628000 like 201000 but u=628
   628001 like 201001 but u=628
   628002 like 201002 but u=628
   628003 like 201003 but u=628
   628004 like 201004 but u=628
+  628005 like 201005 but u=628
   628006 like 201006 but u=628
   628007 like 201007 but u=628
   628008 like 201008 but u=628
   628009 like 201009 but u=628
   628010 like 201010 but u=628
   628100 like 201100 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-1  S/N:3326
+  628101 like 201101 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-2  S/N:3326
+  628102 like 201102 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-3  S/N:3326
+  628103 like 201103 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-4  S/N:3326
+  628104 like 201104 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-5  S/N:3326
+  628105 like 201105 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-6  S/N:3326
+  628106 like 201106 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.1-7  S/N:3326
+  628110 like 201110 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-1  S/N:3326
+  628111 like 201111 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-2  S/N:3326
+  628112 like 201112 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-3  S/N:3326
+  628113 like 201113 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-4  S/N:3326
+  628114 like 201114 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-5  S/N:3326
+  628115 like 201115 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-6  S/N:3326
+  628116 like 201116 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.2-7  S/N:3326
+  628120 like 201120 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-1  S/N:3326
+  628121 like 201121 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-2  S/N:3326
+  628122 like 201122 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-3  S/N:3326
+  628123 like 201123 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-4  S/N:3326
+  628124 like 201124 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-5  S/N:3326
+  628125 like 201125 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-6  S/N:3326
+  628126 like 201126 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.3-7  S/N:3326
+  628130 like 201130 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-1  S/N:3326
+  628131 like 201131 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-2  S/N:3326
+  628132 like 201132 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-3  S/N:3326
+  628133 like 201133 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-4  S/N:3326
+  628134 like 201134 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-5  S/N:3326
+  628135 like 201135 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-6  S/N:3326
+  628136 like 201136 but mat=6284 rho=-6.233 u=628  $ ELEMENT F-28.4-7  S/N:3326
+  628140 like 201140 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-1  S/N:3326
+  628141 like 201141 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-2  S/N:3326
+  628142 like 201142 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-3  S/N:3326
+  628143 like 201143 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-4  S/N:3326
+  628144 like 201144 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-5  S/N:3326
+  628145 like 201145 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-6  S/N:3326
+  628146 like 201146 but mat=6283 rho=-6.233 u=628  $ ELEMENT F-28.5-7  S/N:3326
+  628150 like 201150 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-1  S/N:3326
+  628151 like 201151 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-2  S/N:3326
+  628152 like 201152 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-3  S/N:3326
+  628153 like 201153 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-4  S/N:3326
+  628154 like 201154 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-5  S/N:3326
+  628155 like 201155 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-6  S/N:3326
+  628156 like 201156 but mat=6282 rho=-6.235 u=628  $ ELEMENT F-28.6-7  S/N:3326
+  628160 like 201160 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-1  S/N:3326
+  628161 like 201161 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-2  S/N:3326
+  628162 like 201162 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-3  S/N:3326
+  628163 like 201163 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-4  S/N:3326
+  628164 like 201164 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-5  S/N:3326
+  628165 like 201165 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-6  S/N:3326
+  628166 like 201166 but mat=6281 rho=-6.236 u=628  $ ELEMENT F-28.7-7  S/N:3326
 c ==============================================================================
   629000 like 201000 but u=629
   629001 like 201001 but u=629
   629002 like 201002 but u=629
   629003 like 201003 but u=629
   629004 like 201004 but u=629
+  629005 like 201005 but u=629
   629006 like 201006 but u=629
   629007 like 201007 but u=629
   629008 like 201008 but u=629
   629009 like 201009 but u=629
   629010 like 201010 but u=629
   629100 like 201100 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-1  S/N:2914
+  629101 like 201101 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-2  S/N:2914
+  629102 like 201102 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-3  S/N:2914
+  629103 like 201103 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-4  S/N:2914
+  629104 like 201104 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-5  S/N:2914
+  629105 like 201105 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-6  S/N:2914
+  629106 like 201106 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.1-7  S/N:2914
+  629110 like 201110 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-1  S/N:2914
+  629111 like 201111 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-2  S/N:2914
+  629112 like 201112 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-3  S/N:2914
+  629113 like 201113 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-4  S/N:2914
+  629114 like 201114 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-5  S/N:2914
+  629115 like 201115 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-6  S/N:2914
+  629116 like 201116 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.2-7  S/N:2914
+  629120 like 201120 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-1  S/N:2914
+  629121 like 201121 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-2  S/N:2914
+  629122 like 201122 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-3  S/N:2914
+  629123 like 201123 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-4  S/N:2914
+  629124 like 201124 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-5  S/N:2914
+  629125 like 201125 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-6  S/N:2914
+  629126 like 201126 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.3-7  S/N:2914
+  629130 like 201130 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-1  S/N:2914
+  629131 like 201131 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-2  S/N:2914
+  629132 like 201132 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-3  S/N:2914
+  629133 like 201133 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-4  S/N:2914
+  629134 like 201134 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-5  S/N:2914
+  629135 like 201135 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-6  S/N:2914
+  629136 like 201136 but mat=6294 rho=-6.272 u=629  $ ELEMENT F-29.4-7  S/N:2914
+  629140 like 201140 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-1  S/N:2914
+  629141 like 201141 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-2  S/N:2914
+  629142 like 201142 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-3  S/N:2914
+  629143 like 201143 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-4  S/N:2914
+  629144 like 201144 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-5  S/N:2914
+  629145 like 201145 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-6  S/N:2914
+  629146 like 201146 but mat=6293 rho=-6.272 u=629  $ ELEMENT F-29.5-7  S/N:2914
+  629150 like 201150 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-1  S/N:2914
+  629151 like 201151 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-2  S/N:2914
+  629152 like 201152 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-3  S/N:2914
+  629153 like 201153 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-4  S/N:2914
+  629154 like 201154 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-5  S/N:2914
+  629155 like 201155 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-6  S/N:2914
+  629156 like 201156 but mat=6292 rho=-6.273 u=629  $ ELEMENT F-29.6-7  S/N:2914
+  629160 like 201160 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-1  S/N:2914
+  629161 like 201161 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-2  S/N:2914
+  629162 like 201162 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-3  S/N:2914
+  629163 like 201163 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-4  S/N:2914
+  629164 like 201164 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-5  S/N:2914
+  629165 like 201165 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-6  S/N:2914
+  629166 like 201166 but mat=6291 rho=-6.273 u=629  $ ELEMENT F-29.7-7  S/N:2914
 c ==============================================================================
   630000 like 201000 but u=630
   630001 like 201001 but u=630
   630002 like 201002 but u=630
   630003 like 201003 but u=630
   630004 like 201004 but u=630
+  630005 like 201005 but u=630
   630006 like 201006 but u=630
   630007 like 201007 but u=630
   630008 like 201008 but u=630
   630009 like 201009 but u=630
   630010 like 201010 but u=630
   630100 like 201100 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-1  S/N:2909
+  630101 like 201101 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-2  S/N:2909
+  630102 like 201102 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-3  S/N:2909
+  630103 like 201103 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-4  S/N:2909
+  630104 like 201104 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-5  S/N:2909
+  630105 like 201105 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-6  S/N:2909
+  630106 like 201106 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.1-7  S/N:2909
+  630110 like 201110 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-1  S/N:2909
+  630111 like 201111 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-2  S/N:2909
+  630112 like 201112 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-3  S/N:2909
+  630113 like 201113 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-4  S/N:2909
+  630114 like 201114 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-5  S/N:2909
+  630115 like 201115 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-6  S/N:2909
+  630116 like 201116 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.2-7  S/N:2909
+  630120 like 201120 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-1  S/N:2909
+  630121 like 201121 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-2  S/N:2909
+  630122 like 201122 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-3  S/N:2909
+  630123 like 201123 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-4  S/N:2909
+  630124 like 201124 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-5  S/N:2909
+  630125 like 201125 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-6  S/N:2909
+  630126 like 201126 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.3-7  S/N:2909
+  630130 like 201130 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-1  S/N:2909
+  630131 like 201131 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-2  S/N:2909
+  630132 like 201132 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-3  S/N:2909
+  630133 like 201133 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-4  S/N:2909
+  630134 like 201134 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-5  S/N:2909
+  630135 like 201135 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-6  S/N:2909
+  630136 like 201136 but mat=6304 rho=-6.176 u=630  $ ELEMENT F-30.4-7  S/N:2909
+  630140 like 201140 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-1  S/N:2909
+  630141 like 201141 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-2  S/N:2909
+  630142 like 201142 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-3  S/N:2909
+  630143 like 201143 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-4  S/N:2909
+  630144 like 201144 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-5  S/N:2909
+  630145 like 201145 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-6  S/N:2909
+  630146 like 201146 but mat=6303 rho=-6.176 u=630  $ ELEMENT F-30.5-7  S/N:2909
+  630150 like 201150 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-1  S/N:2909
+  630151 like 201151 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-2  S/N:2909
+  630152 like 201152 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-3  S/N:2909
+  630153 like 201153 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-4  S/N:2909
+  630154 like 201154 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-5  S/N:2909
+  630155 like 201155 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-6  S/N:2909
+  630156 like 201156 but mat=6302 rho=-6.177 u=630  $ ELEMENT F-30.6-7  S/N:2909
+  630160 like 201160 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-1  S/N:2909
+  630161 like 201161 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-2  S/N:2909
+  630162 like 201162 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-3  S/N:2909
+  630163 like 201163 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-4  S/N:2909
+  630164 like 201164 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-5  S/N:2909
+  630165 like 201165 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-6  S/N:2909
+  630166 like 201166 but mat=6301 rho=-6.177 u=630  $ ELEMENT F-30.7-7  S/N:2909
 c ==============================================================================
 c ** RABBIT: UNIVERSE = [2]
   145     7  -2.699   (25 -12):(12 219):(-25 -45) u=2 $ Not tube
@@ -1244,6 +5409,12 @@ c **  APPROX CONE 3.797 cm base 3.797 cm heigth
 c *** OTHER PLANES *************************************************************
    25        pz -5.0 $ Bottom of thick part of rabbit
    26        px 0  $ CORE 1/2
+  100        pz 13.6071428571  $ FUEL division
+  101        pz 8.16428571429  $ FUEL division
+  102        pz 2.72142857143  $ FUEL division
+  103        pz -2.72142857143  $ FUEL division
+  104        pz -8.16428571429  $ FUEL division
+  105        pz -13.6071428571  $ FUEL division
 c *** Z CYLINDERS **************************************************************
    30        cz 22.85   $ CORE/REFLECTOR WALL
    31        cz 23.485  $ INNER REFLECTOR
@@ -1270,6 +5441,12 @@ c ** UNIVERSE FUEL PIN cylinders ***********************************************
   200        cz 0.2285   $ Zirc FILLer
   201        cz 0.635    $ Pin diameter
   202        cz 1.8161   $ Fuel diameter MARK III FUEL SCHEMATIC
+  2021       cz 1.58930  $ Fuel diameter MARK III FUEL SCHEMATIC
+  2022       cz 1.36250  $ Fuel diameter MARK III FUEL SCHEMATIC
+  2023       cz 1.13570  $ Fuel diameter MARK III FUEL SCHEMATIC
+  2024       cz 0.90890  $ Fuel diameter MARK III FUEL SCHEMATIC
+  2025       cz 0.68210  $ Fuel diameter MARK III FUEL SCHEMATIC
+  2026       cz 0.45530  $ Fuel diameter MARK III FUEL SCHEMATIC
   203        cz 1.985    $ CT & RABBIT
 c ** UNIVERSE CONTROL ROD cylinders ********************************************
   210        cz 1.69165  $ Guide tube outer radius 1.89865 cm
@@ -1430,6 +5607,105 @@ m2011 62152.71c -1.18153981671e-06
       94240.71c -9.18634751872e-07
       94241.71c -2.12911911447e-08
       94242.71c -1.79384409736e-10
+m2012 62152.71c -1.56197635754e-06
+      62151.71c -1.16498776203e-06
+      62150.71c -3.58433342565e-06
+      64155.71c -3.48699753693e-09
+      63153.71c -6.56798523578e-07
+      60143.71c -2.06157550046e-05
+      60145.71c -1.49164436536e-05
+      95241.71c -6.77435780786e-10
+      95243.71c -1.60987341785e-12
+      94239.71c -6.33903503677e-05
+      94238.71c -2.10534941476e-09
+      63154.71c -1.01217373786e-08
+      44103.71c -1.43491510515e-06
+      92238.71c -0.0626328913937
+      54135.71c -2.8360277105e-08
+      62149.71c -6.42194708036e-07
+      54131.71c -9.53081626025e-06
+      1001.71c -0.0171099437095
+      62147.71c -9.04205580117e-07
+      92234.71c -1.84831183046e-08
+      92235.71c -0.0149446313575
+      92236.71c -0.000117999682869
+      43099.71c -1.56357705841e-05
+      42095.71c -9.53780128474e-06
+      61147.71c -7.22777224242e-06
+      40090.71c -0.904995309108
+      45103.71c -6.7889574932e-06
+      55133.71c -2.27279803279e-05
+      93237.71c -2.78011399044e-07
+      55135.71c -1.68308696218e-05
+      94240.71c -1.67541013129e-06
+      94241.71c -5.55663586739e-08
+      94242.71c -5.95946520263e-10
+m2013 62152.71c -1.94974677102e-06
+      62151.71c -1.30732440542e-06
+      62150.71c -4.40963466639e-06
+      64155.71c -3.60564454741e-09
+      63153.71c -7.91398881127e-07
+      60143.71c -2.45624758009e-05
+      60145.71c -1.78022147036e-05
+      95241.71c -1.15028100733e-09
+      95243.71c -3.97038822185e-12
+      94239.71c -7.51343658661e-05
+      94238.71c -3.34285985641e-09
+      63154.71c -1.43988650595e-08
+      44103.71c -1.71333376525e-06
+      92238.71c -0.0626245714538
+      54135.71c -3.20112721282e-08
+      62149.71c -6.41704101726e-07
+      54131.71c -1.1372376497e-05
+      1001.71c -0.0171115748573
+      62147.71c -1.07810831543e-06
+      92234.71c -2.17534684614e-08
+      92235.71c -0.0148048082923
+      92236.71c -0.000140791292457
+      43099.71c -1.86681272514e-05
+      42095.71c -1.13999284131e-05
+      61147.71c -8.60543362776e-06
+      40090.71c -0.905081585318
+      45103.71c -8.10684940855e-06
+      55133.71c -2.71336439067e-05
+      93237.71c -3.7454981156e-07
+      55135.71c -1.90679904411e-05
+      94240.71c -2.37783008207e-06
+      94241.71c -9.4266086722e-08
+      94242.71c -1.21723604953e-09
+m2014 62152.71c -2.0894668155e-06
+      62151.71c -1.35218650119e-06
+      62150.71c -4.69785311662e-06
+      64155.71c -3.63131597618e-09
+      63153.71c -8.38834130098e-07
+      60143.71c -2.59330534964e-05
+      60145.71c -1.88065294283e-05
+      95241.71c -1.35080653364e-09
+      95243.71c -5.19232204462e-12
+      94239.71c -7.89872594894e-05
+      94238.71c -3.85479333267e-09
+      63154.71c -1.60507195513e-08
+      44103.71c -1.80985360425e-06
+      92238.71c -0.0626218740312
+      54135.71c -3.3177656737e-08
+      62149.71c -6.41090171931e-07
+      54131.71c -1.20133569609e-05
+      1001.71c -0.0171121437146
+      62147.71c -1.13871626449e-06
+      92234.71c -2.29336916552e-08
+      92235.71c -0.0147561898443
+      92236.71c -0.000148681413644
+      43099.71c -1.97240197234e-05
+      42095.71c -1.20505354165e-05
+      61147.71c -9.08331927938e-06
+      40090.71c -0.90511167386
+      45103.71c -8.56613509971e-06
+      55133.71c -2.86675889158e-05
+      93237.71c -4.10247721152e-07
+      55135.71c -1.97912109668e-05
+      94240.71c -2.64278449739e-06
+      94241.71c -1.10576723784e-07
+      94242.71c -1.51341806413e-09
 c **  B-2  Fuel ID= 10880
 m2021 62152.71c -2.71618598977e-07
       62151.71c -3.4189136929e-07
@@ -1464,6 +5740,105 @@ m2021 62152.71c -2.71618598977e-07
       94240.71c -7.12537600578e-08
       94241.71c -4.52720184358e-10
       94242.71c -1.01326100009e-12
+m2022 62152.71c -3.52311255755e-07
+      62151.71c -4.2411720694e-07
+      62150.71c -6.3707724123e-07
+      64155.71c -5.4201944209e-10
+      63153.71c -1.79426735499e-07
+      60143.71c -4.93039209246e-06
+      60145.71c -4.28148027032e-06
+      95241.71c -4.09430639286e-12
+      95243.71c -2.57103359525e-15
+      94239.71c -1.85945186021e-05
+      94238.71c -7.90338871022e-11
+      63154.71c -8.0194364676e-10
+      44103.71c -1.15236432499e-06
+      92238.71c -0.0626616931881
+      54135.71c -2.87166128828e-08
+      62149.71c -5.42082206034e-07
+      54131.71c -2.4839459701e-06
+      1001.71c -0.0171041197293
+      62147.71c -6.129384474e-08
+      92234.71c -5.36456834028e-09
+      92235.71c -0.0154597645595
+      92236.71c -3.40822192127e-05
+      43099.71c -4.34462022027e-06
+      42095.71c -7.81608697733e-07
+      61147.71c -1.99707230925e-06
+      40090.71c -0.904687261645
+      45103.71c -1.21108969277e-06
+      55133.71c -6.07590798417e-06
+      93237.71c -3.77914967406e-08
+      55135.71c -4.8216760482e-06
+      94240.71c -1.33153837802e-07
+      94241.71c -1.2176376398e-09
+      94242.71c -3.47554275897e-12
+m2023 62152.71c -4.32410327808e-07
+      62151.71c -4.98764621175e-07
+      62150.71c -8.3977161524e-07
+      64155.71c -6.16540119562e-10
+      63153.71c -2.15514074021e-07
+      60143.71c -5.90960793152e-06
+      60145.71c -5.13324664743e-06
+      95241.71c -7.10441382202e-12
+      95243.71c -6.48110263661e-15
+      94239.71c -2.23239775448e-05
+      94238.71c -1.19265309518e-10
+      63154.71c -1.15274875626e-09
+      44103.71c -1.38211988771e-06
+      92238.71c -0.0626594850599
+      54135.71c -3.26340937379e-08
+      62149.71c -5.74891184984e-07
+      54131.71c -2.97818747811e-06
+      1001.71c -0.0171046120727
+      62147.71c -7.34679763859e-08
+      92234.71c -6.39762310785e-09
+      92235.71c -0.0154183185818
+      92236.71c -4.08706997835e-05
+      43099.71c -5.20971285006e-06
+      42095.71c -9.37699684008e-07
+      61147.71c -2.39278038896e-06
+      40090.71c -0.904713303139
+      45103.71c -1.45250526719e-06
+      55133.71c -7.28558290213e-06
+      93237.71c -4.82761181725e-08
+      55135.71c -5.48678502254e-06
+      94240.71c -1.92098883783e-07
+      94241.71c -2.11185478047e-09
+      94242.71c -7.2482675235e-12
+m2024 62152.71c -4.60897587971e-07
+      62151.71c -5.23963833446e-07
+      62150.71c -9.12525008107e-07
+      64155.71c -6.40338265046e-10
+      63153.71c -2.28061327613e-07
+      60143.71c -6.24883471445e-06
+      60145.71c -5.42864392458e-06
+      95241.71c -8.41919991608e-12
+      95243.71c -8.60583582613e-15
+      94239.71c -2.36274213283e-05
+      94238.71c -1.35580370297e-10
+      63154.71c -1.28883976365e-09
+      44103.71c -1.46193405216e-06
+      92238.71c -0.0626586587811
+      54135.71c -3.39005153384e-08
+      62149.71c -5.83853013e-07
+      54131.71c -3.14953940428e-06
+      1001.71c -0.0171047841061
+      62147.71c -7.7679365944e-08
+      92234.71c -6.75937009373e-09
+      92235.71c -0.0154039428106
+      92236.71c -4.32218453772e-05
+      43099.71c -5.50975870766e-06
+      42095.71c -9.91753203811e-07
+      61147.71c -2.52982622797e-06
+      40090.71c -0.904722402494
+      45103.71c -1.53616352788e-06
+      55133.71c -7.7050509062e-06
+      93237.71c -5.21788382203e-08
+      55135.71c -5.70163127247e-06
+      94240.71c -2.15001474514e-07
+      94241.71c -2.50327568876e-09
+      94242.71c -9.08790516042e-12
 c **  B-3  Fuel ID= 6577
 m2031 62152.71c -1.16923476372e-06
       62151.71c -9.81101093258e-07
@@ -1498,6 +5873,105 @@ m2031 62152.71c -1.16923476372e-06
       94240.71c -9.05091085462e-07
       94241.71c -2.09061816554e-08
       94242.71c -1.75809751944e-10
+m2032 62152.71c -1.54555160648e-06
+      62151.71c -1.1569795796e-06
+      62150.71c -3.54621370959e-06
+      64155.71c -3.44852719546e-09
+      63153.71c -6.50726471929e-07
+      60143.71c -2.04201661485e-05
+      60145.71c -1.47833844474e-05
+      95241.71c -6.63993656492e-10
+      95243.71c -1.57631869536e-12
+      94239.71c -6.28394073895e-05
+      94238.71c -2.06950298121e-09
+      63154.71c -9.97339944257e-09
+      44103.71c -1.43399854629e-06
+      92238.71c -0.0626332598548
+      54135.71c -2.83621554743e-08
+      62149.71c -6.42123996053e-07
+      54131.71c -9.44273397687e-06
+      1001.71c -0.017109870992
+      62147.71c -8.90741384719e-07
+      92234.71c -1.83193841213e-08
+      92235.71c -0.0149510744757
+      92236.71c -0.000116950392609
+      43099.71c -1.54944335903e-05
+      42095.71c -9.40934277894e-06
+      61147.71c -7.16555964659e-06
+      40090.71c -0.904991462868
+      45103.71c -6.71653325005e-06
+      55133.71c -2.25196019489e-05
+      93237.71c -2.74384950921e-07
+      55135.71c -1.66806846618e-05
+      94240.71c -1.65086173009e-06
+      94241.71c -5.45645962579e-08
+      94242.71c -5.84086545085e-10
+m2033 62152.71c -1.92910666795e-06
+      62151.71c -1.2988689384e-06
+      62150.71c -4.3640254637e-06
+      64155.71c -3.56798430999e-09
+      63153.71c -7.84052959548e-07
+      60143.71c -2.43304006862e-05
+      60145.71c -1.76439296374e-05
+      95241.71c -1.12748238328e-09
+      95243.71c -3.88765308109e-12
+      94239.71c -7.44894016495e-05
+      94238.71c -3.2854866407e-09
+      63154.71c -1.4188349141e-08
+      44103.71c -1.71232089961e-06
+      92238.71c -0.062625016765
+      54135.71c -3.20160401136e-08
+      62149.71c -6.41781621516e-07
+      54131.71c -1.12676183121e-05
+      1001.71c -0.017111488021
+      62147.71c -1.06207503642e-06
+      92234.71c -2.15620385692e-08
+      92235.71c -0.014812470389
+      92236.71c -0.000139543965673
+      43099.71c -1.84998787718e-05
+      42095.71c -1.12465632632e-05
+      61147.71c -8.53174116085e-06
+      40090.71c -0.905076992292
+      45103.71c -8.02056351218e-06
+      55133.71c -2.68856038723e-05
+      93237.71c -3.69578434099e-07
+      55135.71c -1.8898394483e-05
+      94240.71c -2.34314665515e-06
+      94241.71c -9.25709898646e-08
+      94242.71c -1.19303529462e-09
+m2034 62152.71c -2.06732046937e-06
+      62151.71c -1.34363444725e-06
+      62150.71c -4.64967791177e-06
+      64155.71c -3.59409554533e-09
+      63153.71c -8.31039924387e-07
+      60143.71c -2.56884701888e-05
+      60145.71c -1.86395753022e-05
+      95241.71c -1.32405188298e-09
+      95243.71c -5.08420281462e-12
+      94239.71c -7.8312422211e-05
+      94238.71c -3.7885266986e-09
+      63154.71c -1.5816322173e-08
+      44103.71c -1.80883316155e-06
+      92238.71c -0.0626223428618
+      54135.71c -3.31837977982e-08
+      62149.71c -6.41201170226e-07
+      54131.71c -1.19028601002e-05
+      1001.71c -0.0171120520376
+      62147.71c -1.12179034566e-06
+      92234.71c -2.27323945391e-08
+      92235.71c -0.0147642702948
+      92236.71c -0.000147366464151
+      43099.71c -1.95465102055e-05
+      42095.71c -1.18885007052e-05
+      61147.71c -9.00570926222e-06
+      40090.71c -0.90510682479
+      45103.71c -8.47505664845e-06
+      55133.71c -2.84058996403e-05
+      93237.71c -4.04786107465e-07
+      55135.71c -1.96154339628e-05
+      94240.71c -2.60431053474e-06
+      94241.71c -1.08591677995e-07
+      94242.71c -1.48334911282e-09
 c **  B-4  Fuel ID= 2966
 m2041 62152.71c -1.15066085322e-06
       62151.71c -9.31517890363e-07
@@ -1532,6 +6006,105 @@ m2041 62152.71c -1.15066085322e-06
       94240.71c -9.47915171699e-07
       94241.71c -2.43332420504e-08
       94242.71c -2.26347919669e-10
+m2042 62152.71c -1.52162916592e-06
+      62151.71c -1.09471123608e-06
+      62150.71c -3.42833915273e-06
+      64155.71c -3.32048744033e-09
+      63153.71c -6.3240898812e-07
+      60143.71c -1.97054166739e-05
+      60145.71c -1.4309709485e-05
+      95241.71c -8.49915022275e-10
+      95243.71c -2.22395730477e-12
+      94239.71c -6.08339073777e-05
+      94238.71c -2.32262596247e-09
+      63154.71c -1.03943685165e-08
+      44103.71c -1.38813397647e-06
+      92238.71c -0.062634111603
+      54135.71c -2.8351358926e-08
+      62149.71c -6.26006449985e-07
+      54131.71c -9.12809386979e-06
+      1001.71c -0.0171096098859
+      62147.71c -9.27866633095e-07
+      92234.71c -1.77345294104e-08
+      92235.71c -0.0149740186043
+      92236.71c -0.000113255523024
+      43099.71c -1.49942026189e-05
+      42095.71c -9.34506559897e-06
+      61147.71c -6.8509380211e-06
+      40090.71c -0.904977652194
+      45103.71c -6.50195543995e-06
+      55133.71c -2.17816618586e-05
+      93237.71c -2.81380783906e-07
+      55135.71c -1.61479390848e-05
+      94240.71c -1.72594671705e-06
+      94241.71c -6.3152536654e-08
+      94242.71c -7.48367986186e-10
+m2043 62152.71c -1.90046042971e-06
+      62151.71c -1.22572143442e-06
+      62150.71c -4.21684052664e-06
+      64155.71c -3.40732743456e-09
+      63153.71c -7.63154062489e-07
+      60143.71c -2.34832743534e-05
+      60145.71c -1.70854407691e-05
+      95241.71c -1.44084832951e-09
+      95243.71c -5.51700393729e-12
+      94239.71c -7.19778132364e-05
+      94238.71c -3.72265671582e-09
+      63154.71c -1.47977599178e-08
+      44103.71c -1.65869402186e-06
+      92238.71c -0.0626260849365
+      54135.71c -3.20257455816e-08
+      62149.71c -6.3131542893e-07
+      54131.71c -1.0896074825e-05
+      1001.71c -0.0171111805594
+      62147.71c -1.10651631513e-06
+      92234.71c -2.09901856675e-08
+      92235.71c -0.0148395612651
+      92236.71c -0.000135164654212
+      43099.71c -1.79101636374e-05
+      42095.71c -1.11735352658e-05
+      61147.71c -8.15845368555e-06
+      40090.71c -0.905060729743
+      45103.71c -7.76678417733e-06
+      55133.71c -2.60153741533e-05
+      93237.71c -3.81479897878e-07
+      55135.71c -1.82982259837e-05
+      94240.71c -2.44464305017e-06
+      94241.71c -1.0695889911e-07
+      94242.71c -1.52786714606e-09
+m2044 62152.71c -2.03635827759e-06
+      62151.71c -1.26669558528e-06
+      62150.71c -4.49180454972e-06
+      64155.71c -3.42199255443e-09
+      63153.71c -8.09163791288e-07
+      60143.71c -2.47895637231e-05
+      60145.71c -1.80480405562e-05
+      95241.71c -1.69420517366e-09
+      95243.71c -7.24106156759e-12
+      94239.71c -7.56205755745e-05
+      94238.71c -4.30905903224e-09
+      63154.71c -1.64953216666e-08
+      44103.71c -1.75271535792e-06
+      92238.71c -0.0626235237775
+      54135.71c -3.32058254487e-08
+      62149.71c -6.32282363105e-07
+      54131.71c -1.15090276848e-05
+      1001.71c -0.017111725514
+      62147.71c -1.16817292148e-06
+      92234.71c -2.20876347153e-08
+      92235.71c -0.01479296028
+      92236.71c -0.000142744612246
+      43099.71c -1.89218926076e-05
+      42095.71c -1.18079216852e-05
+      61147.71c -8.61057846915e-06
+      40090.71c -0.905089553999
+      45103.71c -8.20540423687e-06
+      55133.71c -2.74841930678e-05
+      93237.71c -4.19454631628e-07
+      55135.71c -1.8991390336e-05
+      94240.71c -2.71770352613e-06
+      94241.71c -1.25752089214e-07
+      94242.71c -1.90497867175e-09
 c **  B-5  Fuel ID= 10895
 m2051 62152.71c -3.23740171924e-07
       62151.71c -2.60088770363e-07
@@ -1566,6 +6139,105 @@ m2051 62152.71c -3.23740171924e-07
       94240.71c -2.65725286777e-07
       94241.71c -6.35621585389e-09
       94242.71c -5.36335991555e-11
+m2052 62152.71c -4.32549196272e-07
+      62151.71c -3.06242382858e-07
+      62150.71c -9.96323269993e-07
+      64155.71c -9.85470742026e-10
+      63153.71c -1.78687838383e-07
+      60143.71c -5.63544564066e-06
+      60145.71c -4.03882347472e-06
+      95241.71c -2.09906251664e-10
+      95243.71c -4.94232648285e-13
+      94239.71c -1.7149908597e-05
+      94238.71c -6.30892897243e-10
+      63154.71c -2.96315908133e-09
+      44103.71c -3.35385737418e-07
+      92238.71c -0.0626618327951
+      54135.71c -6.55457716339e-09
+      62149.71c -1.50176546126e-07
+      54131.71c -2.59443178417e-06
+      1001.71c -0.0171039011553
+      62147.71c -2.66993681762e-07
+      92234.71c -4.95249048186e-09
+      92235.71c -0.0154723411721
+      92236.71c -3.19445745434e-05
+      43099.71c -4.24184844405e-06
+      42095.71c -2.77175531516e-06
+      61147.71c -1.94921092704e-06
+      40090.71c -0.904675700625
+      45103.71c -1.8912652037e-06
+      55133.71c -6.17905565184e-06
+      93237.71c -7.97888493763e-08
+      55135.71c -4.55722385397e-06
+      94240.71c -4.91190734605e-07
+      94241.71c -1.68908176977e-08
+      94242.71c -1.8285362077e-10
+m2053 62152.71c -5.41977295886e-07
+      62151.71c -3.41930818098e-07
+      62150.71c -1.22327177667e-06
+      64155.71c -1.01102784945e-09
+      63153.71c -2.15872411573e-07
+      60143.71c -6.72440964408e-06
+      60145.71c -4.82822690151e-06
+      95241.71c -3.57237564193e-10
+      95243.71c -1.22509348786e-12
+      94239.71c -2.0298234754e-05
+      94238.71c -1.0106452901e-09
+      63154.71c -4.23267307955e-09
+      44103.71c -4.00980493267e-07
+      92238.71c -0.0626596227823
+      54135.71c -7.40117535085e-09
+      62149.71c -1.49404364098e-07
+      54131.71c -3.10077833613e-06
+      1001.71c -0.0171043457733
+      62147.71c -3.18916047618e-07
+      92234.71c -5.87953642877e-09
+      92235.71c -0.0154341084124
+      92236.71c -3.81706788886e-05
+      43099.71c -5.07306488534e-06
+      42095.71c -3.31911042215e-06
+      61147.71c -2.32398975481e-06
+      40090.71c -0.90469921778
+      45103.71c -2.26227382314e-06
+      55133.71c -7.38933422812e-06
+      93237.71c -1.08324412441e-07
+      55135.71c -5.16808534096e-06
+      94240.71c -6.97391120855e-07
+      94241.71c -2.87274745974e-08
+      94242.71c -3.75148628605e-10
+m2054 62152.71c -5.81330754471e-07
+      62151.71c -3.53056686796e-07
+      62150.71c -1.30239586034e-06
+      64155.71c -1.0157711964e-09
+      63153.71c -2.29005695476e-07
+      60143.71c -7.10203639371e-06
+      60145.71c -5.10266667758e-06
+      95241.71c -4.20201390918e-10
+      95243.71c -1.61306076444e-12
+      94239.71c -2.13342375009e-05
+      94238.71c -1.17068828207e-09
+      63154.71c -4.72384525142e-09
+      44103.71c -4.23768440799e-07
+      92238.71c -0.0626588453751
+      54135.71c -7.67170774101e-09
+      62149.71c -1.49070986042e-07
+      54131.71c -3.27673064313e-06
+      1001.71c -0.0171045017493
+      62147.71c -3.36959053413e-07
+      92234.71c -6.22360937023e-09
+      92235.71c -0.0154208191785
+      92236.71c -4.03313468342e-05
+      43099.71c -5.3621977941e-06
+      42095.71c -3.50987142023e-06
+      61147.71c -2.45394449682e-06
+      40090.71c -0.904707467811
+      45103.71c -2.391344411e-06
+      55133.71c -7.81030894376e-06
+      93237.71c -1.19107767036e-07
+      55135.71c -5.36518551718e-06
+      94240.71c -7.75842458185e-07
+      94241.71c -3.37826586177e-08
+      94242.71c -4.67793633568e-10
 c **  B-6  Fuel ID= 11341
 m2061 62152.71c -1.16271708654e-07
       62151.71c -1.59149270935e-07
@@ -1600,6 +6272,105 @@ m2061 62152.71c -1.16271708654e-07
       94240.71c -1.36559460625e-08
       94241.71c -3.84441142234e-11
       94242.71c -3.97738957606e-14
+m2062 62152.71c -1.49211076521e-07
+      62151.71c -1.9990018793e-07
+      62150.71c -1.59655437157e-07
+      64155.71c -1.30857664031e-10
+      63153.71c -7.84291719646e-08
+      60143.71c -1.61366319302e-06
+      60145.71c -1.9436957194e-06
+      95241.71c -1.63561390286e-13
+      95243.71c -5.01773163208e-17
+      94239.71c -8.15081407314e-06
+      94238.71c -1.00685106684e-11
+      63154.71c -1.54940039591e-10
+      44103.71c -7.55078473357e-07
+      92238.71c -0.0626678355538
+      54135.71c -2.87221099308e-08
+      62149.71c -3.53496655322e-07
+      54131.71c -9.44859497092e-07
+      1001.71c -0.0171028213855
+      62147.71c -9.2333636231e-09
+      92234.71c -2.43715269225e-09
+      92235.71c -0.0155731537684
+      92236.71c -1.55463670468e-05
+      43099.71c -1.86711541669e-06
+      42095.71c -1.05230129799e-07
+      61147.71c -7.3078177304e-07
+      40090.71c -0.904618588418
+      45103.71c -3.21770064937e-07
+      55133.71c -2.42474388999e-06
+      93237.71c -1.19196260706e-08
+      55135.71c -2.17760493545e-06
+      94240.71c -2.5744734049e-08
+      94241.71c -1.04325752586e-10
+      94242.71c -1.37547327913e-13
+m2063 62152.71c -1.81449476496e-07
+      62151.71c -2.3805094496e-07
+      62150.71c -2.19908859344e-07
+      64155.71c -1.53265713336e-10
+      63153.71c -9.42940656795e-08
+      60143.71c -1.93865678376e-06
+      60145.71c -2.33535266223e-06
+      95241.71c -2.85047351608e-13
+      95243.71c -1.26985220462e-16
+      94239.71c -9.81628544322e-06
+      94238.71c -1.48735956762e-11
+      63154.71c -2.23769020552e-10
+      44103.71c -9.07419949947e-07
+      92238.71c -0.0626670099748
+      54135.71c -3.27167232819e-08
+      62149.71c -3.96920621878e-07
+      54131.71c -1.13528927481e-06
+      1001.71c -0.0171030530499
+      62147.71c -1.10919335126e-08
+      92234.71c -2.92073889396e-09
+      92235.71c -0.0155540165667
+      92236.71c -1.86848181795e-05
+      43099.71c -2.24353469428e-06
+      42095.71c -1.26468559703e-07
+      61147.71c -8.77759289016e-07
+      40090.71c -0.904630841831
+      45103.71c -3.86662859721e-07
+      55133.71c -2.91353615909e-06
+      93237.71c -1.47813744675e-08
+      55135.71c -2.48280435302e-06
+      94240.71c -3.72804192391e-08
+      94241.71c -1.81845973293e-10
+      94242.71c -2.8818836498e-13
+m2064 62152.71c -1.930615462e-07
+      62151.71c -2.5142527661e-07
+      62150.71c -2.42884725506e-07
+      64155.71c -1.60936083495e-10
+      63153.71c -9.99289423834e-08
+      60143.71c -2.05401648572e-06
+      60145.71c -2.47436571428e-06
+      95241.71c -3.38652988649e-13
+      95243.71c -1.68162363369e-16
+      94239.71c -1.03895448965e-05
+      94238.71c -1.68485576983e-11
+      63154.71c -2.50913919831e-10
+      44103.71c -9.61499876822e-07
+      92238.71c -0.062666671809
+      54135.71c -3.40340909169e-08
+      62149.71c -4.10760387045e-07
+      54131.71c -1.20288167661e-06
+      1001.71c -0.0171031368065
+      62147.71c -1.17515045387e-08
+      92234.71c -3.09489296304e-09
+      92235.71c -0.0155472175426
+      92236.71c -1.97929161819e-05
+      43099.71c -2.37714939382e-06
+      42095.71c -1.34010588697e-07
+      61147.71c -9.29905289026e-07
+      40090.71c -0.904635271967
+      45103.71c -4.09700256488e-07
+      55133.71c -3.08703550228e-06
+      93237.71c -1.58615459198e-08
+      55135.71c -2.58360313246e-06
+      94240.71c -4.17976612981e-08
+      94241.71c -2.16106552682e-10
+      94242.71c -3.62581551739e-13
 c **  C-1  Fuel ID= 11351
 m3011 62152.71c -3.1161788883e-07
       62151.71c -2.5034988104e-07
@@ -1634,6 +6405,105 @@ m3011 62152.71c -3.1161788883e-07
       94240.71c -2.55775341016e-07
       94241.71c -6.11821064273e-09
       94242.71c -5.16253168085e-11
+m3012 62152.71c -4.16352615608e-07
+      62151.71c -2.94775295415e-07
+      62150.71c -9.59016461081e-07
+      64155.71c -9.48570300403e-10
+      63153.71c -1.71996964806e-07
+      60143.71c -5.42442929688e-06
+      60145.71c -3.88759182116e-06
+      95241.71c -2.02046420768e-10
+      95243.71c -4.75726362702e-13
+      94239.71c -1.65077391504e-05
+      94238.71c -6.07269439405e-10
+      63154.71c -2.85220512396e-09
+      44103.71c -3.22827392155e-07
+      92238.71c -0.0626622405469
+      54135.71c -6.3091444157e-09
+      62149.71c -1.44553263124e-07
+      54131.71c -2.49728462951e-06
+      1001.71c -0.0171038174023
+      62147.71c -2.56996241608e-07
+      92234.71c -4.76704704034e-09
+      92235.71c -0.0154796757382
+      92236.71c -3.07484264917e-05
+      43099.71c -4.08301462565e-06
+      42095.71c -2.6679683727e-06
+      61147.71c -1.87622373325e-06
+      40090.71c -0.904671270683
+      45103.71c -1.82044775751e-06
+      55133.71c -5.9476841127e-06
+      93237.71c -7.6801197229e-08
+      55135.71c -4.38658096665e-06
+      94240.71c -4.72798351905e-07
+      94241.71c -1.62583497757e-08
+      94242.71c -1.76006761629e-10
+m3013 62152.71c -5.21683236697e-07
+      62151.71c -3.29127395678e-07
+      62150.71c -1.17746699845e-06
+      64155.71c -9.73170435172e-10
+      63153.71c -2.07789180908e-07
+      60143.71c -6.47261760711e-06
+      60145.71c -4.64743644542e-06
+      95241.71c -3.43860988593e-10
+      95243.71c -1.17922049661e-12
+      94239.71c -1.95381778649e-05
+      94238.71c -9.72802200559e-10
+      63154.71c -4.07418282792e-09
+      44103.71c -3.85965986339e-07
+      92238.71c -0.0626601132869
+      54135.71c -7.12404217244e-09
+      62149.71c -1.43809995052e-07
+      54131.71c -2.98467129703e-06
+      1001.71c -0.0171042453718
+      62147.71c -3.06974401362e-07
+      92234.71c -5.65938023184e-09
+      92235.71c -0.0154428745845
+      92236.71c -3.67413975838e-05
+      43099.71c -4.88310659772e-06
+      42095.71c -3.19482805115e-06
+      61147.71c -2.23696916189e-06
+      40090.71c -0.90469390725
+      45103.71c -2.17756415132e-06
+      55133.71c -7.11264443442e-06
+      93237.71c -1.04268260911e-07
+      55135.71c -4.97456906159e-06
+      94240.71c -6.71277671469e-07
+      94241.71c -2.76517891872e-08
+      94242.71c -3.61101382473e-10
+m3014 62152.71c -5.59563125405e-07
+      62151.71c -3.39836661985e-07
+      62150.71c -1.25362832177e-06
+      64155.71c -9.77736169953e-10
+      63153.71c -2.20430695796e-07
+      60143.71c -6.83610431864e-06
+      60145.71c -4.91159996618e-06
+      95241.71c -4.04467167431e-10
+      95243.71c -1.55266053941e-12
+      94239.71c -2.05353880254e-05
+      94238.71c -1.12685246557e-09
+      63154.71c -4.54696331217e-09
+      44103.71c -4.07900650977e-07
+      92238.71c -0.0626593649893
+      54135.71c -7.38444461734e-09
+      62149.71c -1.43489100165e-07
+      54131.71c -3.15403516101e-06
+      1001.71c -0.0171043955074
+      62147.71c -3.24341796147e-07
+      92234.71c -5.99056954018e-09
+      92235.71c -0.0154300829591
+      92236.71c -3.8821160437e-05
+      43099.71c -5.16141307444e-06
+      42095.71c -3.37844610244e-06
+      61147.71c -2.36205781588e-06
+      40090.71c -0.904701848362
+      45103.71c -2.30180175785e-06
+      55133.71c -7.51785596983e-06
+      93237.71c -1.14647838378e-07
+      55135.71c -5.16428892378e-06
+      94240.71c -7.46791439098e-07
+      94241.71c -3.25176844597e-08
+      94242.71c -4.502773432e-10
 c **  C-2  Fuel ID= 6316
 m3021 62152.71c -1.13420436881e-06
       62151.71c -9.60585574033e-07
@@ -1668,6 +6538,105 @@ m3021 62152.71c -1.13420436881e-06
       94240.71c -8.66534568601e-07
       94241.71c -1.98101250621e-08
       94242.71c -1.65633308636e-10
+m3022 62152.71c -1.49879313119e-06
+      62151.71c -1.13418164502e-06
+      62150.71c -3.43769335545e-06
+      64155.71c -3.33900867035e-09
+      63153.71c -6.33440372675e-07
+      60143.71c -1.98633579107e-05
+      60145.71c -1.44045874973e-05
+      95241.71c -6.25726212779e-10
+      95243.71c -1.48079410222e-12
+      94239.71c -6.12709663498e-05
+      94238.71c -1.96745427607e-09
+      63154.71c -9.55110654502e-09
+      44103.71c -1.43138925896e-06
+      92238.71c -0.0626343088009
+      54135.71c -2.83675028724e-08
+      62149.71c -6.41922691053e-07
+      54131.71c -9.19197868345e-06
+      1001.71c -0.0171096639778
+      62147.71c -8.52411108326e-07
+      92234.71c -1.78532607238e-08
+      92235.71c -0.0149694169384
+      92236.71c -0.000113963241539
+      43099.71c -1.50920711857e-05
+      42095.71c -9.04364324123e-06
+      61147.71c -6.98845095774e-06
+      40090.71c -0.904980513276
+      45103.71c -6.51035373646e-06
+      55133.71c -2.19263841124e-05
+      93237.71c -2.6406106934e-07
+      55135.71c -1.62531336007e-05
+      94240.71c -1.58097660327e-06
+      94241.71c -5.17127488838e-08
+      94242.71c -5.50323211061e-10
+m3023 62152.71c -1.87034780178e-06
+      62151.71c -1.27479766057e-06
+      62150.71c -4.23418381377e-06
+      64155.71c -3.46077201349e-09
+      63153.71c -7.63140369071e-07
+      60143.71c -2.36697222701e-05
+      60145.71c -1.71933189505e-05
+      95241.71c -1.06257857469e-09
+      95243.71c -3.65212019411e-12
+      94239.71c -7.26532981203e-05
+      94238.71c -3.12215484473e-09
+      63154.71c -1.35890460929e-08
+      44103.71c -1.70943744326e-06
+      92238.71c -0.0626262844905
+      54135.71c -3.20296137579e-08
+      62149.71c -6.42002307186e-07
+      54131.71c -1.09693895608e-05
+      1001.71c -0.0171112408129
+      62147.71c -1.0164310155e-06
+      92234.71c -2.10170701947e-08
+      92235.71c -0.0148342830762
+      92236.71c -0.000135993038268
+      43099.71c -1.80209039399e-05
+      42095.71c -1.08099587419e-05
+      61147.71c -8.32195122972e-06
+      40090.71c -0.905063916728
+      45103.71c -7.77492222734e-06
+      55133.71c -2.61794760424e-05
+      93237.71c -3.55425767229e-07
+      55135.71c -1.84155836087e-05
+      94240.71c -2.24440883229e-06
+      94241.71c -8.77453371507e-08
+      94242.71c -1.12413985768e-09
+m3024 62152.71c -2.00427358513e-06
+      62151.71c -1.3192882029e-06
+      62150.71c -4.51253128972e-06
+      64155.71c -3.48813530337e-09
+      63153.71c -8.08851145155e-07
+      60143.71c -2.49921830729e-05
+      60145.71c -1.81642852751e-05
+      95241.71c -1.24788593882e-09
+      95243.71c -4.77640573896e-12
+      94239.71c -7.63912751509e-05
+      94238.71c -3.59987685177e-09
+      63154.71c -1.51490326669e-08
+      44103.71c -1.80592813459e-06
+      92238.71c -0.0626236775427
+      54135.71c -3.32012803557e-08
+      62149.71c -6.41517163509e-07
+      54131.71c -1.1588294314e-05
+      1001.71c -0.0171117910485
+      62147.71c -1.0736051309e-06
+      92234.71c -2.21593358548e-08
+      92235.71c -0.0147872739644
+      92236.71c -0.000143623026386
+      43099.71c -1.90411707714e-05
+      42095.71c -1.14272154159e-05
+      61147.71c -8.78476673124e-06
+      40090.71c -0.905093020311
+      45103.71c -8.21577177421e-06
+      55133.71c -2.76609147406e-05
+      93237.71c -3.8923782136e-07
+      55135.71c -1.91150267014e-05
+      94240.71c -2.49478170075e-06
+      94241.71c -1.02940589943e-07
+      94242.71c -1.39774791793e-09
 c **  C-3  Fuel ID= 2963
 m3031 62152.71c -1.05430400247e-06
       62151.71c -8.71263092421e-07
@@ -1702,6 +6671,105 @@ m3031 62152.71c -1.05430400247e-06
       94240.71c -8.47515221781e-07
       94241.71c -2.14860963457e-08
       94242.71c -1.98956499034e-10
+m3032 62152.71c -1.39523585911e-06
+      62151.71c -1.02758155223e-06
+      62150.71c -3.12980159019e-06
+      64155.71c -3.01937921661e-09
+      63153.71c -5.84585498403e-07
+      60143.71c -1.81521602542e-05
+      60145.71c -1.32556857447e-05
+      95241.71c -7.50786696645e-10
+      95243.71c -1.97434308066e-12
+      94239.71c -5.64043069972e-05
+      94238.71c -2.06620967948e-09
+      63154.71c -9.30494872896e-09
+      44103.71c -1.37455185834e-06
+      92238.71c -0.0626369868943
+      54135.71c -2.83992010127e-08
+      62149.71c -6.22162412505e-07
+      54131.71c -8.42979481033e-06
+      1001.71c -0.0171090344672
+      62147.71c -8.28792804213e-07
+      92234.71c -1.64182319091e-08
+      92235.71c -0.0150250653646
+      92236.71c -0.000104946420297
+      43099.71c -1.38745063335e-05
+      42095.71c -8.38414311515e-06
+      61147.71c -6.34895214145e-06
+      40090.71c -0.904947216609
+      45103.71c -5.9344685506e-06
+      55133.71c -2.01302829122e-05
+      93237.71c -2.54785205941e-07
+      55135.71c -1.49566214832e-05
+      94240.71c -1.54522294265e-06
+      94241.71c -5.5980224734e-08
+      94242.71c -6.61374574747e-10
+m3033 62152.71c -1.74154298769e-06
+      62151.71c -1.15365813485e-06
+      62150.71c -3.8570738555e-06
+      64155.71c -3.10717066904e-09
+      63153.71c -7.05087430628e-07
+      60143.71c -2.16346021214e-05
+      60145.71c -1.582785376e-05
+      95241.71c -1.27411239912e-09
+      95243.71c -4.8555127975e-12
+      94239.71c -6.67861082287e-05
+      94238.71c -3.29987715269e-09
+      63154.71c -1.32428865602e-08
+      44103.71c -1.64288510922e-06
+      92238.71c -0.0626296755441
+      54135.71c -3.20976982123e-08
+      62149.71c -6.29584479654e-07
+      54131.71c -1.00631338803e-05
+      1001.71c -0.0171104893331
+      62147.71c -9.88330569589e-07
+      92234.71c -1.94286866895e-08
+      92235.71c -0.014900443065
+      92236.71c -0.000125249917864
+      43099.71c -1.65734620546e-05
+      42095.71c -1.00239310223e-05
+      61147.71c -7.56206064747e-06
+      40090.71c -0.905024168746
+      45103.71c -7.08913186274e-06
+      55133.71c -2.40441182411e-05
+      93237.71c -3.4376956913e-07
+      55135.71c -1.69497854232e-05
+      94240.71c -2.18857425291e-06
+      94241.71c -9.48932365448e-08
+      94242.71c -1.35128281165e-09
+m3034 62152.71c -1.8649704322e-06
+      62151.71c -1.19329095762e-06
+      62150.71c -4.10991828335e-06
+      64155.71c -3.1252314605e-09
+      63153.71c -7.47584546815e-07
+      60143.71c -2.28346436403e-05
+      60145.71c -1.67167314671e-05
+      95241.71c -1.49486760985e-09
+      95243.71c -6.39519819613e-12
+      94239.71c -7.03504869305e-05
+      94238.71c -3.81995868896e-09
+      63154.71c -1.47647491401e-08
+      44103.71c -1.73579877775e-06
+      92238.71c -0.0626271428882
+      54135.71c -3.32817846563e-08
+      62149.71c -6.31166517834e-07
+      54131.71c -1.06271035382e-05
+      1001.71c -0.0171109926207
+      62147.71c -1.04331710824e-06
+      92234.71c -2.05366373267e-08
+      92235.71c -0.0148574104713
+      92236.71c -0.000132254023897
+      43099.71c -1.75065725246e-05
+      42095.71c -1.05912950526e-05
+      61147.71c -7.97973761819e-06
+      40090.71c -0.905050789112
+      45103.71c -7.48823960971e-06
+      55133.71c -2.53969831576e-05
+      93237.71c -3.77969220039e-07
+      55135.71c -1.75897913928e-05
+      94240.71c -2.43520588829e-06
+      94241.71c -1.11368376384e-07
+      94242.71c -1.6796818891e-09
 c **  C-4  Fuel ID= 10894
 m3041 62152.71c -3.61547363614e-08
       62151.71c -2.90462591255e-08
@@ -1736,6 +6804,105 @@ m3041 62152.71c -3.61547363614e-08
       94240.71c -2.96757354236e-08
       94241.71c -7.09851073126e-10
       94242.71c -5.98970657876e-12
+m3042 62152.71c -4.83063379551e-08
+      62151.71c -3.42006138723e-08
+      62150.71c -1.11267640785e-07
+      64155.71c -1.10055649437e-10
+      63153.71c -1.99555453663e-08
+      60143.71c -6.29356715932e-07
+      60145.71c -4.51048744032e-07
+      95241.71c -2.34419631782e-11
+      95243.71c -5.51950380263e-14
+      94239.71c -1.91527180659e-06
+      94238.71c -7.04570156882e-11
+      63154.71c -3.30920425309e-10
+      44103.71c -3.74552927543e-08
+      92238.71c -0.0626715061771
+      54135.71c -7.32003717348e-10
+      62149.71c -1.67714540973e-08
+      54131.71c -2.89741605458e-07
+      1001.71c -0.0171019142242
+      62147.71c -2.98173875578e-08
+      92234.71c -5.53085477901e-10
+      92235.71c -0.0156463442367
+      92236.71c -3.56751423195e-06
+      43099.71c -4.73722217631e-07
+      42095.71c -3.0954478736e-07
+      61147.71c -2.17684468261e-07
+      40090.71c -0.904570605988
+      45103.71c -2.11213191192e-07
+      55133.71c -6.90066131514e-07
+      93237.71c -8.91067919264e-09
+      55135.71c -5.08942791997e-07
+      94240.71c -5.48553224251e-08
+      94241.71c -1.88633698796e-09
+      94242.71c -2.04207726597e-11
+m3043 62152.71c -6.05270767918e-08
+      62151.71c -3.8186235921e-08
+      62150.71c -1.36612853206e-07
+      64155.71c -1.12909822509e-10
+      63153.71c -2.41082534853e-08
+      60143.71c -7.50970311851e-07
+      60145.71c -5.39207938515e-07
+      95241.71c -3.98956665621e-11
+      95243.71c -1.36816298727e-13
+      94239.71c -2.26687136717e-06
+      94238.71c -1.12867098949e-10
+      63154.71c -4.72697528966e-10
+      44103.71c -4.47808003993e-08
+      92238.71c -0.0626712593668
+      54135.71c -8.26550322701e-10
+      62149.71c -1.66852181585e-08
+      54131.71c -3.46289503066e-07
+      1001.71c -0.0171019638784
+      62147.71c -3.56159865937e-08
+      92234.71c -6.56616348372e-10
+      92235.71c -0.015642074469
+      92236.71c -4.26283467929e-06
+      43099.71c -5.66551016465e-07
+      42095.71c -3.70672448693e-07
+      61147.71c -2.59539112469e-07
+      40090.71c -0.904573232343
+      45103.71c -2.52646785127e-07
+      55133.71c -8.25227926818e-07
+      93237.71c -1.20974809831e-08
+      55135.71c -5.77162734812e-07
+      94240.71c -7.78834210333e-08
+      94241.71c -3.20823413488e-09
+      94242.71c -4.18959429192e-11
+m3044 62152.71c -6.49220022397e-08
+      62151.71c -3.94287534843e-08
+      62150.71c -1.45449292526e-07
+      64155.71c -1.13439551203e-10
+      63153.71c -2.55749556689e-08
+      60143.71c -7.93143006992e-07
+      60145.71c -5.69856892865e-07
+      95241.71c -4.69273566424e-11
+      95243.71c -1.80143805839e-13
+      94239.71c -2.38257034255e-06
+      94238.71c -1.30740420468e-10
+      63154.71c -5.27550778338e-10
+      44103.71c -4.73257185365e-08
+      92238.71c -0.0626711725473
+      54135.71c -8.56762907025e-10
+      62149.71c -1.66479870801e-08
+      54131.71c -3.65939549071e-07
+      1001.71c -0.0171019812975
+      62147.71c -3.76309979337e-08
+      92234.71c -6.95041812884e-10
+      92235.71c -0.0156405903506
+      92236.71c -4.50413429766e-06
+      43099.71c -5.98840874185e-07
+      42095.71c -3.91976303425e-07
+      61147.71c -2.7405223084e-07
+      40090.71c -0.904574153692
+      45103.71c -2.67061162707e-07
+      55133.71c -8.72241647014e-07
+      93237.71c -1.33017471703e-08
+      55135.71c -5.99174537875e-07
+      94240.71c -8.66447292191e-08
+      94241.71c -3.77278824761e-09
+      94242.71c -5.22423750896e-11
 c **  C-5  Fuel ID= 2953
 m3051 62152.71c -9.8682469228e-07
       62151.71c -8.30856105188e-07
@@ -1770,6 +6937,105 @@ m3051 62152.71c -9.8682469228e-07
       94240.71c -7.81211342098e-07
       94241.71c -1.96070781616e-08
       94242.71c -1.79586415596e-10
+m3052 62152.71c -1.32102003451e-06
+      62151.71c -9.88908345303e-07
+      62150.71c -2.95479419737e-06
+      64155.71c -2.84131079827e-09
+      63153.71c -5.56780956448e-07
+      60143.71c -1.72440953731e-05
+      60145.71c -1.2640274695e-05
+      95241.71c -7.01584900861e-10
+      95243.71c -1.86774959571e-12
+      94239.71c -5.42204355921e-05
+      94238.71c -1.9314350902e-09
+      63154.71c -8.69438133207e-09
+      44103.71c -1.36882559261e-06
+      92238.71c -0.0626382913686
+      54135.71c -2.84532133042e-08
+      62149.71c -6.20724011485e-07
+      54131.71c -8.02169416947e-06
+      1001.71c -0.0171086978822
+      62147.71c -7.69671782629e-07
+      92234.71c -1.57563144686e-08
+      92235.71c -0.0150547887757
+      92236.71c -0.000100179245747
+      43099.71c -1.32207557301e-05
+      42095.71c -7.81386619368e-06
+      61147.71c -6.05661278225e-06
+      40090.71c -0.904929413636
+      45103.71c -5.60156854675e-06
+      55133.71c -1.91657014673e-05
+      93237.71c -2.40233142589e-07
+      55135.71c -1.42611821671e-05
+      94240.71c -1.45048231012e-06
+      94241.71c -5.24655463193e-08
+      94242.71c -6.19125203192e-10
+m3053 62152.71c -1.65144556964e-06
+      62151.71c -1.11357896242e-06
+      62150.71c -3.65364981178e-06
+      64155.71c -2.93158155534e-09
+      63153.71c -6.72735579968e-07
+      60143.71c -2.05884047381e-05
+      60145.71c -1.51195074155e-05
+      95241.71c -1.19590565442e-09
+      95243.71c -4.61699356234e-12
+      94239.71c -6.42289279692e-05
+      94238.71c -3.10491470412e-09
+      63154.71c -1.24109128642e-08
+      44103.71c -1.63910379894e-06
+      92238.71c -0.0626312244253
+      54135.71c -3.22170843826e-08
+      62149.71c -6.29478143219e-07
+      54131.71c -9.59269207986e-06
+      1001.71c -0.0171101012289
+      62147.71c -9.19402295589e-07
+      92234.71c -1.8723382631e-08
+      92235.71c -0.0149346768904
+      92236.71c -0.000119780820788
+      43099.71c -1.58200522214e-05
+      42095.71c -9.35832315425e-06
+      61147.71c -7.22635950777e-06
+      40090.71c -0.905003640774
+      45103.71c -6.70283190554e-06
+      55133.71c -2.2931765608e-05
+      93237.71c -3.25684366908e-07
+      55135.71c -1.61820979942e-05
+      94240.71c -2.05860213476e-06
+      94241.71c -8.93563761757e-08
+      94242.71c -1.27300677645e-09
+m3054 62152.71c -1.76959055308e-06
+      62151.71c -1.15283937393e-06
+      62150.71c -3.89708129907e-06
+      64155.71c -2.95072965398e-09
+      63153.71c -7.13466776182e-07
+      60143.71c -2.17423884218e-05
+      60145.71c -1.59771782902e-05
+      95241.71c -1.40008582627e-09
+      95243.71c -6.09340155257e-12
+      94239.71c -6.75432868535e-05
+      94238.71c -3.57747951862e-09
+      63154.71c -1.38465061717e-08
+      44103.71c -1.73264928591e-06
+      92238.71c -0.06262888372
+      54135.71c -3.34166922357e-08
+      62149.71c -6.31297675904e-07
+      54131.71c -1.01359173167e-05
+      1001.71c -0.0171105881785
+      62147.71c -9.71067352849e-07
+      92234.71c -1.96909436278e-08
+      92235.71c -0.0148931179109
+      92236.71c -0.000126559540609
+      43099.71c -1.67197307127e-05
+      42095.71c -9.89328268831e-06
+      61147.71c -7.63011419204e-06
+      40090.71c -0.905029396974
+      45103.71c -7.08398884937e-06
+      55133.71c -2.42349665879e-05
+      93237.71c -3.55828271842e-07
+      55135.71c -1.67990566864e-05
+      94240.71c -2.28889825387e-06
+      94241.71c -1.0457872684e-07
+      94242.71c -1.57963653365e-09
 c **  C-6  Fuel ID= 3082
 m3061 62152.71c -2.58848391008e-06
       62151.71c -1.49230770068e-06
@@ -1804,6 +7070,105 @@ m3061 62152.71c -2.58848391008e-06
       94240.71c -3.18117848363e-06
       94241.71c -1.6253105761e-07
       94242.71c -5.08680607767e-09
+m3062 62152.71c -3.38887529205e-06
+      62151.71c -1.68233623397e-06
+      62150.71c -7.27912252209e-06
+      64155.71c -6.47275690417e-09
+      63153.71c -1.28674049196e-06
+      60143.71c -3.91078298007e-05
+      60145.71c -2.76877560397e-05
+      95241.71c -1.44032840595e-08
+      95243.71c -2.02654792081e-10
+      94239.71c -0.000111723738282
+      94238.71c -1.46732375999e-08
+      63154.71c -3.47234209203e-08
+      44103.71c -1.47365043405e-06
+      92238.71c -0.062596904607
+      54135.71c -2.82574766907e-08
+      62149.71c -6.29107642249e-07
+      54131.71c -1.79613889051e-05
+      1001.71c -0.0171169606178
+      62147.71c -2.99135570291e-06
+      92234.71c -3.35141893902e-08
+      92235.71c -0.0143271673486
+      92236.71c -0.000218078110347
+      43099.71c -2.92314268553e-05
+      42095.71c -2.29714092526e-05
+      61147.71c -1.23146131244e-05
+      40090.71c -0.905366454056
+      45103.71c -1.37817870622e-05
+      55133.71c -4.27603188552e-05
+      93237.71c -8.41044004543e-07
+      55135.71c -3.12015388005e-05
+      94240.71c -5.58316324831e-06
+      94241.71c -3.90734784443e-07
+      94242.71c -1.50760864568e-08
+m3063 62152.71c -4.20812573124e-06
+      62151.71c -1.81663963431e-06
+      62150.71c -8.79052051162e-06
+      64155.71c -6.35315741605e-09
+      63153.71c -1.55947395849e-06
+      60143.71c -4.62744120286e-05
+      60145.71c -3.2879304105e-05
+      95241.71c -2.25588239632e-08
+      95243.71c -4.52278846881e-10
+      94239.71c -0.000130415228912
+      94238.71c -2.37663454095e-08
+      63154.71c -4.88499492829e-08
+      44103.71c -1.74997319503e-06
+      92238.71c -0.0625814401027
+      54135.71c -3.16169001825e-08
+      62149.71c -6.2296151033e-07
+      54131.71c -2.13172674821e-05
+      1001.71c -0.017119898198
+      62147.71c -3.5409422612e-06
+      92234.71c -3.93655217584e-08
+      92235.71c -0.0140762113052
+      92236.71c -0.000258744597319
+      43099.71c -3.47361558662e-05
+      42095.71c -2.73337577866e-05
+      61147.71c -1.45644973615e-05
+      40090.71c -0.905521831321
+      45103.71c -1.63717595365e-05
+      55133.71c -5.0805083256e-05
+      93237.71c -1.14773149175e-06
+      55135.71c -3.51760225967e-05
+      94240.71c -7.73352944002e-06
+      94241.71c -6.29526036169e-07
+      94242.71c -2.86002214496e-08
+m3064 62152.71c -4.4951135138e-06
+      62151.71c -1.85496504407e-06
+      62150.71c -9.3085547381e-06
+      64155.71c -6.2945960572e-09
+      63153.71c -1.65509565726e-06
+      60143.71c -4.87059194828e-05
+      60145.71c -3.46514214398e-05
+      95241.71c -2.57477870338e-08
+      95243.71c -5.753966856e-10
+      94239.71c -0.000136456665208
+      94238.71c -2.75355442932e-08
+      63154.71c -5.41954763571e-08
+      44103.71c -1.84571589244e-06
+      92238.71c -0.0625762896009
+      54135.71c -3.2684947115e-08
+      62149.71c -6.20732673543e-07
+      54131.71c -2.24614192201e-05
+      1001.71c -0.0171209046456
+      62147.71c -3.72743900492e-06
+      92234.71c -4.12984086856e-08
+      92235.71c -0.0139906157625
+      92236.71c -0.000272589409423
+      43099.71c -3.66165904663e-05
+      42095.71c -2.88226995415e-05
+      61147.71c -1.53278652161e-05
+      40090.71c -0.905575065297
+      45103.71c -1.72546716857e-05
+      55133.71c -5.35523166203e-05
+      93237.71c -1.26270727399e-06
+      55135.71c -3.64336301529e-05
+      94240.71c -8.53291937691e-06
+      94241.71c -7.25853944001e-07
+      94242.71c -3.46566114507e-08
 c **  C-8  Fuel ID= 2933
 m3081 62152.71c -7.64676382837e-07
       62151.71c -6.90327520631e-07
@@ -1838,6 +7203,105 @@ m3081 62152.71c -7.64676382837e-07
       94240.71c -5.40177244518e-07
       94241.71c -1.27958907536e-08
       94242.71c -1.15837089109e-10
+m3082 62152.71c -1.00845015042e-06
+      62151.71c -8.23734669412e-07
+      62150.71c -2.21754203648e-06
+      64155.71c -2.10245349644e-09
+      63153.71c -4.38358090056e-07
+      60143.71c -1.34119218117e-05
+      60145.71c -1.00377784898e-05
+      95241.71c -4.38053744685e-10
+      95243.71c -1.14068402194e-12
+      94239.71c -4.29961129891e-05
+      94238.71c -1.25365919595e-09
+      63154.71c -5.94919441949e-09
+      44103.71c -1.33418453012e-06
+      92238.71c -0.062645869763
+      54135.71c -2.85296510003e-08
+      62149.71c -6.11161028759e-07
+      54131.71c -6.2978511059e-06
+      1001.71c -0.01710727432
+      62147.71c -5.24910088067e-07
+      92234.71c -1.24788623863e-08
+      92235.71c -0.0151809230837
+      92236.71c -7.95407258535e-05
+      43099.71c -1.04564382534e-05
+      42095.71c -5.4405605518e-06
+      61147.71c -4.81921912714e-06
+      40090.71c -0.904854117237
+      45103.71c -4.20135134388e-06
+      55133.71c -1.50893595371e-05
+      93237.71c -1.70409661464e-07
+      55135.71c -1.13224359061e-05
+      94240.71c -9.88562572363e-07
+      94241.71c -3.33900384783e-08
+      94242.71c -3.8570889254e-10
+m3083 62152.71c -1.25483062492e-06
+      62151.71c -9.35136763603e-07
+      62150.71c -2.75836485549e-06
+      64155.71c -2.19661998515e-09
+      63153.71c -5.28106517191e-07
+      60143.71c -1.59955140691e-05
+      60145.71c -1.19901594959e-05
+      95241.71c -7.4421467178e-10
+      95243.71c -2.81275198277e-12
+      94239.71c -5.10407275018e-05
+      94238.71c -2.0020764805e-09
+      63154.71c -8.47353688396e-09
+      44103.71c -1.59539251885e-06
+      92238.71c -0.0626404409066
+      54135.71c -3.22925382652e-08
+      62149.71c -6.24875600059e-07
+      54131.71c -7.52118986686e-06
+      1001.71c -0.0171083816055
+      62147.71c -6.25940951026e-07
+      92234.71c -1.47931441677e-08
+      92235.71c -0.0150862485268
+      92236.71c -9.49933866439e-05
+      43099.71c -1.24944449058e-05
+      42095.71c -6.50476230673e-06
+      61147.71c -5.74453428385e-06
+      40090.71c -0.904912684828
+      45103.71c -5.02009113881e-06
+      55133.71c -1.80288975803e-05
+      93237.71c -2.28997086372e-07
+      55135.71c -1.28384032278e-05
+      94240.71c -1.40233222754e-06
+      94241.71c -5.67504426796e-08
+      94242.71c -7.89536390152e-10
+m3084 62152.71c -1.34239428641e-06
+      62151.71c -9.70574297593e-07
+      62150.71c -2.94611605394e-06
+      64155.71c -2.21975515771e-09
+      63153.71c -5.59210534237e-07
+      60143.71c -1.68804646887e-05
+      60145.71c -1.26608662869e-05
+      95241.71c -8.71550171796e-10
+      95243.71c -3.67401526928e-12
+      94239.71c -5.36460227296e-05
+      94238.71c -2.30947767255e-09
+      63154.71c -9.4377158956e-09
+      44103.71c -1.68540020254e-06
+      92238.71c -0.0626386268652
+      54135.71c -3.34965819483e-08
+      62149.71c -6.27946833929e-07
+      54131.71c -7.9411249781e-06
+      1001.71c -0.0171087643997
+      62147.71c -6.60523392798e-07
+      92234.71c -1.55929514581e-08
+      92235.71c -0.0150537496743
+      92236.71c -0.000100278697242
+      43099.71c -1.31947566875e-05
+      42095.71c -6.87052275175e-06
+      61147.71c -6.06149600533e-06
+      40090.71c -0.904932931943
+      45103.71c -5.30123593997e-06
+      55133.71c -1.90386903829e-05
+      93237.71c -2.50660806148e-07
+      55135.71c -1.33223058704e-05
+      94240.71c -1.55674909761e-06
+      94241.71c -6.64471515479e-08
+      94242.71c -9.79454084308e-10
 c **  C-9  Fuel ID= 6314
 m3091 62152.71c -1.11171670695e-06
       62151.71c -9.47415695119e-07
@@ -1872,6 +7336,105 @@ m3091 62152.71c -1.11171670695e-06
       94240.71c -8.41783322834e-07
       94241.71c -1.91065146657e-08
       94242.71c -1.59100569948e-10
+m3092 62152.71c -1.46877666166e-06
+      62151.71c -1.1195465761e-06
+      62150.71c -3.36802902437e-06
+      64155.71c -3.26870356627e-09
+      63153.71c -6.2234361068e-07
+      60143.71c -1.95059164543e-05
+      60145.71c -1.41614198781e-05
+      95241.71c -6.01160536694e-10
+      95243.71c -1.41947236275e-12
+      94239.71c -6.02641101084e-05
+      94238.71c -1.90194440157e-09
+      63154.71c -9.28001682677e-09
+      44103.71c -1.42971423442e-06
+      92238.71c -0.0626349821689
+      54135.71c -2.83709356194e-08
+      62149.71c -6.41793463884e-07
+      54131.71c -9.03100703974e-06
+      1001.71c -0.0171095310856
+      62147.71c -8.27805096981e-07
+      92234.71c -1.75540341414e-08
+      92235.71c -0.0149811918299
+      92236.71c -0.000112045648449
+      43099.71c -1.48337757903e-05
+      42095.71c -8.80888346852e-06
+      61147.71c -6.87475654129e-06
+      40090.71c -0.904973484217
+      45103.71c -6.37799738719e-06
+      55133.71c -2.15455696183e-05
+      93237.71c -2.57433683074e-07
+      55135.71c -1.59786684195e-05
+      94240.71c -1.5361140459e-06
+      94241.71c -4.98820136155e-08
+      94242.71c -5.28648935314e-10
+m3093 62152.71c -1.83262771563e-06
+      62151.71c -1.25934517259e-06
+      62150.71c -4.15083233781e-06
+      64155.71c -3.39194738627e-09
+      63153.71c -7.49715591402e-07
+      60143.71c -2.32456016497e-05
+      60145.71c -1.69040507083e-05
+      95241.71c -1.02091376032e-09
+      95243.71c -3.50092053071e-12
+      94239.71c -7.14746167091e-05
+      94238.71c -3.01730446527e-09
+      63154.71c -1.32043252146e-08
+      44103.71c -1.7075864167e-06
+      92238.71c -0.0626270983032
+      54135.71c -3.20383273201e-08
+      62149.71c -6.42143975721e-07
+      54131.71c -1.07779424665e-05
+      1001.71c -0.0171110821184
+      62147.71c -9.87129966774e-07
+      92234.71c -2.06672293048e-08
+      92235.71c -0.0148482856684
+      92236.71c -0.000133713530573
+      43099.71c -1.7713427416e-05
+      42095.71c -1.05296817178e-05
+      61147.71c -8.18727718323e-06
+      40090.71c -0.905055522907
+      45103.71c -7.61723350682e-06
+      55133.71c -2.57261793008e-05
+      93237.71c -3.46340503193e-07
+      55135.71c -1.81056445483e-05
+      94240.71c -2.1810243692e-06
+      94241.71c -8.46475231875e-08
+      94242.71c -1.07991262891e-09
+m3094 62152.71c -1.96380081805e-06
+      62151.71c -1.30365920095e-06
+      62150.71c -4.42449040779e-06
+      64155.71c -3.42011442899e-09
+      63153.71c -7.94607121765e-07
+      60143.71c -2.45452035495e-05
+      60145.71c -1.78591742011e-05
+      95241.71c -1.19899142873e-09
+      95243.71c -4.57881628622e-12
+      94239.71c -7.51580002882e-05
+      94238.71c -3.47877362194e-09
+      63154.71c -1.47206680763e-08
+      44103.71c -1.80406326084e-06
+      92238.71c -0.0626245343373
+      54135.71c -3.32125032335e-08
+      62149.71c -6.41720014493e-07
+      54131.71c -1.13863597068e-05
+      1001.71c -0.0171116235074
+      62147.71c -1.04267277005e-06
+      92234.71c -2.17914624708e-08
+      92235.71c -0.0148020411043
+      92236.71c -0.000141219937215
+      43099.71c -1.87167695665e-05
+      42095.71c -1.11310946433e-05
+      61147.71c -8.64293330515e-06
+      40090.71c -0.905084158565
+      45103.71c -8.04932459049e-06
+      55133.71c -2.7182673814e-05
+      93237.71c -3.79256643548e-07
+      55135.71c -1.87937916906e-05
+      94240.71c -2.42446997891e-06
+      94241.71c -9.93128901247e-08
+      94242.71c -1.34279647561e-09
 c **  C-10  Fuel ID= 6527
 m3101 62152.71c -1.09401552831e-06
       62151.71c -9.37049015794e-07
@@ -1906,6 +7469,105 @@ m3101 62152.71c -1.09401552831e-06
       94240.71c -8.22300362555e-07
       94241.71c -1.85526672539e-08
       94242.71c -1.53958320157e-10
+m3102 62152.71c -1.44514917684e-06
+      62151.71c -1.10802657144e-06
+      62150.71c -3.31319269782e-06
+      64155.71c -3.21336285482e-09
+      63153.71c -6.13608786775e-07
+      60143.71c -1.92245561639e-05
+      60145.71c -1.3970010318e-05
+      95241.71c -5.81823647718e-10
+      95243.71c -1.37120291298e-12
+      94239.71c -5.94715625194e-05
+      94238.71c -1.85037825839e-09
+      63154.71c -9.06662836695e-09
+      44103.71c -1.42839573769e-06
+      92238.71c -0.062635512211
+      54135.71c -2.83736377086e-08
+      62149.71c -6.41691742628e-07
+      54131.71c -8.90429809871e-06
+      1001.71c -0.0171094264794
+      62147.71c -8.08436458077e-07
+      92234.71c -1.73184977294e-08
+      92235.71c -0.014990460444
+      92236.71c -0.000110536213719
+      43099.71c -1.46304583907e-05
+      42095.71c -8.62409215054e-06
+      61147.71c -6.78526190248e-06
+      40090.71c -0.904967951288
+      45103.71c -6.27381299501e-06
+      55133.71c -2.12458112251e-05
+      93237.71c -2.52216931377e-07
+      55135.71c -1.57626229616e-05
+      94240.71c -1.50080045274e-06
+      94241.71c -4.84409490787e-08
+      94242.71c -5.1158801412e-10
+m3103 62152.71c -1.80293632365e-06
+      62151.71c -1.24718173596e-06
+      62150.71c -4.08522216568e-06
+      64155.71c -3.33777203319e-09
+      63153.71c -7.39148268346e-07
+      60143.71c -2.29117548091e-05
+      60145.71c -1.66763530108e-05
+      95241.71c -9.88117272782e-10
+      95243.71c -3.38190361074e-12
+      94239.71c -7.05468168185e-05
+      94238.71c -2.93477141632e-09
+      63154.71c -1.29014919083e-08
+      44103.71c -1.70612937986e-06
+      92238.71c -0.0626277388965
+      54135.71c -3.20451862066e-08
+      62149.71c -6.42255490207e-07
+      54131.71c -1.06272447534e-05
+      1001.71c -0.0171109572019
+      62147.71c -9.64065625935e-07
+      92234.71c -2.03918518055e-08
+      92235.71c -0.0148593078186
+      92236.71c -0.000131919214509
+      43099.71c -1.74713970568e-05
+      42095.71c -1.03090614638e-05
+      61147.71c -8.08126841408e-06
+      40090.71c -0.905048915705
+      45103.71c -7.49310872105e-06
+      55133.71c -2.53693664561e-05
+      93237.71c -3.39189031304e-07
+      55135.71c -1.78616758018e-05
+      94240.71c -2.13113124509e-06
+      94241.71c -8.22090767768e-08
+      94242.71c -1.0450991351e-09
+m3104 62152.71c -1.93194265135e-06
+      62151.71c -1.29135682121e-06
+      62150.71c -4.35518896649e-06
+      64155.71c -3.36657175052e-09
+      63153.71c -7.8339492887e-07
+      60143.71c -2.41933633075e-05
+      60145.71c -1.76190058074e-05
+      95241.71c -1.16050408119e-09
+      95243.71c -4.42328361141e-12
+      94239.71c -7.41872271243e-05
+      94238.71c -3.38344713056e-09
+      63154.71c -1.43834805916e-08
+      44103.71c -1.80259532418e-06
+      92238.71c -0.0626252087638
+      54135.71c -3.32213373296e-08
+      62149.71c -6.41879688787e-07
+      54131.71c -1.12274067407e-05
+      1001.71c -0.0171114916272
+      62147.71c -1.01832434073e-06
+      92234.71c -2.15018906814e-08
+      92235.71c -0.0148136650688
+      92236.71c -0.000139328343907
+      43099.71c -1.84614169329e-05
+      42095.71c -1.08980029716e-05
+      61147.71c -8.53128902539e-06
+      40090.71c -0.905077183036
+      45103.71c -7.91830557433e-06
+      55133.71c -2.68062261369e-05
+      93237.71c -3.71399952507e-07
+      55135.71c -1.8540931329e-05
+      94240.71c -2.36912405828e-06
+      94241.71c -9.64573436954e-08
+      94242.71c -1.29954140965e-09
 c **  C-11  Fuel ID= 6317
 m3111 62152.71c -1.17847726851e-06
       62151.71c -9.86513957864e-07
@@ -1940,6 +7602,105 @@ m3111 62152.71c -1.17847726851e-06
       94240.71c -9.15263930864e-07
       94241.71c -2.1195367899e-08
       94242.71c -1.78494729555e-10
+m3112 62152.71c -1.55788847659e-06
+      62151.71c -1.16299464224e-06
+      62150.71c -3.57484598437e-06
+      64155.71c -3.47742283011e-09
+      63153.71c -6.55287278496e-07
+      60143.71c -2.05670757913e-05
+      60145.71c -1.48833271581e-05
+      95241.71c -6.74090232129e-10
+      95243.71c -1.60152213689e-12
+      94239.71c -6.3253228697e-05
+      94238.71c -2.09642776034e-09
+      63154.71c -1.00848182301e-08
+      44103.71c -1.43468698701e-06
+      92238.71c -0.0626329830983
+      54135.71c -2.83607446037e-08
+      62149.71c -6.42177108855e-07
+      54131.71c -9.50889386477e-06
+      1001.71c -0.0171099256112
+      62147.71c -9.00854538285e-07
+      92234.71c -1.84423672548e-08
+      92235.71c -0.0149462349556
+      92236.71c -0.00011773852983
+      43099.71c -1.5600593868e-05
+      42095.71c -9.50582983647e-06
+      61147.71c -7.21228843482e-06
+      40090.71c -0.904994351835
+      45103.71c -6.77093215553e-06
+      55133.71c -2.2676117989e-05
+      93237.71c -2.77108829005e-07
+      55135.71c -1.6793490776e-05
+      94240.71c -1.66930039232e-06
+      94241.71c -5.53170346213e-08
+      94242.71c -5.92994745443e-10
+m3113 62152.71c -1.94460975044e-06
+      62151.71c -1.30521996302e-06
+      62150.71c -4.39828320114e-06
+      64155.71c -3.59627146366e-09
+      63153.71c -7.89570588401e-07
+      60143.71c -2.45047156902e-05
+      60145.71c -1.77628198596e-05
+      95241.71c -1.14460676237e-09
+      95243.71c -3.94979665217e-12
+      94239.71c -7.49738436807e-05
+      94238.71c -3.32858049992e-09
+      63154.71c -1.43464707182e-08
+      44103.71c -1.71308167777e-06
+      92238.71c -0.0626246822853
+      54135.71c -3.20124588102e-08
+      62149.71c -6.41723395271e-07
+      54131.71c -1.13463037129e-05
+      1001.71c -0.017111553245
+      62147.71c -1.07411786616e-06
+      92234.71c -2.17058243536e-08
+      92235.71c -0.0148067152764
+      92236.71c -0.000140480851015
+      43099.71c -1.86262526591e-05
+      42095.71c -1.13617580644e-05
+      61147.71c -8.5870926477e-06
+      40090.71c -0.905080442181
+      45103.71c -8.0853741076e-06
+      55133.71c -2.70719103603e-05
+      93237.71c -3.73312508228e-07
+      55135.71c -1.9025780481e-05
+      94240.71c -2.36919788303e-06
+      94241.71c -9.38442018406e-08
+      94242.71c -1.21121283465e-09
+m3114 62152.71c -2.083954913e-06
+      62151.71c -1.35005801971e-06
+      62150.71c -4.68586301087e-06
+      64155.71c -3.62205235387e-09
+      63153.71c -8.36894265991e-07
+      60143.71c -2.58721802789e-05
+      60145.71c -1.87649769817e-05
+      95241.71c -1.34414769136e-09
+      95243.71c -5.16541274541e-12
+      94239.71c -7.88193023347e-05
+      94238.71c -3.83830053408e-09
+      63154.71c -1.5992381463e-08
+      44103.71c -1.80959963095e-06
+      92238.71c -0.0626219907163
+      54135.71c -3.31791851576e-08
+      62149.71c -6.41117797787e-07
+      54131.71c -1.19858559041e-05
+      1001.71c -0.0171121208976
+      62147.71c -1.13450365019e-06
+      92234.71c -2.28835917393e-08
+      92235.71c -0.0147582009506
+      92236.71c -0.000148354141897
+      43099.71c -1.96798401937e-05
+      42095.71c -1.20102073405e-05
+      61147.71c -9.06400327821e-06
+      40090.71c -0.905110466997
+      45103.71c -8.54346700175e-06
+      55133.71c -2.86024582724e-05
+      93237.71c -4.08888405174e-07
+      55135.71c -1.97474626346e-05
+      94240.71c -2.63320888931e-06
+      94241.71c -1.10082674843e-07
+      94242.71c -1.50593434076e-09
 c **  C-12  Fuel ID= 6526
 m3121 62152.71c -1.02657943476e-06
       62151.71c -8.97555128346e-07
@@ -1974,6 +7735,105 @@ m3121 62152.71c -1.02657943476e-06
       94240.71c -7.48076224206e-07
       94241.71c -1.64426774819e-08
       94242.71c -1.34367916315e-10
+m3122 62152.71c -1.35513566366e-06
+      62151.71c -1.06413886612e-06
+      62150.71c -3.10428301316e-06
+      64155.71c -3.00253161743e-09
+      63153.71c -5.8033177093e-07
+      60143.71c -1.81526592437e-05
+      60145.71c -1.32407982542e-05
+      95241.71c -5.08155996499e-10
+      95243.71c -1.18731102662e-12
+      94239.71c -5.64521978515e-05
+      94238.71c -1.65392697532e-09
+      63154.71c -8.25368339673e-09
+      44103.71c -1.42337266716e-06
+      92238.71c -0.0626375315096
+      54135.71c -2.83839318444e-08
+      62149.71c -6.41304215658e-07
+      54131.71c -8.42157566667e-06
+      1001.71c -0.0171090279618
+      62147.71c -7.34647849313e-07
+      92234.71c -1.64211758145e-08
+      92235.71c -0.0150257710374
+      92236.71c -0.000104785727617
+      43099.71c -1.38558810891e-05
+      42095.71c -7.92009357155e-06
+      61147.71c -6.44431461538e-06
+      40090.71c -0.904946872517
+      45103.71c -5.87690222645e-06
+      55133.71c -2.01038231425e-05
+      93237.71c -2.32342697987e-07
+      55135.71c -1.49395556389e-05
+      94240.71c -1.36626642984e-06
+      94241.71c -4.29509325711e-08
+      94242.71c -4.46591106211e-10
+m3123 62152.71c -1.68982117304e-06
+      62151.71c -1.20084275098e-06
+      62150.71c -3.83526741426e-06
+      64155.71c -3.13138045594e-09
+      63153.71c -6.98889989455e-07
+      60143.71c -2.16399001355e-05
+      60145.71c -1.58088942077e-05
+      95241.71c -8.63172654838e-10
+      95243.71c -2.9284854337e-12
+      94239.71c -6.70121821194e-05
+      94238.71c -2.620345664e-09
+      63154.71c -1.17477893445e-08
+      44103.71c -1.70057851373e-06
+      92238.71c -0.0626301793615
+      54135.71c -3.2071316473e-08
+      62149.71c -6.42680326396e-07
+      54131.71c -1.00531324139e-05
+      1001.71c -0.0171104813081
+      62147.71c -8.76197519612e-07
+      92234.71c -1.93427474954e-08
+      92235.71c -0.0149012988501
+      92236.71c -0.000125083417389
+      43099.71c -1.65493351829e-05
+      42095.71c -9.46856556255e-06
+      61147.71c -7.67740732549e-06
+      40090.71c -0.90502374428
+      45103.71c -7.02023113265e-06
+      55133.71c -2.40100183095e-05
+      93237.71c -3.11944103875e-07
+      55135.71c -1.69322292634e-05
+      94240.71c -1.94105365456e-06
+      94241.71c -7.29193394297e-08
+      94242.71c -9.12470338232e-10
+m3124 62152.71c -1.81057274974e-06
+      62151.71c -1.2444885054e-06
+      62150.71c -4.09117160502e-06
+      64155.71c -3.1625904706e-09
+      63153.71c -7.40679892515e-07
+      60143.71c -2.28529592609e-05
+      60145.71c -1.67040374544e-05
+      95241.71c -1.01387902175e-09
+      95243.71c -3.83075154194e-12
+      94239.71c -7.04888773567e-05
+      94238.71c -3.02028226322e-09
+      63154.71c -1.30988990825e-08
+      44103.71c -1.79700293305e-06
+      92238.71c -0.062627778123
+      54135.71c -3.32549925421e-08
+      62149.71c -6.4248799916e-07
+      54131.71c -1.06218444042e-05
+      1001.71c -0.0171109892041
+      62147.71c -9.25564248846e-07
+      92234.71c -2.03987104534e-08
+      92235.71c -0.0148579488291
+      92236.71c -0.000132121950145
+      43099.71c -1.74886012555e-05
+      42095.71c -1.00099947718e-05
+      61147.71c -8.10595835961e-06
+      40090.71c -0.905050608396
+      45103.71c -7.41916307019e-06
+      55133.71c -2.53720752651e-05
+      93237.71c -3.41468355131e-07
+      55135.71c -1.75776104477e-05
+      94240.71c -2.15827297554e-06
+      94241.71c -8.55785824503e-08
+      94242.71c -1.13475279674e-09
 c **  D-1  Fuel ID= 3380
 m4011 62152.71c -3.44117370692e-06
       62151.71c -1.55058447535e-06
@@ -2008,6 +7868,105 @@ m4011 62152.71c -3.44117370692e-06
       94240.71c -5.69132116442e-06
       94241.71c -4.96655030195e-07
       94242.71c -2.49160474075e-08
+m4012 62152.71c -4.43488035962e-06
+      62151.71c -1.72616473916e-06
+      62150.71c -9.04581068733e-06
+      64155.71c -7.10221118062e-09
+      63153.71c -1.67800741988e-06
+      60143.71c -4.73471062717e-05
+      60145.71c -3.37066417181e-05
+      95241.71c -6.56252163243e-08
+      95243.71c -1.18059683514e-09
+      94239.71c -0.00012847151388
+      94238.71c -4.67288383983e-08
+      63154.71c -6.31375766069e-08
+      44103.71c -1.46788619661e-06
+      92238.71c -0.0625776613977
+      54135.71c -2.79501751006e-08
+      62149.71c -6.19682298263e-07
+      54131.71c -2.18938152812e-05
+      1001.71c -0.0171203602496
+      62147.71c -4.97047222497e-06
+      92234.71c -4.03590832029e-08
+      92235.71c -0.0140371282137
+      92236.71c -0.000264518104371
+      43099.71c -3.56930548967e-05
+      42095.71c -2.96437161696e-05
+      61147.71c -1.35915788625e-05
+      40090.71c -0.905546270589
+      45103.71c -1.70740944712e-05
+      55133.71c -5.22655684593e-05
+      93237.71c -1.48280452409e-06
+      55135.71c -3.78892026805e-05
+      94240.71c -9.60304187674e-06
+      94241.71c -1.13218085665e-06
+      94242.71c -7.21385154216e-08
+m4013 62152.71c -5.42575894162e-06
+      62151.71c -1.8459404652e-06
+      62150.71c -1.08390118423e-05
+      64155.71c -6.95439224933e-09
+      63153.71c -2.04431186962e-06
+      60143.71c -5.55815861059e-05
+      60145.71c -3.98066000346e-05
+      95241.71c -1.00084263184e-07
+      95243.71c -2.61665754791e-09
+      94239.71c -0.000148050371078
+      94238.71c -7.59140721651e-08
+      63154.71c -8.77883901011e-08
+      44103.71c -1.73800589464e-06
+      92238.71c -0.0625582844958
+      54135.71c -3.11584245209e-08
+      62149.71c -6.12062366101e-07
+      54131.71c -2.58253555062e-05
+      1001.71c -0.0171238529629
+      62147.71c -5.82579755503e-06
+      92234.71c -4.71836599001e-08
+      92235.71c -0.0137424884707
+      92236.71c -0.000311987222068
+      43099.71c -4.21926653184e-05
+      42095.71c -3.50691632023e-05
+      61147.71c -1.59761011689e-05
+      40090.71c -0.905731010485
+      45103.71c -2.01526538242e-05
+      55133.71c -6.17663109309e-05
+      93237.71c -2.01737280762e-06
+      55135.71c -4.24787051106e-05
+      94240.71c -1.28976467252e-05
+      94241.71c -1.74509161285e-06
+      94242.71c -1.34151830316e-07
+m4014 62152.71c -5.76799990426e-06
+      62151.71c -1.87976617612e-06
+      62150.71c -1.14512293452e-05
+      64155.71c -6.89359124023e-09
+      63153.71c -2.1734908723e-06
+      60143.71c -5.83507260219e-05
+      60145.71c -4.18781063537e-05
+      95241.71c -1.13092046013e-07
+      95243.71c -3.32037026553e-09
+      94239.71c -0.000154264416958
+      94238.71c -8.8004516656e-08
+      63154.71c -9.70330405877e-08
+      44103.71c -1.83118978454e-06
+      92238.71c -0.062551817105
+      54135.71c -3.21699645666e-08
+      62149.71c -6.0933231496e-07
+      54131.71c -2.71583238635e-05
+      1001.71c -0.017125045601
+      62147.71c -6.11327571481e-06
+      92234.71c -4.94114402744e-08
+      92235.71c -0.0136424838601
+      92236.71c -0.000328039399916
+      43099.71c -4.4402176806e-05
+      42095.71c -3.69131442356e-05
+      61147.71c -1.67801642081e-05
+      40090.71c -0.905794092623
+      45103.71c -2.11955093859e-05
+      55133.71c -6.49955453963e-05
+      93237.71c -2.21859069273e-06
+      55135.71c -4.39173585109e-05
+      94240.71c -1.40895699891e-05
+      94241.71c -1.9802188686e-06
+      94242.71c -1.61350753689e-07
 c **  D-2  Fuel ID= 3330
 m4021 62152.71c -2.83405174938e-06
       62151.71c -1.5793589758e-06
@@ -2042,8 +8001,119 @@ m4021 62152.71c -2.83405174938e-06
       94240.71c -3.47818097169e-06
       94241.71c -1.46485222094e-07
       94242.71c -2.3108674183e-09
+m4022 62152.71c -3.75040838656e-06
+      62151.71c -1.77142044709e-06
+      62150.71c -7.98345481409e-06
+      64155.71c -7.01394294833e-09
+      63153.71c -1.39586959956e-06
+      60143.71c -4.26913547029e-05
+      60145.71c -3.01227555622e-05
+      95241.71c -8.13753103246e-09
+      95243.71c -3.75661289162e-11
+      94239.71c -0.000122025075937
+      94238.71c -1.26311576114e-08
+      63154.71c -3.78977773512e-08
+      44103.71c -1.47959486803e-06
+      92238.71c -0.0625895422781
+      54135.71c -2.82285818682e-08
+      62149.71c -6.26171766135e-07
+      54131.71c -1.9575398953e-05
+      1001.71c -0.0171182881014
+      62147.71c -3.3389292173e-06
+      92234.71c -3.67632339433e-08
+      92235.71c -0.0142092833927
+      92236.71c -0.000237405095632
+      43099.71c -3.18188756113e-05
+      42095.71c -2.55917292946e-05
+      61147.71c -1.33441244587e-05
+      40090.71c -0.905436668572
+      45103.71c -1.51229517132e-05
+      55133.71c -4.65752186207e-05
+      93237.71c -9.16547644947e-07
+      55135.71c -3.39508548866e-05
+      94240.71c -6.22137721161e-06
+      94241.71c -3.72216328875e-07
+      94242.71c -7.51999058424e-09
+m4023 62152.71c -4.66779839778e-06
+      62151.71c -1.8977657652e-06
+      62150.71c -9.63784300485e-06
+      64155.71c -6.80465534331e-09
+      63153.71c -1.69416369161e-06
+      60143.71c -5.05542787735e-05
+      60145.71c -3.57985628302e-05
+      95241.71c -1.35658774596e-08
+      95243.71c -9.07869919736e-11
+      94239.71c -0.000142371590185
+      94238.71c -2.04770262985e-08
+      63154.71c -5.35420048324e-08
+      44103.71c -1.75773884117e-06
+      92238.71c -0.0625724614418
+      54135.71c -3.15643085261e-08
+      62149.71c -6.1963404829e-07
+      54131.71c -2.3251237322e-05
+      1001.71c -0.0171214970019
+      62147.71c -3.96233663557e-06
+      92234.71c -4.30338127626e-08
+      92235.71c -0.0139350351265
+      92236.71c -0.000281883896594
+      43099.71c -3.78408209311e-05
+      42095.71c -3.04799328009e-05
+      61147.71c -1.57847747064e-05
+      40090.71c -0.905606396769
+      45103.71c -1.7981580861e-05
+      55133.71c -5.53819491246e-05
+      93237.71c -1.25479299205e-06
+      55135.71c -3.82966383446e-05
+      94240.71c -8.68840041892e-06
+      94241.71c -6.19721620681e-07
+      94242.71c -1.51242792584e-08
+m4024 62152.71c -4.9910699078e-06
+      62151.71c -1.93297683925e-06
+      62150.71c -1.02084591091e-05
+      64155.71c -6.72565204991e-09
+      63153.71c -1.7993225407e-06
+      60143.71c -5.32428793293e-05
+      60145.71c -3.77482083083e-05
+      95241.71c -1.5803843835e-08
+      95243.71c -1.18500884671e-10
+      94239.71c -0.000148942269641
+      94238.71c -2.37331747207e-08
+      63154.71c -5.95085721577e-08
+      44103.71c -1.85138793133e-06
+      92238.71c -0.0625668436942
+      54135.71c -3.25809234268e-08
+      62149.71c -6.17294461854e-07
+      54131.71c -2.45135854242e-05
+      1001.71c -0.0171226028279
+      62147.71c -4.17724194546e-06
+      92234.71c -4.52803279122e-08
+      92235.71c -0.0138408925051
+      92236.71c -0.000297088164317
+      43099.71c -3.99115105415e-05
+      42095.71c -3.21698912738e-05
+      61147.71c -1.66172018759e-05
+      40090.71c -0.905664887159
+      45103.71c -1.8965386346e-05
+      55133.71c -5.84098803164e-05
+      93237.71c -1.38149847346e-06
+      55135.71c -3.96794758774e-05
+      94240.71c -9.60260473809e-06
+      94241.71c -7.21085114723e-07
+      94242.71c -1.86680324765e-08
 c **  D-3  Fuel ID= 10706
 m4031 92238.71c -0.062672852401
+      1001.71c -0.0171016621372
+      92235.71c -0.0156682131003
+      40090.71c -0.904557272362
+m4032 92238.71c -0.062672852401
+      1001.71c -0.0171016621372
+      92235.71c -0.0156682131003
+      40090.71c -0.904557272362
+m4033 92238.71c -0.062672852401
+      1001.71c -0.0171016621372
+      92235.71c -0.0156682131003
+      40090.71c -0.904557272362
+m4034 92238.71c -0.062672852401
       1001.71c -0.0171016621372
       92235.71c -0.0156682131003
       40090.71c -0.904557272362
@@ -2081,6 +8151,105 @@ m4051 62152.71c -3.55781796204e-06
       94240.71c -6.03469776438e-06
       94241.71c -5.42361736252e-07
       94242.71c -2.7628601367e-08
+m4052 62152.71c -4.57796930288e-06
+      62151.71c -1.73216028803e-06
+      62150.71c -9.28748594348e-06
+      64155.71c -7.1883177876e-09
+      63153.71c -1.73153103367e-06
+      60143.71c -4.84742034532e-05
+      60145.71c -3.45299990976e-05
+      95241.71c -7.26321538498e-08
+      95243.71c -1.31437505271e-09
+      94239.71c -0.000130762536731
+      94238.71c -5.11139051501e-08
+      63154.71c -6.70245095072e-08
+      44103.71c -1.467097674e-06
+      92238.71c -0.0625750290104
+      54135.71c -2.79081375798e-08
+      62149.71c -6.18392952205e-07
+      54131.71c -2.2431754104e-05
+      1001.71c -0.0171208253044
+      62147.71c -5.2412067563e-06
+      92234.71c -4.12954349022e-08
+      92235.71c -0.0139974521217
+      92236.71c -0.000270870893546
+      43099.71c -3.65769775056e-05
+      42095.71c -3.05564587322e-05
+      61147.71c -1.37662622208e-05
+      40090.71c -0.905570868708
+      45103.71c -1.75244678036e-05
+      55133.71c -5.35658452586e-05
+      93237.71c -1.57059457159e-06
+      55135.71c -3.88040460088e-05
+      94240.71c -1.01529437872e-05
+      94241.71c -1.23360745414e-06
+      94242.71c -7.99444074903e-08
+m4053 62152.71c -5.59232586826e-06
+      62151.71c -1.84994869141e-06
+      62150.71c -1.11192365456e-05
+      64155.71c -7.03663855924e-09
+      63153.71c -2.11063558688e-06
+      60143.71c -5.68547670347e-05
+      60145.71c -4.0754223985e-05
+      95241.71c -1.10689406045e-07
+      95243.71c -2.91273513947e-09
+      94239.71c -0.000150462781816
+      94238.71c -8.30476543498e-08
+      63154.71c -9.31149994281e-08
+      44103.71c -1.73636882001e-06
+      92238.71c -0.0625551169095
+      54135.71c -3.10957070447e-08
+      62149.71c -6.1057141058e-07
+      54131.71c -2.64420423383e-05
+      1001.71c -0.0171243939576
+      62147.71c -6.13835582042e-06
+      92234.71c -4.82531471901e-08
+      92235.71c -0.0136968366385
+      92236.71c -0.000319270581535
+      43099.71c -4.32126833766e-05
+      42095.71c -3.61273330152e-05
+      61147.71c -1.61692024294e-05
+      40090.71c -0.905759625284
+      45103.71c -2.06698637164e-05
+      55133.71c -6.3265759197e-05
+      93237.71c -2.13633595682e-06
+      55135.71c -4.34776803128e-05
+      94240.71c -1.36040755066e-05
+      94241.71c -1.89769613118e-06
+      94242.71c -1.48590831274e-07
+m4054 62152.71c -5.9421252256e-06
+      62151.71c -1.8831588631e-06
+      62150.71c -1.17443379111e-05
+      64155.71c -6.97553117573e-09
+      63153.71c -2.24440508277e-06
+      60143.71c -5.96700936028e-05
+      60145.71c -4.28666854149e-05
+      95241.71c -1.25040360706e-07
+      95243.71c -3.695870711e-09
+      94239.71c -0.000156700439936
+      94238.71c -9.62764090435e-08
+      63154.71c -1.02893033037e-07
+      44103.71c -1.82920267617e-06
+      92238.71c -0.062548469374
+      54135.71c -3.20995171941e-08
+      62149.71c -6.07772795496e-07
+      54131.71c -2.78008399878e-05
+      1001.71c -0.0171256120657
+      62147.71c -6.43964779866e-06
+      92234.71c -5.05212677051e-08
+      92235.71c -0.0135948609302
+      92236.71c -0.000335624717416
+      43099.71c -4.54672111511e-05
+      42095.71c -3.80198818774e-05
+      61147.71c -1.69788323929e-05
+      40090.71c -0.905824054608
+      45103.71c -2.17345988412e-05
+      55133.71c -6.65609293164e-05
+      93237.71c -2.34935138645e-06
+      55135.71c -4.49410999971e-05
+      94240.71c -1.48496956222e-05
+      94241.71c -2.15181053397e-06
+      94242.71c -1.78681961245e-07
 c **  D-6  Fuel ID= 6224
 m4061 62152.71c -1.02018233071e-06
       62151.71c -8.19601615592e-07
@@ -2115,6 +8284,105 @@ m4061 62152.71c -1.02018233071e-06
       94240.71c -8.37363620283e-07
       94241.71c -2.00299489118e-08
       94242.71c -1.6901223554e-10
+m4062 62152.71c -1.36306546259e-06
+      62151.71c -9.65042632956e-07
+      62150.71c -3.13965174505e-06
+      64155.71c -3.10545284657e-09
+      63153.71c -5.63087905799e-07
+      60143.71c -1.77586304292e-05
+      60145.71c -1.27272939941e-05
+      95241.71c -6.61464555917e-10
+      95243.71c -1.55744470031e-12
+      94239.71c -5.40434436049e-05
+      94238.71c -1.98809366942e-09
+      63154.71c -9.33761948632e-09
+      44103.71c -1.05688027919e-06
+      92238.71c -0.0626384068833
+      54135.71c -2.06550326073e-08
+      62149.71c -4.73242038315e-07
+      54131.71c -8.17567201723e-06
+      1001.71c -0.0171087128823
+      62147.71c -8.41360634756e-07
+      92234.71c -1.5606476183e-08
+      92235.71c -0.0150509600623
+      92236.71c -0.000100664957078
+      43099.71c -1.33670739917e-05
+      42095.71c -8.73446066573e-06
+      61147.71c -6.14242753621e-06
+      40090.71c -0.904930207032
+      45103.71c -5.95982677107e-06
+      55133.71c -1.94716749517e-05
+      93237.71c -2.5143365384e-07
+      55135.71c -1.43608969665e-05
+      94240.71c -1.54785890634e-06
+      94241.71c -5.32269865184e-08
+      94242.71c -5.76215277541e-10
+m4063 62152.71c -1.70789944796e-06
+      62151.71c -1.07750538611e-06
+      62150.71c -3.85482050252e-06
+      64155.71c -3.18598937455e-09
+      63153.71c -6.80265345712e-07
+      60143.71c -2.11902151735e-05
+      60145.71c -1.52148920671e-05
+      95241.71c -1.12574058601e-09
+      95243.71c -3.86056114804e-12
+      94239.71c -6.39645686158e-05
+      94238.71c -3.18478383899e-09
+      63154.71c -1.33381602344e-08
+      44103.71c -1.26358496618e-06
+      92238.71c -0.0626314426069
+      54135.71c -2.33228649833e-08
+      62149.71c -4.70808708968e-07
+      54131.71c -9.77129051108e-06
+      1001.71c -0.0171101139794
+      62147.71c -1.0049803669e-06
+      92234.71c -1.85278185953e-08
+      92235.71c -0.0149304795375
+      92236.71c -0.00012028489366
+      43099.71c -1.59864348246e-05
+      42095.71c -1.04593068764e-05
+      61147.71c -7.32344481848e-06
+      40090.71c -0.905004315184
+      45103.71c -7.12896322964e-06
+      55133.71c -2.32855507874e-05
+      93237.71c -3.41356004416e-07
+      55135.71c -1.62858668948e-05
+      94240.71c -2.19764539836e-06
+      94241.71c -9.05271094906e-08
+      94242.71c -1.18218261274e-09
+m4064 62152.71c -1.83191156194e-06
+      62151.71c -1.1125656463e-06
+      62150.71c -4.10415932138e-06
+      64155.71c -3.20093678969e-09
+      63153.71c -7.21651448964e-07
+      60143.71c -2.23802069353e-05
+      60145.71c -1.60797171171e-05
+      95241.71c -1.32415458918e-09
+      95243.71c -5.08313837132e-12
+      94239.71c -6.72292598361e-05
+      94238.71c -3.68911739634e-09
+      63154.71c -1.48859606452e-08
+      44103.71c -1.3353952123e-06
+      92238.71c -0.0626289928119
+      54135.71c -2.41753769304e-08
+      62149.71c -4.69758155371e-07
+      54131.71c -1.03257581064e-05
+      1001.71c -0.0171106054969
+      62147.71c -1.06183817233e-06
+      92234.71c -1.96120743219e-08
+      92235.71c -0.0148886019987
+      92236.71c -0.000127093672588
+      43099.71c -1.68975614327e-05
+      42095.71c -1.10604401817e-05
+      61147.71c -7.73296313931e-06
+      40090.71c -0.905030312994
+      45103.71c -7.5356953703e-06
+      55133.71c -2.46121423068e-05
+      93237.71c -3.75336921145e-07
+      55135.71c -1.69069764592e-05
+      94240.71c -2.44486423342e-06
+      94241.71c -1.06457197454e-07
+      94242.71c -1.47412907255e-09
 c **  D-7  Fuel ID= 3018
 m4071 62152.71c -3.46977000019e-06
       62151.71c -1.70472590503e-06
@@ -2149,6 +8417,105 @@ m4071 62152.71c -3.46977000019e-06
       94240.71c -4.73949735326e-06
       94241.71c -2.3277408389e-07
       94242.71c -4.34964804839e-09
+m4072 62152.71c -4.57789105739e-06
+      62151.71c -1.88404943668e-06
+      62150.71c -9.47364596043e-06
+      64155.71c -7.83468775044e-09
+      63153.71c -1.66540308105e-06
+      60143.71c -5.00172509362e-05
+      60145.71c -3.52425547241e-05
+      95241.71c -1.49337451888e-08
+      95243.71c -8.22641300287e-11
+      94239.71c -0.000139994972356
+      94238.71c -1.97277510546e-08
+      63154.71c -5.15422216777e-08
+      44103.71c -1.48463665091e-06
+      92238.71c -0.0625745184796
+      54135.71c -2.80877905989e-08
+      62149.71c -6.18857128466e-07
+      54131.71c -2.29498232137e-05
+      1001.71c -0.0171211174565
+      62147.71c -4.48057424933e-06
+      92234.71c -4.27575093824e-08
+      92235.71c -0.0139620962166
+      92236.71c -0.000277398277428
+      43099.71c -3.72814925626e-05
+      42095.71c -3.11740373165e-05
+      61147.71c -1.5047249915e-05
+      40090.71c -0.905586321492
+      45103.71c -1.79362102275e-05
+      55133.71c -5.46218878429e-05
+      93237.71c -1.22285400026e-06
+      55135.71c -3.9695824897e-05
+      94240.71c -8.41394957954e-06
+      94241.71c -5.8590500371e-07
+      94242.71c -1.40416302523e-08
+m4073 62152.71c -5.67631544276e-06
+      62151.71c -1.99225475912e-06
+      62150.71c -1.13971240216e-05
+      64155.71c -7.50713121704e-09
+      63153.71c -2.02622285276e-06
+      60143.71c -5.90876866279e-05
+      60145.71c -4.18120120788e-05
+      95241.71c -2.47230426488e-08
+      95243.71c -1.97321125376e-10
+      94239.71c -0.000162474655411
+      94238.71c -3.20833610904e-08
+      63154.71c -7.26402037246e-08
+      44103.71c -1.75873407221e-06
+      92238.71c -0.0625544094612
+      54135.71c -3.1283744639e-08
+      62149.71c -6.11056302274e-07
+      54131.71c -2.72099923484e-05
+      1001.71c -0.0171248407635
+      62147.71c -5.30761137441e-06
+      92234.71c -4.99911519137e-08
+      92235.71c -0.0136448981887
+      92236.71c -0.000328738594372
+      43099.71c -4.42668525053e-05
+      42095.71c -3.70756929538e-05
+      61147.71c -1.77537707528e-05
+      40090.71c -0.905783258168
+      45103.71c -2.12896901419e-05
+      55133.71c -6.48458561694e-05
+      93237.71c -1.6766799179e-06
+      55135.71c -4.47002762318e-05
+      94240.71c -1.16784999355e-05
+      94241.71c -9.67351744921e-07
+      94242.71c -2.80628604865e-08
+m4074 62152.71c -6.06112148424e-06
+      62151.71c -2.02098590234e-06
+      62150.71c -1.20603646153e-05
+      64155.71c -7.38933395338e-09
+      63153.71c -2.15415337602e-06
+      60143.71c -6.21802677454e-05
+      60145.71c -4.40664166456e-05
+      95241.71c -2.87270649354e-08
+      95243.71c -2.56733765576e-10
+      94239.71c -0.000169734603957
+      94238.71c -3.72378867973e-08
+      63154.71c -8.06900422607e-08
+      44103.71c -1.85255259062e-06
+      92238.71c -0.0625475874434
+      54135.71c -3.22745711311e-08
+      62149.71c -6.08240419836e-07
+      54131.71c -2.86702639503e-05
+      1001.71c -0.0171261262575
+      62147.71c -5.59155064771e-06
+      92234.71c -5.24955399311e-08
+      92235.71c -0.0135360932813
+      92236.71c -0.000346275409442
+      43099.71c -4.66666440054e-05
+      42095.71c -3.91086448414e-05
+      61147.71c -1.86746864157e-05
+      40090.71c -0.905851251727
+      45103.71c -2.24405390562e-05
+      55133.71c -6.83567669826e-05
+      93237.71c -1.84828308657e-06
+      55135.71c -4.62891807679e-05
+      94240.71c -1.28839418887e-05
+      94241.71c -1.12303133938e-06
+      94242.71c -3.45710210262e-08
 c **  D-8  Fuel ID= 3105
 m4081 62152.71c -3.40428024027e-06
       62151.71c -1.54806300477e-06
@@ -2183,6 +8550,105 @@ m4081 62152.71c -3.40428024027e-06
       94240.71c -5.58271441713e-06
       94241.71c -4.82198434507e-07
       94242.71c -2.4058092432e-08
+m4082 62152.71c -4.38962269004e-06
+      62151.71c -1.72426840418e-06
+      62150.71c -8.96937110619e-06
+      64155.71c -7.07497648115e-09
+      63153.71c -1.66107841075e-06
+      60143.71c -4.69906161708e-05
+      60145.71c -3.34462216229e-05
+      95241.71c -6.34089887386e-08
+      95243.71c -1.13828405939e-09
+      94239.71c -0.000127746885178
+      94238.71c -4.53418835603e-08
+      63154.71c -6.19081767605e-08
+      44103.71c -1.4681355988e-06
+      92238.71c -0.0625784939967
+      54135.71c -2.79634711679e-08
+      62149.71c -6.20090106138e-07
+      54131.71c -2.17236703564e-05
+      1001.71c -0.0171202131571
+      62147.71c -4.88484147194e-06
+      92234.71c -4.00629240809e-08
+      92235.71c -0.0140496773836
+      92236.71c -0.000262508777677
+      43099.71c -3.54134785965e-05
+      42095.71c -2.93550243925e-05
+      61147.71c -1.35363281804e-05
+      40090.71c -0.905538490438
+      45103.71c -1.69316456767e-05
+      55133.71c -5.18543032951e-05
+      93237.71c -1.45503736842e-06
+      55135.71c -3.75998464512e-05
+      94240.71c -9.42911314126e-06
+      94241.71c -1.10010059014e-06
+      94242.71c -6.96695861253e-08
+m4083 62152.71c -5.37307540957e-06
+      62151.71c -1.84467270144e-06
+      62150.71c -1.07503794382e-05
+      64155.71c -6.92837852505e-09
+      63153.71c -2.0233343097e-06
+      60143.71c -5.51788911074e-05
+      60145.71c -3.95068756069e-05
+      95241.71c -9.67299575306e-08
+      95243.71c -2.52301102637e-09
+      94239.71c -0.000147287348544
+      94238.71c -7.36577880801e-08
+      63154.71c -8.61036343163e-08
+      44103.71c -1.73852368576e-06
+      92238.71c -0.0625592863731
+      54135.71c -3.11782614612e-08
+      62149.71c -6.12533941128e-07
+      54131.71c -2.56303033362e-05
+      1001.71c -0.0171236818515
+      62147.71c -5.72693835336e-06
+      92234.71c -4.68453912591e-08
+      92235.71c -0.0137569277102
+      92236.71c -0.000309683564855
+      43099.71c -4.1870043324e-05
+      42095.71c -3.47344741714e-05
+      61147.71c -1.59150250798e-05
+      40090.71c -0.905721959896
+      45103.71c -1.99890652627e-05
+      55133.71c -6.12920497292e-05
+      93237.71c -1.97974589687e-06
+      55135.71c -4.21627387711e-05
+      94240.71c -1.26742100316e-05
+      94241.71c -1.69682425753e-06
+      94242.71c -1.2958491187e-07
+m4084 62152.71c -5.71292572398e-06
+      62151.71c -1.87869310155e-06
+      62150.71c -1.13585218982e-05
+      64155.71c -6.86767441926e-09
+      63153.71c -2.15106138312e-06
+      60143.71c -5.79334226253e-05
+      60145.71c -4.15654282147e-05
+      95241.71c -1.09312907905e-07
+      95243.71c -3.20160305193e-09
+      94239.71c -0.000153493926097
+      94238.71c -8.53881958983e-08
+      63154.71c -9.51795808029e-08
+      44103.71c -1.83181828799e-06
+      92238.71c -0.0625528759604
+      54135.71c -3.21922463994e-08
+      62149.71c -6.09825576109e-07
+      54131.71c -2.69551021344e-05
+      1001.71c -0.0171248664336
+      62147.71c -6.01004733396e-06
+      92234.71c -4.90604124311e-08
+      92235.71c -0.0136575465392
+      92236.71c -0.000325640236255
+      43099.71c -4.4065316589e-05
+      42095.71c -3.65630936631e-05
+      61147.71c -1.67173273539e-05
+      40090.71c -0.905784615932
+      45103.71c -2.1025000527e-05
+      55133.71c -6.45004293754e-05
+      93237.71c -2.17723233103e-06
+      55135.71c -4.35935588318e-05
+      94240.71c -1.38491494929e-05
+      94241.71c -1.92594605956e-06
+      94242.71c -1.5586905785e-07
 c **  D-9  Fuel ID= 2452
 m4091 62152.71c -2.9420137195e-06
       62151.71c -1.51646956719e-06
@@ -2217,8 +8683,119 @@ m4091 62152.71c -2.9420137195e-06
       94240.71c -4.22189723839e-06
       94241.71c -3.01060666841e-07
       94242.71c -1.33081169627e-08
+m4092 62152.71c -3.82255466005e-06
+      62151.71c -1.70050776967e-06
+      62150.71c -8.01160100686e-06
+      64155.71c -6.73373205741e-09
+      63153.71c -1.44896188006e-06
+      60143.71c -4.25238784638e-05
+      60145.71c -3.01832186507e-05
+      95241.71c -3.56401746837e-08
+      95243.71c -6.0811486137e-10
+      94239.71c -0.00011866745678
+      94238.71c -2.79636633599e-08
+      63154.71c -4.65040838085e-08
+      44103.71c -1.47126054998e-06
+      92238.71c -0.0625889262682
+      54135.71c -2.81300677866e-08
+      62149.71c -6.25199843569e-07
+      54131.71c -1.95917941855e-05
+      1001.71c -0.0171183701236
+      62147.71c -3.8119081353e-06
+      92234.71c -3.63521194489e-08
+      92235.71c -0.0142069155519
+      92236.71c -0.000237332383469
+      43099.71c -3.19104528487e-05
+      42095.71c -2.57377838492e-05
+      61147.71c -1.28440500377e-05
+      40090.71c -0.905441006964
+      45103.71c -1.51467955508e-05
+      55133.71c -4.6701246838e-05
+      93237.71c -1.10712139284e-06
+      55135.71c -3.39742804772e-05
+      94240.71c -7.24982670633e-06
+      94241.71c -6.98142342945e-07
+      94242.71c -3.87344786551e-08
+m4093 62152.71c -4.71296305709e-06
+      62151.71c -1.82878791755e-06
+      62150.71c -9.6398361155e-06
+      64155.71c -6.60243263526e-09
+      63153.71c -1.76049038317e-06
+      60143.71c -5.01332168249e-05
+      60145.71c -3.57513985277e-05
+      95241.71c -5.47012910772e-08
+      95243.71c -1.34964198238e-09
+      94239.71c -0.000137726854397
+      94238.71c -4.53870754453e-08
+      63154.71c -6.49940378046e-08
+      44103.71c -1.74501148745e-06
+      92238.71c -0.0625718396626
+      54135.71c -3.14268136893e-08
+      62149.71c -6.18442666084e-07
+      54131.71c -2.31863452005e-05
+      1001.71c -0.017121537865
+      62147.71c -4.48825564478e-06
+      92234.71c -4.26069641886e-08
+      92235.71c -0.01393784801
+      92236.71c -0.000280819277995
+      43099.71c -3.78276650825e-05
+      42095.71c -3.05408987804e-05
+      61147.71c -1.51497559477e-05
+      40090.71c -0.905608558135
+      45103.71c -1.79393387921e-05
+      55133.71c -5.53496676351e-05
+      93237.71c -1.5082894928e-06
+      55135.71c -3.8203754331e-05
+      94240.71c -9.87460044429e-06
+      94241.71c -1.09204556811e-06
+      94242.71c -7.2362490337e-08
+m4094 62152.71c -5.02285910746e-06
+      62151.71c -1.86524772778e-06
+      62150.71c -1.01969192387e-05
+      64155.71c -6.54294270529e-09
+      63153.71c -1.87002512195e-06
+      60143.71c -5.2704708527e-05
+      60145.71c -3.76476441574e-05
+      95241.71c -6.19611900155e-08
+      95243.71c -1.7134776034e-09
+      94239.71c -0.000143839855561
+      94238.71c -5.26063078401e-08
+      63154.71c -7.195616257e-08
+      44103.71c -1.83969328941e-06
+      92238.71c -0.0625661431715
+      54135.71c -3.24714325604e-08
+      62149.71c -6.1600602311e-07
+      54131.71c -2.44087813319e-05
+      1001.71c -0.0171226215081
+      62147.71c -4.71661983069e-06
+      92234.71c -4.46621155366e-08
+      92235.71c -0.0138462783897
+      92236.71c -0.000295579275896
+      43099.71c -3.9844536743e-05
+      42095.71c -3.21770417436e-05
+      61147.71c -1.59299962463e-05
+      40090.71c -0.905665875213
+      45103.71c -1.88885643466e-05
+      55133.71c -5.82967412673e-05
+      93237.71c -1.65902171813e-06
+      55135.71c -3.9536424475e-05
+      94240.71c -1.08367368252e-05
+      94241.71c -1.24592043757e-06
+      94242.71c -8.71846892189e-08
 c **  D-10  Fuel ID= 10893
 m4101 92238.71c -0.0626727222977
+      1001.71c -0.0171016644307
+      92235.71c -0.0156682195967
+      40090.71c -0.904557393675
+m4102 92238.71c -0.0626727222977
+      1001.71c -0.0171016644307
+      92235.71c -0.0156682195967
+      40090.71c -0.904557393675
+m4103 92238.71c -0.0626727222977
+      1001.71c -0.0171016644307
+      92235.71c -0.0156682195967
+      40090.71c -0.904557393675
+m4104 92238.71c -0.0626727222977
       1001.71c -0.0171016644307
       92235.71c -0.0156682195967
       40090.71c -0.904557393675
@@ -2256,6 +8833,105 @@ m4111 62152.71c -2.1986381629e-06
       94240.71c -2.48242914533e-06
       94241.71c -1.03023030795e-07
       94242.71c -1.78164759051e-09
+m4112 62152.71c -2.86123546873e-06
+      62151.71c -1.53534496494e-06
+      62150.71c -6.21187915074e-06
+      64155.71c -5.63510104498e-09
+      63153.71c -1.0995288399e-06
+      60143.71c -3.38221029787e-05
+      60145.71c -2.40039112386e-05
+      95241.71c -5.95885502347e-09
+      95243.71c -3.13067836436e-11
+      94239.71c -9.78081178604e-05
+      94238.71c -8.72949680627e-09
+      63154.71c -2.67301898789e-08
+      44103.71c -1.44939115814e-06
+      92238.71c -0.0626076848715
+      54135.71c -2.79962968887e-08
+      62149.71c -6.34009703449e-07
+      54131.71c -1.55378049751e-05
+      1001.71c -0.017114930438
+      62147.71c -2.36520748223e-06
+      92234.71c -2.90349538719e-08
+      92235.71c -0.0145053392597
+      92236.71c -0.000189152743515
+      43099.71c -2.53101331226e-05
+      42095.71c -1.90774445029e-05
+      61147.71c -1.08835255551e-05
+      40090.71c -0.905259071867
+      45103.71c -1.17799990207e-05
+      55133.71c -3.69882322914e-05
+      93237.71c -6.55885738386e-07
+      55135.71c -2.70635298224e-05
+      94240.71c -4.36991179958e-06
+      94241.71c -2.5397638117e-07
+      94242.71c -5.53156968609e-09
+m4113 62152.71c -3.5521718183e-06
+      62151.71c -1.67116412936e-06
+      62150.71c -7.51745496343e-06
+      64155.71c -5.58940001152e-09
+      63153.71c -1.32930071432e-06
+      60143.71c -4.00350756361e-05
+      60145.71c -2.85026324356e-05
+      95241.71c -9.83369101557e-09
+      95243.71c -7.47777341826e-11
+      94239.71c -0.000114362566871
+      94238.71c -1.40996871489e-08
+      63154.71c -3.76533784331e-08
+      44103.71c -1.72249747848e-06
+      92238.71c -0.0625944656951
+      54135.71c -3.14073338334e-08
+      62149.71c -6.29040138854e-07
+      54131.71c -1.84409949209e-05
+      1001.71c -0.0171174739193
+      62147.71c -2.80184873598e-06
+      92234.71c -3.42480163249e-08
+      92235.71c -0.0142878149676
+      92236.71c -0.000224449345546
+      43099.71c -3.00715276039e-05
+      42095.71c -2.26896027491e-05
+      61147.71c -1.2874417065e-05
+      40090.71c -0.90539360408
+      45103.71c -1.39926210539e-05
+      55133.71c -4.39409000152e-05
+      93237.71c -8.94395409629e-07
+      55135.71c -3.05213390049e-05
+      94240.71c -6.07904468201e-06
+      94241.71c -4.19498767166e-07
+      94242.71c -1.09919691064e-08
+m4114 62152.71c -3.79394597056e-06
+      62151.71c -1.71102493413e-06
+      62150.71c -7.96360164819e-06
+      64155.71c -5.56030142721e-09
+      63153.71c -1.40928897779e-06
+      60143.71c -4.21414356393e-05
+      60145.71c -3.00343621748e-05
+      95241.71c -1.1429295656e-08
+      95243.71c -9.70619918311e-11
+      94239.71c -0.000119794649667
+      94238.71c -1.62943447416e-08
+      63154.71c -4.179138469e-08
+      44103.71c -1.81500298687e-06
+      92238.71c -0.0625900103473
+      54135.71c -3.24668299161e-08
+      62149.71c -6.27265492146e-07
+      54131.71c -1.94288964582e-05
+      1001.71c -0.0171183428926
+      62147.71c -2.95052671558e-06
+      92234.71c -3.59404445972e-08
+      92235.71c -0.0142137614664
+      92236.71c -0.00023646584516
+      43099.71c -3.16942312659e-05
+      42095.71c -2.39244869234e-05
+      61147.71c -1.35488674316e-05
+      40090.71c -0.905439566637
+      45103.71c -1.47467008692e-05
+      55133.71c -4.63100873832e-05
+      93237.71c -9.81060902016e-07
+      55135.71c -3.16150579755e-05
+      94240.71c -6.71746043229e-06
+      94241.71c -4.87743209443e-07
+      94242.71c -1.35347746389e-08
 c **  D-12  Fuel ID= 3876
 m4121 62152.71c -2.96017521683e-06
       62151.71c -1.60423117633e-06
@@ -2290,6 +8966,105 @@ m4121 62152.71c -2.96017521683e-06
       94240.71c -3.72842012307e-06
       94241.71c -1.63604520523e-07
       94242.71c -2.71535176669e-09
+m4122 62152.71c -3.91457699989e-06
+      62151.71c -1.79376550118e-06
+      62150.71c -8.27910162666e-06
+      64155.71c -7.17677480066e-09
+      63153.71c -1.44934375614e-06
+      60143.71c -4.4144777558e-05
+      60145.71c -3.11384992853e-05
+      95241.71c -9.48586749102e-09
+      95243.71c -4.64339990478e-11
+      94239.71c -0.000125590217638
+      94238.71c -1.40390878872e-08
+      63154.71c -4.06047699972e-08
+      44103.71c -1.48059513369e-06
+      92238.71c -0.0625865616282
+      54135.71c -2.82006495522e-08
+      62149.71c -6.24720576925e-07
+      54131.71c -2.02448686243e-05
+      1001.71c -0.017118849432
+      62147.71c -3.56542614398e-06
+      92234.71c -3.7952469587e-08
+      92235.71c -0.0141602426365
+      92236.71c -0.000245339552061
+      43099.71c -3.2902632748e-05
+      42095.71c -2.66992325686e-05
+      61147.71c -1.36820164223e-05
+      40090.71c -0.905466358997
+      45103.71c -1.56810887781e-05
+      55133.71c -4.81716393974e-05
+      93237.71c -9.77317364213e-07
+      55135.71c -3.50906295229e-05
+      94240.71c -6.65637310693e-06
+      94241.71c -4.14611142286e-07
+      94242.71c -8.81385277454e-09
+m4123 62152.71c -4.86788336708e-06
+      62151.71c -1.91651193071e-06
+      62150.71c -9.98687596367e-06
+      64155.71c -6.9440232046e-09
+      63153.71c -1.76004264467e-06
+      60143.71c -5.22472661722e-05
+      60145.71c -3.69916024663e-05
+      95241.71c -1.57794057936e-08
+      95243.71c -1.11922855683e-10
+      94239.71c -0.000146359942398
+      94238.71c -2.27796677383e-08
+      63154.71c -5.73309963602e-08
+      44103.71c -1.75793629026e-06
+      92238.71c -0.062568880015
+      54135.71c -3.15086459897e-08
+      62149.71c -6.17932264412e-07
+      54131.71c -2.40366354289e-05
+      1001.71c -0.0171221603883
+      62147.71c -4.2292327244e-06
+      92234.71c -4.44141156513e-08
+      92235.71c -0.0138774733425
+      92236.71c -0.000291179645053
+      43099.71c -3.91157149318e-05
+      42095.71c -3.17885001417e-05
+      61147.71c -1.61754141264e-05
+      40090.71c -0.905641485227
+      45103.71c -1.86378939567e-05
+      55133.71c -5.72595431226e-05
+      93237.71c -1.33849334499e-06
+      55135.71c -3.95670895446e-05
+      94240.71c -9.28162189491e-06
+      94241.71c -6.88689778515e-07
+      94242.71c -1.7691232034e-08
+m4124 62152.71c -5.20336303452e-06
+      62151.71c -1.9504374174e-06
+      62150.71c -1.05758683247e-05
+      64155.71c -6.85732337261e-09
+      63153.71c -1.86971928525e-06
+      60143.71c -5.50160145438e-05
+      60145.71c -3.90017106933e-05
+      95241.71c -1.83677492345e-08
+      95243.71c -1.45925628625e-10
+      94239.71c -0.000153067369553
+      94238.71c -2.64124451551e-08
+      63154.71c -6.37108747528e-08
+      44103.71c -1.85161899418e-06
+      92238.71c -0.0625630233459
+      54135.71c -3.25201445931e-08
+      62149.71c -6.15498183122e-07
+      54131.71c -2.5338250609e-05
+      1001.71c -0.0171233018595
+      62147.71c -4.45783404321e-06
+      92234.71c -4.67117915473e-08
+      92235.71c -0.0137804217935
+      92236.71c -0.000306846679039
+      43099.71c -4.12516967867e-05
+      42095.71c -3.35465068714e-05
+      61147.71c -1.70253969907e-05
+      40090.71c -0.905701861
+      45103.71c -1.9654840061e-05
+      55133.71c -6.03832951666e-05
+      93237.71c -1.47410631331e-06
+      55135.71c -4.09908097876e-05
+      94240.71c -1.02536063709e-05
+      94241.71c -8.00829327696e-07
+      94242.71c -2.18231095192e-08
 c **  D-13  Fuel ID= 3696
 m4131 62152.71c -2.90766210838e-06
       62151.71c -1.5141218188e-06
@@ -2324,6 +9099,105 @@ m4131 62152.71c -2.90766210838e-06
       94240.71c -4.12077318889e-06
       94241.71c -2.87600089718e-07
       94242.71c -1.25092726591e-08
+m4132 62152.71c -3.78041511593e-06
+      62151.71c -1.69874208681e-06
+      62150.71c -7.94042789672e-06
+      64155.71c -6.70837375172e-09
+      63153.71c -1.43319923179e-06
+      60143.71c -4.21919495229e-05
+      60145.71c -2.99407407637e-05
+      95241.71c -3.35766389119e-08
+      95243.71c -5.68717316228e-10
+      94239.71c -0.000117992752947
+      94238.71c -2.66722657884e-08
+      63154.71c -4.53593861352e-08
+      44103.71c -1.47149276906e-06
+      92238.71c -0.0625897015035
+      54135.71c -2.81424477925e-08
+      62149.71c -6.25579554634e-07
+      54131.71c -1.94333717649e-05
+      1001.71c -0.0171182331654
+      62147.71c -3.73217709901e-06
+      92234.71c -3.60763648529e-08
+      92235.71c -0.0142186001195
+      92236.71c -0.000235461493703
+      43099.71c -3.1650138565e-05
+      42095.71c -2.54689821193e-05
+      61147.71c -1.27926059714e-05
+      40090.71c -0.905433762844
+      45103.71c -1.50141610755e-05
+      55133.71c -4.63183166807e-05
+      93237.71c -1.08126731568e-06
+      55135.71c -3.37048600739e-05
+      94240.71c -7.08788116891e-06
+      94241.71c -6.68272316079e-07
+      94242.71c -3.64356516061e-08
+m4133 62152.71c -4.66390927142e-06
+      62151.71c -1.82760749912e-06
+      62150.71c -9.55731023348e-06
+      64155.71c -6.57821118303e-09
+      63153.71c -1.74095811781e-06
+      60143.71c -4.97582663732e-05
+      60145.71c -3.54723242656e-05
+      95241.71c -5.1578087598e-08
+      95243.71c -1.26244744137e-09
+      94239.71c -0.000137016401958
+      94238.71c -4.32862429538e-08
+      63154.71c -6.34253569295e-08
+      44103.71c -1.74549360422e-06
+      92238.71c -0.0625727725134
+      54135.71c -3.14452839205e-08
+      62149.71c -6.18881750925e-07
+      54131.71c -2.30047315735e-05
+      1001.71c -0.0171213785426
+      62147.71c -4.39620756256e-06
+      92234.71c -4.22920013004e-08
+      92235.71c -0.0139512924268
+      92236.71c -0.00027867433625
+      43099.71c -3.75272708313e-05
+      42095.71c -3.02292688774e-05
+      61147.71c -1.50928878285e-05
+      40090.71c -0.905600131107
+      45103.71c -1.77870210198e-05
+      55133.71c -5.49080816892e-05
+      93237.71c -1.4732549698e-06
+      55135.71c -3.79095571789e-05
+      94240.71c -9.66655790711e-06
+      94241.71c -1.04710369709e-06
+      94242.71c -6.81102196584e-08
+m4134 62152.71c -4.97157938246e-06
+      62151.71c -1.86424858502e-06
+      62150.71c -1.01105990726e-05
+      64155.71c -6.51881147999e-09
+      63153.71c -1.84914096114e-06
+      60143.71c -5.23161561545e-05
+      60145.71c -3.7356508658e-05
+      95241.71c -5.84424238366e-08
+      95243.71c -1.60289311498e-09
+      94239.71c -0.000143122449342
+      94238.71c -5.01702441846e-08
+      63154.71c -7.02304009234e-08
+      44103.71c -1.84027849074e-06
+      92238.71c -0.0625671290748
+      54135.71c -3.24921792379e-08
+      62149.71c -6.16465299961e-07
+      54131.71c -2.42195610053e-05
+      1001.71c -0.0171224546849
+      62147.71c -4.62050359339e-06
+      92234.71c -4.43352725191e-08
+      92235.71c -0.0138603032927
+      92236.71c -0.000293345407826
+      43099.71c -3.95308852425e-05
+      42095.71c -3.18511086657e-05
+      61147.71c -1.58714886737e-05
+      40090.71c -0.905657051439
+      45103.71c -1.87298030659e-05
+      55133.71c -5.78357373403e-05
+      93237.71c -1.62051283061e-06
+      55135.71c -3.92349336782e-05
+      94240.71c -1.06128806214e-05
+      94241.71c -1.1953868716e-06
+      94242.71c -8.20806667225e-08
 c **  D-14  Fuel ID= 3494
 m4141 62152.71c -2.77296035796e-06
       62151.71c -1.44422925521e-06
@@ -2358,6 +9232,105 @@ m4141 62152.71c -2.77296035796e-06
       94240.71c -3.76915828954e-06
       94241.71c -2.03282604879e-07
       94242.71c -4.47231493004e-09
+m4142 62152.71c -3.67438605215e-06
+      62151.71c -1.6242800002e-06
+      62150.71c -7.64648719195e-06
+      64155.71c -6.38885315315e-09
+      63153.71c -1.36807951675e-06
+      60143.71c -4.08313860521e-05
+      60145.71c -2.89248956438e-05
+      95241.71c -1.53660865499e-08
+      95243.71c -1.04271616108e-10
+      94239.71c -0.000115659137376
+      94238.71c -1.74794770972e-08
+      63154.71c -4.15187330591e-08
+      44103.71c -1.44549798259e-06
+      92238.71c -0.0625917362011
+      54135.71c -2.77766668321e-08
+      62149.71c -6.27792301644e-07
+      54131.71c -1.87790649494e-05
+      1001.71c -0.0171176578059
+      62147.71c -3.56794214188e-06
+      92234.71c -3.50088032028e-08
+      92235.71c -0.0142676442904
+      92236.71c -0.000227796507346
+      43099.71c -3.05660322289e-05
+      42095.71c -2.45096572186e-05
+      61147.71c -1.24022347493e-05
+      40090.71c -0.905403330387
+      45103.71c -1.44922050929e-05
+      55133.71c -4.47305722638e-05
+      93237.71c -9.97223556319e-07
+      55135.71c -3.25817841975e-05
+      94240.71c -6.73267739221e-06
+      94241.71c -5.15228800663e-07
+      94242.71c -1.46003144408e-08
+m4143 62152.71c -4.55863473191e-06
+      62151.71c -1.74457507919e-06
+      62150.71c -9.24816052218e-06
+      64155.71c -6.22618521423e-09
+      63153.71c -1.66859644498e-06
+      60143.71c -4.83562656639e-05
+      60145.71c -3.4405313754e-05
+      95241.71c -2.51641401161e-08
+      95243.71c -2.50438443634e-10
+      94239.71c -0.000134319550029
+      94238.71c -2.86837256027e-08
+      63154.71c -5.87378771673e-08
+      44103.71c -1.72068517835e-06
+      92238.71c -0.06257540992
+      54135.71c -3.11429827225e-08
+      62149.71c -6.21505063855e-07
+      54131.71c -2.23210007872e-05
+      1001.71c -0.0171207680428
+      62147.71c -4.23092747955e-06
+      92234.71c -4.11759981894e-08
+      92235.71c -0.0140028703378
+      92236.71c -0.000270652986935
+      43099.71c -3.63851813334e-05
+      42095.71c -2.92094252139e-05
+      61147.71c -1.46774050151e-05
+      40090.71c -0.905567839973
+      45103.71c -1.72406348681e-05
+      55133.71c -5.32370827186e-05
+      93237.71c -1.37309329407e-06
+      55135.71c -3.67529606639e-05
+      94240.71c -9.32418811143e-06
+      94241.71c -8.43169075553e-07
+      94242.71c -2.90033603461e-08
+m4144 62152.71c -4.86248168743e-06
+      62151.71c -1.77933193987e-06
+      62150.71c -9.79199918554e-06
+      64155.71c -6.17130467876e-09
+      63153.71c -1.77380222875e-06
+      60143.71c -5.08841918838e-05
+      60145.71c -3.62574530093e-05
+      95241.71c -2.92398228635e-08
+      95243.71c -3.25507153694e-10
+      94239.71c -0.000140286410999
+      94238.71c -3.328038317e-08
+      63154.71c -6.52203532079e-08
+      44103.71c -1.8135049432e-06
+      92238.71c -0.0625698277209
+      54135.71c -3.21796910202e-08
+      62149.71c -6.19207124373e-07
+      54131.71c -2.35161326275e-05
+      1001.71c -0.0171218270661
+      62147.71c -4.4552302202e-06
+      92234.71c -4.34100901803e-08
+      92235.71c -0.0139134193751
+      92236.71c -0.000285097557551
+      43099.71c -3.83539787025e-05
+      42095.71c -3.08030730241e-05
+      61147.71c -1.54404080993e-05
+      40090.71c -0.905623854835
+      45103.71c -1.81686770559e-05
+      55133.71c -5.61143143631e-05
+      93237.71c -1.50976507939e-06
+      55135.71c -3.80576709769e-05
+      94240.71c -1.02611085393e-05
+      94241.71c -9.79177568532e-07
+      94242.71c -3.56990379999e-08
 c **  D-15  Fuel ID= 3501
 m4151 62152.71c -2.77286194246e-06
       62151.71c -1.56729202918e-06
@@ -2392,6 +9365,105 @@ m4151 62152.71c -2.77286194246e-06
       94240.71c -3.35677545006e-06
       94241.71c -1.3817965782e-07
       94242.71c -2.11462860819e-09
+m4152 62152.71c -3.67076067346e-06
+      62151.71c -1.76057956574e-06
+      62150.71c -7.8400194032e-06
+      64155.71c -6.93494377549e-09
+      63153.71c -1.36992618569e-06
+      60143.71c -4.19862150039e-05
+      60145.71c -2.96299593875e-05
+      95241.71c -7.48337483751e-09
+      95243.71c -3.32638109408e-11
+      94239.71c -0.000120295418985
+      94238.71c -1.19480890004e-08
+      63154.71c -3.65844582624e-08
+      44103.71c -1.47910958116e-06
+      92238.71c -0.0625909883642
+      54135.71c -2.82421334543e-08
+      62149.71c -6.26875822163e-07
+      54131.71c -1.92506003984e-05
+      1001.71c -0.0171180157675
+      62147.71c -3.22904242549e-06
+      92234.71c -3.61862667786e-08
+      92235.71c -0.014233075907
+      92236.71c -0.000233555630764
+      43099.71c -3.12930821861e-05
+      42095.71c -2.50544152414e-05
+      61147.71c -1.31801934756e-05
+      40090.71c -0.905422264026
+      45103.71c -1.48521670612e-05
+      55133.71c -4.58007023387e-05
+      93237.71c -8.87064730597e-07
+      55135.71c -3.33978841244e-05
+      94240.71c -6.01033548097e-06
+      94241.71c -3.51648146764e-07
+      94242.71c -6.89226301534e-09
+m4153 62152.71c -4.5707255779e-06
+      62151.71c -1.88867091337e-06
+      62150.71c -9.46850687899e-06
+      64155.71c -6.73703991301e-09
+      63153.71c -1.66220199171e-06
+      60143.71c -4.9732912424e-05
+      60145.71c -3.52197501282e-05
+      95241.71c -1.24919665206e-08
+      95243.71c -8.0532758994e-11
+      94239.71c -0.000140436609274
+      94238.71c -1.93598814249e-08
+      63154.71c -5.170374535e-08
+      44103.71c -1.75764304716e-06
+      92238.71c -0.0625741989996
+      54135.71c -3.15913136499e-08
+      62149.71c -6.20459682322e-07
+      54131.71c -2.28701951616e-05
+      1001.71c -0.0171211751548
+      62147.71c -3.83284986778e-06
+      92234.71c -4.23641477989e-08
+      92235.71c -0.0139629616855
+      92236.71c -0.000277373990033
+      43099.71c -3.72222959308e-05
+      42095.71c -2.98450709109e-05
+      61147.71c -1.55952528738e-05
+      40090.71c -0.905589373324
+      45103.71c -1.7663165324e-05
+      55133.71c -5.447101941e-05
+      93237.71c -1.21418509775e-06
+      55135.71c -3.76802688045e-05
+      94240.71c -8.4005942849e-06
+      94241.71c -5.86261168422e-07
+      94242.71c -1.38789016306e-08
+m4154 62152.71c -4.88807420291e-06
+      62151.71c -1.92450570039e-06
+      62150.71c -1.00302075957e-05
+      64155.71c -6.66177065673e-09
+      63153.71c -1.76516899819e-06
+      60143.71c -5.23826286273e-05
+      60145.71c -3.71400616211e-05
+      95241.71c -1.4559944666e-08
+      95243.71c -1.05195551244e-10
+      94239.71c -0.000146940944493
+      94238.71c -2.24333052842e-08
+      63154.71c -5.7469791512e-08
+      44103.71c -1.85127582935e-06
+      92238.71c -0.0625686971667
+      54135.71c -3.2610410763e-08
+      62149.71c -6.18165940819e-07
+      54131.71c -2.41134925275e-05
+      1001.71c -0.0171222636871
+      62147.71c -4.04111044962e-06
+      92234.71c -4.4585841904e-08
+      92235.71c -0.0138702303535
+      92236.71c -0.00029235374301
+      43099.71c -3.92613084876e-05
+      42095.71c -3.15020152288e-05
+      61147.71c -1.64191627578e-05
+      40090.71c -0.905646949005
+      45103.71c -1.86308923731e-05
+      55133.71c -5.74524623505e-05
+      93237.71c -1.33656904079e-06
+      55135.71c -3.90432717642e-05
+      94240.71c -9.28676609978e-06
+      94241.71c -6.82396573302e-07
+      94242.71c -1.71373216663e-08
 c **  D-17  Fuel ID= 3498
 m4171 62152.71c -2.77757010193e-06
       62151.71c -1.5682205026e-06
@@ -2426,6 +9498,105 @@ m4171 62152.71c -2.77757010193e-06
       94240.71c -3.3661168189e-06
       94241.71c -1.38818717216e-07
       94242.71c -2.12972791407e-09
+m4172 62152.71c -3.6768890493e-06
+      62151.71c -1.76141370137e-06
+      62150.71c -7.85105582939e-06
+      64155.71c -6.94102225036e-09
+      63153.71c -1.37192236341e-06
+      60143.71c -4.20404709382e-05
+      60145.71c -2.96678768625e-05
+      95241.71c -7.53370792135e-09
+      95243.71c -3.35948464534e-11
+      94239.71c -0.000120428504889
+      94238.71c -1.20006467075e-08
+      63154.71c -3.66855096631e-08
+      44103.71c -1.47914692084e-06
+      92238.71c -0.0625908770972
+      54135.71c -2.82410907475e-08
+      62149.71c -6.2682164961e-07
+      54131.71c -1.92755915442e-05
+      1001.71c -0.0171180367218
+      62147.71c -3.23749750265e-06
+      92234.71c -3.62306606663e-08
+      92235.71c -0.0142312452271
+      92236.71c -0.000233851822162
+      43099.71c -3.13335385859e-05
+      42095.71c -2.5095758079e-05
+      61147.71c -1.31928069034e-05
+      40090.71c -0.905423372362
+      45103.71c -1.48730021869e-05
+      55133.71c -4.58602963519e-05
+      93237.71c -8.89333249968e-07
+      55135.71c -3.34404316443e-05
+      94240.71c -6.02657377575e-06
+      94241.71c -3.53230735208e-07
+      94242.71c -6.94056258752e-09
+m4173 62152.71c -4.57819470289e-06
+      62151.71c -1.88937070333e-06
+      62150.71c -9.4815361975e-06
+      64155.71c -6.74224248259e-09
+      63153.71c -1.66466123758e-06
+      60143.71c -4.97961112466e-05
+      60145.71c -3.52642860181e-05
+      95241.71c -1.25745970142e-08
+      95243.71c -8.13217558303e-11
+      94239.71c -0.000140585493527
+      94238.71c -1.94458384899e-08
+      63154.71c -5.18451875153e-08
+      44103.71c -1.75765041789e-06
+      92238.71c -0.0625740653058
+      54135.71c -3.15892357805e-08
+      62149.71c -6.20396155129e-07
+      54131.71c -2.28995138888e-05
+      1001.71c -0.0171211999188
+      62147.71c -3.84281303619e-06
+      92234.71c -4.24156741821e-08
+      92235.71c -0.0139608129176
+      92236.71c -0.000277720998144
+      43099.71c -3.72698874249e-05
+      42095.71c -2.98939194229e-05
+      61147.71c -1.56098353518e-05
+      40090.71c -0.905590683168
+      45103.71c -1.7687665338e-05
+      55133.71c -5.45411095537e-05
+      93237.71c -1.2173096123e-06
+      55135.71c -3.77276944499e-05
+      94240.71c -8.4227391035e-06
+      94241.71c -5.88835733582e-07
+      94242.71c -1.39747253758e-08
+m4174 62152.71c -4.89599905555e-06
+      62151.71c -1.92515749968e-06
+      62150.71c -1.00439228955e-05
+      64155.71c -6.66668591633e-09
+      63153.71c -1.76779689216e-06
+      60143.71c -5.24488193491e-05
+      60145.71c -3.71868545712e-05
+      95241.71c -1.46556546534e-08
+      95243.71c -1.06219310505e-10
+      94239.71c -0.000147094933506
+      94238.71c -2.25333218212e-08
+      63154.71c -5.76266624825e-08
+      44103.71c -1.85128445487e-06
+      92238.71c -0.062568554554
+      54135.71c -3.26081419034e-08
+      62149.71c -6.18098886155e-07
+      54131.71c -2.41442770855e-05
+      1001.71c -0.0171222897818
+      62147.71c -4.05158488684e-06
+      92234.71c -4.46392781059e-08
+      92235.71c -0.013867972996
+      92236.71c -0.000292718026076
+      43099.71c -3.93113373259e-05
+      42095.71c -3.15534039663e-05
+      61147.71c -1.64344005857e-05
+      40090.71c -0.90564832923
+      45103.71c -1.86566295186e-05
+      55133.71c -5.75261294641e-05
+      93237.71c -1.34002606974e-06
+      55135.71c -3.90922235515e-05
+      94240.71c -9.31106783809e-06
+      94241.71c -6.85373406074e-07
+      94242.71c -1.72550999525e-08
 c **  D-18  Fuel ID= 3336
 m4181 62152.71c -2.89624311303e-06
       62151.71c -1.5133413917e-06
@@ -2460,6 +9631,105 @@ m4181 62152.71c -2.89624311303e-06
       94240.71c -4.08715802461e-06
       94241.71c -2.83125590195e-07
       94242.71c -1.22437247243e-08
+m4182 62152.71c -3.7664072938e-06
+      62151.71c -1.6981551471e-06
+      62150.71c -7.91676887791e-06
+      64155.71c -6.69994426719e-09
+      63153.71c -1.42795948898e-06
+      60143.71c -4.20816113201e-05
+      60145.71c -2.98601374449e-05
+      95241.71c -3.28906883957e-08
+      95243.71c -5.55620976056e-10
+      94239.71c -0.000117768471183
+      94238.71c -2.6242985694e-08
+      63154.71c -4.49788713069e-08
+      44103.71c -1.4715699622e-06
+      92238.71c -0.0625899592034
+      54135.71c -2.81465630938e-08
+      62149.71c -6.25705776338e-07
+      54131.71c -1.93807097551e-05
+      1001.71c -0.0171181876384
+      62147.71c -3.70567329606e-06
+      92234.71c -3.59846998524e-08
+      92235.71c -0.0142224842466
+      92236.71c -0.000234839581634
+      43099.71c -3.1563606158e-05
+      42095.71c -2.53796283567e-05
+      61147.71c -1.27755051853e-05
+      40090.71c -0.905431354789
+      45103.71c -1.49700713689e-05
+      55133.71c -4.61910249019e-05
+      93237.71c -1.07267302921e-06
+      55135.71c -3.3615300655e-05
+      94240.71c -7.03404802169e-06
+      94241.71c -6.58343067152e-07
+      94242.71c -3.56714867089e-08
+m4183 62152.71c -4.64760305078e-06
+      62151.71c -1.82721511017e-06
+      62150.71c -9.52987738151e-06
+      64155.71c -6.57015960578e-09
+      63153.71c -1.73446529724e-06
+      60143.71c -4.96336271692e-05
+      60145.71c -3.53795557578e-05
+      95241.71c -5.05398875009e-08
+      95243.71c -1.2334626565e-09
+      94239.71c -0.000136780236817
+      94238.71c -4.25878944436e-08
+      63154.71c -6.29039036692e-08
+      44103.71c -1.74565386713e-06
+      92238.71c -0.0625730826072
+      54135.71c -3.14514237048e-08
+      62149.71c -6.19027709371e-07
+      54131.71c -2.29443604557e-05
+      1001.71c -0.0171213255815
+      62147.71c -4.36560938715e-06
+      92234.71c -4.21873028703e-08
+      92235.71c -0.0139557615544
+      92236.71c -0.000277961325157
+      43099.71c -3.74274152366e-05
+      42095.71c -3.0125678382e-05
+      61147.71c -1.50739840051e-05
+      40090.71c -0.905597329835
+      45103.71c -1.77363882875e-05
+      55133.71c -5.47612918387e-05
+      93237.71c -1.46160896421e-06
+      55135.71c -3.78117615937e-05
+      94240.71c -9.59740141963e-06
+      94241.71c -1.03216433909e-06
+      94242.71c -6.6696700539e-08
+m4184 62152.71c -4.9545332259e-06
+      62151.71c -1.86391645484e-06
+      62150.71c -1.00819049432e-05
+      64155.71c -6.51078989555e-09
+      63153.71c -1.84219875007e-06
+      60143.71c -5.21869954663e-05
+      60145.71c -3.72597308125e-05
+      95241.71c -5.72727327124e-08
+      95243.71c -1.56613315766e-09
+      94239.71c -0.000142883972659
+      94238.71c -4.93604597627e-08
+      63154.71c -6.96567316377e-08
+      44103.71c -1.84047302052e-06
+      92238.71c -0.0625674568039
+      54135.71c -3.24990757475e-08
+      62149.71c -6.16617970536e-07
+      54131.71c -2.41566613055e-05
+      1001.71c -0.0171223992303
+      62147.71c -4.58855310167e-06
+      92234.71c -4.42266249543e-08
+      92235.71c -0.0138649653827
+      92236.71c -0.000292602836277
+      43099.71c -3.94266227375e-05
+      42095.71c -3.17427635786e-05
+      61147.71c -1.58520398712e-05
+      40090.71c -0.905654118284
+      45103.71c -1.86770284138e-05
+      55133.71c -5.7682492659e-05
+      93237.71c -1.60771189367e-06
+      55135.71c -3.91347135751e-05
+      94240.71c -1.05384674318e-05
+      94241.71c -1.1785887496e-06
+      94242.71c -8.03840124101e-08
 c **  E-2  Fuel ID= 2986
 m5021 62152.71c -9.9615145621e-07
       62151.71c -8.35180182685e-07
@@ -2494,6 +9764,105 @@ m5021 62152.71c -9.9615145621e-07
       94240.71c -7.84698656037e-07
       94241.71c -1.97015039282e-08
       94242.71c -1.81693089001e-10
+m5022 62152.71c -1.31737171225e-06
+      62151.71c -9.86959578886e-07
+      62150.71c -2.94680828882e-06
+      64155.71c -2.83848642489e-09
+      63153.71c -5.55282335134e-07
+      60143.71c -1.72028728181e-05
+      60145.71c -1.26101940019e-05
+      95241.71c -6.87762045372e-10
+      95243.71c -1.80702826157e-12
+      94239.71c -5.37632618628e-05
+      94238.71c -1.89526161873e-09
+      63154.71c -8.62601089535e-09
+      44103.71c -1.36565454893e-06
+      92238.71c -0.062638761674
+      54135.71c -2.84052446466e-08
+      62149.71c -6.19984647086e-07
+      54131.71c -8.00251132703e-06
+      1001.71c -0.0171086803858
+      62147.71c -7.68059823587e-07
+      92234.71c -1.55980921767e-08
+      92235.71c -0.0150563391726
+      92236.71c -9.98450145587e-05
+      43099.71c -1.31892335924e-05
+      42095.71c -7.79554474547e-06
+      61147.71c -6.04256710928e-06
+      40090.71c -0.9049284882
+      45103.71c -5.58771943586e-06
+      55133.71c -1.91198890251e-05
+      93237.71c -2.36894844546e-07
+      55135.71c -1.42308421255e-05
+      94240.71c -1.43382237126e-06
+      94241.71c -5.14204977234e-08
+      94242.71c -6.0521948556e-10
+m5023 62152.71c -1.6461970396e-06
+      62151.71c -1.11091296312e-06
+      62150.71c -3.64194175027e-06
+      64155.71c -2.92689692601e-09
+      63153.71c -6.70551375909e-07
+      60143.71c -2.05301135576e-05
+      60145.71c -1.50767954969e-05
+      95241.71c -1.171435483e-09
+      95243.71c -4.4565868354e-12
+      94239.71c -6.37828966395e-05
+      94238.71c -3.04785733888e-09
+      63154.71c -1.23153679192e-08
+      44103.71c -1.63456459365e-06
+      92238.71c -0.0626316998661
+      54135.71c -3.21478232846e-08
+      62149.71c -6.2872442519e-07
+      54131.71c -9.56538411906e-06
+      1001.71c -0.0171100770556
+      62147.71c -9.16800692221e-07
+      92234.71c -1.85401400751e-08
+      92235.71c -0.0149367936713
+      92236.71c -0.000119338776137
+      43099.71c -1.57751539438e-05
+      42095.71c -9.33113969009e-06
+      61147.71c -7.20672162123e-06
+      40090.71c -0.905002362176
+      45103.71c -6.68322909406e-06
+      55133.71c -2.286657131e-05
+      93237.71c -3.21346550363e-07
+      55135.71c -1.61432029977e-05
+      94240.71c -2.03721765849e-06
+      94241.71c -8.75917385948e-08
+      94242.71c -1.24395968059e-09
+m5024 62152.71c -1.76485643062e-06
+      62151.71c -1.15039487735e-06
+      62150.71c -3.88644746858e-06
+      64155.71c -2.9461737017e-09
+      63153.71c -7.11354383638e-07
+      60143.71c -2.16886884002e-05
+      60145.71c -1.59383015651e-05
+      95241.71c -1.37370935421e-09
+      95243.71c -5.86147176625e-12
+      94239.71c -6.70366618207e-05
+      94238.71c -3.53158651995e-09
+      63154.71c -1.37441186966e-08
+      44103.71c -1.72872856648e-06
+      92238.71c -0.0626294665667
+      54135.71c -3.33631706173e-08
+      62149.71c -6.30563725781e-07
+      54131.71c -1.01108449027e-05
+      1001.71c -0.0171105652539
+      62147.71c -9.68733343193e-07
+      92234.71c -1.95609035869e-08
+      92235.71c -0.0148950848758
+      92236.71c -0.000126123824188
+      43099.71c -1.66785776246e-05
+      42095.71c -9.86842180525e-06
+      61147.71c -7.61193738637e-06
+      40090.71c -0.905028184422
+      45103.71c -7.06571618693e-06
+      55133.71c -2.41753556889e-05
+      93237.71c -3.53179897487e-07
+      55135.71c -1.67633679969e-05
+      94240.71c -2.26420626614e-06
+      94241.71c -1.02647136221e-07
+      94242.71c -1.54605765164e-09
 c **  E-3  Fuel ID= 2458
 m5031 62152.71c -2.53491273875e-06
       62151.71c -1.43941044654e-06
@@ -2528,6 +9897,105 @@ m5031 62152.71c -2.53491273875e-06
       94240.71c -3.08696716682e-06
       94241.71c -1.39922830577e-07
       94242.71c -2.58149611878e-09
+m5032 62152.71c -3.29562759677e-06
+      62151.71c -1.6161014034e-06
+      62150.71c -7.02617022722e-06
+      64155.71c -6.1818792305e-09
+      63153.71c -1.2421141666e-06
+      60143.71c -3.78596524054e-05
+      60145.71c -2.68076119016e-05
+      95241.71c -8.58118045463e-09
+      95243.71c -4.69816970316e-11
+      94239.71c -0.000108011458138
+      94238.71c -1.16999302322e-08
+      63154.71c -3.31956372216e-08
+      44103.71c -1.45181242316e-06
+      92238.71c -0.0625996216214
+      54135.71c -2.79258527471e-08
+      62149.71c -6.3008342871e-07
+      54131.71c -1.73878232413e-05
+      1001.71c -0.017116474633
+      62147.71c -2.92137144829e-06
+      92234.71c -3.23238472941e-08
+      92235.71c -0.0143699003414
+      92236.71c -0.000211077195167
+      43099.71c -2.8298478646e-05
+      42095.71c -2.21228032067e-05
+      61147.71c -1.18934644062e-05
+      40090.71c -0.905340748887
+      45103.71c -1.33214054162e-05
+      55133.71c -4.13912754243e-05
+      93237.71c -8.00965753838e-07
+      55135.71c -3.02142044669e-05
+      94240.71c -5.4131772768e-06
+      94241.71c -3.43764033115e-07
+      94242.71c -8.00116134236e-09
+m5033 62152.71c -4.08456558469e-06
+      62151.71c -1.74419662264e-06
+      62150.71c -8.47911273634e-06
+      64155.71c -6.06969931111e-09
+      63153.71c -1.50388766646e-06
+      60143.71c -4.47499997876e-05
+      60145.71c -3.17992436071e-05
+      95241.71c -1.41348695405e-08
+      95243.71c -1.12127249844e-10
+      94239.71c -0.000125837193347
+      94238.71c -1.89375593517e-08
+      63154.71c -4.66920330752e-08
+      44103.71c -1.72305173134e-06
+      92238.71c -0.0625848453189
+      54135.71c -3.12683798804e-08
+      62149.71c -6.24409785405e-07
+      54131.71c -2.06140556731e-05
+      1001.71c -0.0171192995657
+      62147.71c -3.45741816533e-06
+      92234.71c -3.80782762156e-08
+      92235.71c -0.0141286613753
+      92236.71c -0.000250174541817
+      43099.71c -3.35899239785e-05
+      42095.71c -2.62898349402e-05
+      61147.71c -1.40477951213e-05
+      40090.71c -0.905490167896
+      45103.71c -1.5807182189e-05
+      55133.71c -4.91239130467e-05
+      93237.71c -1.09425371826e-06
+      55135.71c -3.40395843282e-05
+      94240.71c -7.50456094462e-06
+      94241.71c -5.65952350858e-07
+      94242.71c -1.587370702e-08
+m5034 62152.71c -4.36012508957e-06
+      62151.71c -1.7810856575e-06
+      62150.71c -8.97600004555e-06
+      64155.71c -6.01926487319e-09
+      63153.71c -1.59531138641e-06
+      60143.71c -4.70851689349e-05
+      60145.71c -3.34995640409e-05
+      95241.71c -1.64146298327e-08
+      95243.71c -1.45449988344e-10
+      94239.71c -0.00013170849513
+      94238.71c -2.19016075335e-08
+      63154.71c -5.18047885693e-08
+      44103.71c -1.81519232179e-06
+      92238.71c -0.062579802052
+      54135.71c -3.23073427979e-08
+      62149.71c -6.22428873275e-07
+      54131.71c -2.17121178525e-05
+      1001.71c -0.0171202657652
+      62147.71c -3.63971070398e-06
+      92234.71c -3.9945053364e-08
+      92235.71c -0.0140464924332
+      92236.71c -0.000263490702308
+      43099.71c -3.53941205632e-05
+      42095.71c -2.77138669965e-05
+      61147.71c -1.47775232726e-05
+      40090.71c -0.905541273034
+      45103.71c -1.66543038973e-05
+      55133.71c -5.17599724568e-05
+      93237.71c -1.20097991953e-06
+      55135.71c -3.52492737339e-05
+      94240.71c -8.2855789558e-06
+      94241.71c -6.57121792043e-07
+      94242.71c -1.95332064224e-08
 c **  E-4  Fuel ID= 3006
 m5041 62152.71c -2.66080330589e-06
       62151.71c -1.49725034354e-06
@@ -2562,6 +10030,105 @@ m5041 62152.71c -2.66080330589e-06
       94240.71c -3.3940718509e-06
       94241.71c -1.90869198765e-07
       94242.71c -6.76858854739e-09
+m5042 62152.71c -3.4775903849e-06
+      62151.71c -1.68605347209e-06
+      62150.71c -7.42896109313e-06
+      64155.71c -6.52614296923e-09
+      63153.71c -1.31992511306e-06
+      60143.71c -3.98066296439e-05
+      60145.71c -2.8198237316e-05
+      95241.71c -1.87475827805e-08
+      95243.71c -2.85597238394e-10
+      94239.71c -0.000113144171618
+      94238.71c -1.73919773935e-08
+      63154.71c -3.71333179068e-08
+      44103.71c -1.47316155032e-06
+      92238.71c -0.0625952725278
+      54135.71c -2.82314134431e-08
+      62149.71c -6.28308248161e-07
+      54131.71c -1.82949107798e-05
+      1001.71c -0.0171172489517
+      62147.71c -3.15921101401e-06
+      92234.71c -3.40947271037e-08
+      92235.71c -0.0143025681859
+      92236.71c -0.000222016837328
+      43099.71c -2.97794585518e-05
+      42095.71c -2.35373093099e-05
+      61147.71c -1.24229167431e-05
+      40090.71c -0.905381704881
+      45103.71c -1.40610183647e-05
+      55133.71c -4.35664899985e-05
+      93237.71c -8.95473802112e-07
+      55135.71c -3.17687413319e-05
+      94240.71c -5.92410223308e-06
+      94241.71c -4.53619238051e-07
+      94242.71c -1.99157367045e-08
+m5043 62152.71c -4.31139716526e-06
+      62151.71c -1.81912473311e-06
+      62150.71c -8.96425972594e-06
+      64155.71c -6.40415009832e-09
+      63153.71c -1.6005946391e-06
+      60143.71c -4.70637837421e-05
+      60145.71c -3.34668306101e-05
+      95241.71c -2.91340086852e-08
+      95243.71c -6.35846846115e-10
+      94239.71c -0.000131910922694
+      94238.71c -2.81891637733e-08
+      63154.71c -5.21524451312e-08
+      44103.71c -1.74895820935e-06
+      92238.71c -0.0625794762003
+      54135.71c -3.15780153701e-08
+      62149.71c -6.22037118449e-07
+      54131.71c -2.1699613094e-05
+      1001.71c -0.0171202336145
+      62147.71c -3.73472827223e-06
+      92234.71c -4.00286034898e-08
+      92235.71c -0.0140479071858
+      92236.71c -0.000263260277544
+      43099.71c -3.53685666919e-05
+      42095.71c -2.79898226863e-05
+      61147.71c -1.46842200729e-05
+      40090.71c -0.905539572486
+      45103.71c -1.66924294818e-05
+      55133.71c -5.17347406365e-05
+      93237.71c -1.22148860104e-06
+      55135.71c -3.57953868593e-05
+      94240.71c -8.17151502794e-06
+      94241.71c -7.24140782113e-07
+      94242.71c -3.75523967996e-08
+m5044 62152.71c -4.60307114979e-06
+      62151.71c -1.85706850877e-06
+      62150.71c -9.49028194252e-06
+      64155.71c -6.34539878744e-09
+      63153.71c -1.699062442e-06
+      60143.71c -4.95239269039e-05
+      60145.71c -3.52643400987e-05
+      95241.71c -3.31557378041e-08
+      95243.71c -8.08206825423e-10
+      94239.71c -0.00013796699857
+      94238.71c -3.26641145693e-08
+      63154.71c -5.78286695475e-08
+      44103.71c -1.84448388597e-06
+      92238.71c -0.0625742140089
+      54135.71c -3.26412697696e-08
+      62149.71c -6.19765772042e-07
+      54131.71c -2.28597789838e-05
+      1001.71c -0.0171212558535
+      62147.71c -3.92978957838e-06
+      92234.71c -4.19865012896e-08
+      92235.71c -0.0139610895632
+      92236.71c -0.000277292303518
+      43099.71c -3.72769113734e-05
+      42095.71c -2.95088764775e-05
+      61147.71c -1.54510394185e-05
+      40090.71c -0.905593641717
+      45103.71c -1.75889069522e-05
+      55133.71c -5.45228540823e-05
+      93237.71c -1.34377885661e-06
+      55135.71c -3.70683495025e-05
+      94240.71c -9.00419699337e-06
+      94241.71c -8.32240714213e-07
+      94242.71c -4.54019538412e-08
 c **  E-5  Fuel ID= 5014
 m5051 62152.71c -4.91411846634e-06
       62151.71c -1.90205013197e-06
@@ -2596,6 +10163,105 @@ m5051 62152.71c -4.91411846634e-06
       94240.71c -8.00963303902e-06
       94241.71c -5.07027354931e-07
       94242.71c -1.2629426554e-08
+m5052 62152.71c -6.43116319306e-06
+      62151.71c -2.04648410338e-06
+      62150.71c -1.26856766109e-05
+      64155.71c -9.16105304053e-09
+      63153.71c -2.27928021663e-06
+      60143.71c -6.55677887035e-05
+      60145.71c -4.62467465368e-05
+      95241.71c -4.11137372734e-08
+      95243.71c -3.0821468703e-10
+      94239.71c -0.000176233048376
+      94238.71c -4.25692805424e-08
+      63154.71c -8.70921802986e-08
+      44103.71c -1.50581204539e-06
+      92238.71c -0.0625414401304
+      54135.71c -2.80792249916e-08
+      62149.71c -6.02050904744e-07
+      54131.71c -3.01827907741e-05
+      1001.71c -0.0171272363035
+      62147.71c -7.32164567792e-06
+      92234.71c -5.54628264533e-08
+      92235.71c -0.0134312160371
+      92236.71c -0.000363063685857
+      43099.71c -4.90388663597e-05
+      42095.71c -4.31879812849e-05
+      61147.71c -1.82661948024e-05
+      40090.71c -0.90590996533
+      45103.71c -2.39652578899e-05
+      55133.71c -7.19298736109e-05
+      93237.71c -2.01653658722e-06
+      55135.71c -5.2011718372e-05
+      94240.71c -1.40044057101e-05
+      94241.71c -1.25127573345e-06
+      94242.71c -4.01287408113e-08
+m5053 62152.71c -7.90638418049e-06
+      62151.71c -2.11520946038e-06
+      62150.71c -1.51784374924e-05
+      64155.71c -8.61916260895e-09
+      63153.71c -2.7870341525e-06
+      60143.71c -7.70822695865e-05
+      60145.71c -5.46886449915e-05
+      95241.71c -6.70545816886e-08
+      95243.71c -7.30664068519e-10
+      94239.71c -0.000202269584168
+      94238.71c -6.95531054621e-08
+      63154.71c -1.22248537363e-07
+      44103.71c -1.777258262e-06
+      92238.71c -0.062514643972
+      54135.71c -3.10397194966e-08
+      62149.71c -5.91282732336e-07
+      54131.71c -3.56573622904e-05
+      1001.71c -0.0171320539495
+      62147.71c -8.64069776439e-06
+      92234.71c -6.45734141101e-08
+      92235.71c -0.0130241417761
+      92236.71c -0.000428682148745
+      43099.71c -5.80501006558e-05
+      42095.71c -5.12094763486e-05
+      61147.71c -2.14414989666e-05
+      40090.71c -0.906164784816
+      45103.71c -2.83445719132e-05
+      55133.71c -8.5128205774e-05
+      93237.71c -2.76992400067e-06
+      55135.71c -5.83692636652e-05
+      94240.71c -1.92093599657e-05
+      94241.71c -2.033717207e-06
+      94242.71c -7.92344805331e-08
+m5054 62152.71c -8.41500692572e-06
+      62151.71c -2.13094397365e-06
+      62150.71c -1.60323451655e-05
+      64155.71c -8.4528614369e-09
+      63153.71c -2.96729031184e-06
+      60143.71c -8.09697676742e-05
+      60145.71c -5.75637318994e-05
+      95241.71c -7.75233865452e-08
+      95243.71c -9.45039574708e-10
+      94239.71c -0.000210492934883
+      94238.71c -8.08224492379e-08
+      63154.71c -1.35563981278e-07
+      44103.71c -1.86750338528e-06
+      92238.71c -0.0625056553269
+      54135.71c -3.19061851673e-08
+      62149.71c -5.87590444162e-07
+      54131.71c -3.75189701149e-05
+      1001.71c -0.0171337042455
+      62147.71c -9.09057440431e-06
+      92234.71c -6.76860467364e-08
+      92235.71c -0.0128855759671
+      92236.71c -0.000450920662447
+      43099.71c -6.11234152838e-05
+      42095.71c -5.39578970464e-05
+      61147.71c -2.25101713262e-05
+      40090.71c -0.906252073828
+      45103.71c -2.98370841642e-05
+      55133.71c -8.96279057803e-05
+      93237.71c -3.05252188454e-06
+      55135.71c -6.03674344359e-05
+      94240.71c -2.11085404778e-05
+      94241.71c -2.3482671067e-06
+      94242.71c -9.71736631103e-08
 c **  E-6  Fuel ID= 4744
 m5061 62152.71c -4.76925319393e-06
       62151.71c -1.88732952516e-06
@@ -2630,6 +10296,105 @@ m5061 62152.71c -4.76925319393e-06
       94240.71c -7.65318822401e-06
       94241.71c -4.73454351727e-07
       94242.71c -1.14756149713e-08
+m5062 62152.71c -6.24727364958e-06
+      62151.71c -2.03539228723e-06
+      62150.71c -1.23736861054e-05
+      64155.71c -9.05680926579e-09
+      63153.71c -2.21722059359e-06
+      60143.71c -6.40744222771e-05
+      60145.71c -4.5180059239e-05
+      95241.71c -3.75744032855e-08
+      95243.71c -2.73325957331e-10
+      94239.71c -0.00017289164358
+      94238.71c -3.9735519179e-08
+      63154.71c -8.32001643003e-08
+      44103.71c -1.50375574693e-06
+      92238.71c -0.0625447378057
+      54135.71c -2.81059630066e-08
+      62149.71c -6.03757112753e-07
+      54131.71c -2.9483353142e-05
+      1001.71c -0.0171266397514
+      62147.71c -7.0205862733e-06
+      92234.71c -5.42392260804e-08
+      92235.71c -0.0134826498399
+      92236.71c -0.000354781203761
+      43099.71c -4.78980704494e-05
+      42095.71c -4.20217013436e-05
+      61147.71c -1.79837102065e-05
+      40090.71c -0.905878411934
+      45103.71c -2.33814689665e-05
+      55133.71c -7.02515734589e-05
+      93237.71c -1.92981696849e-06
+      55135.71c -5.08204365753e-05
+      94240.71c -1.34019963768e-05
+      94241.71c -1.17083014841e-06
+      94242.71c -3.65251417709e-08
+m5063 62152.71c -7.68727344842e-06
+      62151.71c -2.10779313225e-06
+      62150.71c -1.48123350989e-05
+      64155.71c -8.53008523553e-09
+      63153.71c -2.70992155547e-06
+      60143.71c -7.53639921351e-05
+      60145.71c -5.34452571131e-05
+      95241.71c -6.13793707327e-08
+      95243.71c -6.48688820619e-10
+      94239.71c -0.000198657186307
+      94238.71c -6.49030570376e-08
+      63154.71c -1.16834313941e-07
+      44103.71c -1.77579095997e-06
+      92238.71c -0.0625186284702
+      54135.71c -3.10766280061e-08
+      62149.71c -5.93278294843e-07
+      54131.71c -3.48438548695e-05
+      1001.71c -0.0171313523523
+      62147.71c -8.28855229498e-06
+      92234.71c -6.31782641123e-08
+      92235.71c -0.0130840538156
+      92236.71c -0.000419059249128
+      43099.71c -5.67174118589e-05
+      42095.71c -4.98415922351e-05
+      61147.71c -2.11208288813e-05
+      40090.71c -0.906127675271
+      45103.71c -2.76641190982e-05
+      55133.71c -8.31685796568e-05
+      93237.71c -2.65053913293e-06
+      55135.71c -5.70522791453e-05
+      94240.71c -1.84052613725e-05
+      94241.71c -1.9062300799e-06
+      94242.71c -7.22150530548e-08
+m5064 62152.71c -8.184584241e-06
+      62151.71c -2.12467997721e-06
+      62150.71c -1.56483529261e-05
+      64155.71c -8.36629619915e-09
+      63153.71c -2.88487511645e-06
+      60143.71c -7.91799652922e-05
+      60145.71c -5.62628162633e-05
+      95241.71c -7.10007673083e-08
+      95243.71c -8.39591832408e-10
+      94239.71c -0.0002068073976
+      94238.71c -7.54183520197e-08
+      63154.71c -1.29582904633e-07
+      44103.71c -1.86657538223e-06
+      92238.71c -0.0625098165557
+      54135.71c -3.19731925643e-08
+      62149.71c -5.89717002429e-07
+      54131.71c -3.66684713577e-05
+      1001.71c -0.017132969322
+      62147.71c -8.72130218076e-06
+      92234.71c -6.62329738507e-08
+      92235.71c -0.0129482349224
+      92236.71c -0.000440866123141
+      43099.71c -5.97280269675e-05
+      42095.71c -5.25226890979e-05
+      61147.71c -2.21780684545e-05
+      40090.71c -0.906213201559
+      45103.71c -2.9124862124e-05
+      55133.71c -8.75761107794e-05
+      93237.71c -2.92146618667e-06
+      55135.71c -5.90133446301e-05
+      94240.71c -2.02339389223e-05
+      94241.71c -2.2022458818e-06
+      94242.71c -8.86128282493e-08
 c **  E-7  Fuel ID= 3147
 m5071 62152.71c -3.51477963458e-06
       62151.71c -1.68461977821e-06
@@ -2664,6 +10429,105 @@ m5071 62152.71c -3.51477963458e-06
       94240.71c -4.84852405238e-06
       94241.71c -2.47444763148e-07
       94242.71c -4.91216620451e-09
+m5072 62152.71c -4.56139818021e-06
+      62151.71c -1.85141672712e-06
+      62150.71c -9.39892429996e-06
+      64155.71c -7.77513034676e-09
+      63153.71c -1.65759202752e-06
+      60143.71c -4.96246245671e-05
+      60145.71c -3.49772853257e-05
+      95241.71c -1.62223465272e-08
+      95243.71c -9.26566597761e-11
+      94239.71c -0.000137742862421
+      94238.71c -2.03554444737e-08
+      63154.71c -5.20352351952e-08
+      44103.71c -1.45886772147e-06
+      92238.71c -0.062576126203
+      54135.71c -2.7720586315e-08
+      62149.71c -6.18642698672e-07
+      54131.71c -2.27785717127e-05
+      1001.71c -0.0171209742463
+      62147.71c -4.54197169028e-06
+      92234.71c -4.1907318718e-08
+      92235.71c -0.0139752463237
+      92236.71c -0.000274962620724
+      43099.71c -3.70061867568e-05
+      42095.71c -3.09966414151e-05
+      61147.71c -1.48363144403e-05
+      40090.71c -0.905578746684
+      45103.71c -1.78128930529e-05
+      55133.71c -5.42212557933e-05
+      93237.71c -1.2237128617e-06
+      55135.71c -3.93949216704e-05
+      94240.71c -8.45313741086e-06
+      94241.71c -6.0539531336e-07
+      94242.71c -1.51972780992e-08
+m5073 62152.71c -5.63590209566e-06
+      62151.71c -1.95700522498e-06
+      62150.71c -1.12812770522e-05
+      64155.71c -7.46923831153e-09
+      63153.71c -2.01261472207e-06
+      60143.71c -5.84887669267e-05
+      60145.71c -4.14052036983e-05
+      95241.71c -2.66680277162e-08
+      95243.71c -2.20959604711e-10
+      94239.71c -0.000159272984909
+      94238.71c -3.30345835044e-08
+      63154.71c -7.30296723218e-08
+      44103.71c -1.72466676285e-06
+      92238.71c -0.0625568126075
+      54135.71c -3.08634834403e-08
+      62149.71c -6.10917447934e-07
+      54131.71c -2.69461141949e-05
+      1001.71c -0.0171246192974
+      62147.71c -5.36767492533e-06
+      92234.71c -4.92392296115e-08
+      92235.71c -0.0136649054221
+      92236.71c -0.000325134916538
+      43099.71c -4.38421416048e-05
+      42095.71c -3.67805130784e-05
+      61147.71c -1.74668889103e-05
+      40090.71c -0.905771544169
+      45103.71c -2.10946125048e-05
+      55133.71c -6.42266393751e-05
+      93237.71c -1.6766187097e-06
+      55135.71c -4.4291361808e-05
+      94240.71c -1.16583575605e-05
+      94241.71c -9.92701884545e-07
+      94242.71c -3.00985509993e-08
+m5074 62152.71c -6.00990837877e-06
+      62151.71c -1.98523485123e-06
+      62150.71c -1.19260169252e-05
+      64155.71c -7.35663355763e-09
+      63153.71c -2.13736009654e-06
+      60143.71c -6.14906605956e-05
+      60145.71c -4.35967787568e-05
+      95241.71c -3.09413418567e-08
+      95243.71c -2.86447254694e-10
+      94239.71c -0.000166424122207
+      94238.71c -3.82405507084e-08
+      63154.71c -8.09827392098e-08
+      44103.71c -1.81574402278e-06
+      92238.71c -0.0625500562091
+      54135.71c -3.18426149874e-08
+      62149.71c -6.08335501192e-07
+      54131.71c -2.83651722932e-05
+      1001.71c -0.0171258688033
+      62147.71c -5.64791656865e-06
+      92234.71c -5.16140400883e-08
+      92235.71c -0.0135590889834
+      92236.71c -0.000342238144979
+      43099.71c -4.61751884791e-05
+      42095.71c -3.87557011284e-05
+      61147.71c -1.83576904083e-05
+      40090.71c -0.905837634219
+      45103.71c -2.22128479915e-05
+      55133.71c -6.76403343789e-05
+      93237.71c -1.84179959637e-06
+      55135.71c -4.58389762263e-05
+      94240.71c -1.2854902777e-05
+      94241.71c -1.15067223525e-06
+      94242.71c -3.70119727449e-08
 c **  E-8  Fuel ID= 4991
 m5081 62152.71c -4.96743848418e-06
       62151.71c -1.90693301075e-06
@@ -2698,6 +10562,105 @@ m5081 62152.71c -4.96743848418e-06
       94240.71c -8.14456174019e-06
       94241.71c -5.2029544542e-07
       94242.71c -1.31088927497e-08
+m5082 62152.71c -6.49856288776e-06
+      62151.71c -2.05005749813e-06
+      62150.71c -1.27994053521e-05
+      64155.71c -9.19702275901e-09
+      63153.71c -2.30223105541e-06
+      60143.71c -6.61109417588e-05
+      60145.71c -4.66352764152e-05
+      95241.71c -4.25639591709e-08
+      95243.71c -3.23334543159e-10
+      94239.71c -0.000177428771327
+      94238.71c -4.36959393022e-08
+      63154.71c -8.85692876113e-08
+      44103.71c -1.50635758883e-06
+      92238.71c -0.0625402668764
+      54135.71c -2.80609180612e-08
+      62149.71c -6.01455846214e-07
+      54131.71c -3.04378229376e-05
+      1001.71c -0.0171274531018
+      62147.71c -7.43438259072e-06
+      92234.71c -5.59061827706e-08
+      92235.71c -0.0134124915523
+      92236.71c -0.000366077901489
+      43099.71c -4.94548678946e-05
+      42095.71c -4.36130332606e-05
+      61147.71c -1.83659702986e-05
+      40090.71c -0.905921432432
+      45103.71c -2.41779882409e-05
+      55133.71c -7.25421814586e-05
+      93237.71c -2.0493719888e-06
+      55135.71c -5.24452639467e-05
+      94240.71c -1.42314172786e-05
+      94241.71c -1.28283963709e-06
+      94242.71c -4.16196737044e-08
+m5083 62152.71c -7.98633606696e-06
+      62151.71c -2.11749634639e-06
+      62150.71c -1.53116075894e-05
+      64155.71c -8.65092286479e-09
+      63153.71c -2.81556045618e-06
+      60143.71c -7.77055758906e-05
+      60145.71c -5.51405619244e-05
+      95241.71c -6.93707997991e-08
+      95243.71c -7.66069561511e-10
+      94239.71c -0.000203556617209
+      94238.71c -7.14018900528e-08
+      63154.71c -1.24300372928e-07
+      44103.71c -1.77742929501e-06
+      92238.71c -0.0625132124577
+      54135.71c -3.10099501263e-08
+      62149.71c -5.90616967544e-07
+      54131.71c -3.5953296486e-05
+      1001.71c -0.0171323087639
+      62147.71c -8.77240536933e-06
+      92234.71c -6.5080330555e-08
+      92235.71c -0.0130023722898
+      92236.71c -0.000432175927719
+      43099.71c -5.85350077864e-05
+      42095.71c -5.17074452409e-05
+      61147.71c -2.15541525091e-05
+      40090.71c -0.9061782627
+      45103.71c -2.85920638822e-05
+      55133.71c -8.58417423266e-05
+      93237.71c -2.81514257632e-06
+      55135.71c -5.88476023061e-05
+      94240.71c -1.95109987566e-05
+      94241.71c -2.08349495638e-06
+      94242.71c -8.21267032793e-08
+m5084 62152.71c -8.49909160466e-06
+      62151.71c -2.13281108142e-06
+      62150.71c -1.61720584687e-05
+      64155.71c -8.4830929954e-09
+      63153.71c -2.99779304446e-06
+      60143.71c -8.16187316424e-05
+      60145.71c -5.80367090481e-05
+      95241.71c -8.01821275481e-08
+      95243.71c -9.90623007885e-10
+      94239.71c -0.000211800651557
+      94238.71c -8.29696950784e-08
+      63154.71c -1.37827940964e-07
+      44103.71c -1.86766622174e-06
+      92238.71c -0.0625041419566
+      54135.71c -3.18754997907e-08
+      62149.71c -5.86889197475e-07
+      54131.71c -3.78283580782e-05
+      1001.71c -0.0171339717907
+      62147.71c -9.22861844254e-06
+      92234.71c -6.82101871144e-08
+      92235.71c -0.0128627963439
+      92236.71c -0.000454571789164
+      43099.71c -6.16313091024e-05
+      42095.71c -5.44800855409e-05
+      61147.71c -2.26268502879e-05
+      40090.71c -0.906266225086
+      45103.71c -3.00959866259e-05
+      55133.71c -9.0375050339e-05
+      93237.71c -3.10211791272e-06
+      55135.71c -6.08592465594e-05
+      94240.71c -2.1436514368e-05
+      94241.71c -2.405255036e-06
+      94242.71c -1.00700718241e-07
 c **  E-9  Fuel ID= 4742
 m5091 62152.71c -8.06255201822e-06
       62151.71c -2.08064707114e-06
@@ -2732,6 +10695,105 @@ m5091 62152.71c -8.06255201822e-06
       94240.71c -1.70568384936e-05
       94241.71c -1.58118196402e-06
       94242.71c -6.32805726259e-08
+m5092 62152.71c -1.03405394967e-05
+      62151.71c -2.15770866777e-06
+      62150.71c -1.91809045953e-05
+      64155.71c -1.07756836087e-08
+      63153.71c -3.68726290029e-06
+      60143.71c -9.59692767807e-05
+      60145.71c -6.83739276658e-05
+      95241.71c -1.8185096416e-07
+      95243.71c -2.33345890487e-09
+      94239.71c -0.000238391151526
+      94238.71c -1.39253143473e-07
+      63154.71c -1.87764864788e-07
+      44103.71c -1.53753811174e-06
+      92238.71c -0.062471272343
+      54135.71c -2.75656001958e-08
+      62149.71c -5.66972847822e-07
+      54131.71c -4.46516999087e-05
+      1001.71c -0.0171397099359
+      62147.71c -1.44833009666e-05
+      92234.71c -8.04675920536e-08
+      92235.71c -0.0123654485231
+      92236.71c -0.000533981884226
+      43099.71c -7.27775080349e-05
+      42095.71c -6.74710036775e-05
+      61147.71c -2.30852647856e-05
+      40090.71c -0.906569732481
+      45103.71c -3.60465821593e-05
+      55133.71c -0.000106844992948
+      93237.71c -4.25923063944e-06
+      55135.71c -7.65974910895e-05
+      94240.71c -2.88725109321e-05
+      94241.71c -3.73605069937e-06
+      94242.71c -1.93902862243e-07
+m5093 62152.71c -1.24748971544e-05
+      62151.71c -2.16697403028e-06
+      62150.71c -2.27411051869e-05
+      64155.71c -1.01334890687e-08
+      63153.71c -4.53996079939e-06
+      60143.71c -0.000111585499432
+      60145.71c -8.02554234372e-05
+      95241.71c -2.86389127395e-07
+      95243.71c -5.35997063986e-09
+      94239.71c -0.000267367003503
+      94238.71c -2.27983889309e-07
+      63154.71c -2.6121227611e-07
+      44103.71c -1.79449902153e-06
+      92238.71c -0.0624301648986
+      54135.71c -2.99775181092e-08
+      62149.71c -5.50480650211e-07
+      54131.71c -5.23177590263e-05
+      1001.71c -0.0171466198871
+      62147.71c -1.69538909026e-05
+      92234.71c -9.29392492392e-08
+      92235.71c -0.0117933459604
+      92236.71c -0.000625376850375
+      43099.71c -8.55506685529e-05
+      42095.71c -7.94724037394e-05
+      61147.71c -2.67843355145e-05
+      40090.71c -0.906935220149
+      45103.71c -4.22839148902e-05
+      55133.71c -0.000125552403814
+      93237.71c -5.82532201749e-06
+      55135.71c -8.53041706818e-05
+      94240.71c -3.86150759828e-05
+      94241.71c -5.85080168983e-06
+      94242.71c -3.71668729138e-07
+m5094 62152.71c -1.31957307595e-05
+      62151.71c -2.16509640488e-06
+      62150.71c -2.39499723316e-05
+      64155.71c -9.9584295429e-09
+      63153.71c -4.84174109545e-06
+      60143.71c -0.000116759687112
+      60145.71c -8.42575892899e-05
+      95241.71c -3.27261899856e-07
+      95243.71c -6.86438092675e-09
+      94239.71c -0.000275997972349
+      94238.71c -2.64725015368e-07
+      63154.71c -2.88647759512e-07
+      44103.71c -1.8795403073e-06
+      92238.71c -0.0624166271396
+      54135.71c -3.0672207683e-08
+      62149.71c -5.4472518724e-07
+      54131.71c -5.48916330846e-05
+      1001.71c -0.0171489630508
+      62147.71c -1.77851407357e-05
+      92234.71c -9.70637242226e-08
+      92235.71c -0.0116007456226
+      92236.71c -0.000655959464935
+      43099.71c -8.98614335502e-05
+      42095.71c -8.35388054706e-05
+      61147.71c -2.80061499872e-05
+      40090.71c -0.907059156975
+      45103.71c -4.43804451679e-05
+      55133.71c -0.000131861529974
+      93237.71c -6.40673456291e-06
+      55135.71c -8.79918655239e-05
+      94240.71c -4.20815457813e-05
+      94241.71c -6.67377254599e-06
+      94242.71c -4.51442907099e-07
 c **  E-10  Fuel ID= 4351
 m5101 62152.71c -6.40625343898e-06
       62151.71c -2.00746440065e-06
@@ -2766,6 +10828,105 @@ m5101 62152.71c -6.40625343898e-06
       94240.71c -1.21594666009e-05
       94241.71c -9.75801124693e-07
       94242.71c -3.3071072513e-08
+m5102 62152.71c -8.35164864124e-06
+      62151.71c -2.11988347066e-06
+      62150.71c -1.59002404046e-05
+      64155.71c -1.00789710758e-08
+      63153.71c -2.96135970966e-06
+      60143.71c -8.07268839377e-05
+      60145.71c -5.72067525355e-05
+      95241.71c -1.01638052005e-07
+      95243.71c -1.12169358641e-09
+      94239.71c -0.000209177052694
+      94238.71c -8.53091094644e-08
+      63154.71c -1.34318734875e-07
+      44103.71c -1.51860641152e-06
+      92238.71c -0.0625057386716
+      54135.71c -2.77894487787e-08
+      62149.71c -5.85325239346e-07
+      54131.71c -3.73582214256e-05
+      1001.71c -0.0171333966415
+      62147.71c -1.07642418509e-05
+      92234.71c -6.80026137624e-08
+      92235.71c -0.0129030667325
+      92236.71c -0.000448037740955
+      43099.71c -6.07881992772e-05
+      42095.71c -5.5232111009e-05
+      61147.71c -2.07743495278e-05
+      40090.71c -0.906235803748
+      45103.71c -2.99598021684e-05
+      55133.71c -8.9215615997e-05
+      93237.71c -3.08627857782e-06
+      55135.71c -6.42250672854e-05
+      94240.71c -2.10916056408e-05
+      94241.71c -2.38022651416e-06
+      94242.71c -1.04734958192e-07
+m5103 62152.71c -1.01864621798e-05
+      62151.71c -2.15693344529e-06
+      62150.71c -1.89696564422e-05
+      64155.71c -9.45526780378e-09
+      63153.71c -3.64452182917e-06
+      60143.71c -9.45388338419e-05
+      60145.71c -6.75182117353e-05
+      95241.71c -1.61898385887e-07
+      95243.71c -2.60879483146e-09
+      94239.71c -0.000237057680623
+      94238.71c -1.40469638361e-07
+      63154.71c -1.88287966736e-07
+      44103.71c -1.78238295828e-06
+      92238.71c -0.0624720725385
+      54135.71c -3.04766338252e-08
+      62149.71c -5.71600692695e-07
+      54131.71c -4.40292456156e-05
+      1001.71c -0.0171393377358
+      62147.71c -1.26732737592e-05
+      92234.71c -7.90648761561e-08
+      92235.71c -0.0124061091499
+      92236.71c -0.000527768320862
+      43099.71c -7.18351701082e-05
+      42095.71c -6.54049515333e-05
+      61147.71c -2.42824885584e-05
+      40090.71c -0.906550045719
+      45103.71c -3.53520012817e-05
+      55133.71c -0.00010539823816
+      93237.71c -4.25275686542e-06
+      55135.71c -7.18755128281e-05
+      94240.71c -2.85381695183e-05
+      94241.71c -3.78331464261e-06
+      94242.71c -2.02867513837e-07
+m5104 62152.71c -1.08000978747e-05
+      62151.71c -2.16276132459e-06
+      62150.71c -1.99970400018e-05
+      64155.71c -9.26788892558e-09
+      63153.71c -3.88271354829e-06
+      60143.71c -9.90683689545e-05
+      60145.71c -7.09448980493e-05
+      95241.71c -1.8605746451e-07
+      95243.71c -3.35540985829e-09
+      94239.71c -0.000245407197687
+      94238.71c -1.6283950034e-07
+      63154.71c -2.08329036111e-07
+      44103.71c -1.87088425854e-06
+      92238.71c -0.0624609264469
+      54135.71c -3.12790445052e-08
+      62149.71c -5.66880252599e-07
+      54131.71c -4.62394312474e-05
+      1001.71c -0.0171413284497
+      62147.71c -1.33074210269e-05
+      92234.71c -8.29559642104e-08
+      92235.71c -0.0122410265825
+      92236.71c -0.000554150464826
+      43099.71c -7.5513350109e-05
+      42095.71c -6.87963951779e-05
+      61147.71c -2.54304244798e-05
+      40090.71c -0.906655340444
+      45103.71c -3.71376790381e-05
+      55133.71c -0.000110782933844
+      93237.71c -4.6680825303e-06
+      55135.71c -7.42137824594e-05
+      94240.71c -3.11670158272e-05
+      94241.71c -4.33861933303e-06
+      94242.71c -2.47550960703e-07
 c **  E-11  Fuel ID= 3107
 m5111 62152.71c -4.03142607814e-06
       62151.71c -1.59092505943e-06
@@ -2800,6 +10961,105 @@ m5111 62152.71c -4.03142607814e-06
       94240.71c -7.42890225771e-06
       94241.71c -7.27943674471e-07
       94242.71c -3.86423248389e-08
+m5112 62152.71c -5.15895020744e-06
+      62151.71c -1.75650388385e-06
+      62150.71c -1.02687546965e-05
+      64155.71c -7.5379345593e-09
+      63153.71c -1.94885179124e-06
+      60143.71c -5.30505314706e-05
+      60145.71c -3.78730590446e-05
+      95241.71c -1.01082268924e-07
+      95243.71c -1.85755182154e-09
+      94239.71c -0.00014006472667
+      94238.71c -6.89184957065e-08
+      63154.71c -8.28065380889e-08
+      44103.71c -1.46389605291e-06
+      92238.71c -0.0625643407857
+      54135.71c -2.77374535541e-08
+      62149.71c -6.13157848624e-07
+      54131.71c -2.46159353321e-05
+      1001.71c -0.0171227135563
+      62147.71c -6.34046424832e-06
+      92234.71c -4.50972832127e-08
+      92235.71c -0.0138363561536
+      92236.71c -0.000296664984389
+      43099.71c -4.01659491281e-05
+      42095.71c -3.42624473821e-05
+      61147.71c -1.44755252374e-05
+      40090.71c -0.905670743914
+      45103.71c -1.93531087882e-05
+      55133.71c -5.88453306878e-05
+      93237.71c -1.92704658001e-06
+      55135.71c -4.25185643518e-05
+      94240.71c -1.23856984785e-05
+      94241.71c -1.64542764801e-06
+      94242.71c -1.11638500209e-07
+m5113 62152.71c -6.26863391487e-06
+      62151.71c -1.86622320457e-06
+      62150.71c -1.22570267755e-05
+      64155.71c -7.37058145122e-09
+      63153.71c -2.37992832447e-06
+      60143.71c -6.2024235694e-05
+      60145.71c -4.46018407702e-05
+      95241.71c -1.53749235487e-07
+      95243.71c -4.11489250421e-09
+      94239.71c -0.000160257840334
+      94238.71c -1.12011981962e-07
+      63154.71c -1.14742514695e-07
+      44103.71c -1.72972184169e-06
+      92238.71c -0.0625422556282
+      54135.71c -3.08410566488e-08
+      62149.71c -6.04517716511e-07
+      54131.71c -2.89459623854e-05
+      1001.71c -0.0171265905463
+      62147.71c -7.40742930444e-06
+      92234.71c -5.25955630257e-08
+      92235.71c -0.0135114775038
+      92236.71c -0.00034884304657
+      43099.71c -4.73542403735e-05
+      42095.71c -4.04237967464e-05
+      61147.71c -1.69532472513e-05
+      40090.71c -0.905875809329
+      45103.71c -2.27698797216e-05
+      55133.71c -6.93539361734e-05
+      93237.71c -2.61935942774e-06
+      55135.71c -4.75337974619e-05
+      94240.71c -1.64723728261e-05
+      94241.71c -2.51731291692e-06
+      94242.71c -2.07217190838e-07
+m5114 62152.71c -6.64912245674e-06
+      62151.71c -1.8969341158e-06
+      62150.71c -1.2934440206e-05
+      64155.71c -7.30823010239e-09
+      63153.71c -2.53233649945e-06
+      60143.71c -6.50270929149e-05
+      60145.71c -4.68805913399e-05
+      95241.71c -1.73553841342e-07
+      95243.71c -5.22050695121e-09
+      94239.71c -0.000166591370717
+      94238.71c -1.29862592658e-07
+      63154.71c -1.26686232121e-07
+      44103.71c -1.82113446353e-06
+      92238.71c -0.0625348766552
+      54135.71c -3.18134812694e-08
+      62149.71c -6.01440712749e-07
+      54131.71c -3.04096341446e-05
+      1001.71c -0.0171279120698
+      62147.71c -7.76480922742e-06
+      92234.71c -5.50274757316e-08
+      92235.71c -0.0134014985902
+      92236.71c -0.00036642321604
+      43099.71c -4.97915467919e-05
+      42095.71c -4.25135445014e-05
+      61147.71c -1.77854804755e-05
+      40090.71c -0.905945708602
+      45103.71c -2.39234519575e-05
+      55133.71c -7.29168233856e-05
+      93237.71c -2.88027616921e-06
+      55135.71c -4.90977751469e-05
+      94240.71c -1.79360170934e-05
+      94241.71c -2.84852041725e-06
+      94242.71c -2.49051483958e-07
 c **  E-12  Fuel ID= 3690
 m5121 62152.71c -2.49025276365e-06
       62151.71c -1.49455036603e-06
@@ -2834,6 +11094,105 @@ m5121 62152.71c -2.49025276365e-06
       94240.71c -2.85291192148e-06
       94241.71c -1.08820759281e-07
       94242.71c -1.53502234592e-09
+m5122 62152.71c -3.29931385056e-06
+      62151.71c -1.69123220154e-06
+      62150.71c -7.14354887295e-06
+      64155.71c -6.47233970315e-09
+      63153.71c -1.24847791867e-06
+      60143.71c -3.8528071978e-05
+      60145.71c -2.72318148015e-05
+      95241.71c -5.49181345829e-09
+      95243.71c -2.23925477974e-11
+      94239.71c -0.000111486228233
+      94238.71c -9.52601432524e-09
+      63154.71c -3.11307156167e-08
+      44103.71c -1.47638635495e-06
+      92238.71c -0.0625979414157
+      54135.71c -2.8349240307e-08
+      62149.71c -6.30144049405e-07
+      54131.71c -1.76673291798e-05
+      1001.71c -0.0171166954138
+      62147.71c -2.76046010071e-06
+      92234.71c -3.33493434351e-08
+      92235.71c -0.0143489441591
+      92236.71c -0.000214776984819
+      43099.71c -2.87369067331e-05
+      42095.71c -2.24516920892e-05
+      61147.71c -1.2308190751e-05
+      40090.71c -0.905352426634
+      45103.71c -1.35340001783e-05
+      55133.71c -4.20338359768e-05
+      93237.71c -7.63777262948e-07
+      55135.71c -3.07022608241e-05
+      94240.71c -5.124211738e-06
+      94241.71c -2.78146465966e-07
+      94242.71c -5.02085829163e-09
+m5123 62152.71c -4.11318148618e-06
+      62151.71c -1.82643271324e-06
+      62150.71c -8.64323821479e-06
+      64155.71c -6.33732379156e-09
+      63153.71c -1.51302586944e-06
+      60143.71c -4.56820881063e-05
+      60145.71c -3.2390652212e-05
+      95241.71c -9.19384081247e-09
+      95243.71c -5.43644740853e-11
+      94239.71c -0.000130467117992
+      94238.71c -1.54018183284e-08
+      63154.71c -4.40380799002e-08
+      44103.71c -1.75548491863e-06
+      92238.71c -0.062582562713
+      54135.71c -3.17396271438e-08
+      62149.71c -6.24311852574e-07
+      54131.71c -2.10046753497e-05
+      1001.71c -0.0171196088595
+      62147.71c -3.27914283938e-06
+      92234.71c -3.90621222388e-08
+      92235.71c -0.0140995548237
+      92236.71c -0.000255266047703
+      43099.71c -3.42029222849e-05
+      42095.71c -2.67607574948e-05
+      61147.71c -1.45788149081e-05
+      40090.71c -0.905506527356
+      45103.71c -1.61070508959e-05
+      55133.71c -5.00228438829e-05
+      93237.71c -1.04391196575e-06
+      55135.71c -3.46630975507e-05
+      94240.71c -7.18044981509e-06
+      94241.71c -4.65038393479e-07
+      94242.71c -1.01345969037e-08
+m5124 62152.71c -4.40152436848e-06
+      62151.71c -1.86509098237e-06
+      62150.71c -9.16181372509e-06
+      64155.71c -6.2787645457e-09
+      63153.71c -1.606249091e-06
+      60143.71c -4.813615573e-05
+      60145.71c -3.41678698432e-05
+      95241.71c -1.07281524521e-08
+      95243.71c -7.11334372186e-11
+      94239.71c -0.0001366094347
+      94238.71c -1.78373171624e-08
+      63154.71c -4.8977286837e-08
+      44103.71c -1.85038420968e-06
+      92238.71c -0.0625775379069
+      54135.71c -3.27888711669e-08
+      62149.71c -6.22189076975e-07
+      54131.71c -2.21540946989e-05
+      1001.71c -0.0171206151341
+      62147.71c -3.45833866079e-06
+      92234.71c -4.11295891265e-08
+      92235.71c -0.0140137119323
+      92236.71c -0.000269146703169
+      43099.71c -3.60877016618e-05
+      42095.71c -2.82535568635e-05
+      61147.71c -1.5355950715e-05
+      40090.71c -0.905559752182
+      45103.71c -1.69947317061e-05
+      55133.71c -5.27770710685e-05
+      93237.71c -1.14872033695e-06
+      55135.71c -3.59277175511e-05
+      94240.71c -7.94519034248e-06
+      94241.71c -5.42017593025e-07
+      94242.71c -1.25275648839e-08
 c **  E-13  Fuel ID= 2987
 m5131 62152.71c -8.38001202339e-07
       62151.71c -7.36874100074e-07
@@ -2868,6 +11227,105 @@ m5131 62152.71c -8.38001202339e-07
       94240.71c -6.17200264494e-07
       94241.71c -1.49569408117e-08
       94242.71c -1.36237079073e-10
+m5132 62152.71c -1.10860490534e-06
+      62151.71c -8.77426441567e-07
+      62150.71c -2.45453610728e-06
+      64155.71c -2.33943408613e-09
+      63153.71c -4.76467280958e-07
+      60143.71c -1.46471008969e-05
+      60145.71c -1.08760344005e-05
+      95241.71c -5.19416713111e-10
+      95243.71c -1.35476957181e-12
+      94239.71c -4.66136212838e-05
+      94238.71c -1.46221012694e-09
+      63154.71c -6.8168758686e-09
+      44103.71c -1.34617204333e-06
+      92238.71c -0.0626435274503
+      54135.71c -2.84944106508e-08
+      62149.71c -6.14692058511e-07
+      54131.71c -6.85327673522e-06
+      1001.71c -0.0171077309167
+      62147.71c -6.02515700564e-07
+      92234.71c -1.34656029658e-08
+      92235.71c -0.0151403262595
+      92236.71c -8.6170328065e-05
+      43099.71c -1.13468473422e-05
+      42095.71c -6.19721498631e-06
+      61147.71c -5.21933290128e-06
+      40090.71c -0.90487826798
+      45103.71c -4.65150106969e-06
+      55133.71c -1.64025936386e-05
+      93237.71c -1.92191885904e-07
+      55135.71c -1.22695823294e-05
+      94240.71c -1.13447357743e-06
+      94241.71c -3.93226470072e-08
+      94242.71c -4.57907362498e-10
+m5133 62152.71c -1.38136535364e-06
+      62151.71c -9.93331416924e-07
+      62150.71c -3.04552480772e-06
+      64155.71c -2.43448864526e-09
+      63153.71c -5.74387171094e-07
+      60143.71c -1.74719746245e-05
+      60145.71c -1.29954987197e-05
+      95241.71c -8.81084355096e-10
+      95243.71c -3.3462146591e-12
+      94239.71c -5.52251633459e-05
+      94238.71c -2.33880334177e-09
+      63154.71c -9.70539866663e-09
+      44103.71c -1.61057552297e-06
+      92238.71c -0.0626375179056
+      54135.71c -3.22574149481e-08
+      62149.71c -6.26723759551e-07
+      54131.71c -8.18684447267e-06
+      1001.71c -0.0171089348436
+      62147.71c -7.18826082103e-07
+      92234.71c -1.5992382348e-08
+      92235.71c -0.0150375649185
+      92236.71c -0.000102933981419
+      43099.71c -1.35627173095e-05
+      42095.71c -7.41195587461e-06
+      61147.71c -6.22240591371e-06
+      40090.71c -0.90494194722
+      45103.71c -5.55939564465e-06
+      55133.71c -1.96040557855e-05
+      93237.71c -2.59173608357e-07
+      55135.71c -1.39138264906e-05
+      94240.71c -1.60618685256e-06
+      94241.71c -6.66501725587e-08
+      94242.71c -9.34744143883e-10
+m5134 62152.71c -1.4788388734e-06
+      62151.71c -1.03026222132e-06
+      62150.71c -3.25147311989e-06
+      64155.71c -2.45715976266e-09
+      63153.71c -6.08723860001e-07
+      60143.71c -1.84469868714e-05
+      60145.71c -1.37281444094e-05
+      95241.71c -1.03237955219e-09
+      95243.71c -4.40039004737e-12
+      94239.71c -5.81162545942e-05
+      94238.71c -2.69411439858e-09
+      63154.71c -1.08170423348e-08
+      44103.71c -1.70171327244e-06
+      92238.71c -0.0626354480683
+      54135.71c -3.34550943014e-08
+      62149.71c -6.29608561959e-07
+      54131.71c -8.64775696729e-06
+      1001.71c -0.0171093528937
+      62147.71c -7.59037253133e-07
+      92234.71c -1.69071258885e-08
+      92235.71c -0.0150020558576
+      92236.71c -0.000108710660308
+      43099.71c -1.43294354887e-05
+      42095.71c -7.83314764921e-06
+      61147.71c -6.56864183762e-06
+      40090.71c -0.90496405912
+      45103.71c -5.87379748604e-06
+      55133.71c -2.071160451e-05
+      93237.71c -2.83092298736e-07
+      55135.71c -1.44427078828e-05
+      94240.71c -1.78558587655e-06
+      94241.71c -7.80592685792e-08
+      94242.71c -1.16013661168e-09
 c **  E-14  Fuel ID= 3118
 m5141 62152.71c -3.22127549049e-06
       62151.71c -1.53555561157e-06
@@ -2902,6 +11360,105 @@ m5141 62152.71c -3.22127549049e-06
       94240.71c -5.04398622442e-06
       94241.71c -4.10488565076e-07
       94242.71c -1.98023298309e-08
+m5142 62152.71c -4.16512851131e-06
+      62151.71c -1.71486190646e-06
+      62150.71c -8.59020352754e-06
+      64155.71c -6.93988266065e-09
+      63153.71c -1.57710448904e-06
+      60143.71c -4.52222981559e-05
+      60145.71c -3.21544450922e-05
+      95241.71c -5.24157096682e-08
+      95243.71c -9.28397604146e-10
+      94239.71c -0.000124152468435
+      94238.71c -3.84620930142e-08
+      63154.71c -5.58099151526e-08
+      44103.71c -1.46937272259e-06
+      92238.71c -0.0625826239848
+      54135.71c -2.8029424403e-08
+      62149.71c -6.22112978611e-07
+      54131.71c -2.08796908604e-05
+      1001.71c -0.0171194835263
+      62147.71c -4.46008240335e-06
+      92234.71c -3.85938692334e-08
+      92235.71c -0.0141119257411
+      92236.71c -0.000252541800802
+      43099.71c -3.40266804581e-05
+      42095.71c -2.79230102389e-05
+      61147.71c -1.32622650964e-05
+      40090.71c -0.905499898115
+      45103.71c -1.6225048863e-05
+      55133.71c -4.98142814351e-05
+      93237.71c -1.31730237531e-06
+      55135.71c -3.61645363778e-05
+      94240.71c -8.56636459513e-06
+      94241.71c -9.40971029282e-07
+      94242.71c -5.74228164642e-08
+m5143 62152.71c -5.11174630512e-06
+      62151.71c -1.83838414111e-06
+      62150.71c -1.03107311103e-05
+      64155.71c -6.79934117685e-09
+      63153.71c -1.91927813249e-06
+      60143.71c -5.31813803251e-05
+      60145.71c -3.80201355721e-05
+      95241.71c -8.00914054353e-08
+      95243.71c -2.05849088778e-09
+      94239.71c -0.000143502484703
+      94238.71c -6.24658144907e-08
+      63154.71c -7.77466448872e-08
+      44103.71c -1.7410921143e-06
+      92238.71c -0.0625642560421
+      54135.71c -3.1276659758e-08
+      62149.71c -6.14873121414e-07
+      54131.71c -2.4662775023e-05
+      1001.71c -0.0171228330777
+      62147.71c -5.23656146265e-06
+      92234.71c -4.51674581823e-08
+      92235.71c -0.0138285514872
+      92236.71c -0.000298256603661
+      43099.71c -4.02697231941e-05
+      42095.71c -3.30742972375e-05
+      61147.71c -1.56120658999e-05
+      40090.71c -0.90567706575
+      45103.71c -1.91776076662e-05
+      55133.71c -5.89395450607e-05
+      93237.71c -1.79310300282e-06
+      55135.71c -4.05954330627e-05
+      94240.71c -1.15658843602e-05
+      94241.71c -1.45740096435e-06
+      94242.71c -1.06931367943e-07
+m5144 62152.71c -5.43973815185e-06
+      62151.71c -1.87337026904e-06
+      62150.71c -1.08986599041e-05
+      64155.71c -6.73911774602e-09
+      63153.71c -2.03980311901e-06
+      60143.71c -5.58634489798e-05
+      60145.71c -4.00144331526e-05
+      95241.71c -9.0567035352e-08
+      95243.71c -2.61247532343e-09
+      94239.71c -0.000149672016694
+      94238.71c -7.24103120332e-08
+      63154.71c -8.5985759378e-08
+      44103.71c -1.8349358892e-06
+      92238.71c -0.0625581282609
+      54135.71c -3.23027722352e-08
+      62149.71c -6.12272327293e-07
+      54131.71c -2.59470498953e-05
+      1001.71c -0.0171239776995
+      62147.71c -5.4979977566e-06
+      92234.71c -4.73191891617e-08
+      92235.71c -0.0137322627981
+      92236.71c -0.000313739529019
+      43099.71c -4.23943697978e-05
+      42095.71c -3.48267180054e-05
+      61147.71c -1.64056341513e-05
+      40090.71c -0.905737608168
+      45103.71c -2.0179215788e-05
+      55133.71c -6.20444773674e-05
+      93237.71c -1.97208010978e-06
+      55135.71c -4.19873969654e-05
+      94240.71c -1.26565781045e-05
+      94241.71c -1.65673357455e-06
+      94242.71c -1.28677891866e-07
 c **  E-15  Fuel ID= 2934
 m5151 62152.71c -9.84633838599e-07
       62151.71c -8.28773656982e-07
@@ -2936,6 +11493,105 @@ m5151 62152.71c -9.84633838599e-07
       94240.71c -7.73452780115e-07
       94241.71c -1.93172981218e-08
       94242.71c -1.77571595684e-10
+m5152 62152.71c -1.30764003196e-06
+      62151.71c -9.82186691573e-07
+      62150.71c -2.92389925465e-06
+      64155.71c -2.81257745591e-09
+      63153.71c -5.51677823616e-07
+      60143.71c -1.70847609468e-05
+      60145.71c -1.25311182851e-05
+      95241.71c -6.81844181171e-10
+      95243.71c -1.79274847158e-12
+      94239.71c -5.3483161577e-05
+      94238.71c -1.87809098597e-09
+      63154.71c -8.54618917177e-09
+      44103.71c -1.36664346545e-06
+      92238.71c -0.0626389519911
+      54135.71c -2.84359101956e-08
+      62149.71c -6.20191928966e-07
+      54131.71c -7.94966810416e-06
+      1001.71c -0.0171086369591
+      62147.71c -7.59411501765e-07
+      92234.71c -1.55249308819e-08
+      92235.71c -0.0150601499964
+      92236.71c -9.92418395647e-05
+      43099.71c -1.31048760322e-05
+      42095.71c -7.7146232859e-06
+      61147.71c -6.0055147419e-06
+      40090.71c -0.904926191234
+      45103.71c -5.54320800954e-06
+      55133.71c -1.89951631137e-05
+      93237.71c -2.3507805198e-07
+      55135.71c -1.41389920359e-05
+      94240.71c -1.42064066824e-06
+      94241.71c -5.10420234175e-08
+      94242.71c -6.00712413788e-10
+m5153 62152.71c -1.6339911211e-06
+      62151.71c -1.10591977124e-06
+      62150.71c -3.61470046861e-06
+      64155.71c -2.90147593653e-09
+      63153.71c -6.66264538191e-07
+      60143.71c -2.03907669636e-05
+      60145.71c -1.49834170629e-05
+      95241.71c -1.15902907255e-09
+      95243.71c -4.44013849395e-12
+      94239.71c -6.34025107237e-05
+      94238.71c -3.01764598462e-09
+      63154.71c -1.2199034989e-08
+      44103.71c -1.63597034881e-06
+      92238.71c -0.062631919138
+      54135.71c -3.21841160784e-08
+      62149.71c -6.29076106862e-07
+      54131.71c -9.50292208579e-06
+      1001.71c -0.0171100267887
+      62147.71c -9.06590971881e-07
+      92234.71c -1.8394312337e-08
+      92235.71c -0.0149413026605
+      92236.71c -0.000118618534886
+      43099.71c -1.56755803232e-05
+      42095.71c -9.23488045009e-06
+      61147.71c -7.16325753025e-06
+      40090.71c -0.904999703413
+      45103.71c -6.6304111845e-06
+      55133.71c -2.2719325566e-05
+      93237.71c -3.18591127989e-07
+      55135.71c -1.60395841045e-05
+      94240.71c -2.01791694604e-06
+      94241.71c -8.66957029455e-08
+      94242.71c -1.23193198575e-09
+m5154 62152.71c -1.74934939822e-06
+      62151.71c -1.14461304723e-06
+      62150.71c -3.85265206201e-06
+      64155.71c -2.92061358761e-09
+      63153.71c -7.05932515505e-07
+      60143.71c -2.15189841692e-05
+      60145.71c -1.58218599367e-05
+      95241.71c -1.36062033218e-09
+      95243.71c -5.86022880985e-12
+      94239.71c -6.67275889285e-05
+      94238.71c -3.49765271128e-09
+      63154.71c -1.35889891359e-08
+      44103.71c -1.72794220906e-06
+      92238.71c -0.0626295049519
+      54135.71c -3.33574887595e-08
+      62149.71c -6.30974057206e-07
+      54131.71c -1.00342875693e-05
+      1001.71c -0.0171105035351
+      62147.71c -9.56844849228e-07
+      92234.71c -1.9436473782e-08
+      92235.71c -0.0149006953549
+      92236.71c -0.000125226000816
+      43099.71c -1.65549624039e-05
+      42095.71c -9.75583835732e-06
+      61147.71c -7.55755068414e-06
+      40090.71c -0.905024919936
+      45103.71c -7.00255743909e-06
+      55133.71c -2.39933997484e-05
+      93237.71c -3.50843500723e-07
+      55135.71c -1.66430572267e-05
+      94240.71c -2.24356527814e-06
+      94241.71c -1.01719226441e-07
+      94242.71c -1.53130207712e-09
 c **  E-16  Fuel ID= 4343
 m5161 62152.71c -5.37474023693e-06
       62151.71c -1.94417989718e-06
@@ -2970,6 +11626,105 @@ m5161 62152.71c -5.37474023693e-06
       94240.71c -9.17563819856e-06
       94241.71c -6.2174443469e-07
       94242.71c -1.67774552383e-08
+m5162 62152.71c -7.01338693059e-06
+      62151.71c -2.07730236806e-06
+      62150.71c -1.36680504643e-05
+      64155.71c -9.47154200038e-09
+      63153.71c -2.4775605591e-06
+      60143.71c -7.02591724708e-05
+      60145.71c -4.960279143e-05
+      95241.71c -5.36580030814e-08
+      95243.71c -4.39101328219e-10
+      94239.71c -0.00018655893875
+      94238.71c -5.23110488182e-08
+      63154.71c -9.98571523689e-08
+      44103.71c -1.5105277809e-06
+      92238.71c -0.0625313002695
+      54135.71c -2.79255459901e-08
+      62149.71c -5.96902682824e-07
+      54131.71c -3.23856436211e-05
+      1001.71c -0.0171291091199
+      62147.71c -8.29576350424e-06
+      92234.71c -5.92925829462e-08
+      92235.71c -0.013269476848
+      92236.71c -0.000389099628952
+      43099.71c -5.26321773181e-05
+      42095.71c -4.68595759242e-05
+      61147.71c -1.91276335929e-05
+      40090.71c -0.906009024102
+      45103.71c -2.58027687702e-05
+      55133.71c -7.72187863974e-05
+      93237.71c -2.30029645494e-06
+      55135.71c -5.5756574384e-05
+      94240.71c -1.59660370339e-05
+      94241.71c -1.52415918739e-06
+      94242.71c -5.30265622738e-08
+m5163 62152.71c -8.5970241432e-06
+      62151.71c -2.13491915456e-06
+      62150.71c -1.63287516888e-05
+      64155.71c -8.89322191692e-09
+      63153.71c -3.03348710238e-06
+      60143.71c -8.24658054458e-05
+      60145.71c -5.85922146537e-05
+      95241.71c -8.70885927702e-08
+      95243.71c -1.03713690472e-09
+      94239.71c -0.000213383737332
+      94238.71c -8.55391065068e-08
+      63154.71c -1.39980238861e-07
+      44103.71c -1.7787845892e-06
+      92238.71c -0.0625022772852
+      54135.71c -3.07890574245e-08
+      62149.71c -5.85514614414e-07
+      54131.71c -3.82134811666e-05
+      1001.71c -0.0171342550708
+      62147.71c -9.77871652553e-06
+      92234.71c -6.89515205356e-08
+      92235.71c -0.0128361007474
+      92236.71c -0.000458860477213
+      43099.71c -6.2238601575e-05
+      42095.71c -5.55108513228e-05
+      61147.71c -2.24140915329e-05
+      40090.71c -0.906281208602
+      45103.71c -3.04823018644e-05
+      55133.71c -9.12914342936e-05
+      93237.71c -3.16069606094e-06
+      55135.71c -6.25010148265e-05
+      94240.71c -2.18158052998e-05
+      94241.71c -2.46405098822e-06
+      94242.71c -1.04254221778e-07
+m5164 62152.71c -9.14134506142e-06
+      62151.71c -2.14703190852e-06
+      62150.71c -1.72391890904e-05
+      64155.71c -8.71367137768e-09
+      63153.71c -3.23082545879e-06
+      60143.71c -8.65748963256e-05
+      60145.71c -6.16492650974e-05
+      95241.71c -1.00519624112e-07
+      95243.71c -1.33962672912e-09
+      94239.71c -0.000221785059823
+      94238.71c -9.93895115135e-08
+      63154.71c -1.55129399508e-07
+      44103.71c -1.86899115454e-06
+      92238.71c -0.0624925772261
+      54135.71c -3.16490114677e-08
+      62149.71c -5.81508451969e-07
+      54131.71c -4.01912951617e-05
+      1001.71c -0.0171360154447
+      62147.71c -1.02833378311e-05
+      92234.71c -7.22132713178e-08
+      92235.71c -0.0126888080469
+      92236.71c -0.000482458456024
+      43099.71c -6.55104964996e-05
+      42095.71c -5.84684579692e-05
+      61147.71c -2.3517516226e-05
+      40090.71c -0.906374319962
+      45103.71c -3.20733534056e-05
+      55133.71c -9.60814622671e-05
+      93237.71c -3.4811227077e-06
+      55135.71c -6.4615581464e-05
+      94240.71c -2.39425775905e-05
+      94241.71c -2.84091098232e-06
+      94242.71c -1.2768536173e-07
 c **  E-17  Fuel ID= 3517
 m5171 62152.71c -1.52350488879e-06
       62151.71c -1.17425681964e-06
@@ -3004,6 +11759,105 @@ m5171 62152.71c -1.52350488879e-06
       94240.71c -1.31902360675e-06
       94241.71c -3.38455904243e-08
       94242.71c -3.09704952625e-10
+m5172 62152.71c -2.01821898342e-06
+      62151.71c -1.36927958505e-06
+      62150.71c -4.61703401033e-06
+      64155.71c -4.50214702541e-09
+      63153.71c -8.22241737184e-07
+      60143.71c -2.58859241588e-05
+      60145.71c -1.85129901942e-05
+      95241.71c -1.16207002575e-09
+      95243.71c -2.97152640263e-12
+      94239.71c -7.81338456645e-05
+      94238.71c -3.24549385426e-09
+      63154.71c -1.44959837819e-08
+      44103.71c -1.45754016427e-06
+      92238.71c -0.0626229033786
+      54135.71c -2.85244280988e-08
+      62149.71c -6.42025967997e-07
+      54131.71c -1.19083846484e-05
+      1001.71c -0.0171119100917
+      62147.71c -1.29997023448e-06
+      92234.71c -2.28947189022e-08
+      92235.71c -0.014770501276
+      92236.71c -0.000146344903139
+      43099.71c -1.9455265778e-05
+      42095.71c -1.30892652917e-05
+      61147.71c -8.87165280888e-06
+      40090.71c -0.905099316857
+      45103.71c -8.74872489262e-06
+      55133.71c -2.83562424697e-05
+      93237.71c -3.83382565382e-07
+      55135.71c -2.08887071096e-05
+      94240.71c -2.39881475835e-06
+      94241.71c -8.81277364045e-08
+      94242.71c -1.02703954811e-09
+m5173 62152.71c -2.52249608418e-06
+      62151.71c -1.52059785907e-06
+      62150.71c -5.64362637671e-06
+      64155.71c -4.58512766816e-09
+      63153.71c -9.9182911091e-07
+      60143.71c -3.08090452367e-05
+      60145.71c -2.20778072074e-05
+      95241.71c -1.96995799348e-09
+      95243.71c -7.31254990575e-12
+      94239.71c -9.23481848612e-05
+      94238.71c -5.17513990406e-09
+      63154.71c -2.06000174637e-08
+      44103.71c -1.73837379368e-06
+      92238.71c -0.0626125442288
+      54135.71c -3.21215337164e-08
+      62149.71c -6.38178121885e-07
+      54131.71c -1.41979396441e-05
+      1001.71c -0.0171139210847
+      62147.71c -1.54902927337e-06
+      92234.71c -2.6907293712e-08
+      92235.71c -0.0145978780625
+      92236.71c -0.000174460414356
+      43099.71c -2.32120056728e-05
+      42095.71c -1.56372725687e-05
+      61147.71c -1.05502835823e-05
+      40090.71c -0.905205684198
+      45103.71c -1.0439924744e-05
+      55133.71c -3.38289766281e-05
+      93237.71c -5.19258725401e-07
+      55135.71c -2.36470864628e-05
+      94240.71c -3.39747017428e-06
+      94241.71c -1.4916412234e-07
+      94242.71c -2.09495284598e-09
+m5174 62152.71c -2.70373939683e-06
+      62151.71c -1.5670724339e-06
+      62150.71c -6.00095190635e-06
+      64155.71c -4.5947890476e-09
+      63153.71c -1.05162373578e-06
+      60143.71c -3.25138328534e-05
+      60145.71c -2.33155844238e-05
+      95241.71c -2.31148306624e-09
+      95243.71c -9.56766651725e-12
+      94239.71c -9.69885104335e-05
+      94238.71c -5.97322218051e-09
+      63154.71c -2.29536216215e-08
+      44103.71c -1.83531453291e-06
+      92238.71c -0.0626091752883
+      54135.71c -3.32683327777e-08
+      62149.71c -6.36768709124e-07
+      54131.71c -1.49929275181e-05
+      1001.71c -0.017114620823
+      62147.71c -1.63570766102e-06
+      92234.71c -2.83543752263e-08
+      92235.71c -0.0145380096758
+      92236.71c -0.000184171038647
+      43099.71c -2.45171356047e-05
+      42095.71c -1.65260710517e-05
+      61147.71c -1.11307486527e-05
+      40090.71c -0.905242695415
+      45103.71c -1.10280019582e-05
+      55133.71c -3.57299324134e-05
+      93237.71c -5.69352453056e-07
+      55135.71c -2.45364386922e-05
+      94240.71c -3.77317324477e-06
+      94241.71c -1.74803578964e-07
+      94242.71c -2.60299261121e-09
 c **  E-18  Fuel ID= 3502
 m5181 62152.71c -1.54650942792e-06
       62151.71c -1.1835563109e-06
@@ -3038,6 +11892,105 @@ m5181 62152.71c -1.54650942792e-06
       94240.71c -1.33949635106e-06
       94241.71c -3.4617249244e-08
       94242.71c -3.20686723781e-10
+m5182 62152.71c -2.03208628537e-06
+      62151.71c -1.37344613746e-06
+      62150.71c -4.64584683933e-06
+      64155.71c -4.51966806286e-09
+      63153.71c -8.26662151078e-07
+      60143.71c -2.60266185267e-05
+      60145.71c -1.86113673129e-05
+      95241.71c -1.17280744549e-09
+      95243.71c -3.00815520796e-12
+      94239.71c -7.81838378906e-05
+      94238.71c -3.25588214821e-09
+      63154.71c -1.46133638659e-08
+      44103.71c -1.46093893432e-06
+      92238.71c -0.062622969316
+      54135.71c -2.85318427937e-08
+      62149.71c -6.4135585374e-07
+      54131.71c -1.19731373612e-05
+      1001.71c -0.0171119647385
+      62147.71c -1.31397324999e-06
+      92234.71c -2.2755634471e-08
+      92235.71c -0.0147658236476
+      92236.71c -0.000147016356276
+      43099.71c -1.95599116062e-05
+      42095.71c -1.3186965296e-05
+      61147.71c -8.91321464168e-06
+      40090.71c -0.905102207287
+      45103.71c -8.79909186126e-06
+      55133.71c -2.85105401891e-05
+      93237.71c -3.83866804273e-07
+      55135.71c -2.10003820587e-05
+      94240.71c -2.41100262736e-06
+      94241.71c -8.85189972519e-08
+      94242.71c -1.03794303103e-09
+m5183 62152.71c -2.53880026264e-06
+      62151.71c -1.52428921368e-06
+      62150.71c -5.67528902903e-06
+      64155.71c -4.60014930171e-09
+      63153.71c -9.96738735455e-07
+      60143.71c -3.09658681929e-05
+      60145.71c -2.21864845108e-05
+      95241.71c -1.98629053567e-09
+      95243.71c -7.36640414086e-12
+      94239.71c -9.2283444143e-05
+      94238.71c -5.19366595897e-09
+      63154.71c -2.07414022097e-08
+      44103.71c -1.74057105147e-06
+      92238.71c -0.0626127743925
+      54135.71c -3.20778629828e-08
+      62149.71c -6.37590512523e-07
+      54131.71c -1.42702065811e-05
+      1001.71c -0.0171139805746
+      62147.71c -1.56528756251e-06
+      92234.71c -2.68555276693e-08
+      92235.71c -0.0145927389092
+      92236.71c -0.000175179190845
+      43099.71c -2.33278837794e-05
+      42095.71c -1.57499178802e-05
+      61147.71c -1.05961173294e-05
+      40090.71c -0.905208830795
+      45103.71c -1.04968481539e-05
+      55133.71c -3.40004371707e-05
+      93237.71c -5.19813942804e-07
+      55135.71c -2.3767458003e-05
+      94240.71c -3.40998127924e-06
+      94241.71c -1.49534867743e-07
+      94242.71c -2.11329635782e-09
+m5184 62152.71c -2.71781382631e-06
+      62151.71c -1.57000824238e-06
+      62150.71c -6.02778947957e-06
+      64155.71c -4.60894727382e-09
+      63153.71c -1.05570380799e-06
+      60143.71c -3.264684192e-05
+      60145.71c -2.34073611865e-05
+      95241.71c -2.32988382929e-09
+      95243.71c -9.64361345038e-12
+      94239.71c -9.70113875036e-05
+      94238.71c -5.99155416652e-09
+      63154.71c -2.30723852173e-08
+      44103.71c -1.83647905707e-06
+      92238.71c -0.0626093118299
+      54135.71c -3.31850215324e-08
+      62149.71c -6.36281046548e-07
+      54131.71c -1.50540379545e-05
+      1001.71c -0.0171146702961
+      62147.71c -1.65123776145e-06
+      92234.71c -2.82049698264e-08
+      92235.71c -0.0145336637132
+      92236.71c -0.000184786788706
+      43099.71c -2.46154245957e-05
+      42095.71c -1.66276929915e-05
+      61147.71c -1.11678491566e-05
+      40090.71c -0.905245312192
+      45103.71c -1.10766578845e-05
+      55133.71c -3.58758514887e-05
+      93237.71c -5.70285447692e-07
+      55135.71c -2.46455140764e-05
+      94240.71c -3.78561192779e-06
+      94241.71c -1.75325801649e-07
+      94242.71c -2.62296078996e-09
 c **  E-19  Fuel ID= 3503
 m5191 62152.71c -2.46502754195e-06
       62151.71c -1.48778468284e-06
@@ -3072,6 +12025,105 @@ m5191 62152.71c -2.46502754195e-06
       94240.71c -2.80885004044e-06
       94241.71c -1.06344633636e-07
       94242.71c -1.48852944634e-09
+m5192 62152.71c -3.26610155841e-06
+      62151.71c -1.68473309666e-06
+      62150.71c -7.08083754892e-06
+      64155.71c -6.42948038845e-09
+      63153.71c -1.23761154986e-06
+      60143.71c -3.82161727512e-05
+      60145.71c -2.70158010718e-05
+      95241.71c -5.33056942679e-09
+      95243.71c -2.15665714701e-11
+      94239.71c -0.000110686768945
+      94238.71c -9.32157899134e-09
+      63154.71c -3.06537404688e-08
+      44103.71c -1.47613555333e-06
+      92238.71c -0.0625985664325
+      54135.71c -2.83595146818e-08
+      62149.71c -6.30436030564e-07
+      54131.71c -1.75246747961e-05
+      1001.71c -0.0171165765576
+      62147.71c -2.71925989128e-06
+      92234.71c -3.30933624318e-08
+      92235.71c -0.0143593823168
+      92236.71c -0.000213084797282
+      43099.71c -2.85066970975e-05
+      42095.71c -2.2217434547e-05
+      61147.71c -1.22285142965e-05
+      40090.71c -0.905346139979
+      45103.71c -1.34152594347e-05
+      55133.71c -4.16945682762e-05
+      93237.71c -7.52979483867e-07
+      55135.71c -3.04593808699e-05
+      94240.71c -5.04653900061e-06
+      94241.71c -2.71930652245e-07
+      94242.71c -4.87030866882e-09
+m5193 62152.71c -4.07219416301e-06
+      62151.71c -1.82055283966e-06
+      62150.71c -8.56888340826e-06
+      64155.71c -6.3002431743e-09
+      63153.71c -1.49968564961e-06
+      60143.71c -4.53163906511e-05
+      60145.71c -3.2135631981e-05
+      95241.71c -8.92611576053e-09
+      95243.71c -5.23687108084e-11
+      94239.71c -0.00012956069116
+      94238.71c -1.5067804494e-08
+      63154.71c -4.33670821326e-08
+      44103.71c -1.75526476295e-06
+      92238.71c -0.0625833146776
+      54135.71c -3.17532437861e-08
+      62149.71c -6.246563153e-07
+      54131.71c -2.0836467225e-05
+      1001.71c -0.017119467774
+      62147.71c -3.23043115847e-06
+      92234.71c -3.87640338648e-08
+      92235.71c -0.0141118690244
+      92236.71c -0.000253272216741
+      43099.71c -3.39308082773e-05
+      42095.71c -2.64830157349e-05
+      61147.71c -1.44858254051e-05
+      40090.71c -0.905499064929
+      45103.71c -1.59667832045e-05
+      55133.71c -4.96219410739e-05
+      93237.71c -1.02899084622e-06
+      55135.71c -3.43910557485e-05
+      94240.71c -7.07329215959e-06
+      94241.71c -4.54752745278e-07
+      94242.71c -9.83259350881e-09
+m5194 62152.71c -4.35792156245e-06
+      62151.71c -1.85946221078e-06
+      62150.71c -9.08357836896e-06
+      64155.71c -6.24316683879e-09
+      63153.71c -1.59204524369e-06
+      60143.71c -4.77527373838e-05
+      60145.71c -3.38999551609e-05
+      95241.71c -1.04168269722e-08
+      95243.71c -6.85325158867e-11
+      94239.71c -0.000135669802665
+      94238.71c -1.74496680518e-08
+      63154.71c -4.82340795406e-08
+      44103.71c -1.85029862726e-06
+      92238.71c -0.0625783315143
+      54135.71c -3.28054783954e-08
+      62149.71c -6.22548145732e-07
+      54131.71c -2.19774126721e-05
+      1001.71c -0.0171204666681
+      62147.71c -3.40705876744e-06
+      92234.71c -4.08170995584e-08
+      92235.71c -0.0140266469245
+      92236.71c -0.000267053771358
+      43099.71c -3.58016938291e-05
+      42095.71c -2.79609766299e-05
+      61147.71c -1.52586669345e-05
+      40090.71c -0.905551899381
+      45103.71c -1.68472263827e-05
+      55133.71c -5.23556867187e-05
+      93237.71c -1.13226869339e-06
+      55135.71c -3.56467855496e-05
+      94240.71c -7.82732289758e-06
+      94241.71c -5.30102149188e-07
+      94242.71c -1.2155570141e-08
 c **  E-20  Fuel ID= 3009
 m5201 62152.71c -3.06839034785e-06
       62151.71c -1.62557176024e-06
@@ -3106,6 +12158,105 @@ m5201 62152.71c -3.06839034785e-06
       94240.71c -3.9431276878e-06
       94241.71c -1.78293040906e-07
       94242.71c -3.06240317308e-09
+m5202 62152.71c -4.05543522682e-06
+      62151.71c -1.81293776948e-06
+      62150.71c -8.53276939527e-06
+      64155.71c -7.31648607398e-09
+      63153.71c -1.49522508954e-06
+      60143.71c -4.53918281495e-05
+      60145.71c -3.20100170314e-05
+      95241.71c -1.06427529579e-08
+      95243.71c -5.40427157089e-11
+      94239.71c -0.000128649143024
+      94238.71c -1.52471054142e-08
+      63154.71c -4.29273953562e-08
+      44103.71c -1.48145337112e-06
+      92238.71c -0.0625840042023
+      54135.71c -2.81766833602e-08
+      62149.71c -6.23475442823e-07
+      54131.71c -2.08192799504e-05
+      1001.71c -0.0171193310589
+      62147.71c -3.75976265479e-06
+      92234.71c -3.89728450461e-08
+      92235.71c -0.0141181652026
+      92236.71c -0.000252147390915
+      43099.71c -3.38325066479e-05
+      42095.71c -2.76494808794e-05
+      61147.71c -1.39719309311e-05
+      40090.71c -0.905491833664
+      45103.71c -1.61599756723e-05
+      55133.71c -4.95413835617e-05
+      93237.71c -1.02945835958e-06
+      55135.71c -3.60685669686e-05
+      94240.71c -7.0296037099e-06
+      94241.71c -4.50986294196e-07
+      94242.71c -9.92399880266e-09
+m5203 62152.71c -5.03955816802e-06
+      62151.71c -1.93259631848e-06
+      62150.71c -1.0286349552e-05
+      64155.71c -7.06360215111e-09
+      63153.71c -1.81656741108e-06
+      60143.71c -5.36998654138e-05
+      60145.71c -3.80152417868e-05
+      95241.71c -1.76786340936e-08
+      95243.71c -1.30057627163e-10
+      94239.71c -0.000149781986416
+      94238.71c -2.47553559281e-08
+      63154.71c -6.05819870196e-08
+      44103.71c -1.75810570345e-06
+      92238.71c -0.0625658071168
+      54135.71c -3.14608870057e-08
+      62149.71c -6.16472117707e-07
+      54131.71c -2.47105144521e-05
+      1001.71c -0.0171227295801
+      62147.71c -4.45823209941e-06
+      92234.71c -4.55984286183e-08
+      92235.71c -0.013828084786
+      92236.71c -0.000299155485376
+      43099.71c -4.02095860734e-05
+      42095.71c -3.29112633284e-05
+      61147.71c -1.65105864529e-05
+      40090.71c -0.905671591456
+      45103.71c -1.92010168163e-05
+      55133.71c -5.88705365769e-05
+      93237.71c -1.41030904148e-06
+      55135.71c -4.06571487212e-05
+      94240.71c -9.79061154645e-06
+      94241.71c -7.47865111917e-07
+      94242.71c -1.98937018562e-08
+m5204 62152.71c -5.38551255027e-06
+      62151.71c -1.96541875903e-06
+      62150.71c -1.08911089155e-05
+      64155.71c -6.97029861604e-09
+      63153.71c -1.9301203596e-06
+      60143.71c -5.65373813713e-05
+      60145.71c -4.00772276258e-05
+      95241.71c -2.05676043792e-08
+      95243.71c -1.69456318989e-10
+      94239.71c -0.000156606744393
+      94238.71c -2.87112845937e-08
+      63154.71c -6.7316490227e-08
+      44103.71c -1.85181724829e-06
+      92238.71c -0.0625597454509
+      54135.71c -3.24679957776e-08
+      62149.71c -6.13956958936e-07
+      54131.71c -2.60458211573e-05
+      1001.71c -0.0171239016352
+      62147.71c -4.69858472376e-06
+      92234.71c -4.79400009199e-08
+      92235.71c -0.0137285373496
+      92236.71c -0.000315219577204
+      43099.71c -4.24015892932e-05
+      42095.71c -3.47276561077e-05
+      61147.71c -1.73756322699e-05
+      40090.71c -0.905733584906
+      45103.71c -2.02463978862e-05
+      55133.71c -6.20765038207e-05
+      93237.71c -1.55356471804e-06
+      55135.71c -4.21159467171e-05
+      94240.71c -1.0812171945e-05
+      94241.71c -8.69250618589e-07
+      94242.71c -2.45301955393e-08
 c **  E-21  Fuel ID= 3011
 m5211 62152.71c -3.32406993363e-06
       62151.71c -1.67599309783e-06
@@ -3140,6 +12291,105 @@ m5211 62152.71c -3.32406993363e-06
       94240.71c -4.45041664727e-06
       94241.71c -2.12997566712e-07
       94242.71c -3.88238055507e-09
+m5212 62152.71c -4.38824056353e-06
+      62151.71c -1.85823603387e-06
+      62150.71c -9.13210951887e-06
+      64155.71c -7.6465815066e-09
+      63153.71c -1.60362878695e-06
+      60143.71c -4.83382310756e-05
+      60145.71c -3.40691495595e-05
+      95241.71c -1.33761229973e-08
+      95243.71c -7.20198091694e-11
+      94239.71c -0.00013587645743
+      94238.71c -1.81012850286e-08
+      63154.71c -4.84150557609e-08
+      44103.71c -1.48348112627e-06
+      92238.71c -0.0625779617793
+      54135.71c -2.81200585057e-08
+      62149.71c -6.20533567979e-07
+      54131.71c -2.21764399755e-05
+      1001.71c -0.0171204689975
+      62147.71c -4.21892098242e-06
+      92234.71c -4.13836832741e-08
+      92235.71c -0.014018748968
+      92236.71c -0.000268232252632
+      43099.71c -3.60295170964e-05
+      42095.71c -2.98946298914e-05
+      61147.71c -1.46569111257e-05
+      40090.71c -0.905552022586
+      45103.71c -1.72914403907e-05
+      55133.71c -5.2777674247e-05
+      93237.71c -1.15265174273e-06
+      55135.71c -3.83791370217e-05
+      94240.71c -7.91143460605e-06
+      94241.71c -5.3692976333e-07
+      94242.71c -1.25469377017e-08
+m5213 62152.71c -5.44517373745e-06
+      62151.71c -1.97059885623e-06
+      62150.71c -1.0993914957e-05
+      64155.71c -7.34613099181e-09
+      63153.71c -1.95011831774e-06
+      60143.71c -5.71319175575e-05
+      60145.71c -4.04337915311e-05
+      95241.71c -2.21659354575e-08
+      95243.71c -1.72904600746e-10
+      94239.71c -0.000157867240196
+      94238.71c -2.94233088587e-08
+      63154.71c -6.8263093509e-08
+      44103.71c -1.75850597552e-06
+      92238.71c -0.062558546789
+      54135.71c -3.13480469883e-08
+      62149.71c -6.13022233194e-07
+      54131.71c -2.63026865252e-05
+      1001.71c -0.0171240744079
+      62147.71c -4.99928827884e-06
+      92234.71c -4.83966015352e-08
+      92235.71c -0.0137113945825
+      92236.71c -0.00031799998088
+      43099.71c -4.27940723438e-05
+      42095.71c -3.55640127525e-05
+      61147.71c -1.73024971663e-05
+      40090.71c -0.905742723359
+      45103.71c -2.05315056131e-05
+      55133.71c -6.26768262814e-05
+      93237.71c -1.57998778565e-06
+      55135.71c -4.32326284724e-05
+      94240.71c -1.09931999649e-05
+      94241.71c -8.87678505751e-07
+      94242.71c -2.50974711119e-08
+m5214 62152.71c -5.81587669897e-06
+      62151.71c -2.00081513276e-06
+      62150.71c -1.16359269731e-05
+      64155.71c -7.23722490603e-09
+      63153.71c -2.07282980813e-06
+      60143.71c -6.01319104968e-05
+      60145.71c -4.26183484579e-05
+      95241.71c -2.57651959437e-08
+      95243.71c -2.25052214946e-10
+      94239.71c -0.000164969215375
+      94238.71c -3.41427460711e-08
+      63154.71c -7.58354677695e-08
+      44103.71c -1.85228566273e-06
+      92238.71c -0.0625520007774
+      54135.71c -3.23447839177e-08
+      62149.71c -6.10315512887e-07
+      54131.71c -2.77175961023e-05
+      1001.71c -0.0171253187237
+      62147.71c -5.26740567972e-06
+      92234.71c -5.08418877509e-08
+      92235.71c -0.0136059501198
+      92236.71c -0.000335002200155
+      43099.71c -4.51184370849e-05
+      42095.71c -3.7518354087e-05
+      61147.71c -1.82031321792e-05
+      40090.71c -0.90580853889
+      45103.71c -2.16440698962e-05
+      55133.71c -6.60770431465e-05
+      93237.71c -1.74130086746e-06
+      55135.71c -4.47743045766e-05
+      94240.71c -1.21318932561e-05
+      94241.71c -1.03090941019e-06
+      94242.71c -3.09262200671e-08
 c **  E-22  Fuel ID= 3014
 m5221 62152.71c -3.28389370643e-06
       62151.71c -1.66807013789e-06
@@ -3174,6 +12424,105 @@ m5221 62152.71c -3.28389370643e-06
       94240.71c -4.37070376589e-06
       94241.71c -2.07544268947e-07
       94242.71c -3.75353335947e-09
+m5222 62152.71c -4.33594517678e-06
+      62151.71c -1.85111808835e-06
+      62150.71c -9.03793217224e-06
+      64155.71c -7.5947119408e-09
+      63153.71c -1.58659476539e-06
+      60143.71c -4.78752478733e-05
+      60145.71c -3.3745587645e-05
+      95241.71c -1.29466147306e-08
+      95243.71c -6.91949774994e-11
+      94239.71c -0.000134740792943
+      94238.71c -1.7652793342e-08
+      63154.71c -4.75527519107e-08
+      44103.71c -1.48316249484e-06
+      92238.71c -0.0625789112558
+      54135.71c -2.81289562557e-08
+      62149.71c -6.20995839661e-07
+      54131.71c -2.19631825527e-05
+      1001.71c -0.0171202901874
+      62147.71c -4.14677111079e-06
+      92234.71c -4.10048560631e-08
+      92235.71c -0.014034370744
+      92236.71c -0.000265704756912
+      43099.71c -3.56842897265e-05
+      42095.71c -2.95418382654e-05
+      61147.71c -1.45492767213e-05
+      40090.71c -0.905542564796
+      45103.71c -1.71136476136e-05
+      55133.71c -5.22691395141e-05
+      93237.71c -1.13329374301e-06
+      55135.71c -3.80160654564e-05
+      94240.71c -7.77286805476e-06
+      94241.71c -5.23425031101e-07
+      94242.71c -1.21347820389e-08
+m5223 62152.71c -5.38143731038e-06
+      62151.71c -1.96462732516e-06
+      62150.71c -1.08827316242e-05
+      64155.71c -7.30173580531e-09
+      63153.71c -1.92913278793e-06
+      60143.71c -5.6592621836e-05
+      60145.71c -4.00537525705e-05
+      95241.71c -2.14608230859e-08
+      95243.71c -1.66171838957e-10
+      94239.71c -0.000156596763353
+      94238.71c -2.86898097922e-08
+      63154.71c -6.70561223754e-08
+      44103.71c -1.75844307874e-06
+      92238.71c -0.0625596876411
+      54135.71c -3.13657781113e-08
+      62149.71c -6.13564331006e-07
+      54131.71c -2.60525004701e-05
+      1001.71c -0.0171238630883
+      62147.71c -4.91426938331e-06
+      92234.71c -4.79569104644e-08
+      92235.71c -0.0137297307047
+      92236.71c -0.000315038849937
+      43099.71c -4.23879589371e-05
+      42095.71c -3.51471728111e-05
+      61147.71c -1.71780602284e-05
+      40090.71c -0.905731546043
+      45103.71c -2.03224391754e-05
+      55133.71c -6.20787247181e-05
+      93237.71c -1.55332530591e-06
+      55135.71c -4.28279303056e-05
+      94240.71c -1.08042311609e-05
+      94241.71c -8.6570891964e-07
+      94242.71c -2.42797765147e-08
+m5224 62152.71c -5.74825140239e-06
+      62151.71c -1.99525312143e-06
+      62150.71c -1.15188899425e-05
+      64155.71c -7.19528142728e-09
+      63153.71c -2.05040515029e-06
+      60143.71c -5.95670839449e-05
+      60145.71c -4.2219049282e-05
+      95241.71c -2.49484720783e-08
+      95243.71c -2.16316150467e-10
+      94239.71c -0.00016365517799
+      94238.71c -3.32892730428e-08
+      63154.71c -7.44968377173e-08
+      44103.71c -1.8522120584e-06
+      92238.71c -0.0625532177372
+      54135.71c -3.23641448207e-08
+      62149.71c -6.10887711732e-07
+      54131.71c -2.7454901645e-05
+      1001.71c -0.0171250960495
+      62147.71c -5.17802396434e-06
+      92234.71c -5.03858995879e-08
+      92235.71c -0.0136252128716
+      92236.71c -0.000331893656499
+      43099.71c -4.46915250426e-05
+      42095.71c -3.70798375909e-05
+      61147.71c -1.80731029308e-05
+      40090.71c -0.905796760991
+      45103.71c -2.14244466203e-05
+      55133.71c -6.54484181572e-05
+      93237.71c -1.71180093625e-06
+      55135.71c -4.43565833533e-05
+      94240.71c -1.19245187679e-05
+      94241.71c -1.00550714618e-06
+      94242.71c -2.99211803654e-08
 c **  E-23  Fuel ID= 3008
 m5231 62152.71c -2.79550865677e-06
       62151.71c -1.50645673185e-06
@@ -3208,6 +12557,105 @@ m5231 62152.71c -2.79550865677e-06
       94240.71c -3.79061658711e-06
       94241.71c -2.43653091723e-07
       94242.71c -9.9011520198e-09
+m5232 62152.71c -3.6428350966e-06
+      62151.71c -1.69297736656e-06
+      62150.71c -7.70805713728e-06
+      64155.71c -6.62558224888e-09
+      63153.71c -1.38173627699e-06
+      60143.71c -4.11082455798e-05
+      60145.71c -2.91490826412e-05
+      95241.71c -2.68394684624e-08
+      95243.71c -4.40089559671e-10
+      94239.71c -0.000115789934469
+      94238.71c -2.24560240948e-08
+      63154.71c -4.16221001412e-08
+      44103.71c -1.47225093355e-06
+      92238.71c -0.0625922325439
+      54135.71c -2.81828668689e-08
+      62149.71c -6.26819260873e-07
+      54131.71c -1.89161435854e-05
+      1001.71c -0.0171177860152
+      62147.71c -3.47186584641e-06
+      92234.71c -3.51760626916e-08
+      92235.71c -0.0142567486821
+      92236.71c -0.000229353286894
+      43099.71c -3.08002469742e-05
+      42095.71c -2.45913801429e-05
+      61147.71c -1.26246479218e-05
+      40090.71c -0.905410111752
+      45103.71c -1.45811271151e-05
+      55133.71c -4.50681005347e-05
+      93237.71c -9.9685718477e-07
+      55135.71c -3.28252382113e-05
+      94240.71c -6.55915048054e-06
+      94241.71c -5.70750642321e-07
+      94242.71c -2.89302863612e-08
+m5233 62152.71c -4.50375517101e-06
+      62151.71c -1.82375358961e-06
+      62150.71c -9.28787418043e-06
+      64155.71c -6.49913135583e-09
+      63153.71c -1.67718786348e-06
+      60143.71c -4.85341029067e-05
+      60145.71c -3.45611838347e-05
+      95241.71c -4.13812427093e-08
+      95243.71c -9.77768836298e-10
+      94239.71c -0.000134696869027
+      94238.71c -3.64273036641e-08
+      63154.71c -5.83038220473e-08
+      44103.71c -1.74706765149e-06
+      92238.71c -0.0625758181477
+      54135.71c -3.1505586774e-08
+      62149.71c -6.20315304662e-07
+      54131.71c -2.24117871828e-05
+      1001.71c -0.0171208583763
+      62147.71c -4.09568278955e-06
+      92234.71c -4.12636892683e-08
+      92235.71c -0.0139951866635
+      92236.71c -0.000271671386103
+      43099.71c -3.65465234656e-05
+      42095.71c -2.92118385994e-05
+      61147.71c -1.49072209659e-05
+      40090.71c -0.905572617977
+      45103.71c -1.72897237071e-05
+      55133.71c -5.34663621774e-05
+      93237.71c -1.35887190154e-06
+      55135.71c -3.69490425193e-05
+      94240.71c -8.9873266319e-06
+      94241.71c -9.003744523e-07
+      94242.71c -5.42271201987e-08
+m5234 62152.71c -4.80415788553e-06
+      62151.71c -1.86098651647e-06
+      62150.71c -9.8287751857e-06
+      64155.71c -6.4400262318e-09
+      63153.71c -1.78095694759e-06
+      60143.71c -5.10475842219e-05
+      60145.71c -3.64059898881e-05
+      95241.71c -4.69541192274e-08
+      95243.71c -1.24184943566e-09
+      94239.71c -0.000140780213242
+      94238.71c -4.22168196318e-08
+      63154.71c -6.45960181678e-08
+      44103.71c -1.84218909545e-06
+      92238.71c -0.0625703479181
+      54135.71c -3.25599143868e-08
+      62149.71c -6.1796477793e-07
+      54131.71c -2.36017817501e-05
+      1001.71c -0.0171219100291
+      62147.71c -4.30669683389e-06
+      92234.71c -4.32681734415e-08
+      92235.71c -0.01390609274
+      92236.71c -0.00028605212503
+      43099.71c -3.85068547169e-05
+      42095.71c -3.07869804201e-05
+      61147.71c -1.56804692135e-05
+      40090.71c -0.90562824299
+      45103.71c -1.82114685532e-05
+      55133.71c -5.63306206969e-05
+      93237.71c -1.49478642324e-06
+      55135.71c -3.82506062365e-05
+      94240.71c -9.88201982315e-06
+      94241.71c -1.03040148489e-06
+      94242.71c -6.54167106109e-08
 c **  E-24  Fuel ID= 3111
 m5241 62152.71c -3.44087296675e-06
       62151.71c -1.55056392138e-06
@@ -3242,6 +12690,105 @@ m5241 62152.71c -3.44087296675e-06
       94240.71c -5.69043584748e-06
       94241.71c -4.96537186052e-07
       94242.71c -2.49090537161e-08
+m5242 62152.71c -4.43451143796e-06
+      62151.71c -1.72614928103e-06
+      62150.71c -9.04518758372e-06
+      64155.71c -7.1019891747e-09
+      63153.71c -1.67786942165e-06
+      60143.71c -4.7344200313e-05
+      60145.71c -3.3704518882e-05
+      95241.71c -6.56071505606e-08
+      95243.71c -1.18025191902e-09
+      94239.71c -0.000128465607008
+      94238.71c -4.67175325205e-08
+      63154.71c -6.31275550517e-08
+      44103.71c -1.46788822963e-06
+      92238.71c -0.0625776681847
+      54135.71c -2.79502834846e-08
+      62149.71c -6.19685622543e-07
+      54131.71c -2.18924283307e-05
+      1001.71c -0.0171203590505
+      62147.71c -4.96977419876e-06
+      92234.71c -4.03566690372e-08
+      92235.71c -0.0140372305093
+      92236.71c -0.000264501725177
+      43099.71c -3.56907759073e-05
+      42095.71c -2.96413628746e-05
+      61147.71c -1.35911284819e-05
+      40090.71c -0.905546207168
+      45103.71c -1.7072933288e-05
+      55133.71c -5.22622159971e-05
+      93237.71c -1.48257817781e-06
+      55135.71c -3.78868439691e-05
+      94240.71c -9.60162408217e-06
+      94241.71c -1.13191935169e-06
+      94242.71c -7.21183897389e-08
+m5243 62152.71c -5.42532948742e-06
+      62151.71c -1.84593013092e-06
+      62150.71c -1.08382893478e-05
+      64155.71c -6.95418019629e-09
+      63153.71c -2.04414086929e-06
+      60143.71c -5.5578303504e-05
+      60145.71c -3.9804156806e-05
+      95241.71c -1.00056920283e-07
+      95243.71c -2.6158941805e-09
+      94239.71c -0.000148044151236
+      94238.71c -7.58956798775e-08
+      63154.71c -8.7774656674e-08
+      44103.71c -1.73801011546e-06
+      92238.71c -0.0625582926627
+      54135.71c -3.11585862234e-08
+      62149.71c -6.12066210184e-07
+      54131.71c -2.58237655222e-05
+      1001.71c -0.0171238515681
+      62147.71c -5.82499169602e-06
+      92234.71c -4.71809024751e-08
+      92235.71c -0.0137426061733
+      92236.71c -0.000311968443614
+      43099.71c -4.21900354383e-05
+      42095.71c -3.50664349568e-05
+      61147.71c -1.5975603302e-05
+      40090.71c -0.905730936708
+      45103.71c -2.01513203184e-05
+      55133.71c -6.17624449512e-05
+      93237.71c -2.01706608873e-06
+      55135.71c -4.24761294847e-05
+      94240.71c -1.28958253623e-05
+      94241.71c -1.74469815748e-06
+      94242.71c -1.341146027e-07
+m5244 62152.71c -5.7675509625e-06
+      62151.71c -1.87975742886e-06
+      62150.71c -1.14504736327e-05
+      64155.71c -6.89337997711e-09
+      63153.71c -2.17330803646e-06
+      60143.71c -5.83473243385e-05
+      60145.71c -4.18755575319e-05
+      95241.71c -1.13061240055e-07
+      95243.71c -3.3194021247e-09
+      94239.71c -0.000154258136238
+      94238.71c -8.79831894995e-08
+      63154.71c -9.7017931956e-08
+      44103.71c -1.83119490784e-06
+      92238.71c -0.0625518257364
+      54135.71c -3.21701461989e-08
+      62149.71c -6.09336335819e-07
+      54131.71c -2.71566672846e-05
+      1001.71c -0.0171250441405
+      62147.71c -6.11243424007e-06
+      92234.71c -4.94085788417e-08
+      92235.71c -0.0136426066448
+      92236.71c -0.000328019842934
+      43099.71c -4.43994308619e-05
+      42095.71c -3.69102907692e-05
+      61147.71c -1.67796519883e-05
+      40090.71c -0.905794015373
+      45103.71c -2.11941194687e-05
+      55133.71c -6.49915094168e-05
+      93237.71c -2.2182535566e-06
+      55135.71c -4.39147190309e-05
+      94240.71c -1.40876101814e-05
+      94241.71c -1.97977645928e-06
+      94242.71c -1.61306069189e-07
 c **  F-1  Fuel ID= 5017
 m6011 62152.71c -5.87968034981e-06
       62151.71c -1.9824175599e-06
@@ -3276,6 +12823,105 @@ m6011 62152.71c -5.87968034981e-06
       94240.71c -1.0516842922e-05
       94241.71c -7.63099863669e-07
       94242.71c -2.23514513564e-08
+m6012 62152.71c -7.64807771521e-06
+      62151.71c -2.10352309388e-06
+      62150.71c -1.47300395784e-05
+      64155.71c -9.76803796057e-09
+      63153.71c -2.69755747186e-06
+      60143.71c -7.52900435613e-05
+      60145.71c -5.32275875806e-05
+      95241.71c -7.01272877188e-08
+      95243.71c -6.29049460386e-10
+      94239.71c -0.000197354529984
+      94238.71c -6.45054764371e-08
+      63154.71c -1.14622975724e-07
+      44103.71c -1.51723520821e-06
+      92238.71c -0.0625200423319
+      54135.71c -2.79331706204e-08
+      62149.71c -5.91199803361e-07
+      54131.71c -3.47597439525e-05
+      1001.71c -0.0171311421622
+      62147.71c -9.39649537481e-06
+      92234.71c -6.34211490974e-08
+      92235.71c -0.0130947982808
+      92236.71c -0.000417175095685
+      43099.71c -5.65145137609e-05
+      42095.71c -5.08289108342e-05
+      61147.71c -2.00001020114e-05
+      40090.71c -0.906116557699
+      45103.71c -2.77842540253e-05
+      55133.71c -8.29300137741e-05
+      93237.71c -2.62924470652e-06
+      55135.71c -5.97953526429e-05
+      94240.71c -1.82065176359e-05
+      94241.71c -1.85822288233e-06
+      94242.71c -7.02572889821e-08
+m6013 62152.71c -9.34556700763e-06
+      62151.71c -2.14992686435e-06
+      62150.71c -1.75702772223e-05
+      64155.71c -9.15607450548e-09
+      63153.71c -3.30732707073e-06
+      60143.71c -8.82154617596e-05
+      60145.71c -6.27988081105e-05
+      95241.71c -1.13203595904e-07
+      95243.71c -1.4779917311e-09
+      94239.71c -0.00022486540239
+      94238.71c -1.05553285571e-07
+      63154.71c -1.60446837652e-07
+      44103.71c -1.7834936847e-06
+      92238.71c -0.0624886543015
+      54135.71c -3.07058408911e-08
+      62149.71c -5.7867933636e-07
+      54131.71c -4.09610442087e-05
+      1001.71c -0.0171366383477
+      62147.71c -1.10618318483e-05
+      92234.71c -7.363417388e-08
+      92235.71c -0.0126335185407
+      92236.71c -0.000491323547278
+      43099.71c -6.67547642732e-05
+      42095.71c -6.01496707661e-05
+      61147.71c -2.33926711668e-05
+      40090.71c -0.906407267137
+      45103.71c -3.27803030936e-05
+      55133.71c -9.79316124881e-05
+      93237.71c -3.61155823077e-06
+      55135.71c -6.6946098542e-05
+      94240.71c -2.47762417377e-05
+      94241.71c -2.98571399995e-06
+      94242.71c -1.37494442582e-07
+m6014 62152.71c -9.92765863508e-06
+      62151.71c -2.1586477786e-06
+      62150.71c -1.85417378994e-05
+      64155.71c -8.96588822516e-09
+      63153.71c -3.52386938461e-06
+      60143.71c -9.2558206358e-05
+      60145.71c -6.60518616121e-05
+      95241.71c -1.30429155625e-07
+      95243.71c -1.9068256271e-09
+      94239.71c -0.000233435603073
+      94238.71c -1.22659943364e-07
+      63154.71c -1.77745534094e-07
+      44103.71c -1.87403249663e-06
+      92238.71c -0.0624781277185
+      54135.71c -3.15483364856e-08
+      62149.71c -5.74327495321e-07
+      54131.71c -4.30635362181e-05
+      1001.71c -0.0171385186308
+      62147.71c -1.16272419115e-05
+      92234.71c -7.70605052791e-08
+      92235.71c -0.0124768287363
+      92236.71c -0.000516384467541
+      43099.71c -7.0240466635e-05
+      42095.71c -6.33298578583e-05
+      61147.71c -2.45301603658e-05
+      40090.71c -0.906506720848
+      45103.71c -3.44759790812e-05
+      55133.71c -0.000103034505045
+      93237.71c -3.97601656121e-06
+      55135.71c -6.91841190816e-05
+      94240.71c -2.71575480566e-05
+      94241.71c -3.43572322463e-06
+      94242.71c -1.68183643824e-07
 c **  F-2  Fuel ID= 5018
 m6021 62152.71c -5.63847442732e-06
       62151.71c -1.96506866131e-06
@@ -3310,6 +12956,105 @@ m6021 62152.71c -5.63847442732e-06
       94240.71c -9.86801283137e-06
       94241.71c -6.93576222104e-07
       94242.71c -1.95483379831e-08
+m6022 62152.71c -7.34547183049e-06
+      62151.71c -2.09182757684e-06
+      62150.71c -1.42245634051e-05
+      64155.71c -9.63021046185e-09
+      63153.71c -2.59210620541e-06
+      60143.71c -7.28987365771e-05
+      60145.71c -5.15030107969e-05
+      95241.71c -6.18969153381e-08
+      95243.71c -5.31851029521e-10
+      94239.71c -0.000192253866362
+      94238.71c -5.84781223162e-08
+      63154.71c -1.07472680049e-07
+      44103.71c -1.51429037959e-06
+      92238.71c -0.0625252499662
+      54135.71c -2.79672373567e-08
+      62149.71c -5.93874436034e-07
+      54131.71c -3.36299591298e-05
+      1001.71c -0.0171301778062
+      62147.71c -8.8668007224e-06
+      92234.71c -6.14624115878e-08
+      92235.71c -0.0131778818895
+      92236.71c -0.000403822876338
+      43099.71c -5.46665390198e-05
+      42095.71c -4.89400411848e-05
+      61147.71c -1.95912278078e-05
+      40090.71c -0.906065550073
+      45103.71c -2.68414678588e-05
+      55133.71c -8.0211088548e-05
+      93237.71c -2.46982489904e-06
+      55135.71c -5.7874507291e-05
+      94240.71c -1.71250403271e-05
+      94241.71c -1.69409711246e-06
+      94242.71c -6.16080182563e-08
+m6023 62152.71c -8.98919354818e-06
+      62151.71c -2.14346234042e-06
+      62150.71c -1.69797050349e-05
+      64155.71c -9.0337584086e-09
+      63153.71c -3.17604441387e-06
+      60143.71c -8.54856803854e-05
+      60145.71c -6.07986948397e-05
+      95241.71c -1.00178261411e-07
+      95243.71c -1.25292405648e-09
+      94239.71c -0.000219469796512
+      94238.71c -9.56643405236e-08
+      63154.71c -1.50543722893e-07
+      44103.71c -1.78137889978e-06
+      92238.71c -0.0624952105381
+      54135.71c -3.07737954606e-08
+      62149.71c -5.81937587909e-07
+      54131.71c -3.96547204683e-05
+      1001.71c -0.0171355030016
+      62147.71c -1.04447320184e-05
+      92234.71c -7.14060485609e-08
+      92235.71c -0.0127298359653
+      92236.71c -0.000475896991956
+      43099.71c -6.46066433892e-05
+      42095.71c -5.79436954847e-05
+      61147.71c -2.29350709973e-05
+      40090.71c -0.906347215336
+      45103.71c -3.16879919387e-05
+      55133.71c -9.47726722402e-05
+      93237.71c -3.39329022913e-06
+      55135.71c -6.48336270726e-05
+      94240.71c -2.3349832032e-05
+      94241.71c -2.73030866629e-06
+      94242.71c -1.20835669033e-07
+m6024 62152.71c -9.55354512267e-06
+      62151.71c -2.15377176407e-06
+      62150.71c -1.79224486312e-05
+      64155.71c -8.84685232701e-09
+      63153.71c -3.38346138166e-06
+      60143.71c -8.97185470324e-05
+      60145.71c -6.39594638089e-05
+      95241.71c -1.15519510998e-07
+      95243.71c -1.61760660319e-09
+      94239.71c -0.000227962227814
+      94238.71c -1.11163581223e-07
+      63154.71c -1.6680800352e-07
+      44103.71c -1.87224316029e-06
+      92238.71c -0.0624850986845
+      54135.71c -3.16311096521e-08
+      62149.71c -5.77693408281e-07
+      54131.71c -4.16984910048e-05
+      1001.71c -0.0171373262813
+      62147.71c -1.09810212398e-05
+      92234.71c -7.47520579737e-08
+      92235.71c -0.0125775756141
+      92236.71c -0.00050027068386
+      43099.71c -6.79914922408e-05
+      42095.71c -6.10181070783e-05
+      61147.71c -2.40571644694e-05
+      40090.71c -0.90644365397
+      45103.71c -3.33340212134e-05
+      55133.71c -9.97281852868e-05
+      93237.71c -3.73655240766e-06
+      55135.71c -6.70138333087e-05
+      94240.71c -2.56091720854e-05
+      94241.71c -3.14508520771e-06
+      94242.71c -1.478995201e-07
 c **  F-3  Fuel ID= 5027
 m6031 62152.71c -5.38230189226e-06
       62151.71c -1.94581167289e-06
@@ -3344,6 +13089,105 @@ m6031 62152.71c -5.38230189226e-06
       94240.71c -9.2360704467e-06
       94241.71c -6.31693678324e-07
       94242.71c -1.70772410316e-08
+m6032 62152.71c -7.07066919489e-06
+      62151.71c -2.08132708527e-06
+      62150.71c -1.37688358054e-05
+      64155.71c -9.56646333566e-09
+      63153.71c -2.5008607284e-06
+      60143.71c -7.07396723408e-05
+      60145.71c -4.99455688035e-05
+      95241.71c -5.61757577192e-08
+      95243.71c -4.64679244275e-10
+      94239.71c -0.000188662259692
+      94238.71c -5.39091127406e-08
+      63154.71c -1.01559064167e-07
+      44103.71c -1.50596145855e-06
+      92238.71c -0.0625288373759
+      54135.71c -2.78954112579e-08
+      62149.71c -5.96929612037e-07
+      54131.71c -3.26096914277e-05
+      1001.71c -0.0171293032978
+      62147.71c -8.43536368229e-06
+      92234.71c -5.97373726162e-08
+      92235.71c -0.013252839908
+      92236.71c -0.000391906971229
+      43099.71c -5.2999637614e-05
+      42095.71c -4.72924753555e-05
+      61147.71c -1.91706720373e-05
+      40090.71c -0.906019294748
+      45103.71c -2.59960563249e-05
+      55133.71c -7.77603810347e-05
+      93237.71c -2.35362218729e-06
+      55135.71c -5.61544547325e-05
+      94240.71c -1.62354342517e-05
+      94241.71c -1.57335986865e-06
+      94242.71c -5.51579939372e-08
+m6033 62152.71c -8.68778440023e-06
+      62151.71c -2.13849548402e-06
+      62150.71c -1.64866686949e-05
+      64155.71c -8.96866661233e-09
+      63153.71c -3.07086131855e-06
+      60143.71c -8.31978768058e-05
+      60145.71c -5.91242160477e-05
+      95241.71c -9.10403468626e-08
+      95243.71c -1.10395298693e-09
+      94239.71c -0.000215462246755
+      94238.71c -8.87725351525e-08
+      63154.71c -1.42970506034e-07
+      44103.71c -1.77460861348e-06
+      92238.71c -0.0624998517361
+      54135.71c -3.07614232559e-08
+      62149.71c -5.85166989945e-07
+      54131.71c -3.85595572559e-05
+      1001.71c -0.01713455795
+      62147.71c -9.96454782589e-06
+      92234.71c -6.96845410201e-08
+      92235.71c -0.0128102281732
+      92236.71c -0.000463144305505
+      43099.71c -6.28085084811e-05
+      42095.71c -5.61556751991e-05
+      61147.71c -2.25072548507e-05
+      40090.71c -0.906297228774
+      45103.71c -3.07763786377e-05
+      55133.71c -9.21297889363e-05
+      93237.71c -3.24991185624e-06
+      55135.71c -6.3030675594e-05
+      94240.71c -2.21962806112e-05
+      94241.71c -2.54072633024e-06
+      94242.71c -1.08528258605e-07
+m6034 62152.71c -9.23159215668e-06
+      62151.71c -2.15020806226e-06
+      62150.71c -1.73975973102e-05
+      64155.71c -8.7825448633e-09
+      63153.71c -3.26957726193e-06
+      60143.71c -8.73024143278e-05
+      60145.71c -6.21808483041e-05
+      95241.71c -1.05369590374e-07
+      95243.71c -1.42823623954e-09
+      94239.71c -0.000223665751093
+      94238.71c -1.02998027948e-07
+      63154.71c -1.58420607626e-07
+      44103.71c -1.86505313037e-06
+      92238.71c -0.0624902461497
+      54135.71c -3.16227197105e-08
+      62149.71c -5.81146571231e-07
+      54131.71c -4.05357996422e-05
+      1001.71c -0.0171363201275
+      62147.71c -1.04754520291e-05
+      92234.71c -7.32370431531e-08
+      92235.71c -0.0126629052145
+      92236.71c -0.000486773823774
+      43099.71c -6.60802908093e-05
+      42095.71c -5.91164526388e-05
+      61147.71c -2.36018076126e-05
+      40090.71c -0.906390435534
+      45103.71c -3.23636490721e-05
+      55133.71c -9.69203666129e-05
+      93237.71c -3.57116657185e-06
+      55135.71c -6.51417058077e-05
+      94240.71c -2.43190334898e-05
+      94241.71c -2.93414213652e-06
+      94242.71c -1.33237241845e-07
 c **  F-4  Fuel ID= 5021
 m6041 62152.71c -5.61177073085e-06
       62151.71c -1.96300944705e-06
@@ -3378,6 +13222,105 @@ m6041 62152.71c -5.61177073085e-06
       94240.71c -9.79741053523e-06
       94241.71c -6.86182965649e-07
       94242.71c -1.92593442385e-08
+m6042 62152.71c -7.31185672533e-06
+      62151.71c -2.0904069841e-06
+      62150.71c -1.41682967802e-05
+      64155.71c -9.61456041475e-09
+      63153.71c -2.58047912725e-06
+      60143.71c -7.26320884439e-05
+      60145.71c -5.13109055486e-05
+      95241.71c -6.10405517271e-08
+      95243.71c -5.22076045887e-10
+      94239.71c -0.000191680190494
+      94238.71c -5.78409332655e-08
+      63154.71c -1.06695114581e-07
+      44103.71c -1.51387880674e-06
+      92238.71c -0.0625258610837
+      54135.71c -2.79687772399e-08
+      62149.71c -5.94166136842e-07
+      54131.71c -3.35041382639e-05
+      1001.71c -0.0171300697866
+      62147.71c -8.808726448e-06
+      92234.71c -6.12435262883e-08
+      92235.71c -0.0131871402435
+      92236.71c -0.000402334787687
+      43099.71c -5.44607853359e-05
+      42095.71c -4.87298059467e-05
+      61147.71c -1.95447254735e-05
+      40090.71c -0.906059836594
+      45103.71c -2.67365005341e-05
+      55133.71c -7.99084257876e-05
+      93237.71c -2.45250027114e-06
+      55135.71c -5.7660463057e-05
+      94240.71c -1.70069227982e-05
+      94241.71c -1.67660323592e-06
+      94242.71c -6.07133083193e-08
+m6043 62152.71c -8.94955516684e-06
+      62151.71c -2.14263821451e-06
+      62150.71c -1.69139486428e-05
+      64155.71c -9.01968916154e-09
+      63153.71c -3.1615747323e-06
+      60143.71c -8.5180778373e-05
+      60145.71c -6.05758151719e-05
+      95241.71c -9.88191411162e-08
+      95243.71c -1.23021051002e-09
+      94239.71c -0.000218859196997
+      94238.71c -9.46186631189e-08
+      63154.71c -1.49465939321e-07
+      44103.71c -1.78114554938e-06
+      92238.71c -0.0624959283021
+      54135.71c -3.07846456184e-08
+      62149.71c -5.82276510811e-07
+      54131.71c -3.95090777131e-05
+      1001.71c -0.0171353768685
+      62147.71c -1.03770184333e-05
+      92234.71c -7.11578217172e-08
+      92235.71c -0.0127405675797
+      92236.71c -0.000474176818754
+      43099.71c -6.43673331518e-05
+      42095.71c -5.76979261689e-05
+      61147.71c -2.2882883216e-05
+      40090.71c -0.906340543788
+      45103.71c -3.1566209615e-05
+      55133.71c -9.44207391523e-05
+      93237.71c -3.36955994541e-06
+      55135.71c -6.45980766068e-05
+      94240.71c -2.31937069096e-05
+      94241.71c -2.70297719539e-06
+      94242.71c -1.19109414383e-07
+m6044 62152.71c -9.51190187388e-06
+      62151.71c -2.15312720034e-06
+      62150.71c -1.78534476022e-05
+      64155.71c -8.83333653409e-09
+      63153.71c -3.36797670492e-06
+      60143.71c -8.94011687854e-05
+      60145.71c -6.37262213248e-05
+      95241.71c -1.1396245679e-07
+      95243.71c -1.5883711449e-09
+      94239.71c -0.000227341153447
+      94238.71c -1.0994780694e-07
+      63154.71c -1.65616977328e-07
+      44103.71c -1.87200929346e-06
+      92238.71c -0.0624858495253
+      54135.71c -3.16460084058e-08
+      62149.71c -5.78039703477e-07
+      54131.71c -4.15461889908e-05
+      1001.71c -0.0171371940263
+      62147.71c -1.09100957651e-05
+      92234.71c -7.44958114818e-08
+      92235.71c -0.0125888052013
+      92236.71c -0.000498472875674
+      43099.71c -6.7740829113e-05
+      42095.71c -6.07605615188e-05
+      61147.71c -2.40031148317e-05
+      40090.71c -0.906436658613
+      45103.71c -3.32066694997e-05
+      55133.71c -9.93595871435e-05
+      93237.71c -3.7104843428e-06
+      55135.71c -6.67717209672e-05
+      94240.71c -2.54397211624e-05
+      94241.71c -3.11385197963e-06
+      94242.71c -1.45796358836e-07
 c **  F-5  Fuel ID= 5026
 m6051 62152.71c -5.5842510647e-06
       62151.71c -1.96086234373e-06
@@ -3412,6 +13355,105 @@ m6051 62152.71c -5.5842510647e-06
       94240.71c -9.72485753382e-06
       94241.71c -6.78617091847e-07
       94242.71c -1.89651340696e-08
+m6052 62152.71c -7.27719017486e-06
+      62151.71c -2.08892034203e-06
+      62150.71c -1.41102545617e-05
+      64155.71c -9.59839052454e-09
+      63153.71c -2.56850460719e-06
+      60143.71c -7.2356969622e-05
+      60145.71c -5.11126993817e-05
+      95241.71c -6.01673287902e-08
+      95243.71c -5.12165964979e-10
+      94239.71c -0.000191087594509
+      94238.71c -5.71893265909e-08
+      63154.71c -1.05896046649e-07
+      44103.71c -1.51343024345e-06
+      92238.71c -0.0625264947614
+      54135.71c -2.79694224061e-08
+      62149.71c -5.94465147849e-07
+      54131.71c -3.33743359204e-05
+      1001.71c -0.0171299582673
+      62147.71c -8.74897389695e-06
+      92234.71c -6.1017449288e-08
+      92235.71c -0.0131966931541
+      92236.71c -0.000400799359947
+      43099.71c -5.42485221506e-05
+      42095.71c -4.8512936814e-05
+      61147.71c -1.9496591228e-05
+      40090.71c -0.906053938014
+      45103.71c -2.66282239833e-05
+      55133.71c -7.95962202821e-05
+      93237.71c -2.43470116482e-06
+      55135.71c -5.74396130329e-05
+      94240.71c -1.68854469523e-05
+      94241.71c -1.65869710218e-06
+      94242.71c -5.98017939861e-08
+m6053 62152.71c -8.90867547142e-06
+      62151.71c -2.14176981275e-06
+      62150.71c -1.68461204043e-05
+      64155.71c -9.00506209117e-09
+      63153.71c -3.1466734764e-06
+      60143.71c -8.48660837261e-05
+      60145.71c -6.03458797064e-05
+      95241.71c -9.74325634306e-08
+      95243.71c -1.20717597025e-09
+      94239.71c -0.0002182275038
+      94238.71c -9.35493989091e-08
+      63154.71c -1.48358418277e-07
+      44103.71c -1.78091530291e-06
+      92238.71c -0.0624966639968
+      54135.71c -3.07974029555e-08
+      62149.71c -5.82617340329e-07
+      54131.71c -3.93588017741e-05
+      1001.71c -0.0171352468651
+      62147.71c -1.03073384238e-05
+      92234.71c -7.09016698527e-08
+      92235.71c -0.0127516385171
+      92236.71c -0.000472401962351
+      43099.71c -6.41204440682e-05
+      42095.71c -5.74443628201e-05
+      61147.71c -2.2828835263e-05
+      40090.71c -0.906333667521
+      45103.71c -3.14405543656e-05
+      55133.71c -9.40576562763e-05
+      93237.71c -3.34518348492e-06
+      55135.71c -6.43550295875e-05
+      94240.71c -2.30331222625e-05
+      94241.71c -2.67496764415e-06
+      94242.71c -1.17350514413e-07
+m6054 62152.71c -9.4689409652e-06
+      62151.71c -2.15244471372e-06
+      62150.71c -1.77822611953e-05
+      64155.71c -8.81935488121e-09
+      63153.71c -3.35202985136e-06
+      60143.71c -8.90735605865e-05
+      60145.71c -6.34855615093e-05
+      95241.71c -1.12373745869e-07
+      95243.71c -1.55872712425e-09
+      94239.71c -0.00022669856489
+      94238.71c -1.08704581243e-07
+      63154.71c -1.64392807945e-07
+      44103.71c -1.8717589366e-06
+      92238.71c -0.0624866159817
+      54135.71c -3.16628867216e-08
+      62149.71c -5.78388133706e-07
+      54131.71c -4.13890049127e-05
+      1001.71c -0.0171370577447
+      62147.71c -1.0837108508e-05
+      92234.71c -7.42319170821e-08
+      92235.71c -0.0126003918294
+      92236.71c -0.000496617635296
+      43099.71c -6.7482196193e-05
+      42095.71c -6.04948581726e-05
+      61147.71c -2.39471214189e-05
+      40090.71c -0.906429450279
+      45103.71c -3.30752628382e-05
+      55133.71c -9.89792514621e-05
+      93237.71c -3.6836932358e-06
+      55135.71c -6.6521879168e-05
+      94240.71c -2.52654239144e-05
+      94241.71c -3.08182260583e-06
+      94242.71c -1.43653033653e-07
 c **  F-6  Fuel ID= 6223
 m6061 62152.71c -9.47270755314e-07
       62151.71c -7.61025375647e-07
@@ -3446,6 +13488,105 @@ m6061 62152.71c -9.47270755314e-07
       94240.71c -7.77517944762e-07
       94241.71c -1.85984252652e-08
       94242.71c -1.56933072841e-10
+m6062 62152.71c -1.26564831738e-06
+      62151.71c -8.96071845503e-07
+      62150.71c -2.91526346853e-06
+      64155.71c -2.88350873662e-09
+      63153.71c -5.22844485517e-07
+      60143.71c -1.64894360092e-05
+      60145.71c -1.18176849686e-05
+      95241.71c -6.14190238974e-10
+      95243.71c -1.44613543404e-12
+      94239.71c -5.01810040247e-05
+      94238.71c -1.84600628258e-09
+      63154.71c -8.67026765448e-09
+      44103.71c -9.81345932195e-07
+      92238.71c -0.0626408593772
+      54135.71c -1.91788347533e-08
+      62149.71c -4.39419826815e-07
+      54131.71c -7.5913635963e-06
+      1001.71c -0.0171082091353
+      62147.71c -7.81229295964e-07
+      92234.71c -1.44910944217e-08
+      92235.71c -0.0150950750835
+      92236.71c -9.34705170386e-05
+      43099.71c -1.24117404264e-05
+      42095.71c -8.11021608884e-06
+      61147.71c -5.70343339276e-06
+      40090.71c -0.904903562374
+      45103.71c -5.53388295113e-06
+      55133.71c -1.80800506766e-05
+      93237.71c -2.33463901514e-07
+      55135.71c -1.33345357069e-05
+      94240.71c -1.43723472873e-06
+      94241.71c -4.94228984413e-08
+      94242.71c -5.35033655012e-10
+m6063 62152.71c -1.58583730708e-06
+      62151.71c -1.00049698003e-06
+      62150.71c -3.57931971481e-06
+      64155.71c -2.95828938651e-09
+      63153.71c -6.31647352093e-07
+      60143.71c -1.96757682704e-05
+      60145.71c -1.4127496494e-05
+      95241.71c -1.04528485065e-09
+      95243.71c -3.58465008121e-12
+      94239.71c -5.93930745534e-05
+      94238.71c -2.95717000957e-09
+      63154.71c -1.23848931112e-08
+      44103.71c -1.1732776086e-06
+      92238.71c -0.0626343928318
+      54135.71c -2.16559993873e-08
+      62149.71c -4.37160405475e-07
+      54131.71c -9.07294457488e-06
+      1001.71c -0.0171095100972
+      62147.71c -9.33155263105e-07
+      92234.71c -1.72036509423e-08
+      92235.71c -0.0149832052007
+      92236.71c -0.000111688233211
+      43099.71c -1.48438977379e-05
+      42095.71c -9.71178898769e-06
+      61147.71c -6.80004436056e-06
+      40090.71c -0.904972374079
+      45103.71c -6.61946220773e-06
+      55133.71c -2.16213520057e-05
+      93237.71c -3.16959577126e-07
+      55135.71c -1.51219296492e-05
+      94240.71c -2.04058152523e-06
+      94241.71c -8.40572129138e-08
+      94242.71c -1.09769301308e-09
+m6064 62152.71c -1.7009863793e-06
+      62151.71c -1.03305151283e-06
+      62150.71c -3.81083849745e-06
+      64155.71c -2.97216852243e-09
+      63153.71c -6.70075625262e-07
+      60143.71c -2.07807123193e-05
+      60145.71c -1.49305132232e-05
+      95241.71c -1.22951837146e-09
+      95243.71c -4.7198507359e-12
+      94239.71c -6.24244410308e-05
+      94238.71c -3.42545927063e-09
+      63154.71c -1.38220735249e-08
+      44103.71c -1.23995563667e-06
+      92238.71c -0.0626321181216
+      54135.71c -2.24475830206e-08
+      62149.71c -4.36184934062e-07
+      54131.71c -9.58778483632e-06
+      1001.71c -0.0171099664864
+      62147.71c -9.85949488874e-07
+      92234.71c -1.82104158217e-08
+      92235.71c -0.0149443206144
+      92236.71c -0.00011801039442
+      43099.71c -1.56899068916e-05
+      42095.71c -1.02699598e-05
+      61147.71c -7.18029475053e-06
+      40090.71c -0.904996513847
+      45103.71c -6.99712554349e-06
+      55133.71c -2.2853133142e-05
+      93237.71c -3.48511906241e-07
+      55135.71c -1.56986490341e-05
+      94240.71c -2.27013183752e-06
+      94241.71c -9.88487908535e-08
+      94242.71c -1.36877430431e-09
 c **  F-7  Fuel ID= 5256
 m6071 62152.71c -6.34502183103e-06
       62151.71c -2.01143967114e-06
@@ -3480,6 +13621,105 @@ m6071 62152.71c -6.34502183103e-06
       94240.71c -1.18113897996e-05
       94241.71c -9.08577924708e-07
       94242.71c -2.8592473203e-08
+m6072 62152.71c -8.228280536e-06
+      62151.71c -2.12200684008e-06
+      62150.71c -1.56951176344e-05
+      64155.71c -1.00158218199e-08
+      63153.71c -2.90286538449e-06
+      60143.71c -7.98330437925e-05
+      60145.71c -5.65174613017e-05
+      95241.71c -8.81030378502e-08
+      95243.71c -8.56376532698e-10
+      94239.71c -0.000206812638838
+      94238.71c -7.72707929429e-08
+      63154.71c -1.28931097554e-07
+      44103.71c -1.52162223909e-06
+      92238.71c -0.062509645905
+      54135.71c -2.78305562814e-08
+      62149.71c -5.86074348494e-07
+      54131.71c -3.69135831995e-05
+      1001.71c -0.0171329937248
+      62147.71c -1.04380690217e-05
+      92234.71c -6.71523615002e-08
+      92235.71c -0.0129363145394
+      92236.71c -0.00044261601196
+      43099.71c -6.00420163785e-05
+      42095.71c -5.44371812453e-05
+      61147.71c -2.07445617672e-05
+      40090.71c -0.906214492299
+      45103.71c -2.95824548314e-05
+      55133.71c -8.81198270474e-05
+      93237.71c -2.94804187047e-06
+      55135.71c -6.34559278479e-05
+      94240.71c -2.03488816301e-05
+      94241.71c -2.1983130885e-06
+      94242.71c -8.93912354405e-08
+m6073 62152.71c -1.00266266906e-05
+      62151.71c -2.15898339673e-06
+      62150.71c -1.8696613818e-05
+      64155.71c -9.37893878509e-09
+      63153.71c -3.5630912884e-06
+      60143.71c -9.338941527e-05
+      60145.71c -6.66101724169e-05
+      95241.71c -1.41495726009e-07
+      95243.71c -2.00337007539e-09
+      94239.71c -0.000234837833179
+      94238.71c -1.26504203103e-07
+      63154.71c -1.8024829955e-07
+      44103.71c -1.78683618683e-06
+      92238.71c -0.0624762206055
+      54135.71c -3.05420609006e-08
+      62149.71c -5.72756552077e-07
+      54131.71c -4.34478927185e-05
+      1001.71c -0.0171388037079
+      62147.71c -1.2273298158e-05
+      92234.71c -7.78733010742e-08
+      92235.71c -0.0124500275279
+      92236.71c -0.000520679424703
+      43099.71c -7.08516180973e-05
+      42095.71c -6.43563891574e-05
+      61147.71c -2.4222909641e-05
+      40090.71c -0.906521799412
+      45103.71c -3.48602928089e-05
+      55133.71c -0.00010395513202
+      93237.71c -4.04728641137e-06
+      55135.71c -7.09663710189e-05
+      94240.71c -2.75900704884e-05
+      94241.71c -3.51347299309e-06
+      94242.71c -1.74214031568e-07
+m6074 62152.71c -1.06414809576e-05
+      62151.71c -2.16495733049e-06
+      62150.71c -1.97224473762e-05
+      64155.71c -9.18674281982e-09
+      63153.71c -3.79752940256e-06
+      60143.71c -9.79337500288e-05
+      60145.71c -7.00358986803e-05
+      95241.71c -1.62752439012e-07
+      95243.71c -2.58204513695e-09
+      94239.71c -0.000243478436525
+      94238.71c -1.47010656995e-07
+      63154.71c -1.99599579063e-07
+      44103.71c -1.87663419871e-06
+      92238.71c -0.0624651079419
+      54135.71c -3.13581271809e-08
+      62149.71c -5.68004549113e-07
+      54131.71c -4.56598633156e-05
+      1001.71c -0.0171407874305
+      62147.71c -1.28951947683e-05
+      92234.71c -8.14438778708e-08
+      92235.71c -0.0122850887994
+      92236.71c -0.000547028168799
+      43099.71c -7.45263493116e-05
+      42095.71c -6.77367619694e-05
+      61147.71c -2.53867513627e-05
+      40090.71c -0.906626724342
+      45103.71c -3.66488817649e-05
+      55133.71c -0.000109334719024
+      93237.71c -4.45473003688e-06
+      55135.71c -7.33115900864e-05
+      94240.71c -3.02065034791e-05
+      94241.71c -4.03607222786e-06
+      94242.71c -2.12827830519e-07
 c **  F-8  Fuel ID= 6525
 m6081 62152.71c -1.08019380854e-06
       62151.71c -9.28954338059e-07
@@ -3514,6 +13754,105 @@ m6081 62152.71c -1.08019380854e-06
       94240.71c -8.07087363305e-07
       94241.71c -1.81202031858e-08
       94242.71c -1.49943065745e-10
+m6082 62152.71c -1.42669998311e-06
+      62151.71c -1.09903133562e-06
+      62150.71c -3.27037451297e-06
+      64155.71c -3.17015082801e-09
+      63153.71c -6.06788320707e-07
+      60143.71c -1.90048598845e-05
+      60145.71c -1.38205508184e-05
+      95241.71c -5.6672470622e-10
+      95243.71c -1.33351238277e-12
+      94239.71c -5.88527127295e-05
+      94238.71c -1.81011355087e-09
+      63154.71c -8.90000694841e-09
+      44103.71c -1.42736620781e-06
+      92238.71c -0.062635926087
+      54135.71c -2.83757475974e-08
+      62149.71c -6.41612314996e-07
+      54131.71c -8.80535917992e-06
+      1001.71c -0.0171093447992
+      62147.71c -7.93312725088e-07
+      92234.71c -1.71345823897e-08
+      92235.71c -0.0149976977126
+      92236.71c -0.000109357592549
+      43099.71c -1.44717008198e-05
+      42095.71c -8.47980041349e-06
+      61147.71c -6.71538125532e-06
+      40090.71c -0.904963630978
+      45103.71c -6.19246205772e-06
+      55133.71c -2.10117490422e-05
+      93237.71c -2.48143503185e-07
+      55135.71c -1.5593926863e-05
+      94240.71c -1.47322632342e-06
+      94241.71c -4.73157138268e-08
+      94242.71c -4.98266230489e-10
+m6083 62152.71c -1.77975221213e-06
+      62151.71c -1.2376840852e-06
+      62150.71c -4.03399137297e-06
+      64155.71c -3.29546996031e-09
+      63153.71c -7.30896920736e-07
+      60143.71c -2.2651075135e-05
+      60145.71c -1.64985584224e-05
+      95241.71c -9.62508590468e-10
+      95243.71c -3.28897089989e-12
+      94239.71c -6.98223571451e-05
+      94238.71c -2.87032663002e-09
+      63154.71c -1.26650287222e-08
+      44103.71c -1.70499167285e-06
+      92238.71c -0.0626282390948
+      54135.71c -3.2050541873e-08
+      62149.71c -6.42342564746e-07
+      54131.71c -1.05095745347e-05
+      1001.71c -0.0171108596625
+      62147.71c -9.4605615536e-07
+      92234.71c -2.01768271055e-08
+      92235.71c -0.0148679143117
+      92236.71c -0.000130518147703
+      43099.71c -1.72824110085e-05
+      42095.71c -1.0136793199e-05
+      61147.71c -7.99849293734e-06
+      40090.71c -0.905043756563
+      45103.71c -7.39618760404e-06
+      55133.71c -2.50907540964e-05
+      93237.71c -3.33604903691e-07
+      55135.71c -1.76711761907e-05
+      94240.71c -2.09217289129e-06
+      94241.71c -8.03050497254e-08
+      94242.71c -1.01791550142e-09
+m6084 62152.71c -1.90706664385e-06
+      62151.71c -1.28175067867e-06
+      62150.71c -4.30107589746e-06
+      64155.71c -3.32476369282e-09
+      63153.71c -7.74640043594e-07
+      60143.71c -2.39186337356e-05
+      60145.71c -1.7431473649e-05
+      95241.71c -1.13045176979e-09
+      95243.71c -4.30183807996e-12
+      94239.71c -7.34292123667e-05
+      94238.71c -3.30901276221e-09
+      63154.71c -1.41201924219e-08
+      44103.71c -1.8014491062e-06
+      92238.71c -0.0626257353804
+      54135.71c -3.32282353109e-08
+      62149.71c -6.42004368243e-07
+      54131.71c -1.11032905222e-05
+      1001.71c -0.0171113886504
+      62147.71c -9.9931220749e-07
+      92234.71c -2.12757825668e-08
+      92235.71c -0.0148227414801
+      92236.71c -0.000137851319514
+      43099.71c -1.82620283715e-05
+      42095.71c -1.07159965734e-05
+      61147.71c -8.44411313836e-06
+      40090.71c -0.905071736291
+      45103.71c -7.81600119317e-06
+      55133.71c -2.65122821906e-05
+      93237.71c -3.65265164303e-07
+      55135.71c -1.83434888235e-05
+      94240.71c -2.32590796396e-06
+      94241.71c -9.42276298808e-08
+      94242.71c -1.26576629147e-09
 c **  F-9  Fuel ID= 5001
 m6091 62152.71c -4.98414801489e-06
       62151.71c -1.90846321678e-06
@@ -3548,6 +13887,105 @@ m6091 62152.71c -4.98414801489e-06
       94240.71c -8.18684595853e-06
       94241.71c -5.24453425378e-07
       94242.71c -1.3259148797e-08
+m6092 62152.71c -6.51968473495e-06
+      62151.71c -2.05117733551e-06
+      62150.71c -1.28350458859e-05
+      64155.71c -9.20829501922e-09
+      63153.71c -2.30942343383e-06
+      60143.71c -6.62811561178e-05
+      60145.71c -4.67570346629e-05
+      95241.71c -4.30184325247e-08
+      95243.71c -3.28072833028e-10
+      94239.71c -0.000177803489307
+      94238.71c -4.40490138118e-08
+      63154.71c -8.90321863688e-08
+      44103.71c -1.50652855229e-06
+      92238.71c -0.0625398991998
+      54135.71c -2.80551809999e-08
+      62149.71c -6.01269365617e-07
+      54131.71c -3.05177454122e-05
+      1001.71c -0.0171275210425
+      62147.71c -7.46971230334e-06
+      92234.71c -5.60451226341e-08
+      92235.71c -0.0134066236369
+      92236.71c -0.000367022502236
+      43099.71c -4.95852352633e-05
+      42095.71c -4.3746236874e-05
+      61147.71c -1.83972381373e-05
+      40090.71c -0.905925026015
+      45103.71c -2.42446540913e-05
+      55133.71c -7.27340676808e-05
+      93237.71c -2.0596620107e-06
+      55135.71c -5.25811293006e-05
+      94240.71c -1.43025586046e-05
+      94241.71c -1.29273119449e-06
+      94242.71c -4.20869051491e-08
+m6093 62152.71c -8.01139154437e-06
+      62151.71c -2.11821301517e-06
+      62150.71c -1.53533406929e-05
+      64155.71c -8.66087595542e-09
+      63153.71c -2.82450008462e-06
+      60143.71c -7.79009088303e-05
+      60145.71c -5.52821845303e-05
+      95241.71c -7.00966607276e-08
+      95243.71c -7.77165003646e-10
+      94239.71c -0.000203959950123
+      94238.71c -7.19812657573e-08
+      63154.71c -1.24943381141e-07
+      44103.71c -1.77748289367e-06
+      92238.71c -0.062512763847
+      54135.71c -3.10006209433e-08
+      62149.71c -5.90408328881e-07
+      54131.71c -3.60460369188e-05
+      1001.71c -0.0171323886182
+      62147.71c -8.81368015427e-06
+      92234.71c -6.52391890147e-08
+      92235.71c -0.012995550126
+      92236.71c -0.000433270814956
+      43099.71c -5.86869689244e-05
+      42095.71c -5.18634996991e-05
+      61147.71c -2.1589456095e-05
+      40090.71c -0.906182486425
+      45103.71c -2.8669623396e-05
+      55133.71c -8.60653517968e-05
+      93237.71c -2.82931326136e-06
+      55135.71c -5.8997504998e-05
+      94240.71c -1.96055269066e-05
+      94241.71c -2.09909440413e-06
+      94242.71c -8.30330736589e-08
+m6094 62152.71c -8.5254422246e-06
+      62151.71c -2.13339619927e-06
+      62150.71c -1.62158420948e-05
+      64155.71c -8.49256701989e-09
+      63153.71c -3.00735205003e-06
+      60143.71c -8.18221052307e-05
+      60145.71c -5.81849315452e-05
+      95241.71c -8.10153289656e-08
+      95243.71c -1.00490803268e-09
+      94239.71c -0.000212210466348
+      94238.71c -8.36426031489e-08
+      63154.71c -1.38537425046e-07
+      44103.71c -1.86771725175e-06
+      92238.71c -0.0625036676937
+      54135.71c -3.18658835478e-08
+      62149.71c -5.86669439427e-07
+      54131.71c -3.79253146789e-05
+      1001.71c -0.0171340556346
+      62147.71c -9.27187895125e-06
+      92234.71c -6.83744432437e-08
+      92235.71c -0.0128556576214
+      92236.71c -0.000455715986343
+      43099.71c -6.17904738534e-05
+      42095.71c -5.46437299851e-05
+      61147.71c -2.26634153675e-05
+      40090.71c -0.906270659834
+      45103.71c -3.01771219821e-05
+      55133.71c -9.06091919515e-05
+      93237.71c -3.11766041232e-06
+      55135.71c -6.10133715975e-05
+      94240.71c -2.15392954624e-05
+      94241.71c -2.42311402393e-06
+      94242.71c -1.01806033626e-07
 c **  F-11  Fuel ID= 5949
 m6111 62152.71c -6.88435750897e-06
       62151.71c -2.03933480298e-06
@@ -3582,6 +14020,105 @@ m6111 62152.71c -6.88435750897e-06
       94240.71c -1.33736477379e-05
       94241.71c -1.09419638657e-06
       94242.71c -3.71602262069e-08
+m6112 62152.71c -8.89695932915e-06
+      62151.71c -2.13837851968e-06
+      62150.71c -1.68026102984e-05
+      64155.71c -1.02774641781e-08
+      63153.71c -3.144059402e-06
+      60143.71c -8.50098262848e-05
+      60145.71c -6.028886708e-05
+      95241.71c -1.12219939911e-07
+      95243.71c -1.18823136908e-09
+      94239.71c -0.000217300684507
+      94238.71c -9.38453165385e-08
+      63154.71c -1.46295918148e-07
+      44103.71c -1.52675189565e-06
+      92238.71c -0.0624976523891
+      54135.71c -2.77506775536e-08
+      62149.71c -5.79932117648e-07
+      54131.71c -3.93794202987e-05
+      1001.71c -0.0171351215497
+      62147.71c -1.16734222248e-05
+      92234.71c -7.14098505045e-08
+      92235.71c -0.0127546783028
+      92236.71c -0.000471736413523
+      43099.71c -6.40886867173e-05
+      42095.71c -5.85765541767e-05
+      61147.71c -2.15498103825e-05
+      40090.71c -0.906327039222
+      45103.71c -3.16418079274e-05
+      55133.71c -9.40714853478e-05
+      93237.71c -3.33438752975e-06
+      55135.71c -6.76454104825e-05
+      94240.71c -2.2916011537e-05
+      94241.71c -2.62856699927e-06
+      94242.71c -1.15502580404e-07
+m6113 62152.71c -1.08069335803e-05
+      62151.71c -2.16541416934e-06
+      62150.71c -1.99859955083e-05
+      64155.71c -9.62745524547e-09
+      63153.71c -3.86382860047e-06
+      60143.71c -9.9262770648e-05
+      60145.71c -7.09668527859e-05
+      95241.71c -1.79203090333e-07
+      95243.71c -2.76495757975e-09
+      94239.71c -0.000245781148811
+      94238.71c -1.53690215717e-07
+      63154.71c -2.04225084771e-07
+      44103.71c -1.78910930459e-06
+      92238.71c -0.0624619429065
+      54135.71c -3.0346724323e-08
+      62149.71c -5.65713448072e-07
+      54131.71c -4.62867434644e-05
+      1001.71c -0.0171412848841
+      62147.71c -1.37071471404e-05
+      92234.71c -8.26880779566e-08
+      92235.71c -0.0122403318218
+      92236.71c -0.000554182986932
+      43099.71c -7.55389845886e-05
+      42095.71c -6.91729237569e-05
+      61147.71c -2.51145894043e-05
+      40090.71c -0.906653036131
+      45103.71c -3.72359672393e-05
+      55133.71c -0.000110845332374
+      93237.71c -4.57380591323e-06
+      55135.71c -7.5554716613e-05
+      94240.71c -3.09401815177e-05
+      94241.71c -4.17652564022e-06
+      94242.71c -2.24039926506e-07
+m6114 62152.71c -1.14576805336e-05
+      62151.71c -2.16856232981e-06
+      62150.71c -2.10719963506e-05
+      64155.71c -9.43837396868e-09
+      63153.71c -4.11911073001e-06
+      60143.71c -0.000104026327972
+      60145.71c -7.45837716255e-05
+      95241.71c -2.0573287512e-07
+      95243.71c -3.55698088044e-09
+      94239.71c -0.000254527596218
+      94238.71c -1.78581380358e-07
+      63154.71c -2.26008709705e-07
+      44103.71c -1.87690089117e-06
+      92238.71c -0.0624498536402
+      54135.71c -3.11021523363e-08
+      62149.71c -5.60809803771e-07
+      54131.71c -4.86205849529e-05
+      1001.71c -0.0171433893863
+      62147.71c -1.43949126433e-05
+      92234.71c -8.64243133459e-08
+      92235.71c -0.0120662108766
+      92236.71c -0.000581940489874
+      43099.71c -7.94241935531e-05
+      42095.71c -7.277885902e-05
+      61147.71c -2.63033448071e-05
+      40090.71c -0.906764349447
+      45103.71c -3.91279763899e-05
+      55133.71c -0.000116533712316
+      93237.71c -5.03388782019e-06
+      55135.71c -7.80164828678e-05
+      94240.71c -3.38283326003e-05
+      94241.71c -4.78701330456e-06
+      94242.71c -2.73257967841e-07
 c **  F-12  Fuel ID= 2900
 m6121 62152.71c -7.50774480455e-07
       62151.71c -6.82006194621e-07
@@ -3616,6 +14153,105 @@ m6121 62152.71c -7.50774480455e-07
       94240.71c -5.29193364964e-07
       94241.71c -1.24496024189e-08
       94242.71c -1.11888652177e-10
+m6122 62152.71c -9.98112221886e-07
+      62151.71c -8.18635637384e-07
+      62150.71c -2.19326615284e-06
+      64155.71c -2.0776340335e-09
+      63153.71c -4.34592691064e-07
+      60143.71c -1.32870907396e-05
+      60145.71c -9.95346601556e-06
+      95241.71c -4.33781244192e-10
+      95243.71c -1.13800892115e-12
+      94239.71c -4.28144987342e-05
+      94238.71c -1.23959704446e-09
+      63154.71c -5.87333208226e-09
+      44103.71c -1.33402058517e-06
+      92238.71c -0.0626459542957
+      54135.71c -2.85487668131e-08
+      62149.71c -6.1131116079e-07
+      54131.71c -6.24184482752e-06
+      1001.71c -0.0171072266651
+      62147.71c -5.16441915476e-07
+      92234.71c -1.23741430945e-08
+      92235.71c -0.0151850119172
+      92236.71c -7.89292459924e-05
+      43099.71c -1.03667807385e-05
+      42095.71c -5.35996988707e-06
+      61147.71c -4.77922736856e-06
+      40090.71c -0.904851596629
+      45103.71c -4.1552708412e-06
+      55133.71c -1.49569814325e-05
+      93237.71c -1.68843788155e-07
+      55135.71c -1.12285495931e-05
+      94240.71c -9.78299147629e-07
+      94241.71c -3.31129711844e-08
+      94242.71c -3.823240114e-10
+m6123 62152.71c -1.24462483133e-06
+      62151.71c -9.31079220226e-07
+      62150.71c -2.73545822182e-06
+      64155.71c -2.17422413331e-09
+      63153.71c -5.24535664105e-07
+      60143.71c -1.58772118691e-05
+      60145.71c -1.19122039053e-05
+      95241.71c -7.40711434496e-10
+      95243.71c -2.82619660061e-12
+      94239.71c -5.09159935754e-05
+      94238.71c -1.99118628267e-09
+      63154.71c -8.39289234838e-09
+      44103.71c -1.59821068503e-06
+      92238.71c -0.0626403315812
+      54135.71c -3.23546454935e-08
+      62149.71c -6.25388799509e-07
+      54131.71c -7.46868609946e-06
+      1001.71c -0.0171083414338
+      62147.71c -6.17056102837e-07
+      92234.71c -1.47311098005e-08
+      92235.71c -0.0150899741716
+      92236.71c -9.44365828353e-05
+      43099.71c -1.24111091277e-05
+      42095.71c -6.42066483405e-06
+      61147.71c -5.7077934854e-06
+      40090.71c -0.904910560029
+      45103.71c -4.97461161471e-06
+      55133.71c -1.79050741817e-05
+      93237.71c -2.27877771968e-07
+      55135.71c -1.27488147822e-05
+      94240.71c -1.39209386651e-06
+      94241.71c -5.653776177e-08
+      94242.71c -7.87516879145e-10
+m6124 62152.71c -1.33296796924e-06
+      62151.71c -9.67206628695e-07
+      62150.71c -2.92552806002e-06
+      64155.71c -2.19773455847e-09
+      63153.71c -5.56126296151e-07
+      60143.71c -1.67721465806e-05
+      60145.71c -1.25915091581e-05
+      95241.71c -8.69353086209e-10
+      95243.71c -3.71110079322e-12
+      94239.71c -5.35736536829e-05
+      94238.71c -2.30178437476e-09
+      63154.71c -9.36864881264e-09
+      44103.71c -1.69049574154e-06
+      92238.71c -0.0626385125262
+      54135.71c -3.35926342732e-08
+      62149.71c -6.28561853088e-07
+      54131.71c -7.89360520919e-06
+      1001.71c -0.0171087286822
+      62147.71c -6.51765720157e-07
+      92234.71c -1.54787248916e-08
+      92235.71c -0.0150570371726
+      92236.71c -9.98054939863e-05
+      43099.71c -1.31201822632e-05
+      42095.71c -6.78812927663e-06
+      61147.71c -6.02865114208e-06
+      40090.71c -0.904931042737
+      45103.71c -5.25825251455e-06
+      55133.71c -1.89271705065e-05
+      93237.71c -2.4985759084e-07
+      55135.71c -1.32381974671e-05
+      94240.71c -1.54824155203e-06
+      94241.71c -6.63465841458e-08
+      94242.71c -9.79922091889e-10
 c **  F-13  Fuel ID= 3329
 m6131 62152.71c -3.60183963259e-06
       62151.71c -1.56156512973e-06
@@ -3650,6 +14286,105 @@ m6131 62152.71c -3.60183963259e-06
       94240.71c -6.16428847196e-06
       94241.71c -5.59611497534e-07
       94242.71c -2.86523222233e-08
+m6132 62152.71c -4.63197122791e-06
+      62151.71c -1.73442301478e-06
+      62150.71c -9.37869445173e-06
+      64155.71c -7.22081451605e-09
+      63153.71c -1.75173090455e-06
+      60143.71c -4.88995711727e-05
+      60145.71c -3.48407350808e-05
+      95241.71c -7.52765798009e-08
+      95243.71c -1.36486309959e-09
+      94239.71c -0.000131627171282
+      94238.71c -5.27688341791e-08
+      63154.71c -6.84914422712e-08
+      44103.71c -1.4668000847e-06
+      92238.71c -0.0625740355445
+      54135.71c -2.78922725731e-08
+      62149.71c -6.1790635158e-07
+      54131.71c -2.26347728091e-05
+      1001.71c -0.0171210008166
+      62147.71c -5.34338226706e-06
+      92234.71c -4.16488150663e-08
+      92235.71c -0.0139824783208
+      92236.71c -0.000273268443188
+      43099.71c -3.69105708732e-05
+      42095.71c -3.09009287822e-05
+      61147.71c -1.38321879129e-05
+      40090.71c -0.905580152066
+      45103.71c -1.76944391961e-05
+      55133.71c -5.40565711569e-05
+      93237.71c -1.60372663236e-06
+      55135.71c -3.914930889e-05
+      94240.71c -1.03604773748e-05
+      94241.71c -1.27188596392e-06
+      94242.71c -8.28903597672e-08
+m6133 62152.71c -5.65518841011e-06
+      62151.71c -1.85146140041e-06
+      62150.71c -1.12249936578e-05
+      64155.71c -7.06767840732e-09
+      63153.71c -2.13566623094e-06
+      60143.71c -5.73352669216e-05
+      60145.71c -4.11118583092e-05
+      95241.71c -1.14691798658e-07
+      95243.71c -3.02447514911e-09
+      94239.71c -0.000151373228289
+      94238.71c -8.5739876135e-08
+      63154.71c -9.51252676637e-08
+      44103.71c -1.73575098623e-06
+      92238.71c -0.0625539214589
+      54135.71c -3.10720374e-08
+      62149.71c -6.10008722322e-07
+      54131.71c -2.6674780629e-05
+      1001.71c -0.0171245981296
+      62147.71c -6.25631565455e-06
+      92234.71c -4.8656772873e-08
+      92235.71c -0.0136796075868
+      92236.71c -0.000322019329432
+      43099.71c -4.35976393169e-05
+      42095.71c -3.65266874698e-05
+      61147.71c -1.62420790582e-05
+      40090.71c -0.905770424541
+      45103.71c -2.08650593002e-05
+      55133.71c -6.38316526265e-05
+      93237.71c -2.18123278054e-06
+      55135.71c -4.38546946561e-05
+      94240.71c -1.38706825079e-05
+      94241.71c -1.95528924473e-06
+      94242.71c -1.54040126162e-07
+m6134 62152.71c -6.00784031394e-06
+      62151.71c -1.88443926691e-06
+      62150.71c -1.18549574072e-05
+      64155.71c -7.00645539777e-09
+      63153.71c -2.27116818403e-06
+      60143.71c -6.01680243832e-05
+      60145.71c -4.3239776243e-05
+      95241.71c -1.29549667851e-07
+      95243.71c -3.83758499332e-09
+      94239.71c -0.000157619797695
+      94238.71c -9.93982303549e-08
+      63154.71c -1.05104600651e-07
+      44103.71c -1.82845273928e-06
+      92238.71c -0.0625472059367
+      54135.71c -3.2072930278e-08
+      62149.71c -6.0718423113e-07
+      54131.71c -2.80433262818e-05
+      1001.71c -0.0171258258501
+      62147.71c -6.56282098311e-06
+      92234.71c -5.09401178017e-08
+      92235.71c -0.0135768879839
+      92236.71c -0.000338487424607
+      43099.71c -4.58691562877e-05
+      42095.71c -3.84375658842e-05
+      61147.71c -1.7053809985e-05
+      40090.71c -0.905835362295
+      45103.71c -2.19380517962e-05
+      55133.71c -6.71517069345e-05
+      93237.71c -2.3987006165e-06
+      55135.71c -4.53274611632e-05
+      94240.71c -1.51365678746e-05
+      94241.71c -2.21656941775e-06
+      94242.71c -1.85222778094e-07
 c **  F-14  Fuel ID= 5653
 m6141 62152.71c -6.86123024431e-06
       62151.71c -2.03827574162e-06
@@ -3684,6 +14419,105 @@ m6141 62152.71c -6.86123024431e-06
       94240.71c -1.33051856364e-05
       94241.71c -1.08581553008e-06
       94242.71c -3.67574854801e-08
+m6142 62152.71c -8.86838478183e-06
+      62151.71c -2.1377945934e-06
+      62150.71c -1.67554167517e-05
+      64155.71c -1.02672811874e-08
+      63153.71c -3.1336413944e-06
+      60143.71c -8.47905721496e-05
+      60145.71c -6.01281383964e-05
+      95241.71c -1.11101530634e-07
+      95243.71c -1.17206934678e-09
+      94239.71c -0.000216862790137
+      94238.71c -9.30888507764e-08
+      63154.71c -1.45531774003e-07
+      44103.71c -1.52636702742e-06
+      92238.71c -0.0624981586919
+      54135.71c -2.77376200457e-08
+      62149.71c -5.80219128265e-07
+      54131.71c -3.92746579882e-05
+      1001.71c -0.017135030801
+      62147.71c -1.16198329847e-05
+      92234.71c -7.12292649637e-08
+      92235.71c -0.0127624191982
+      92236.71c -0.000470496340123
+      43099.71c -6.39163238268e-05
+      42095.71c -5.84001960641e-05
+      61147.71c -2.15167986886e-05
+      40090.71c -0.906322239256
+      45103.71c -3.15542646345e-05
+      55133.71c -9.38182592959e-05
+      93237.71c -3.3174106088e-06
+      55135.71c -6.74670866666e-05
+      94240.71c -2.28038817972e-05
+      94241.71c -2.60926829889e-06
+      94242.71c -1.14279059796e-07
+m6143 62152.71c -1.0773719536e-05
+      62151.71c -2.16523598083e-06
+      62150.71c -1.99311579567e-05
+      64155.71c -9.61733920458e-09
+      63153.71c -3.85085707926e-06
+      60143.71c -9.90147147028e-05
+      60145.71c -7.0781683425e-05
+      95241.71c -1.77460587919e-07
+      95243.71c -2.72821313012e-09
+      94239.71c -0.000245327867989
+      94238.71c -1.52451132901e-07
+      63154.71c -2.03173041965e-07
+      44103.71c -1.78893343962e-06
+      92238.71c -0.0624625569438
+      54135.71c -3.03423489475e-08
+      62149.71c -5.66047966848e-07
+      54131.71c -4.61663837534e-05
+      1001.71c -0.0171411790434
+      62147.71c -1.36450180136e-05
+      92234.71c -8.24842739411e-08
+      92235.71c -0.012249248276
+      92236.71c -0.000552760239593
+      43099.71c -7.53397909829e-05
+      42095.71c -6.89679603029e-05
+      61147.71c -2.50782824662e-05
+      40090.71c -0.906647437904
+      45103.71c -3.71351443512e-05
+      55133.71c -0.00011055278513
+      93237.71c -4.550695057e-06
+      55135.71c -7.53598460032e-05
+      94240.71c -3.07945183942e-05
+      94241.71c -4.14697853038e-06
+      94242.71c -2.21715421038e-07
+m6144 62152.71c -1.14229847321e-05
+      62151.71c -2.16849151343e-06
+      62150.71c -2.10146255895e-05
+      64155.71c -9.4278441468e-09
+      63153.71c -4.10524568805e-06
+      60143.71c -0.000103769288845
+      60145.71c -7.43906430092e-05
+      95241.71c -2.0374915597e-07
+      95243.71c -3.50989508964e-09
+      94239.71c -0.000254071153097
+      94238.71c -1.77142614758e-07
+      63154.71c -2.24850131925e-07
+      44103.71c -1.87682926469e-06
+      92238.71c -0.0624505293988
+      54135.71c -3.11009236962e-08
+      62149.71c -5.61172863353e-07
+      54131.71c -4.84952085194e-05
+      1001.71c -0.017143278167
+      62147.71c -1.43299593977e-05
+      92234.71c -8.6214353846e-08
+      92235.71c -0.0120755067667
+      92236.71c -0.000580459113868
+      43099.71c -7.92162251007e-05
+      42095.71c -7.25643671664e-05
+      61147.71c -2.62661260557e-05
+      40090.71c -0.906758466733
+      45103.71c -3.90228204663e-05
+      55133.71c -0.000116228329524
+      93237.71c -5.0085024759e-06
+      55135.71c -7.78168195135e-05
+      94240.71c -3.36709762015e-05
+      94241.71c -4.75361463242e-06
+      94242.71c -2.70442052259e-07
 c **  F-15  Fuel ID= 2448
 m6151 62152.71c -2.85210821904e-06
       62151.71c -1.51878785184e-06
@@ -3718,6 +14552,105 @@ m6151 62152.71c -2.85210821904e-06
       94240.71c -3.65720572141e-06
       94241.71c -1.74729059044e-07
       94242.71c -3.33596391475e-09
+m6152 62152.71c -3.70537376725e-06
+      62151.71c -1.69227599144e-06
+      62150.71c -7.79426114948e-06
+      64155.71c -6.69763504916e-09
+      63153.71c -1.37660967839e-06
+      60143.71c -4.16681247717e-05
+      60145.71c -2.94522399594e-05
+      95241.71c -1.1054723905e-08
+      95243.71c -6.17672682215e-11
+      94239.71c -0.000117635894989
+      94238.71c -1.45018311931e-08
+      63154.71c -3.92942566903e-08
+      44103.71c -1.4540963137e-06
+      92238.71c -0.0625920158532
+      54135.71c -2.78594053706e-08
+      62149.71c -6.26379917677e-07
+      54131.71c -1.91328776541e-05
+      1001.71c -0.0171179312155
+      62147.71c -3.44598052969e-06
+      92234.71c -3.54261398954e-08
+      92235.71c -0.0142421457747
+      92236.71c -0.000231757726706
+      43099.71c -3.11172754317e-05
+      42095.71c -2.49953784355e-05
+      61147.71c -1.28461027023e-05
+      40090.71c -0.905417791826
+      45103.71c -1.47753575644e-05
+      55133.71c -4.55445046053e-05
+      93237.71c -9.37814414088e-07
+      55135.71c -3.31861203619e-05
+      94240.71c -6.39725135756e-06
+      94241.71c -4.28457433769e-07
+      94242.71c -1.03306366217e-08
+m6153 62152.71c -4.5867531081e-06
+      62151.71c -1.81308549634e-06
+      62150.71c -9.38620926119e-06
+      64155.71c -6.52274803365e-09
+      63153.71c -1.66856913843e-06
+      60143.71c -4.91974149006e-05
+      60145.71c -3.49088160783e-05
+      95241.71c -1.8192013571e-08
+      95243.71c -1.47357678814e-10
+      94239.71c -0.000136660787866
+      94238.71c -2.35009468544e-08
+      63154.71c -5.52178646611e-08
+      44103.71c -1.72357453775e-06
+      92238.71c -0.0625757707707
+      54135.71c -3.11373097102e-08
+      62149.71c -6.20042142736e-07
+      54131.71c -2.26638242208e-05
+      1001.71c -0.0171210216311
+      62147.71c -4.07579277625e-06
+      92234.71c -4.16912199613e-08
+      92235.71c -0.0139785376259
+      92236.71c -0.000274440176429
+      43099.71c -3.69086983017e-05
+      42095.71c -2.96858019891e-05
+      61147.71c -1.51545996283e-05
+      40090.71c -0.905581253004
+      45103.71c -1.75187911898e-05
+      55133.71c -5.40128592412e-05
+      93237.71c -1.28277273442e-06
+      55135.71c -3.73582161703e-05
+      94240.71c -8.84919817873e-06
+      94241.71c -7.04096647677e-07
+      94242.71c -2.04784714398e-08
+m6154 62152.71c -4.8941810976e-06
+      62151.71c -1.84717136958e-06
+      62150.71c -9.93095834141e-06
+      64155.71c -6.45218826716e-09
+      63153.71c -1.77077950527e-06
+      60143.71c -5.17484113258e-05
+      60145.71c -3.67681619341e-05
+      95241.71c -2.11171128098e-08
+      95243.71c -1.91092611653e-10
+      94239.71c -0.000142946388818
+      94238.71c -2.71907329748e-08
+      63154.71c -6.12500653785e-08
+      44103.71c -1.81537091448e-06
+      92238.71c -0.0625701729412
+      54135.71c -3.21569044459e-08
+      62149.71c -6.17866667994e-07
+      54131.71c -2.38657968957e-05
+      1001.71c -0.0171220795405
+      62147.71c -4.28979269621e-06
+      92234.71c -4.37224540133e-08
+      92235.71c -0.0138887136859
+      92236.71c -0.000288982259382
+      43099.71c -3.88840905072e-05
+      42095.71c -3.12882503088e-05
+      61147.71c -1.59364692876e-05
+      40090.71c -0.905637208951
+      45103.71c -1.8453675905e-05
+      55133.71c -5.69006492656e-05
+      93237.71c -1.40842146699e-06
+      55135.71c -3.86772962363e-05
+      94240.71c -9.76472767512e-06
+      94241.71c -8.16890399949e-07
+      94242.71c -2.51913072339e-08
 c **  F-16  Fuel ID= 5655
 m6161 62152.71c -6.9751349386e-06
       62151.71c -2.04328534172e-06
@@ -3752,6 +14685,105 @@ m6161 62152.71c -6.9751349386e-06
       94240.71c -1.36454250984e-05
       94241.71c -1.1279834178e-06
       94242.71c -3.88196151458e-08
+m6162 62152.71c -9.00891900677e-06
+      62151.71c -2.14049674627e-06
+      62150.71c -1.69874145259e-05
+      64155.71c -1.03171892657e-08
+      63153.71c -3.18513504553e-06
+      60143.71c -8.58674966191e-05
+      60145.71c -6.09179663513e-05
+      95241.71c -1.16791892803e-07
+      95243.71c -1.25587012159e-09
+      94239.71c -0.000219001963897
+      94238.71c -9.69136144304e-08
+      63154.71c -1.49333145431e-07
+      44103.71c -1.52800550628e-06
+      92238.71c -0.0624956478227
+      54135.71c -2.77738462943e-08
+      62149.71c -5.78866700599e-07
+      54131.71c -3.978972915e-05
+      1001.71c -0.0171354771915
+      62147.71c -1.18850090474e-05
+      92234.71c -7.21160611848e-08
+      92235.71c -0.0127243832811
+      92236.71c -0.00047658794169
+      43099.71c -6.47637628242e-05
+      42095.71c -5.92671713298e-05
+      61147.71c -2.16771919006e-05
+      40090.71c -0.906345850165
+      45103.71c -3.1984597441e-05
+      55133.71c -9.50636293321e-05
+      93237.71c -3.40197822869e-06
+      55135.71c -6.83431189975e-05
+      94240.71c -2.33599125753e-05
+      94241.71c -2.70620035905e-06
+      94242.71c -1.20531274908e-07
+m6163 62152.71c -1.09369042531e-05
+      62151.71c -2.16599241906e-06
+      62150.71c -2.02005745361e-05
+      64155.71c -9.66728499128e-09
+      63153.71c -3.91496222476e-06
+      60143.71c -0.00010023180978
+      60145.71c -7.16911865367e-05
+      95241.71c -1.86310213797e-07
+      95243.71c -2.91890061037e-09
+      94239.71c -0.000247540211609
+      94238.71c -1.58715378589e-07
+      63154.71c -2.08406081172e-07
+      44103.71c -1.78962218841e-06
+      92238.71c -0.0624595265037
+      54135.71c -3.03422634198e-08
+      62149.71c -5.64463736526e-07
+      54131.71c -4.67576549827e-05
+      1001.71c -0.0171416991171
+      62147.71c -1.39522914068e-05
+      92234.71c -8.34863223935e-08
+      92235.71c -0.0122054614859
+      92236.71c -0.000559745642574
+      43099.71c -7.6318618789e-05
+      42095.71c -6.99749655189e-05
+      61147.71c -2.52543460045e-05
+      40090.71c -0.906674946132
+      45103.71c -3.76303300527e-05
+      55133.71c -0.000111990605997
+      93237.71c -4.66560761349e-06
+      55135.71c -7.63166138641e-05
+      94240.71c -3.15158123579e-05
+      94241.71c -4.29512122726e-06
+      94242.71c -2.33577068362e-07
+m6164 62152.71c -1.15933260025e-05
+      62151.71c -2.16872351709e-06
+      62150.71c -2.12963438734e-05
+      64155.71c -9.47994824809e-09
+      63153.71c -4.17376046328e-06
+      60143.71c -0.000105029650287
+      60145.71c -7.53387838109e-05
+      95241.71c -2.13817755477e-07
+      95243.71c -3.75389691982e-09
+      94239.71c -0.000256291134962
+      94238.71c -1.84411629337e-07
+      63154.71c -2.30610115866e-07
+      44103.71c -1.87697039927e-06
+      92238.71c -0.0624472412306
+      54135.71c -3.1086629427e-08
+      62149.71c -5.59467256447e-07
+      54131.71c -4.91108130796e-05
+      1001.71c -0.017143823781
+      62147.71c -1.465113773e-05
+      92234.71c -8.72485479319e-08
+      92235.71c -0.0120298737254
+      92236.71c -0.000587728889495
+      43099.71c -8.02376735574e-05
+      42095.71c -7.36178508882e-05
+      61147.71c -2.64463676057e-05
+      40090.71c -0.906787325864
+      45103.71c -3.95390273438e-05
+      55133.71c -0.00011772850031
+      93237.71c -5.13472821833e-06
+      55135.71c -7.87967532254e-05
+      94240.71c -3.44492858747e-05
+      94241.71c -4.92100386722e-06
+      94242.71c -2.8479837965e-07
 c **  F-17  Fuel ID= 5939
 m6171 62152.71c -7.2485263588e-06
       62151.71c -2.05401473852e-06
@@ -3786,6 +14818,105 @@ m6171 62152.71c -7.2485263588e-06
       94240.71c -1.44812197002e-05
       94241.71c -1.23478253476e-06
       94242.71c -4.42619205532e-08
+m6172 62152.71c -9.34497781337e-06
+      62151.71c -2.1458926483e-06
+      62150.71c -1.75415133372e-05
+      64155.71c -1.04354444818e-08
+      63153.71c -3.30988070454e-06
+      60143.71c -8.8433931354e-05
+      60145.71c -6.28025229525e-05
+      95241.71c -1.31591552417e-07
+      95243.71c -1.48335250731e-09
+      94239.71c -0.000224026535618
+      94238.71c -1.06715081407e-07
+      63154.71c -1.58694585603e-07
+      44103.71c -1.53032605135e-06
+      92238.71c -0.0624895130185
+      54135.71c -2.76846657514e-08
+      62149.71c -5.76004055759e-07
+      54131.71c -4.10203690295e-05
+      1001.71c -0.0171365451065
+      62147.71c -1.25292697503e-05
+      92234.71c -7.42281579821e-08
+      92235.71c -0.0126336483278
+      92236.71c -0.000491109042385
+      43099.71c -6.67885472659e-05
+      42095.71c -6.13379638272e-05
+      61147.71c -2.20484069138e-05
+      40090.71c -0.906402335334
+      45103.71c -3.30122734669e-05
+      55133.71c -9.80414476214e-05
+      93237.71c -3.61093951155e-06
+      55135.71c -7.0431734857e-05
+      94240.71c -2.47181769695e-05
+      94241.71c -2.9506672328e-06
+      94242.71c -1.36956476038e-07
+m6173 62152.71c -1.13260763366e-05
+      62151.71c -2.16704811817e-06
+      62150.71c -2.08430496332e-05
+      64155.71c -9.78793518867e-09
+      63153.71c -4.07019794812e-06
+      60143.71c -0.000103124130295
+      60145.71c -7.38586054612e-05
+      95241.71c -2.09229054334e-07
+      95243.71c -3.43752212441e-09
+      94239.71c -0.000252724032754
+      94238.71c -1.74764212534e-07
+      63154.71c -2.2128989036e-07
+      44103.71c -1.79016266881e-06
+      92238.71c -0.0624522138441
+      54135.71c -3.02063727707e-08
+      62149.71c -5.61058402819e-07
+      54131.71c -4.81673057654e-05
+      1001.71c -0.0171429398276
+      62147.71c -1.46978271552e-05
+      92234.71c -8.58806788384e-08
+      92235.71c -0.0121011674021
+      92236.71c -0.000576375080154
+      43099.71c -7.86540192337e-05
+      42095.71c -7.23764926692e-05
+      61147.71c -2.56596656896e-05
+      40090.71c -0.906740570965
+      45103.71c -3.88102101795e-05
+      55133.71c -0.000115422745416
+      93237.71c -4.94824584736e-06
+      55135.71c -7.85942458817e-05
+      94240.71c -3.3271408973e-05
+      94241.71c -4.66711815464e-06
+      94242.71c -2.64638335412e-07
+m6174 62152.71c -1.19987889775e-05
+      62151.71c -2.16854799188e-06
+      62150.71c -2.19672497665e-05
+      64155.71c -9.60653382976e-09
+      63153.71c -4.33963606739e-06
+      60143.71c -0.000108019690733
+      60145.71c -7.75954113221e-05
+      95241.71c -2.39856460147e-07
+      95243.71c -4.41542094596e-09
+      94239.71c -0.000261443514671
+      94238.71c -2.03005709688e-07
+      63154.71c -2.44772775205e-07
+      44103.71c -1.87598185284e-06
+      92238.71c -0.0624396000856
+      54135.71c -3.09247214579e-08
+      62149.71c -5.55890952946e-07
+      54131.71c -5.05765184354e-05
+      1001.71c -0.0171451198364
+      62147.71c -1.54300214396e-05
+      92234.71c -8.97315309939e-08
+      92235.71c -0.0119212895373
+      92236.71c -0.000605013396157
+      43099.71c -8.26716296061e-05
+      42095.71c -7.61281120485e-05
+      61147.71c -2.68597535936e-05
+      40090.71c -0.90685587805
+      45103.71c -4.07673577886e-05
+      55133.71c -0.000121304854483
+      93237.71c -5.44521653559e-06
+      55135.71c -8.11272340156e-05
+      94240.71c -3.63381231808e-05
+      94241.71c -5.34093380852e-06
+      94242.71c -3.22314075254e-07
 c **  F-18  Fuel ID= 5946
 m6181 62152.71c -6.99835887949e-06
       62151.71c -2.04419677806e-06
@@ -3820,6 +14951,105 @@ m6181 62152.71c -6.99835887949e-06
       94240.71c -1.37164238314e-05
       94241.71c -1.13705574486e-06
       94242.71c -3.92819258467e-08
+m6182 62152.71c -9.03746639079e-06
+      62151.71c -2.14095511512e-06
+      62150.71c -1.70344838817e-05
+      64155.71c -1.03272347607e-08
+      63153.71c -3.195731888e-06
+      60143.71c -8.60855090517e-05
+      60145.71c -6.10780548833e-05
+      95241.71c -1.18049088145e-07
+      95243.71c -1.27519420087e-09
+      94239.71c -0.00021942878913
+      94238.71c -9.7746225379e-08
+      63154.71c -1.50128377165e-07
+      44103.71c -1.52820263098e-06
+      92238.71c -0.0624951266859
+      54135.71c -2.77662706225e-08
+      62149.71c -5.78623525834e-07
+      54131.71c -3.98942690357e-05
+      1001.71c -0.0171355679083
+      62147.71c -1.19397374382e-05
+      92234.71c -7.22954787069e-08
+      92235.71c -0.0127166755659
+      92236.71c -0.000477821474125
+      43099.71c -6.49357633726e-05
+      42095.71c -5.94430801513e-05
+      61147.71c -2.17087257194e-05
+      40090.71c -0.906350648443
+      45103.71c -3.20718960375e-05
+      55133.71c -9.53165878042e-05
+      93237.71c -3.41972898502e-06
+      55135.71c -6.85205418707e-05
+      94240.71c -2.34752938553e-05
+      94241.71c -2.72696722958e-06
+      94242.71c -1.21926556077e-07
+m6183 62152.71c -1.09699634818e-05
+      62151.71c -2.16608209815e-06
+      62150.71c -2.0255151244e-05
+      64155.71c -9.67753393417e-09
+      63153.71c -3.92814912456e-06
+      60143.71c -0.000100477505423
+      60145.71c -7.18753035399e-05
+      95241.71c -1.88257113951e-07
+      95243.71c -2.96295625549e-09
+      94239.71c -0.000247980564696
+      94238.71c -1.60078688274e-07
+      63154.71c -2.09500529647e-07
+      44103.71c -1.78966810092e-06
+      92238.71c -0.0624589053109
+      54135.71c -3.03307198373e-08
+      62149.71c -5.64174461652e-07
+      54131.71c -4.68774014123e-05
+      1001.71c -0.0171418045125
+      62147.71c -1.40156228681e-05
+      92234.71c -8.3689717191e-08
+      92235.71c -0.0121966019554
+      92236.71c -0.000561158273135
+      43099.71c -7.65170054166e-05
+      42095.71c -7.01789694505e-05
+      61147.71c -2.52887769329e-05
+      40090.71c -0.906680520803
+      45103.71c -3.773055802e-05
+      55133.71c -0.000112282157952
+      93237.71c -4.68961704887e-06
+      55135.71c -7.65100932034e-05
+      94240.71c -3.16649460505e-05
+      94241.71c -4.32672146785e-06
+      94242.71c -2.36215647984e-07
+m6184 62152.71c -1.1627769103e-05
+      62151.71c -2.16870860665e-06
+      62150.71c -2.13533357088e-05
+      64155.71c -9.49070138754e-09
+      63153.71c -4.18785119525e-06
+      60143.71c -0.000105283647002
+      60145.71c -7.55304788681e-05
+      95241.71c -2.16029680554e-07
+      95243.71c -3.81009178823e-09
+      94239.71c -0.000256728817175
+      94238.71c -1.85991151557e-07
+      63154.71c -2.31813199574e-07
+      44103.71c -1.87688642463e-06
+      92238.71c -0.0624465921338
+      54135.71c -3.1072875736e-08
+      62149.71c -5.59163458101e-07
+      54131.71c -4.92353212098e-05
+      1001.71c -0.0171439338778
+      62147.71c -1.47173020201e-05
+      92234.71c -8.74594713465e-08
+      92235.71c -0.0120206497608
+      92236.71c -0.000589197166593
+      43099.71c -8.04444322456e-05
+      42095.71c -7.38310915114e-05
+      61147.71c -2.6481483747e-05
+      40090.71c -0.906793149207
+      45103.71c -3.96433710486e-05
+      55133.71c -0.00011803230296
+      93237.71c -5.16110345104e-06
+      55135.71c -7.89947219403e-05
+      94240.71c -3.46097380422e-05
+      94241.71c -4.95667590158e-06
+      94242.71c -2.87985247389e-07
 c **  F-19  Fuel ID= 3113
 m6191 62152.71c -3.20040880874e-06
       62151.71c -1.53412948578e-06
@@ -3854,6 +15084,105 @@ m6191 62152.71c -3.20040880874e-06
       94240.71c -4.98255902232e-06
       94241.71c -4.02312017605e-07
       94242.71c -1.93170766124e-08
+m6192 62152.71c -4.139531096e-06
+      62151.71c -1.71378935291e-06
+      62150.71c -8.54696984533e-06
+      64155.71c -6.92447890877e-09
+      63153.71c -1.56752956215e-06
+      60143.71c -4.50206698959e-05
+      60145.71c -3.20071533427e-05
+      95241.71c -5.11622271435e-08
+      95243.71c -9.04465799801e-10
+      94239.71c -0.000123742623606
+      94238.71c -3.76776412444e-08
+      63154.71c -5.5114575363e-08
+      44103.71c -1.46951378269e-06
+      92238.71c -0.0625830948969
+      54135.71c -2.80369445639e-08
+      62149.71c -6.22343631838e-07
+      54131.71c -2.07834581038e-05
+      1001.71c -0.0171194003319
+      62147.71c -4.41165025984e-06
+      92234.71c -3.84263637451e-08
+      92235.71c -0.0141190234622
+      92236.71c -0.000251405339947
+      43099.71c -3.38685540956e-05
+      42095.71c -2.77597282276e-05
+      61147.71c -1.32310157045e-05
+      40090.71c -0.905495497717
+      45103.71c -1.61444808402e-05
+      55133.71c -4.95816727899e-05
+      93237.71c -1.30159746999e-06
+      55135.71c -3.60008785571e-05
+      94240.71c -8.46799174215e-06
+      94241.71c -9.22826659215e-07
+      94242.71c -5.60264076533e-08
+m6193 62152.71c -5.08194887493e-06
+      62151.71c -1.83766710297e-06
+      62150.71c -1.02606012544e-05
+      64155.71c -6.78462799983e-09
+      63153.71c -1.90741337413e-06
+      60143.71c -5.29536189045e-05
+      60145.71c -3.78506135723e-05
+      95241.71c -7.81942340677e-08
+      95243.71c -2.00552508274e-09
+      94239.71c -0.000143070924597
+      94238.71c -6.11896762955e-08
+      63154.71c -7.67937590247e-08
+      44103.71c -1.74138497326e-06
+      92238.71c -0.0625648226968
+      54135.71c -3.128787939e-08
+      62149.71c -6.15139840887e-07
+      54131.71c -2.45524549061e-05
+      1001.71c -0.0171227362983
+      62147.71c -5.18064740287e-06
+      92234.71c -4.49761358502e-08
+      92235.71c -0.0138367182182
+      92236.71c -0.000296953671562
+      43099.71c -4.00872504938e-05
+      42095.71c -3.28849995074e-05
+      61147.71c -1.55775216993e-05
+      40090.71c -0.905671946801
+      45103.71c -1.90850831419e-05
+      55133.71c -5.86713063057e-05
+      93237.71c -1.77182149032e-06
+      55135.71c -4.04167247533e-05
+      94240.71c -1.1439510159e-05
+      94241.71c -1.43010129225e-06
+      94242.71c -1.04348351424e-07
+m6194 62152.71c -5.40858858806e-06
+      62151.71c -1.87276334572e-06
+      62150.71c -1.08462252329e-05
+      64155.71c -6.72445937682e-09
+      63153.71c -2.02711715981e-06
+      60143.71c -5.56274251533e-05
+      60145.71c -3.9837584626e-05
+      95241.71c -8.84295817765e-08
+      95243.71c -2.54530143402e-09
+      94239.71c -0.000149236232555
+      94238.71c -7.09305396624e-08
+      63154.71c -8.49374557356e-08
+      44103.71c -1.83529136627e-06
+      92238.71c -0.0625587271419
+      54135.71c -3.23153746809e-08
+      62149.71c -6.12551312283e-07
+      54131.71c -2.5832109134e-05
+      1001.71c -0.0171238763637
+      62147.71c -5.43961252022e-06
+      92234.71c -4.71206503158e-08
+      92235.71c -0.013740782142
+      92236.71c -0.000312382579154
+      43099.71c -4.22038440603e-05
+      42095.71c -3.46287318968e-05
+      61147.71c -1.63700940745e-05
+      40090.71c -0.905732248219
+      45103.71c -2.00827771928e-05
+      55133.71c -6.17644432753e-05
+      93237.71c -1.94868811522e-06
+      55135.71c -4.1804258175e-05
+      94240.71c -1.25205979857e-05
+      94241.71c -1.62603726062e-06
+      94242.71c -1.25577483774e-07
 c **  F-20  Fuel ID= 2949
 m6201 62152.71c -6.30443194153e-07
       62151.71c -6.06660762403e-07
@@ -3888,6 +15217,105 @@ m6201 62152.71c -6.30443194153e-07
       94240.71c -3.9737071709e-07
       94241.71c -8.75023399541e-09
       94242.71c -7.718794628e-11
+m6202 62152.71c -8.27731019461e-07
+      62151.71c -7.28983938402e-07
+      62150.71c -1.7918452377e-06
+      64155.71c -1.67479610964e-09
+      63153.71c -3.7014544331e-07
+      60143.71c -1.12017994497e-05
+      60145.71c -8.53709347715e-06
+      95241.71c -2.90464524929e-10
+      95243.71c -7.51265557003e-13
+      94239.71c -3.6692521879e-05
+      94238.71c -8.74507964271e-10
+      63154.71c -4.37480200189e-09
+      44103.71c -1.31566181298e-06
+      92238.71c -0.0626500352804
+      54135.71c -2.85834104176e-08
+      62149.71c -6.06265495996e-07
+      54131.71c -5.30368567791e-06
+      1001.71c -0.0171064541194
+      62147.71c -3.82543497736e-07
+      92234.71c -1.06127543153e-08
+      92235.71c -0.0152536075191
+      92236.71c -6.76899191878e-05
+      43099.71c -8.86232276421e-06
+      42095.71c -4.06397453599e-06
+      61147.71c -4.10654773934e-06
+      40090.71c -0.904810734415
+      45103.71c -3.39272411581e-06
+      55133.71c -1.27384992422e-05
+      93237.71c -1.31316985851e-07
+      55135.71c -9.62894468341e-06
+      94240.71c -7.2671694833e-07
+      94241.71c -2.27556821284e-08
+      94242.71c -2.55590442781e-10
+m6203 62152.71c -1.02774647719e-06
+      62151.71c -8.33878028658e-07
+      62150.71c -2.24649633544e-06
+      64155.71c -1.77361848658e-09
+      63153.71c -4.45493377827e-07
+      60143.71c -1.33699245995e-05
+      60145.71c -1.02030415426e-05
+      95241.71c -4.93494029554e-10
+      95243.71c -1.84572000336e-12
+      94239.71c -4.36525950461e-05
+      94238.71c -1.38923563853e-09
+      63154.71c -6.2333962844e-09
+      44103.71c -1.57406364572e-06
+      92238.71c -0.0626454351837
+      54135.71c -3.23784311569e-08
+      62149.71c -6.22884838018e-07
+      54131.71c -6.3375636054e-06
+      1001.71c -0.017107401716
+      62147.71c -4.56373528328e-07
+      92234.71c -1.25762570173e-08
+      92235.71c -0.0151727802336
+      92236.71c -8.0894253597e-05
+      43099.71c -1.0594821439e-05
+      42095.71c -4.86019258651e-06
+      61147.71c -4.89922212212e-06
+      40090.71c -0.904860855589
+      45103.71c -4.05577997405e-06
+      55133.71c -1.52277362526e-05
+      93237.71c -1.75102911665e-07
+      55135.71c -1.09242261741e-05
+      94240.71c -1.03185228125e-06
+      94241.71c -3.86601857997e-08
+      94242.71c -5.2274022359e-10
+m6204 62152.71c -1.09985906779e-06
+      62151.71c -8.68130708739e-07
+      62150.71c -2.40718390692e-06
+      64155.71c -1.80031426821e-09
+      63153.71c -4.72021051889e-07
+      60143.71c -1.4124915252e-05
+      60145.71c -1.07839796512e-05
+      95241.71c -5.78381876709e-10
+      95243.71c -2.42335649852e-12
+      94239.71c -4.59524999075e-05
+      94238.71c -1.60934992845e-09
+      63154.71c -6.9547591356e-09
+      44103.71c -1.66401302812e-06
+      92238.71c -0.0626439301908
+      54135.71c -3.35991545242e-08
+      62149.71c -6.26832439479e-07
+      54131.71c -6.69807243233e-06
+      1001.71c -0.0171077331964
+      62147.71c -4.82077446133e-07
+      92234.71c -1.32783104338e-08
+      92235.71c -0.0151445961897
+      92236.71c -8.54879245314e-05
+      43099.71c -1.11992612918e-05
+      42095.71c -5.13868788707e-06
+      61147.71c -5.17493198193e-06
+      40090.71c -0.904878388561
+      45103.71c -4.28722951626e-06
+      55133.71c -1.60961095524e-05
+      93237.71c -1.92142432577e-07
+      55135.71c -1.13443441616e-05
+      94240.71c -1.14785086543e-06
+      94241.71c -4.5322312103e-08
+      94242.71c -6.49551204507e-10
 c **  F-21  Fuel ID= 5649
 m6211 62152.71c -5.80840461105e-06
       62151.71c -1.97740797764e-06
@@ -3922,6 +15350,105 @@ m6211 62152.71c -5.80840461105e-06
       94240.71c -1.03239278812e-05
       94241.71c -7.42285031172e-07
       94242.71c -2.1502797146e-08
+m6212 62152.71c -7.55871671323e-06
+      62151.71c -2.10017361127e-06
+      62150.71c -1.45809190477e-05
+      64155.71c -9.72793128466e-09
+      63153.71c -2.66634996102e-06
+      60143.71c -7.45852423476e-05
+      60145.71c -5.27187896936e-05
+      95241.71c -6.7643209641e-08
+      95243.71c -5.99353687859e-10
+      94239.71c -0.000195857186462
+      94238.71c -6.26952650204e-08
+      63154.71c -1.12495484801e-07
+      44103.71c -1.51634675461e-06
+      92238.71c -0.0625215283655
+      54135.71c -2.79396928874e-08
+      62149.71c -5.91985729308e-07
+      54131.71c -3.44264942406e-05
+      1001.71c -0.0171308585368
+      62147.71c -9.23943161222e-06
+      92234.71c -6.28426916652e-08
+      92235.71c -0.0131193064376
+      92236.71c -0.000413236997445
+      43099.71c -5.59693031195e-05
+      42095.71c -5.02716201421e-05
+      61147.71c -1.9880443588e-05
+      40090.71c -0.906101555916
+      45103.71c -2.7506212978e-05
+      55133.71c -8.21280086061e-05
+      93237.71c -2.58182625692e-06
+      55135.71c -5.92287696414e-05
+      94240.71c -1.78851847595e-05
+      94241.71c -1.80915707781e-06
+      94242.71c -6.76404296429e-08
+m6213 62152.71c -9.24044721044e-06
+      62151.71c -2.14811271484e-06
+      62150.71c -1.73961308658e-05
+      64155.71c -9.12004595311e-09
+      63153.71c -3.26846826636e-06
+      60143.71c -8.7411179829e-05
+      60145.71c -6.22091613697e-05
+      95241.71c -1.09275903007e-07
+      95243.71c -1.40938207064e-09
+      94239.71c -0.000223281737519
+      94238.71c -1.02584752826e-07
+      63154.71c -1.57503262427e-07
+      44103.71c -1.78296967602e-06
+      92238.71c -0.0624905728441
+      54135.71c -3.07329319496e-08
+      62149.71c -5.79615052897e-07
+      54131.71c -4.05759019571e-05
+      1001.71c -0.0171363038614
+      62147.71c -1.08789054503e-05
+      92234.71c -7.29764741678e-08
+      92235.71c -0.0126619130527
+      92236.71c -0.000486776423813
+      43099.71c -6.61212894861e-05
+      42095.71c -5.94990645536e-05
+      61147.71c -2.32588391472e-05
+      40090.71c -0.906389575168
+      45103.71c -3.24582700278e-05
+      55133.71c -9.70000419773e-05
+      93237.71c -3.54670143339e-06
+      55135.71c -6.63233269747e-05
+      94240.71c -2.43531103415e-05
+      94241.71c -2.90931329168e-06
+      94242.71c -1.32460413312e-07
+m6214 62152.71c -9.81725358271e-06
+      62151.71c -2.15730191173e-06
+      62150.71c -1.83591347599e-05
+      64155.71c -8.93107829782e-09
+      63153.71c -3.48233079665e-06
+      60143.71c -9.1721719954e-05
+      60145.71c -6.54348816706e-05
+      95241.71c -1.25934881364e-07
+      95243.71c -1.81884138174e-09
+      94239.71c -0.000231832903662
+      94238.71c -1.19208948038e-07
+      63154.71c -1.7449344788e-07
+      44103.71c -1.87350480831e-06
+      92238.71c -0.0624801694669
+      54135.71c -3.15728904406e-08
+      62149.71c -5.75307140676e-07
+      54131.71c -4.26610057631e-05
+      1001.71c -0.0171381671094
+      62147.71c -1.14357063753e-05
+      92234.71c -7.63820047291e-08
+      92235.71c -0.0125065371313
+      92236.71c -0.000511634605433
+      43099.71c -6.95772450489e-05
+      42095.71c -6.26481310965e-05
+      61147.71c -2.43919285276e-05
+      40090.71c -0.906488127843
+      45103.71c -3.41393505272e-05
+      55133.71c -0.000102059521188
+      93237.71c -3.90481825603e-06
+      55135.71c -6.85443662745e-05
+      94240.71c -2.66981107332e-05
+      94241.71c -3.34892613202e-06
+      94242.71c -1.6205357448e-07
 c **  F-22  Fuel ID= 2917
 m6221 62152.71c -5.88729686085e-07
       62151.71c -5.80968732449e-07
@@ -3956,6 +15483,105 @@ m6221 62152.71c -5.88729686085e-07
       94240.71c -3.48016966821e-07
       94241.71c -7.309282756e-09
       94242.71c -6.39328242268e-11
+m6222 62152.71c -7.6318338913e-07
+      62151.71c -6.94847612788e-07
+      62150.71c -1.63990794046e-06
+      64155.71c -1.52219485145e-09
+      63153.71c -3.45622017102e-07
+      60143.71c -1.04112173625e-05
+      60145.71c -7.99952918975e-06
+      95241.71c -2.34534276515e-10
+      95243.71c -5.92803262879e-13
+      94239.71c -3.42076510769e-05
+      94238.71c -7.28376054265e-10
+      63154.71c -3.79758995129e-09
+      44103.71c -1.30799005718e-06
+      92238.71c -0.0626519331739
+      54135.71c -2.85776824678e-08
+      62149.71c -6.03902230781e-07
+      54131.71c -4.94780195626e-06
+      1001.71c -0.0171061571564
+      62147.71c -3.31904219935e-07
+      92234.71c -9.86439579055e-09
+      92235.71c -0.0152797072187
+      92236.71c -6.33762600269e-05
+      43099.71c -8.29140656957e-06
+      42095.71c -3.57370791555e-06
+      61147.71c -3.85147922865e-06
+      40090.71c -0.904795027165
+      45103.71c -3.10381233013e-06
+      55133.71c -1.18968264494e-05
+      93237.71c -1.16074645747e-07
+      55135.71c -9.02063639492e-06
+      94240.71c -6.27902783556e-07
+      94241.71c -1.86908883181e-08
+      94242.71c -2.06066617751e-10
+m6223 62152.71c -9.44110570675e-07
+      62151.71c -7.95834744095e-07
+      62150.71c -2.05766853208e-06
+      64155.71c -1.62092625473e-09
+      63153.71c -4.14847056379e-07
+      60143.71c -1.24031034159e-05
+      60145.71c -9.54100605271e-06
+      95241.71c -3.96039738626e-10
+      95243.71c -1.44916841185e-12
+      94239.71c -4.06243992975e-05
+      94238.71c -1.1490199431e-09
+      63154.71c -5.3887195117e-09
+      44103.71c -1.56121948491e-06
+      92238.71c -0.0626476414529
+      54135.71c -3.23188465067e-08
+      62149.71c -6.21416789187e-07
+      54131.71c -5.90060214871e-06
+      1001.71c -0.0171070374336
+      62147.71c -3.95189015859e-07
+      92234.71c -1.16725584131e-08
+      92235.71c -0.0152049031608
+      92236.71c -7.55844729258e-05
+      43099.71c -9.89193759857e-06
+      42095.71c -4.26528499342e-06
+      61147.71c -4.58632029513e-06
+      40090.71c -0.904841587616
+      45103.71c -3.70307324452e-06
+      55133.71c -1.41926458491e-05
+      93237.71c -1.53873905882e-07
+      55135.71c -1.0220626715e-05
+      94240.71c -8.88166052198e-07
+      94241.71c -3.15721996895e-08
+      94242.71c -4.18011477195e-10
+m6224 62152.71c -1.00838089024e-06
+      62151.71c -8.28706911626e-07
+      62150.71c -2.20360921536e-06
+      64155.71c -1.64820857532e-09
+      63153.71c -4.38906882852e-07
+      60143.71c -1.30870942331e-05
+      60145.71c -1.00718955362e-05
+      95241.71c -4.62858022518e-10
+      95243.71c -1.89704625951e-12
+      94239.71c -4.27336034053e-05
+      94238.71c -1.32313975894e-09
+      63154.71c -5.99870857909e-09
+      44103.71c -1.64890300969e-06
+      92238.71c -0.0626462010934
+      54135.71c -3.35284207022e-08
+      62149.71c -6.25566241044e-07
+      54131.71c -6.22831740295e-06
+      1001.71c -0.0171073424941
+      62147.71c -4.1689365194e-07
+      92234.71c -1.23296394616e-08
+      92235.71c -0.0151791373282
+      92236.71c -7.9774495347e-05
+      43099.71c -1.04432468804e-05
+      42095.71c -4.50320665318e-06
+      61147.71c -4.83866859257e-06
+      40090.71c -0.904857723165
+      45103.71c -3.90912869778e-06
+      55133.71c -1.49831982594e-05
+      93237.71c -1.67983190531e-07
+      55135.71c -1.06052072502e-05
+      94240.71c -9.86190806169e-07
+      94241.71c -3.69059536288e-08
+      94242.71c -5.1715135624e-10
 c **  F-23  Fuel ID= 5000
 m6231 62152.71c -6.97478138181e-06
       62151.71c -2.04327146619e-06
@@ -3990,6 +15616,105 @@ m6231 62152.71c -6.97478138181e-06
       94240.71c -1.36443442274e-05
       94241.71c -1.12784530244e-06
       94242.71c -3.88125770171e-08
+m6232 62152.71c -9.00848440691e-06
+      62151.71c -2.14048976815e-06
+      62150.71c -1.69866979511e-05
+      64155.71c -1.0317036335e-08
+      63153.71c -3.18497372125e-06
+      60143.71c -8.586417764e-05
+      60145.71c -6.09155291944e-05
+      95241.71c -1.16772753504e-07
+      95243.71c -1.25557593554e-09
+      94239.71c -0.000218995465992
+      94238.71c -9.69009389223e-08
+      63154.71c -1.49321038977e-07
+      44103.71c -1.52800250529e-06
+      92238.71c -0.0624956557564
+      54135.71c -2.77739616248e-08
+      62149.71c -5.78870402645e-07
+      54131.71c -3.9788137655e-05
+      1001.71c -0.0171354758104
+      62147.71c -1.1884175873e-05
+      92234.71c -7.21133297672e-08
+      92235.71c -0.0127245006218
+      92236.71c -0.000476569162631
+      43099.71c -6.47611443211e-05
+      42095.71c -5.92644933279e-05
+      61147.71c -2.16767118358e-05
+      40090.71c -0.906345777116
+      45103.71c -3.1983268424e-05
+      55133.71c -9.50597783412e-05
+      93237.71c -3.40170799461e-06
+      55135.71c -6.8340417946e-05
+      94240.71c -2.3358156033e-05
+      94241.71c -2.70588420823e-06
+      94242.71c -1.20510033418e-07
+m6233 62152.71c -1.09364009658e-05
+      62151.71c -2.1659910538e-06
+      62150.71c -2.01997436708e-05
+      64155.71c -9.66712896335e-09
+      63153.71c -3.91476146995e-06
+      60143.71c -0.000100228069357
+      60145.71c -7.1688383575e-05
+      95241.71c -1.86280574566e-07
+      95243.71c -2.91822991575e-09
+      94239.71c -0.000247533507758
+      94238.71c -1.58694623826e-07
+      63154.71c -2.083894195e-07
+      44103.71c -1.78962148945e-06
+      92238.71c -0.0624595359606
+      54135.71c -3.0342439157e-08
+      62149.71c -5.64468140391e-07
+      54131.71c -4.67558319862e-05
+      1001.71c -0.0171416975126
+      62147.71c -1.39513272609e-05
+      92234.71c -8.34832259505e-08
+      92235.71c -0.0122055963617
+      92236.71c -0.000559724136959
+      43099.71c -7.63155985893e-05
+      42095.71c -6.99718598025e-05
+      61147.71c -2.52538218347e-05
+      40090.71c -0.906674861264
+      45103.71c -3.76288042015e-05
+      55133.71c -0.000111986167466
+      93237.71c -4.66524209849e-06
+      55135.71c -7.6313668372e-05
+      94240.71c -3.15135419754e-05
+      94241.71c -4.29464015131e-06
+      94242.71c -2.33536899136e-07
+m6234 62152.71c -1.15928016474e-05
+      62151.71c -2.16872374408e-06
+      62150.71c -2.12954762408e-05
+      64155.71c -9.47978454437e-09
+      63153.71c -4.1735459487e-06
+      60143.71c -0.00010502578349
+      60145.71c -7.53358654825e-05
+      95241.71c -2.13784081557e-07
+      95243.71c -3.75304142001e-09
+      94239.71c -0.000256284471773
+      94238.71c -1.84387582996e-07
+      63154.71c -2.30591800353e-07
+      44103.71c -1.87697167768e-06
+      92238.71c -0.0624472511124
+      54135.71c -3.10868388105e-08
+      62149.71c -5.59471881414e-07
+      54131.71c -4.91089175919e-05
+      1001.71c -0.0171438221049
+      62147.71c -1.46501304576e-05
+      92234.71c -8.72453368746e-08
+      92235.71c -0.0120300141492
+      92236.71c -0.000587706536729
+      43099.71c -8.02345259031e-05
+      42095.71c -7.36146045542e-05
+      61147.71c -2.64458330043e-05
+      40090.71c -0.906787237211
+      45103.71c -3.95374388354e-05
+      55133.71c -0.000117723875277
+      93237.71c -5.13432668689e-06
+      55135.71c -7.8793739388e-05
+      94240.71c -3.44468431819e-05
+      94241.71c -4.92046080307e-06
+      94242.71c -2.84749863392e-07
 c **  F-24  Fuel ID= 5948
 m6241 62152.71c -7.2823128299e-06
       62151.71c -2.05534070718e-06
@@ -4024,6 +15749,105 @@ m6241 62152.71c -7.2823128299e-06
       94240.71c -1.45845095187e-05
       94241.71c -1.24798106629e-06
       94242.71c -4.49344957724e-08
+m6242 62152.71c -9.38650889415e-06
+      62151.71c -2.14655948886e-06
+      62150.71c -1.76099904074e-05
+      64155.71c -1.04500587899e-08
+      63153.71c -3.32529711958e-06
+      60143.71c -8.87510984872e-05
+      60145.71c -6.30354216919e-05
+      95241.71c -1.33420535461e-07
+      95243.71c -1.51146541241e-09
+      94239.71c -0.000224647486148
+      94238.71c -1.07926373921e-07
+      63154.71c -1.59851498382e-07
+      44103.71c -1.53061283076e-06
+      92238.71c -0.0624887548624
+      54135.71c -2.76736445722e-08
+      62149.71c -5.75650282159e-07
+      54131.71c -4.11724549241e-05
+      1001.71c -0.0171366770824
+      62147.71c -1.26088892776e-05
+      92234.71c -7.4489176771e-08
+      92235.71c -0.0126224350502
+      92236.71c -0.000492903600344
+      43099.71c -6.70387757514e-05
+      42095.71c -6.1593878116e-05
+      61147.71c -2.20942826962e-05
+      40090.71c -0.906409315929
+      45103.71c -3.31392765247e-05
+      55133.71c -9.84094546769e-05
+      93237.71c -3.6367635273e-06
+      55135.71c -7.06898518064e-05
+      94240.71c -2.48860350561e-05
+      94241.71c -2.98087912811e-06
+      94242.71c -1.38986348017e-07
+m6243 62152.71c -1.13741713037e-05
+      62151.71c -2.1671785844e-06
+      62150.71c -2.09224484902e-05
+      64155.71c -9.80284547519e-09
+      63153.71c -4.08938241001e-06
+      60143.71c -0.000103481571298
+      60145.71c -7.41264611122e-05
+      95241.71c -2.12061428309e-07
+      95243.71c -3.50161481167e-09
+      94239.71c -0.00025336466377
+      94238.71c -1.76747572011e-07
+      63154.71c -2.22882107286e-07
+      44103.71c -1.79022946288e-06
+      92238.71c -0.0624513101254
+      54135.71c -3.01895790269e-08
+      62149.71c -5.60637562221e-07
+      54131.71c -4.83415143246e-05
+      1001.71c -0.0171430931581
+      62147.71c -1.47899625338e-05
+      92234.71c -8.61765800585e-08
+      92235.71c -0.0120882784495
+      92236.71c -0.000578430192241
+      43099.71c -7.89426345077e-05
+      42095.71c -7.26732800651e-05
+      61147.71c -2.57097562221e-05
+      40090.71c -0.906748681065
+      45103.71c -3.89560230429e-05
+      55133.71c -0.000115846898739
+      93237.71c -4.98317506537e-06
+      55135.71c -7.88757219729e-05
+      94240.71c -3.34883704792e-05
+      94241.71c -4.71309056821e-06
+      94242.71c -2.68476973072e-07
+m6244 62152.71c -1.20488972182e-05
+      62151.71c -2.16852629999e-06
+      62150.71c -2.20501621803e-05
+      64155.71c -9.62217762755e-09
+      63153.71c -4.36013543529e-06
+      60143.71c -0.000108389208236
+      60145.71c -7.78742916181e-05
+      95241.71c -2.43074395596e-07
+      95243.71c -4.49717392261e-09
+      94239.71c -0.000262080260067
+      94238.71c -2.05303617786e-07
+      63154.71c -2.46523035985e-07
+      44103.71c -1.87585968553e-06
+      92238.71c -0.0624386557717
+      54135.71c -3.09047124213e-08
+      62149.71c -5.55448983426e-07
+      54131.71c -5.07576543745e-05
+      1001.71c -0.0171452800065
+      62147.71c -1.55262780519e-05
+      92234.71c -9.00383849376e-08
+      92235.71c -0.0119078704017
+      92236.71c -0.0006071494635
+      43099.71c -8.29724246553e-05
+      42095.71c -7.64383370953e-05
+      61147.71c -2.69108409823e-05
+      40090.71c -0.90686434992
+      45103.71c -4.09191582768e-05
+      55133.71c -0.000121746830265
+      93237.71c -5.48358754427e-06
+      55135.71c -8.14152413049e-05
+      94240.71c -3.65715509417e-05
+      94241.71c -5.39282991709e-06
+      94242.71c -3.26950369123e-07
 c **  F-25  Fuel ID= 5022
 m6251 62152.71c -6.61743870231e-06
       62151.71c -2.02580326624e-06
@@ -4058,6 +15882,105 @@ m6251 62152.71c -6.61743870231e-06
       94240.71c -1.25975439609e-05
       94241.71c -1.00149172416e-06
       94242.71c -3.28494233853e-08
+m6252 62152.71c -8.56622612934e-06
+      62151.71c -2.13051202054e-06
+      62150.71c -1.62551018627e-05
+      64155.71c -1.01500467751e-08
+      63153.71c -3.02454125883e-06
+      60143.71c -8.24532771647e-05
+      60145.71c -5.84243706933e-05
+      95241.71c -1.00116141139e-07
+      95243.71c -1.02013722685e-09
+      94239.71c -0.000212133775067
+      94238.71c -8.55511948416e-08
+      63154.71c -1.37663025172e-07
+      44103.71c -1.52388385805e-06
+      92238.71c -0.0625035720543
+      54135.71c -2.77572892797e-08
+      62149.71c -5.83019112028e-07
+      54131.71c -3.81610182334e-05
+      1001.71c -0.0171340694708
+      62147.71c -1.10608119253e-05
+      92234.71c -6.93067611819e-08
+      92235.71c -0.0128444750353
+      92236.71c -0.000457341896183
+      43099.71c -6.20882994672e-05
+      42095.71c -5.65302481162e-05
+      61147.71c -2.11543227095e-05
+      40090.71c -0.906271391671
+      45103.71c -3.0624153701e-05
+      55133.71c -9.11299610558e-05
+      93237.71c -3.14236500399e-06
+      55135.71c -6.55746705862e-05
+      94240.71c -2.16414398557e-05
+      94241.71c -2.41393745444e-06
+      94242.71c -1.02372604417e-07
+m6253 62152.71c -1.04212493655e-05
+      62151.71c -2.16242643342e-06
+      62150.71c -1.93487803997e-05
+      64155.71c -9.50554344002e-09
+      63153.71c -3.71484183442e-06
+      60143.71c -9.63636185387e-05
+      60145.71c -6.8814013484e-05
+      95241.71c -1.60290804542e-07
+      95243.71c -2.37988327326e-09
+      94239.71c -0.000240397185596
+      94238.71c -1.40089341348e-07
+      63154.71c -1.92311181362e-07
+      44103.71c -1.78782776367e-06
+      92238.71c -0.0624690125666
+      54135.71c -3.04179286343e-08
+      62149.71c -5.69264018528e-07
+      54131.71c -4.48845303758e-05
+      1001.71c -0.0171400580505
+      62147.71c -1.29962444054e-05
+      92234.71c -8.03105405718e-08
+      92235.71c -0.0123439600238
+      92236.71c -0.000537629777031
+      43099.71c -7.32227991575e-05
+      42095.71c -6.67923513067e-05
+      61147.71c -2.46771476021e-05
+      40090.71c -0.906588145289
+      45103.71c -3.60623330529e-05
+      55133.71c -0.000107441167242
+      93237.71c -4.31216500354e-06
+      55135.71c -7.32876904609e-05
+      94240.71c -2.92781933647e-05
+      94241.71c -3.84615252211e-06
+      94242.71c -1.99005618803e-07
+m6254 62152.71c -1.1054347482e-05
+      62151.71c -2.16694551527e-06
+      62150.71c -2.04050977991e-05
+      64155.71c -9.31436102138e-09
+      63153.71c -3.95980878273e-06
+      60143.71c -0.000101019515442
+      60145.71c -7.23367884581e-05
+      95241.71c -1.84180767904e-07
+      95243.71c -3.0639376667e-09
+      94239.71c -0.000249093999509
+      94238.71c -1.62787207882e-07
+      63154.71c -2.12886570496e-07
+      44103.71c -1.87664868807e-06
+      92238.71c -0.0624574462566
+      54135.71c -3.12044582176e-08
+      62149.71c -5.64479438224e-07
+      54131.71c -4.71584754824e-05
+      1001.71c -0.0171421023803
+      62147.71c -1.36514120125e-05
+      92234.71c -8.39666846953e-08
+      92235.71c -0.0121743548098
+      92236.71c -0.000564693636924
+      43099.71c -7.70043426896e-05
+      42095.71c -7.02869425557e-05
+      61147.71c -2.58538857445e-05
+      40090.71c -0.906696275909
+      45103.71c -3.7903362424e-05
+      55133.71c -0.00011297753516
+      93237.71c -4.74616150857e-06
+      55135.71c -7.56921864466e-05
+      94240.71c -3.20317870297e-05
+      94241.71c -4.41297853843e-06
+      94242.71c -2.42902311143e-07
 c **  F-26  Fuel ID= 2907
 m6261 62152.71c -7.94767650917e-07
       62151.71c -7.09619820048e-07
@@ -4092,6 +16015,105 @@ m6261 62152.71c -7.94767650917e-07
       94240.71c -5.74673551688e-07
       94241.71c -1.37831760262e-08
       94242.71c -1.24719932958e-10
+m6262 62152.71c -1.05600930163e-06
+      62151.71c -8.49272774967e-07
+      62150.71c -2.33005308325e-06
+      64155.71c -2.21430859789e-09
+      63153.71c -4.56580902834e-07
+      60143.71c -1.39977728168e-05
+      60145.71c -1.04361149372e-05
+      95241.71c -4.81543291721e-10
+      95243.71c -1.26783565262e-12
+      94239.71c -4.48804954033e-05
+      94238.71c -1.36757163172e-09
+      63154.71c -6.3750450159e-09
+      44103.71c -1.34058476784e-06
+      92238.71c -0.0626445227082
+      54135.71c -2.85332577316e-08
+      62149.71c -6.13000915508e-07
+      54131.71c -6.56150348248e-06
+      1001.71c -0.0171074923922
+      62147.71c -5.61685279052e-07
+      92234.71c -1.30358197073e-08
+      92235.71c -0.0151615942563
+      92236.71c -8.27342658235e-05
+      43099.71c -1.08794293933e-05
+      42095.71c -5.79902009611e-06
+      61147.71c -5.00892658429e-06
+      40090.71c -0.904865651719
+      45103.71c -4.41474805442e-06
+      55133.71c -1.57129654869e-05
+      93237.71c -1.82287223778e-07
+      55135.71c -1.17721863797e-05
+      94240.71c -1.06300948071e-06
+      94241.71c -3.65783198088e-08
+      94242.71c -4.24657532923e-10
+m6263 62152.71c -1.31643770423e-06
+      62151.71c -9.63461522208e-07
+      62150.71c -2.89786138316e-06
+      64155.71c -2.30928520078e-09
+      63153.71c -5.50749771252e-07
+      60143.71c -1.67109164802e-05
+      60145.71c -1.24794776023e-05
+      95241.71c -8.19094370814e-10
+      95243.71c -3.14204924359e-12
+      94239.71c -5.32856367325e-05
+      94238.71c -2.188165146e-09
+      63154.71c -9.09684145784e-09
+      44103.71c -1.60517970807e-06
+      92238.71c -0.0626387284019
+      54135.71c -3.23240809675e-08
+      62149.71c -6.26101741328e-07
+      54131.71c -7.84445251857e-06
+      1001.71c -0.0171086526603
+      62147.71c -6.70535575306e-07
+      92234.71c -1.54551561889e-08
+      92235.71c -0.0150624851051
+      92236.71c -9.89177995896e-05
+      43099.71c -1.30140695937e-05
+      42095.71c -6.94063572101e-06
+      61147.71c -5.97649318825e-06
+      40090.71c -0.904927021716
+      45103.71c -5.2805203772e-06
+      55133.71c -1.87942506575e-05
+      93237.71c -2.45468697722e-07
+      55135.71c -1.33577561534e-05
+      94240.71c -1.50906558269e-06
+      94241.71c -6.21804889909e-08
+      94242.71c -8.70331083834e-10
+m6264 62152.71c -1.40814401651e-06
+      62151.71c -9.99605895475e-07
+      62150.71c -3.09347738367e-06
+      64155.71c -2.33297753612e-09
+      63153.71c -5.83261423039e-07
+      60143.71c -1.76351625733e-05
+      60145.71c -1.31764278512e-05
+      95241.71c -9.60453720508e-10
+      95243.71c -4.10520796792e-12
+      94239.71c -5.60635790846e-05
+      94238.71c -2.52314159685e-09
+      63154.71c -1.01241461964e-08
+      44103.71c -1.6952125658e-06
+      92238.71c -0.0626367922621
+      54135.71c -3.35064328902e-08
+      62149.71c -6.29021892559e-07
+      54131.71c -8.2821025422e-06
+      1001.71c -0.0171090490717
+      62147.71c -7.07632973219e-07
+      92234.71c -1.63165121355e-08
+      92235.71c -0.0150287289002
+      92236.71c -0.000104419361166
+      43099.71c -1.37427324596e-05
+      42095.71c -7.33083819904e-06
+      61147.71c -6.30598771385e-06
+      40090.71c -0.90494798908
+      45103.71c -5.57627508641e-06
+      55133.71c -1.98462312109e-05
+      93237.71c -2.68659260573e-07
+      55135.71c -1.38604490778e-05
+      94240.71c -1.6767820889e-06
+      94241.71c -7.2893486986e-08
+      94242.71c -1.08059821191e-09
 c **  F-27  Fuel ID= 5944
 m6271 62152.71c -6.94405981122e-06
       62151.71c -2.02704788635e-06
@@ -4126,6 +16148,105 @@ m6271 62152.71c -6.94405981122e-06
       94240.71c -1.38469386853e-05
       94241.71c -1.20138622737e-06
       94242.71c -4.52548099332e-08
+m6272 62152.71c -9.01371840076e-06
+      62151.71c -2.12916523608e-06
+      62150.71c -1.69927904146e-05
+      64155.71c -1.03471239841e-08
+      63153.71c -3.21184541263e-06
+      60143.71c -8.57649469439e-05
+      60145.71c -6.09194017243e-05
+      95241.71c -1.34650781628e-07
+      95243.71c -1.68072885422e-09
+      94239.71c -0.000218820944528
+      94238.71c -1.06712533238e-07
+      63154.71c -1.53489701402e-07
+      44103.71c -1.51696768171e-06
+      92238.71c -0.0624936280244
+      54135.71c -2.75941787811e-08
+      62149.71c -5.7944124103e-07
+      54131.71c -3.97809434652e-05
+      1001.71c -0.017135502935
+      62147.71c -1.20561465589e-05
+      92234.71c -7.22058641002e-08
+      92235.71c -0.0127243378878
+      92236.71c -0.000476626210056
+      43099.71c -6.47795692313e-05
+      42095.71c -5.93359635626e-05
+      61147.71c -2.1479152598e-05
+      40090.71c -0.906347211817
+      45103.71c -3.19889582795e-05
+      55133.71c -9.5085471902e-05
+      93237.71c -3.51573008977e-06
+      55135.71c -6.83359449651e-05
+      94240.71c -2.38400234345e-05
+      94241.71c -2.89738657561e-06
+      94242.71c -1.41932891319e-07
+m6273 62152.71c -1.09511349156e-05
+      62151.71c -2.15802653111e-06
+      62150.71c -2.0235048164e-05
+      64155.71c -9.7317294805e-09
+      63153.71c -3.95650735198e-06
+      60143.71c -0.000100200793725
+      60145.71c -7.17821855906e-05
+      95241.71c -2.12608057451e-07
+      95243.71c -3.87498790791e-09
+      94239.71c -0.000246926664387
+      94238.71c -1.75650526952e-07
+      63154.71c -2.14666473211e-07
+      44103.71c -1.77683279071e-06
+      92238.71c -0.0624575003124
+      54135.71c -3.01811603235e-08
+      62149.71c -5.64767389399e-07
+      54131.71c -4.67992014004e-05
+      1001.71c -0.017141785835
+      62147.71c -1.41672977316e-05
+      92234.71c -8.38102712751e-08
+      92235.71c -0.0122009117886
+      92236.71c -0.000560452972711
+      43099.71c -7.64328433904e-05
+      42095.71c -7.01562441492e-05
+      61147.71c -2.50459688424e-05
+      40090.71c -0.9066795329
+      45103.71c -3.76766455167e-05
+      55133.71c -0.000112154693919
+      93237.71c -4.83866578403e-06
+      55135.71c -7.6350567922e-05
+      94240.71c -3.20730619393e-05
+      94241.71c -4.56568427137e-06
+      94242.71c -2.72832481545e-07
+m6274 62152.71c -1.15971998576e-05
+      62151.71c -2.16162949557e-06
+      62150.71c -2.13188266179e-05
+      64155.71c -9.55188590907e-09
+      63153.71c -4.21580905468e-06
+      60143.71c -0.000104920807607
+      60145.71c -7.53861820273e-05
+      95241.71c -2.43448544137e-07
+      95243.71c -4.97110113812e-09
+      94239.71c -0.000255228966393
+      94238.71c -2.03486781093e-07
+      63154.71c -2.37310426194e-07
+      44103.71c -1.86355709695e-06
+      92238.71c -0.0624455909543
+      54135.71c -3.09443840132e-08
+      62149.71c -5.59725273332e-07
+      54131.71c -4.91206768325e-05
+      1001.71c -0.0171438883817
+      62147.71c -1.48667813776e-05
+      92234.71c -8.79069454804e-08
+      92235.71c -0.0120273038434
+      92236.71c -0.000588143890437
+      43099.71c -8.03074081155e-05
+      42095.71c -7.37594483593e-05
+      61147.71c -2.6211005433e-05
+      40090.71c -0.906790742786
+      45103.71c -3.95565531922e-05
+      55133.71c -0.000117826083198
+      93237.71c -5.30496876472e-06
+      55135.71c -7.87929657165e-05
+      94240.71c -3.49645981387e-05
+      94241.71c -5.2174270095e-06
+      94242.71c -3.31904866583e-07
 c **  F-28  Fuel ID= 3326
 m6281 62152.71c -3.75431039697e-06
       62151.71c -1.75665705201e-06
@@ -4160,6 +16281,105 @@ m6281 62152.71c -3.75431039697e-06
       94240.71c -5.32087858572e-06
       94241.71c -2.74434391588e-07
       94242.71c -5.3895661484e-09
+m6282 62152.71c -4.94725968637e-06
+      62151.71c -1.92988766728e-06
+      62150.71c -1.01326794665e-05
+      64155.71c -8.17410390456e-09
+      63153.71c -1.78590275756e-06
+      60143.71c -5.32400187482e-05
+      60145.71c -3.75050768892e-05
+      95241.71c -1.83637948216e-08
+      95243.71c -1.06234210472e-10
+      94239.71c -0.000147830175714
+      94238.71c -2.31573169e-08
+      63154.71c -5.78391417474e-08
+      44103.71c -1.48890233295e-06
+      92238.71c -0.0625678581536
+      54135.71c -2.82248925207e-08
+      62149.71c -6.15124465606e-07
+      54131.71c -2.4437808015e-05
+      1001.71c -0.0171223697247
+      62147.71c -5.00256039235e-06
+      92234.71c -4.5397633383e-08
+      92235.71c -0.0138528674821
+      92236.71c -0.000295060677818
+      43099.71c -3.96944207926e-05
+      42095.71c -3.36419876796e-05
+      61147.71c -1.57778321635e-05
+      40090.71c -0.905652557647
+      45103.71c -1.91772866882e-05
+      55133.71c -5.81735049014e-05
+      93237.71c -1.36386852172e-06
+      55135.71c -4.22333198862e-05
+      94240.71c -9.42132909149e-06
+      94241.71c -6.88746744996e-07
+      94242.71c -1.73590429565e-08
+m6283 62152.71c -6.12540004237e-06
+      62151.71c -2.02994342793e-06
+      62150.71c -1.21748522318e-05
+      64155.71c -7.79301121269e-09
+      63153.71c -2.17492596722e-06
+      60143.71c -6.2835971562e-05
+      60145.71c -4.44680985985e-05
+      95241.71c -3.03355228779e-08
+      95243.71c -2.54347489721e-10
+      94239.71c -0.000171210385948
+      94238.71c -3.76975462691e-08
+      63154.71c -8.14507517174e-08
+      44103.71c -1.76245284508e-06
+      92238.71c -0.0625464144898
+      54135.71c -3.14037505408e-08
+      62149.71c -6.06671250916e-07
+      54131.71c -2.89540552905e-05
+      1001.71c -0.0171263202525
+      62147.71c -5.92210710407e-06
+      92234.71c -5.30483825149e-08
+      92235.71c -0.0135167530248
+      92236.71c -0.000349420390819
+      43099.71c -4.71037556342e-05
+      42095.71c -3.99889169725e-05
+      61147.71c -1.85967988888e-05
+      40090.71c -0.905861512695
+      45103.71c -2.27472754375e-05
+      55133.71c -6.90198825784e-05
+      93237.71c -1.87100615773e-06
+      55135.71c -4.75267260869e-05
+      94240.71c -1.30491957491e-05
+      94241.71c -1.13411112291e-06
+      94242.71c -3.46308782444e-08
+m6284 62152.71c -6.53739970215e-06
+      62151.71c -2.0557975807e-06
+      62150.71c -1.28790997835e-05
+      64155.71c -7.65735543492e-09
+      63153.71c -2.31310708905e-06
+      60143.71c -6.61045021596e-05
+      60145.71c -4.68574910685e-05
+      95241.71c -3.52215633852e-08
+      95243.71c -3.30836661184e-10
+      94239.71c -0.000178750546341
+      94238.71c -4.37737915625e-08
+      63154.71c -9.04613616035e-08
+      44103.71c -1.85688218346e-06
+      92238.71c -0.0625392321932
+      54135.71c -3.24040423821e-08
+      62149.71c -6.03603924089e-07
+      54131.71c -3.05012305325e-05
+      1001.71c -0.017127682178
+      62147.71c -6.23738973135e-06
+      92234.71c -5.56738280741e-08
+      92235.71c -0.0134014816328
+      92236.71c -0.000367985017054
+      43099.71c -4.96488675026e-05
+      42095.71c -4.21728242601e-05
+      61147.71c -1.9555144117e-05
+      40090.71c -0.905933548947
+      45103.71c -2.39713472925e-05
+      55133.71c -7.27435218903e-05
+      93237.71c -2.06319032074e-06
+      55135.71c -4.92064937146e-05
+      94240.71c -1.43877027513e-05
+      94241.71c -1.31572524204e-06
+      94242.71c -4.26414377434e-08
 c **  F-29  Fuel ID= 2914
 m6291 62152.71c -9.35658332975e-07
       62151.71c -7.97647594785e-07
@@ -4194,6 +16414,105 @@ m6291 62152.71c -9.35658332975e-07
       94240.71c -7.18562930209e-07
       94241.71c -1.7786645218e-08
       94242.71c -1.63561974759e-10
+m6292 62152.71c -1.23491348334e-06
+      62151.71c -9.44119778181e-07
+      62150.71c -2.75280501475e-06
+      64155.71c -2.64117549158e-09
+      63153.71c -5.24182475788e-07
+      60143.71c -1.61969370865e-05
+      60145.71c -1.19276355955e-05
+      95241.71c -6.16579466924e-10
+      95243.71c -1.61315958527e-12
+      94239.71c -5.08622717858e-05
+      94238.71c -1.71530410624e-09
+      63154.71c -7.8955296892e-09
+      44103.71c -1.35880986104e-06
+      92238.71c -0.0626406582298
+      54135.71c -2.84391488063e-08
+      62149.71c -6.18079609852e-07
+      54131.71c -7.5501418537e-06
+      1001.71c -0.0171083084354
+      62147.71c -7.02107725956e-07
+      92234.71c -1.4735451353e-08
+      92235.71c -0.0150894091255
+      92236.71c -9.44340611029e-05
+      43099.71c -1.24639368595e-05
+      42095.71c -7.16085007966e-06
+      61147.71c -5.71945425485e-06
+      40090.71c -0.904908814645
+      45103.71c -5.21830401491e-06
+      55133.71c -1.80502299309e-05
+      93237.71c -2.18516501316e-07
+      55135.71c -1.34574759239e-05
+      94240.71c -1.31183715138e-06
+      94241.71c -4.63063572554e-08
+      94242.71c -5.42728784486e-10
+m6293 62152.71c -1.54069817602e-06
+      62151.71c -1.06457951845e-06
+      62150.71c -3.4049955129e-06
+      64155.71c -2.73210523538e-09
+      63153.71c -6.32191730528e-07
+      60143.71c -1.93168332538e-05
+      60145.71c -1.42503225166e-05
+      95241.71c -1.04643236486e-09
+      95243.71c -3.96287225913e-12
+      94239.71c -6.02614435655e-05
+      94238.71c -2.75105557282e-09
+      63154.71c -1.12491036438e-08
+      44103.71c -1.62520409011e-06
+      92238.71c -0.0626341021218
+      54135.71c -3.2175096542e-08
+      62149.71c -6.28000364999e-07
+      54131.71c -9.01819138576e-06
+      1001.71c -0.0171096243164
+      62147.71c -8.37484708875e-07
+      92234.71c -1.74735927493e-08
+      92235.71c -0.0149768381345
+      92236.71c -0.000112792870056
+      43099.71c -1.48966482316e-05
+      42095.71c -8.56468151993e-06
+      61147.71c -6.81696382626e-06
+      40090.71c -0.90497841547
+      45103.71c -6.2366534217e-06
+      55133.71c -2.15712788657e-05
+      93237.71c -2.95696597596e-07
+      55135.71c -1.52586850965e-05
+      94240.71c -1.85943425215e-06
+      94241.71c -7.85592228217e-08
+      94242.71c -1.1102350692e-09
+m6294 62152.71c -1.64930328941e-06
+      62151.71c -1.10268393565e-06
+      62150.71c -3.63126753913e-06
+      64155.71c -2.752449466e-09
+      63153.71c -6.69998680185e-07
+      60143.71c -2.03874138437e-05
+      60145.71c -1.50497863216e-05
+      95241.71c -1.23227510402e-09
+      95243.71c -5.25916804102e-12
+      94239.71c -6.34539764468e-05
+      94238.71c -3.18869655821e-09
+      63154.71c -1.25346134033e-08
+      44103.71c -1.71723033135e-06
+      92238.71c -0.0626318876857
+      54135.71c -3.33734529299e-08
+      62149.71c -6.3005742963e-07
+      54131.71c -9.52317214867e-06
+      1001.71c -0.0171100774989
+      62147.71c -8.83974109977e-07
+      92234.71c -1.84467826996e-08
+      92235.71c -0.0149381257587
+      92236.71c -0.000119083633326
+      43099.71c -1.57342344955e-05
+      42095.71c -9.04833751835e-06
+      61147.71c -7.19343096338e-06
+      40090.71c -0.905002385625
+      45103.71c -6.58716964335e-06
+      55133.71c -2.27835233604e-05
+      93237.71c -3.25423989547e-07
+      55135.71c -1.58343698228e-05
+      94240.71c -2.06901412975e-06
+      94241.71c -9.25113459145e-08
+      94242.71c -1.38504737836e-09
 c **  F-30  Fuel ID= 2909
 m6301 62152.71c -6.28239000735e-07
       62151.71c -6.05121114047e-07
@@ -4228,6 +16547,105 @@ m6301 62152.71c -6.28239000735e-07
       94240.71c -3.93033892183e-07
       94241.71c -8.61591213096e-09
       94242.71c -7.61976019345e-11
+m6302 62152.71c -8.20702876568e-07
+      62151.71c -7.2485504976e-07
+      62150.71c -1.77514325264e-06
+      64155.71c -1.65841938412e-09
+      63153.71c -3.67367664558e-07
+      60143.71c -1.11133408309e-05
+      60145.71c -8.47636874063e-06
+      95241.71c -2.84116071928e-10
+      95243.71c -7.29408732257e-13
+      94239.71c -3.63193581742e-05
+      94238.71c -8.5599956408e-10
+      63154.71c -4.31008510365e-09
+      44103.71c -1.31351514488e-06
+      92238.71c -0.0626503367241
+      54135.71c -2.85671155916e-08
+      62149.71c -6.05546354659e-07
+      54131.71c -5.26366387157e-06
+      1001.71c -0.0171064205629
+      62147.71c -3.77466736454e-07
+      92234.71c -1.04874012519e-08
+      92235.71c -0.0152565819579
+      92236.71c -6.71768594978e-05
+      43099.71c -8.79793708779e-06
+      42095.71c -4.01370605987e-06
+      61147.71c -4.07734986534e-06
+      40090.71c -0.90480895951
+      45103.71c -3.36123465421e-06
+      55133.71c -1.26437670136e-05
+      93237.71c -1.29308004829e-07
+      55135.71c -9.56078692689e-06
+      94240.71c -7.14268337111e-07
+      94241.71c -2.22848468578e-08
+      94242.71c -2.49954302308e-10
+m6303 62152.71c -1.01871488072e-06
+      62151.71c -8.29340662529e-07
+      62150.71c -2.22586044455e-06
+      64155.71c -1.75724228599e-09
+      63153.71c -4.42085355425e-07
+      60143.71c -1.32631349505e-05
+      60145.71c -1.01293942506e-05
+      95241.71c -4.79906048013e-10
+      95243.71c -1.78752613149e-12
+      94239.71c -4.31910863663e-05
+      94238.71c -1.35806947743e-09
+      63154.71c -6.13521496833e-09
+      44103.71c -1.57141855366e-06
+      92238.71c -0.0626457391011
+      54135.71c -3.23558763263e-08
+      62149.71c -6.22335420725e-07
+      54131.71c -6.28914822266e-06
+      1001.71c -0.0171073627259
+      62147.71c -4.50249952712e-07
+      92234.71c -1.24402502613e-08
+      92235.71c -0.0151763740501
+      92236.71c -8.0263013217e-05
+      43099.71c -1.05167830707e-05
+      42095.71c -4.79913824136e-06
+      61147.71c -4.86398358841e-06
+      40090.71c -0.904858793285
+      45103.71c -4.01759874219e-06
+      55133.71c -1.51129331984e-05
+      93237.71c -1.72373903378e-07
+      55135.71c -1.08461745631e-05
+      94240.71c -1.01338749161e-06
+      94241.71c -3.76462978015e-08
+      94242.71c -5.07703475113e-10
+m6304 62152.71c -1.08929384691e-06
+      62151.71c -8.63342181381e-07
+      62150.71c -2.38363765908e-06
+      64155.71c -1.78467484252e-09
+      63153.71c -4.68110278506e-07
+      60143.71c -1.40047536116e-05
+      60145.71c -1.07006414565e-05
+      95241.71c -5.61740166825e-10
+      95243.71c -2.32912541263e-12
+      94239.71c -4.54170584604e-05
+      94238.71c -1.56354554915e-09
+      63154.71c -6.83242223921e-09
+      44103.71c -1.66067764673e-06
+      92238.71c -0.0626443693044
+      54135.71c -3.35674831358e-08
+      62149.71c -6.26336696765e-07
+      54131.71c -6.64342166171e-06
+      1001.71c -0.0171076872215
+      62147.71c -4.75343144843e-07
+      92234.71c -1.3089208946e-08
+      92235.71c -0.0151486840058
+      92236.71c -8.47685672462e-05
+      43099.71c -1.11109719633e-05
+      42095.71c -5.07055464419e-06
+      61147.71c -5.1353688883e-06
+      40090.71c -0.904875956815
+      45103.71c -4.24434097703e-06
+      55133.71c -1.59664893315e-05
+      93237.71c -1.88297594525e-07
+      55135.71c -1.12590294487e-05
+      94240.71c -1.12433979214e-06
+      94241.71c -4.40461364834e-08
+      94242.71c -6.28989409209e-10
 c ******************************************************************************
 c graphite rho = 1.6   g/cm^3
 c S(a,b)- Carbon @ 300K
@@ -4265,8 +16683,759 @@ m13   6000.70c          -0.22  $ Shim Rod, 2.5 g/cc
       5010.70c          -0.1443
       5011.70c          -0.6357
 c ******************************************************************************
-imp:n             0            1 1165r          $ 1, 63012
+imp:n             0            1 5245r          $ 1, 63012
 c ******************************************************************************
+c Volume of each cell
+VOL NO         0         0   23186.1   7981.87         0         0         0 &
+               0    119806   2876.05    23.606         0         0         0 &
+         27.2206   263.299         0         0         0   292.266         0 &
+               0         0    37.203   360.755         0         0         0 &
+         23.4395   153.542         0         0         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0   90.5361         0   6.24953 &
+         90.5361   26.3186         0         0         0   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 &
+       6.1700692 7.9291789 9.6882885 11.447398 13.206508         0         0 &
+               0   90.5361         0   6.24953   90.5361   26.3186         0 &
+               0         0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 &
+       11.447398 13.206508         0         0         0   90.5361         0 &
+         6.24953   90.5361   26.3186         0         0         0   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508   2.65185 &
+       4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508         0 &
+               0         0   90.5361         0   6.24953   90.5361   26.3186 &
+               0         0         0   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 7.9291789 &
+       9.6882885 11.447398 13.206508         0         0         0   90.5361 &
+               0   6.24953   90.5361   26.3186         0         0         0 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+         2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 13.206508 &
+               0         0         0   90.5361         0   6.24953   90.5361 &
+         26.3186         0         0         0   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508   2.65185 4.4109596 6.1700692 &
+       7.9291789 9.6882885 11.447398 13.206508         0         0         0 &
+         90.5361         0   6.24953   90.5361   26.3186         0         0 &
+               0   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508   2.65185 4.4109596 6.1700692 7.9291789 9.6882885 11.447398 &
+       13.206508         0         0         0         0         0         0 &
+               0    602.17         0         0         0         0         0 &
+               0    18.099   4.87847         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0         0         0         0 &
+               0         0         0         0 
 c ******************************************************************************
 c SOURCE DISTRIBUTED ACROSS THE CORE VOLUME
 sdef ERG=D1 POS=0 0 -29 AXS=0 0 1 RAD=D2 EXT=D3
@@ -4279,21 +17448,837 @@ mt6     lwtr.01
 c ************************* TALLY SPECIFICATION ********************************
 c Flux average tally for active fuel region of all 85 elements
 c FUEL ELEMENT ORDER IMPORTANT
-f4:n  201100 202100 203100 204100 205100 206100 301100 302100 303100 304100 &
-      305100 306100 308100 309100 310100 311100 312100 401100 402100 403100 &
-      405100 406100 407100 408100 409100 410100 411100 412100 413100 414100 &
-      415100 417100 418100 502100 503100 504100 505100 506100 507100 508100 &
-      509100 510100 511100 512100 513100 514100 515100 516100 517100 518100 &
-      519100 520100 521100 522100 523100 524100 601100 602100 603100 604100 &
-      605100 606100 607100 608100 609100 611100 612100 613100 614100 615100 &
-      616100 617100 618100 619100 620100 621100 622100 623100 624100 625100 &
-      626100 627100 628100 629100 630100 
-f7:n  201100 202100 203100 204100 205100 206100 301100 302100 303100 304100 &
-      305100 306100 308100 309100 310100 311100 312100 401100 402100 403100 &
-      405100 406100 407100 408100 409100 410100 411100 412100 413100 414100 &
-      415100 417100 418100 502100 503100 504100 505100 506100 507100 508100 &
-      509100 510100 511100 512100 513100 514100 515100 516100 517100 518100 &
-      519100 520100 521100 522100 523100 524100 601100 602100 603100 604100 &
-      605100 606100 607100 608100 609100 611100 612100 613100 614100 615100 &
-      616100 617100 618100 619100 620100 621100 622100 623100 624100 625100 &
-      626100 627100 628100 629100 630100 
+f4:n  201100 201101 201102 201103 201104 201105 201106 201110 201111 201112 &
+      201113 201114 201115 201116 201120 201121 201122 201123 201124 201125 &
+      201126 201130 201131 201132 201133 201134 201135 201136 201140 201141 &
+      201142 201143 201144 201145 201146 201150 201151 201152 201153 201154 &
+      201155 201156 201160 201161 201162 201163 201164 201165 201166 202100 &
+      202101 202102 202103 202104 202105 202106 202110 202111 202112 202113 &
+      202114 202115 202116 202120 202121 202122 202123 202124 202125 202126 &
+      202130 202131 202132 202133 202134 202135 202136 202140 202141 202142 &
+      202143 202144 202145 202146 202150 202151 202152 202153 202154 202155 &
+      202156 202160 202161 202162 202163 202164 202165 202166 203100 203101 &
+      203102 203103 203104 203105 203106 203110 203111 203112 203113 203114 &
+      203115 203116 203120 203121 203122 203123 203124 203125 203126 203130 &
+      203131 203132 203133 203134 203135 203136 203140 203141 203142 203143 &
+      203144 203145 203146 203150 203151 203152 203153 203154 203155 203156 &
+      203160 203161 203162 203163 203164 203165 203166 204100 204101 204102 &
+      204103 204104 204105 204106 204110 204111 204112 204113 204114 204115 &
+      204116 204120 204121 204122 204123 204124 204125 204126 204130 204131 &
+      204132 204133 204134 204135 204136 204140 204141 204142 204143 204144 &
+      204145 204146 204150 204151 204152 204153 204154 204155 204156 204160 &
+      204161 204162 204163 204164 204165 204166 205100 205101 205102 205103 &
+      205104 205105 205106 205110 205111 205112 205113 205114 205115 205116 &
+      205120 205121 205122 205123 205124 205125 205126 205130 205131 205132 &
+      205133 205134 205135 205136 205140 205141 205142 205143 205144 205145 &
+      205146 205150 205151 205152 205153 205154 205155 205156 205160 205161 &
+      205162 205163 205164 205165 205166 206100 206101 206102 206103 206104 &
+      206105 206106 206110 206111 206112 206113 206114 206115 206116 206120 &
+      206121 206122 206123 206124 206125 206126 206130 206131 206132 206133 &
+      206134 206135 206136 206140 206141 206142 206143 206144 206145 206146 &
+      206150 206151 206152 206153 206154 206155 206156 206160 206161 206162 &
+      206163 206164 206165 206166 301100 301101 301102 301103 301104 301105 &
+      301106 301110 301111 301112 301113 301114 301115 301116 301120 301121 &
+      301122 301123 301124 301125 301126 301130 301131 301132 301133 301134 &
+      301135 301136 301140 301141 301142 301143 301144 301145 301146 301150 &
+      301151 301152 301153 301154 301155 301156 301160 301161 301162 301163 &
+      301164 301165 301166 302100 302101 302102 302103 302104 302105 302106 &
+      302110 302111 302112 302113 302114 302115 302116 302120 302121 302122 &
+      302123 302124 302125 302126 302130 302131 302132 302133 302134 302135 &
+      302136 302140 302141 302142 302143 302144 302145 302146 302150 302151 &
+      302152 302153 302154 302155 302156 302160 302161 302162 302163 302164 &
+      302165 302166 303100 303101 303102 303103 303104 303105 303106 303110 &
+      303111 303112 303113 303114 303115 303116 303120 303121 303122 303123 &
+      303124 303125 303126 303130 303131 303132 303133 303134 303135 303136 &
+      303140 303141 303142 303143 303144 303145 303146 303150 303151 303152 &
+      303153 303154 303155 303156 303160 303161 303162 303163 303164 303165 &
+      303166 304100 304101 304102 304103 304104 304105 304106 304110 304111 &
+      304112 304113 304114 304115 304116 304120 304121 304122 304123 304124 &
+      304125 304126 304130 304131 304132 304133 304134 304135 304136 304140 &
+      304141 304142 304143 304144 304145 304146 304150 304151 304152 304153 &
+      304154 304155 304156 304160 304161 304162 304163 304164 304165 304166 &
+      305100 305101 305102 305103 305104 305105 305106 305110 305111 305112 &
+      305113 305114 305115 305116 305120 305121 305122 305123 305124 305125 &
+      305126 305130 305131 305132 305133 305134 305135 305136 305140 305141 &
+      305142 305143 305144 305145 305146 305150 305151 305152 305153 305154 &
+      305155 305156 305160 305161 305162 305163 305164 305165 305166 306100 &
+      306101 306102 306103 306104 306105 306106 306110 306111 306112 306113 &
+      306114 306115 306116 306120 306121 306122 306123 306124 306125 306126 &
+      306130 306131 306132 306133 306134 306135 306136 306140 306141 306142 &
+      306143 306144 306145 306146 306150 306151 306152 306153 306154 306155 &
+      306156 306160 306161 306162 306163 306164 306165 306166 308100 308101 &
+      308102 308103 308104 308105 308106 308110 308111 308112 308113 308114 &
+      308115 308116 308120 308121 308122 308123 308124 308125 308126 308130 &
+      308131 308132 308133 308134 308135 308136 308140 308141 308142 308143 &
+      308144 308145 308146 308150 308151 308152 308153 308154 308155 308156 &
+      308160 308161 308162 308163 308164 308165 308166 309100 309101 309102 &
+      309103 309104 309105 309106 309110 309111 309112 309113 309114 309115 &
+      309116 309120 309121 309122 309123 309124 309125 309126 309130 309131 &
+      309132 309133 309134 309135 309136 309140 309141 309142 309143 309144 &
+      309145 309146 309150 309151 309152 309153 309154 309155 309156 309160 &
+      309161 309162 309163 309164 309165 309166 310100 310101 310102 310103 &
+      310104 310105 310106 310110 310111 310112 310113 310114 310115 310116 &
+      310120 310121 310122 310123 310124 310125 310126 310130 310131 310132 &
+      310133 310134 310135 310136 310140 310141 310142 310143 310144 310145 &
+      310146 310150 310151 310152 310153 310154 310155 310156 310160 310161 &
+      310162 310163 310164 310165 310166 311100 311101 311102 311103 311104 &
+      311105 311106 311110 311111 311112 311113 311114 311115 311116 311120 &
+      311121 311122 311123 311124 311125 311126 311130 311131 311132 311133 &
+      311134 311135 311136 311140 311141 311142 311143 311144 311145 311146 &
+      311150 311151 311152 311153 311154 311155 311156 311160 311161 311162 &
+      311163 311164 311165 311166 312100 312101 312102 312103 312104 312105 &
+      312106 312110 312111 312112 312113 312114 312115 312116 312120 312121 &
+      312122 312123 312124 312125 312126 312130 312131 312132 312133 312134 &
+      312135 312136 312140 312141 312142 312143 312144 312145 312146 312150 &
+      312151 312152 312153 312154 312155 312156 312160 312161 312162 312163 &
+      312164 312165 312166 401100 401101 401102 401103 401104 401105 401106 &
+      401110 401111 401112 401113 401114 401115 401116 401120 401121 401122 &
+      401123 401124 401125 401126 401130 401131 401132 401133 401134 401135 &
+      401136 401140 401141 401142 401143 401144 401145 401146 401150 401151 &
+      401152 401153 401154 401155 401156 401160 401161 401162 401163 401164 &
+      401165 401166 402100 402101 402102 402103 402104 402105 402106 402110 &
+      402111 402112 402113 402114 402115 402116 402120 402121 402122 402123 &
+      402124 402125 402126 402130 402131 402132 402133 402134 402135 402136 &
+      402140 402141 402142 402143 402144 402145 402146 402150 402151 402152 &
+      402153 402154 402155 402156 402160 402161 402162 402163 402164 402165 &
+      402166 403100 403101 403102 403103 403104 403105 403106 403110 403111 &
+      403112 403113 403114 403115 403116 403120 403121 403122 403123 403124 &
+      403125 403126 403130 403131 403132 403133 403134 403135 403136 403140 &
+      403141 403142 403143 403144 403145 403146 403150 403151 403152 403153 &
+      403154 403155 403156 403160 403161 403162 403163 403164 403165 403166 &
+      405100 405101 405102 405103 405104 405105 405106 405110 405111 405112 &
+      405113 405114 405115 405116 405120 405121 405122 405123 405124 405125 &
+      405126 405130 405131 405132 405133 405134 405135 405136 405140 405141 &
+      405142 405143 405144 405145 405146 405150 405151 405152 405153 405154 &
+      405155 405156 405160 405161 405162 405163 405164 405165 405166 406100 &
+      406101 406102 406103 406104 406105 406106 406110 406111 406112 406113 &
+      406114 406115 406116 406120 406121 406122 406123 406124 406125 406126 &
+      406130 406131 406132 406133 406134 406135 406136 406140 406141 406142 &
+      406143 406144 406145 406146 406150 406151 406152 406153 406154 406155 &
+      406156 406160 406161 406162 406163 406164 406165 406166 407100 407101 &
+      407102 407103 407104 407105 407106 407110 407111 407112 407113 407114 &
+      407115 407116 407120 407121 407122 407123 407124 407125 407126 407130 &
+      407131 407132 407133 407134 407135 407136 407140 407141 407142 407143 &
+      407144 407145 407146 407150 407151 407152 407153 407154 407155 407156 &
+      407160 407161 407162 407163 407164 407165 407166 408100 408101 408102 &
+      408103 408104 408105 408106 408110 408111 408112 408113 408114 408115 &
+      408116 408120 408121 408122 408123 408124 408125 408126 408130 408131 &
+      408132 408133 408134 408135 408136 408140 408141 408142 408143 408144 &
+      408145 408146 408150 408151 408152 408153 408154 408155 408156 408160 &
+      408161 408162 408163 408164 408165 408166 409100 409101 409102 409103 &
+      409104 409105 409106 409110 409111 409112 409113 409114 409115 409116 &
+      409120 409121 409122 409123 409124 409125 409126 409130 409131 409132 &
+      409133 409134 409135 409136 409140 409141 409142 409143 409144 409145 &
+      409146 409150 409151 409152 409153 409154 409155 409156 409160 409161 &
+      409162 409163 409164 409165 409166 410100 410101 410102 410103 410104 &
+      410105 410106 410110 410111 410112 410113 410114 410115 410116 410120 &
+      410121 410122 410123 410124 410125 410126 410130 410131 410132 410133 &
+      410134 410135 410136 410140 410141 410142 410143 410144 410145 410146 &
+      410150 410151 410152 410153 410154 410155 410156 410160 410161 410162 &
+      410163 410164 410165 410166 411100 411101 411102 411103 411104 411105 &
+      411106 411110 411111 411112 411113 411114 411115 411116 411120 411121 &
+      411122 411123 411124 411125 411126 411130 411131 411132 411133 411134 &
+      411135 411136 411140 411141 411142 411143 411144 411145 411146 411150 &
+      411151 411152 411153 411154 411155 411156 411160 411161 411162 411163 &
+      411164 411165 411166 412100 412101 412102 412103 412104 412105 412106 &
+      412110 412111 412112 412113 412114 412115 412116 412120 412121 412122 &
+      412123 412124 412125 412126 412130 412131 412132 412133 412134 412135 &
+      412136 412140 412141 412142 412143 412144 412145 412146 412150 412151 &
+      412152 412153 412154 412155 412156 412160 412161 412162 412163 412164 &
+      412165 412166 413100 413101 413102 413103 413104 413105 413106 413110 &
+      413111 413112 413113 413114 413115 413116 413120 413121 413122 413123 &
+      413124 413125 413126 413130 413131 413132 413133 413134 413135 413136 &
+      413140 413141 413142 413143 413144 413145 413146 413150 413151 413152 &
+      413153 413154 413155 413156 413160 413161 413162 413163 413164 413165 &
+      413166 414100 414101 414102 414103 414104 414105 414106 414110 414111 &
+      414112 414113 414114 414115 414116 414120 414121 414122 414123 414124 &
+      414125 414126 414130 414131 414132 414133 414134 414135 414136 414140 &
+      414141 414142 414143 414144 414145 414146 414150 414151 414152 414153 &
+      414154 414155 414156 414160 414161 414162 414163 414164 414165 414166 &
+      415100 415101 415102 415103 415104 415105 415106 415110 415111 415112 &
+      415113 415114 415115 415116 415120 415121 415122 415123 415124 415125 &
+      415126 415130 415131 415132 415133 415134 415135 415136 415140 415141 &
+      415142 415143 415144 415145 415146 415150 415151 415152 415153 415154 &
+      415155 415156 415160 415161 415162 415163 415164 415165 415166 417100 &
+      417101 417102 417103 417104 417105 417106 417110 417111 417112 417113 &
+      417114 417115 417116 417120 417121 417122 417123 417124 417125 417126 &
+      417130 417131 417132 417133 417134 417135 417136 417140 417141 417142 &
+      417143 417144 417145 417146 417150 417151 417152 417153 417154 417155 &
+      417156 417160 417161 417162 417163 417164 417165 417166 418100 418101 &
+      418102 418103 418104 418105 418106 418110 418111 418112 418113 418114 &
+      418115 418116 418120 418121 418122 418123 418124 418125 418126 418130 &
+      418131 418132 418133 418134 418135 418136 418140 418141 418142 418143 &
+      418144 418145 418146 418150 418151 418152 418153 418154 418155 418156 &
+      418160 418161 418162 418163 418164 418165 418166 502100 502101 502102 &
+      502103 502104 502105 502106 502110 502111 502112 502113 502114 502115 &
+      502116 502120 502121 502122 502123 502124 502125 502126 502130 502131 &
+      502132 502133 502134 502135 502136 502140 502141 502142 502143 502144 &
+      502145 502146 502150 502151 502152 502153 502154 502155 502156 502160 &
+      502161 502162 502163 502164 502165 502166 503100 503101 503102 503103 &
+      503104 503105 503106 503110 503111 503112 503113 503114 503115 503116 &
+      503120 503121 503122 503123 503124 503125 503126 503130 503131 503132 &
+      503133 503134 503135 503136 503140 503141 503142 503143 503144 503145 &
+      503146 503150 503151 503152 503153 503154 503155 503156 503160 503161 &
+      503162 503163 503164 503165 503166 504100 504101 504102 504103 504104 &
+      504105 504106 504110 504111 504112 504113 504114 504115 504116 504120 &
+      504121 504122 504123 504124 504125 504126 504130 504131 504132 504133 &
+      504134 504135 504136 504140 504141 504142 504143 504144 504145 504146 &
+      504150 504151 504152 504153 504154 504155 504156 504160 504161 504162 &
+      504163 504164 504165 504166 505100 505101 505102 505103 505104 505105 &
+      505106 505110 505111 505112 505113 505114 505115 505116 505120 505121 &
+      505122 505123 505124 505125 505126 505130 505131 505132 505133 505134 &
+      505135 505136 505140 505141 505142 505143 505144 505145 505146 505150 &
+      505151 505152 505153 505154 505155 505156 505160 505161 505162 505163 &
+      505164 505165 505166 506100 506101 506102 506103 506104 506105 506106 &
+      506110 506111 506112 506113 506114 506115 506116 506120 506121 506122 &
+      506123 506124 506125 506126 506130 506131 506132 506133 506134 506135 &
+      506136 506140 506141 506142 506143 506144 506145 506146 506150 506151 &
+      506152 506153 506154 506155 506156 506160 506161 506162 506163 506164 &
+      506165 506166 507100 507101 507102 507103 507104 507105 507106 507110 &
+      507111 507112 507113 507114 507115 507116 507120 507121 507122 507123 &
+      507124 507125 507126 507130 507131 507132 507133 507134 507135 507136 &
+      507140 507141 507142 507143 507144 507145 507146 507150 507151 507152 &
+      507153 507154 507155 507156 507160 507161 507162 507163 507164 507165 &
+      507166 508100 508101 508102 508103 508104 508105 508106 508110 508111 &
+      508112 508113 508114 508115 508116 508120 508121 508122 508123 508124 &
+      508125 508126 508130 508131 508132 508133 508134 508135 508136 508140 &
+      508141 508142 508143 508144 508145 508146 508150 508151 508152 508153 &
+      508154 508155 508156 508160 508161 508162 508163 508164 508165 508166 &
+      509100 509101 509102 509103 509104 509105 509106 509110 509111 509112 &
+      509113 509114 509115 509116 509120 509121 509122 509123 509124 509125 &
+      509126 509130 509131 509132 509133 509134 509135 509136 509140 509141 &
+      509142 509143 509144 509145 509146 509150 509151 509152 509153 509154 &
+      509155 509156 509160 509161 509162 509163 509164 509165 509166 510100 &
+      510101 510102 510103 510104 510105 510106 510110 510111 510112 510113 &
+      510114 510115 510116 510120 510121 510122 510123 510124 510125 510126 &
+      510130 510131 510132 510133 510134 510135 510136 510140 510141 510142 &
+      510143 510144 510145 510146 510150 510151 510152 510153 510154 510155 &
+      510156 510160 510161 510162 510163 510164 510165 510166 511100 511101 &
+      511102 511103 511104 511105 511106 511110 511111 511112 511113 511114 &
+      511115 511116 511120 511121 511122 511123 511124 511125 511126 511130 &
+      511131 511132 511133 511134 511135 511136 511140 511141 511142 511143 &
+      511144 511145 511146 511150 511151 511152 511153 511154 511155 511156 &
+      511160 511161 511162 511163 511164 511165 511166 512100 512101 512102 &
+      512103 512104 512105 512106 512110 512111 512112 512113 512114 512115 &
+      512116 512120 512121 512122 512123 512124 512125 512126 512130 512131 &
+      512132 512133 512134 512135 512136 512140 512141 512142 512143 512144 &
+      512145 512146 512150 512151 512152 512153 512154 512155 512156 512160 &
+      512161 512162 512163 512164 512165 512166 513100 513101 513102 513103 &
+      513104 513105 513106 513110 513111 513112 513113 513114 513115 513116 &
+      513120 513121 513122 513123 513124 513125 513126 513130 513131 513132 &
+      513133 513134 513135 513136 513140 513141 513142 513143 513144 513145 &
+      513146 513150 513151 513152 513153 513154 513155 513156 513160 513161 &
+      513162 513163 513164 513165 513166 514100 514101 514102 514103 514104 &
+      514105 514106 514110 514111 514112 514113 514114 514115 514116 514120 &
+      514121 514122 514123 514124 514125 514126 514130 514131 514132 514133 &
+      514134 514135 514136 514140 514141 514142 514143 514144 514145 514146 &
+      514150 514151 514152 514153 514154 514155 514156 514160 514161 514162 &
+      514163 514164 514165 514166 515100 515101 515102 515103 515104 515105 &
+      515106 515110 515111 515112 515113 515114 515115 515116 515120 515121 &
+      515122 515123 515124 515125 515126 515130 515131 515132 515133 515134 &
+      515135 515136 515140 515141 515142 515143 515144 515145 515146 515150 &
+      515151 515152 515153 515154 515155 515156 515160 515161 515162 515163 &
+      515164 515165 515166 516100 516101 516102 516103 516104 516105 516106 &
+      516110 516111 516112 516113 516114 516115 516116 516120 516121 516122 &
+      516123 516124 516125 516126 516130 516131 516132 516133 516134 516135 &
+      516136 516140 516141 516142 516143 516144 516145 516146 516150 516151 &
+      516152 516153 516154 516155 516156 516160 516161 516162 516163 516164 &
+      516165 516166 517100 517101 517102 517103 517104 517105 517106 517110 &
+      517111 517112 517113 517114 517115 517116 517120 517121 517122 517123 &
+      517124 517125 517126 517130 517131 517132 517133 517134 517135 517136 &
+      517140 517141 517142 517143 517144 517145 517146 517150 517151 517152 &
+      517153 517154 517155 517156 517160 517161 517162 517163 517164 517165 &
+      517166 518100 518101 518102 518103 518104 518105 518106 518110 518111 &
+      518112 518113 518114 518115 518116 518120 518121 518122 518123 518124 &
+      518125 518126 518130 518131 518132 518133 518134 518135 518136 518140 &
+      518141 518142 518143 518144 518145 518146 518150 518151 518152 518153 &
+      518154 518155 518156 518160 518161 518162 518163 518164 518165 518166 &
+      519100 519101 519102 519103 519104 519105 519106 519110 519111 519112 &
+      519113 519114 519115 519116 519120 519121 519122 519123 519124 519125 &
+      519126 519130 519131 519132 519133 519134 519135 519136 519140 519141 &
+      519142 519143 519144 519145 519146 519150 519151 519152 519153 519154 &
+      519155 519156 519160 519161 519162 519163 519164 519165 519166 520100 &
+      520101 520102 520103 520104 520105 520106 520110 520111 520112 520113 &
+      520114 520115 520116 520120 520121 520122 520123 520124 520125 520126 &
+      520130 520131 520132 520133 520134 520135 520136 520140 520141 520142 &
+      520143 520144 520145 520146 520150 520151 520152 520153 520154 520155 &
+      520156 520160 520161 520162 520163 520164 520165 520166 521100 521101 &
+      521102 521103 521104 521105 521106 521110 521111 521112 521113 521114 &
+      521115 521116 521120 521121 521122 521123 521124 521125 521126 521130 &
+      521131 521132 521133 521134 521135 521136 521140 521141 521142 521143 &
+      521144 521145 521146 521150 521151 521152 521153 521154 521155 521156 &
+      521160 521161 521162 521163 521164 521165 521166 522100 522101 522102 &
+      522103 522104 522105 522106 522110 522111 522112 522113 522114 522115 &
+      522116 522120 522121 522122 522123 522124 522125 522126 522130 522131 &
+      522132 522133 522134 522135 522136 522140 522141 522142 522143 522144 &
+      522145 522146 522150 522151 522152 522153 522154 522155 522156 522160 &
+      522161 522162 522163 522164 522165 522166 523100 523101 523102 523103 &
+      523104 523105 523106 523110 523111 523112 523113 523114 523115 523116 &
+      523120 523121 523122 523123 523124 523125 523126 523130 523131 523132 &
+      523133 523134 523135 523136 523140 523141 523142 523143 523144 523145 &
+      523146 523150 523151 523152 523153 523154 523155 523156 523160 523161 &
+      523162 523163 523164 523165 523166 524100 524101 524102 524103 524104 &
+      524105 524106 524110 524111 524112 524113 524114 524115 524116 524120 &
+      524121 524122 524123 524124 524125 524126 524130 524131 524132 524133 &
+      524134 524135 524136 524140 524141 524142 524143 524144 524145 524146 &
+      524150 524151 524152 524153 524154 524155 524156 524160 524161 524162 &
+      524163 524164 524165 524166 601100 601101 601102 601103 601104 601105 &
+      601106 601110 601111 601112 601113 601114 601115 601116 601120 601121 &
+      601122 601123 601124 601125 601126 601130 601131 601132 601133 601134 &
+      601135 601136 601140 601141 601142 601143 601144 601145 601146 601150 &
+      601151 601152 601153 601154 601155 601156 601160 601161 601162 601163 &
+      601164 601165 601166 602100 602101 602102 602103 602104 602105 602106 &
+      602110 602111 602112 602113 602114 602115 602116 602120 602121 602122 &
+      602123 602124 602125 602126 602130 602131 602132 602133 602134 602135 &
+      602136 602140 602141 602142 602143 602144 602145 602146 602150 602151 &
+      602152 602153 602154 602155 602156 602160 602161 602162 602163 602164 &
+      602165 602166 603100 603101 603102 603103 603104 603105 603106 603110 &
+      603111 603112 603113 603114 603115 603116 603120 603121 603122 603123 &
+      603124 603125 603126 603130 603131 603132 603133 603134 603135 603136 &
+      603140 603141 603142 603143 603144 603145 603146 603150 603151 603152 &
+      603153 603154 603155 603156 603160 603161 603162 603163 603164 603165 &
+      603166 604100 604101 604102 604103 604104 604105 604106 604110 604111 &
+      604112 604113 604114 604115 604116 604120 604121 604122 604123 604124 &
+      604125 604126 604130 604131 604132 604133 604134 604135 604136 604140 &
+      604141 604142 604143 604144 604145 604146 604150 604151 604152 604153 &
+      604154 604155 604156 604160 604161 604162 604163 604164 604165 604166 &
+      605100 605101 605102 605103 605104 605105 605106 605110 605111 605112 &
+      605113 605114 605115 605116 605120 605121 605122 605123 605124 605125 &
+      605126 605130 605131 605132 605133 605134 605135 605136 605140 605141 &
+      605142 605143 605144 605145 605146 605150 605151 605152 605153 605154 &
+      605155 605156 605160 605161 605162 605163 605164 605165 605166 606100 &
+      606101 606102 606103 606104 606105 606106 606110 606111 606112 606113 &
+      606114 606115 606116 606120 606121 606122 606123 606124 606125 606126 &
+      606130 606131 606132 606133 606134 606135 606136 606140 606141 606142 &
+      606143 606144 606145 606146 606150 606151 606152 606153 606154 606155 &
+      606156 606160 606161 606162 606163 606164 606165 606166 607100 607101 &
+      607102 607103 607104 607105 607106 607110 607111 607112 607113 607114 &
+      607115 607116 607120 607121 607122 607123 607124 607125 607126 607130 &
+      607131 607132 607133 607134 607135 607136 607140 607141 607142 607143 &
+      607144 607145 607146 607150 607151 607152 607153 607154 607155 607156 &
+      607160 607161 607162 607163 607164 607165 607166 608100 608101 608102 &
+      608103 608104 608105 608106 608110 608111 608112 608113 608114 608115 &
+      608116 608120 608121 608122 608123 608124 608125 608126 608130 608131 &
+      608132 608133 608134 608135 608136 608140 608141 608142 608143 608144 &
+      608145 608146 608150 608151 608152 608153 608154 608155 608156 608160 &
+      608161 608162 608163 608164 608165 608166 609100 609101 609102 609103 &
+      609104 609105 609106 609110 609111 609112 609113 609114 609115 609116 &
+      609120 609121 609122 609123 609124 609125 609126 609130 609131 609132 &
+      609133 609134 609135 609136 609140 609141 609142 609143 609144 609145 &
+      609146 609150 609151 609152 609153 609154 609155 609156 609160 609161 &
+      609162 609163 609164 609165 609166 611100 611101 611102 611103 611104 &
+      611105 611106 611110 611111 611112 611113 611114 611115 611116 611120 &
+      611121 611122 611123 611124 611125 611126 611130 611131 611132 611133 &
+      611134 611135 611136 611140 611141 611142 611143 611144 611145 611146 &
+      611150 611151 611152 611153 611154 611155 611156 611160 611161 611162 &
+      611163 611164 611165 611166 612100 612101 612102 612103 612104 612105 &
+      612106 612110 612111 612112 612113 612114 612115 612116 612120 612121 &
+      612122 612123 612124 612125 612126 612130 612131 612132 612133 612134 &
+      612135 612136 612140 612141 612142 612143 612144 612145 612146 612150 &
+      612151 612152 612153 612154 612155 612156 612160 612161 612162 612163 &
+      612164 612165 612166 613100 613101 613102 613103 613104 613105 613106 &
+      613110 613111 613112 613113 613114 613115 613116 613120 613121 613122 &
+      613123 613124 613125 613126 613130 613131 613132 613133 613134 613135 &
+      613136 613140 613141 613142 613143 613144 613145 613146 613150 613151 &
+      613152 613153 613154 613155 613156 613160 613161 613162 613163 613164 &
+      613165 613166 614100 614101 614102 614103 614104 614105 614106 614110 &
+      614111 614112 614113 614114 614115 614116 614120 614121 614122 614123 &
+      614124 614125 614126 614130 614131 614132 614133 614134 614135 614136 &
+      614140 614141 614142 614143 614144 614145 614146 614150 614151 614152 &
+      614153 614154 614155 614156 614160 614161 614162 614163 614164 614165 &
+      614166 615100 615101 615102 615103 615104 615105 615106 615110 615111 &
+      615112 615113 615114 615115 615116 615120 615121 615122 615123 615124 &
+      615125 615126 615130 615131 615132 615133 615134 615135 615136 615140 &
+      615141 615142 615143 615144 615145 615146 615150 615151 615152 615153 &
+      615154 615155 615156 615160 615161 615162 615163 615164 615165 615166 &
+      616100 616101 616102 616103 616104 616105 616106 616110 616111 616112 &
+      616113 616114 616115 616116 616120 616121 616122 616123 616124 616125 &
+      616126 616130 616131 616132 616133 616134 616135 616136 616140 616141 &
+      616142 616143 616144 616145 616146 616150 616151 616152 616153 616154 &
+      616155 616156 616160 616161 616162 616163 616164 616165 616166 617100 &
+      617101 617102 617103 617104 617105 617106 617110 617111 617112 617113 &
+      617114 617115 617116 617120 617121 617122 617123 617124 617125 617126 &
+      617130 617131 617132 617133 617134 617135 617136 617140 617141 617142 &
+      617143 617144 617145 617146 617150 617151 617152 617153 617154 617155 &
+      617156 617160 617161 617162 617163 617164 617165 617166 618100 618101 &
+      618102 618103 618104 618105 618106 618110 618111 618112 618113 618114 &
+      618115 618116 618120 618121 618122 618123 618124 618125 618126 618130 &
+      618131 618132 618133 618134 618135 618136 618140 618141 618142 618143 &
+      618144 618145 618146 618150 618151 618152 618153 618154 618155 618156 &
+      618160 618161 618162 618163 618164 618165 618166 619100 619101 619102 &
+      619103 619104 619105 619106 619110 619111 619112 619113 619114 619115 &
+      619116 619120 619121 619122 619123 619124 619125 619126 619130 619131 &
+      619132 619133 619134 619135 619136 619140 619141 619142 619143 619144 &
+      619145 619146 619150 619151 619152 619153 619154 619155 619156 619160 &
+      619161 619162 619163 619164 619165 619166 620100 620101 620102 620103 &
+      620104 620105 620106 620110 620111 620112 620113 620114 620115 620116 &
+      620120 620121 620122 620123 620124 620125 620126 620130 620131 620132 &
+      620133 620134 620135 620136 620140 620141 620142 620143 620144 620145 &
+      620146 620150 620151 620152 620153 620154 620155 620156 620160 620161 &
+      620162 620163 620164 620165 620166 621100 621101 621102 621103 621104 &
+      621105 621106 621110 621111 621112 621113 621114 621115 621116 621120 &
+      621121 621122 621123 621124 621125 621126 621130 621131 621132 621133 &
+      621134 621135 621136 621140 621141 621142 621143 621144 621145 621146 &
+      621150 621151 621152 621153 621154 621155 621156 621160 621161 621162 &
+      621163 621164 621165 621166 622100 622101 622102 622103 622104 622105 &
+      622106 622110 622111 622112 622113 622114 622115 622116 622120 622121 &
+      622122 622123 622124 622125 622126 622130 622131 622132 622133 622134 &
+      622135 622136 622140 622141 622142 622143 622144 622145 622146 622150 &
+      622151 622152 622153 622154 622155 622156 622160 622161 622162 622163 &
+      622164 622165 622166 623100 623101 623102 623103 623104 623105 623106 &
+      623110 623111 623112 623113 623114 623115 623116 623120 623121 623122 &
+      623123 623124 623125 623126 623130 623131 623132 623133 623134 623135 &
+      623136 623140 623141 623142 623143 623144 623145 623146 623150 623151 &
+      623152 623153 623154 623155 623156 623160 623161 623162 623163 623164 &
+      623165 623166 624100 624101 624102 624103 624104 624105 624106 624110 &
+      624111 624112 624113 624114 624115 624116 624120 624121 624122 624123 &
+      624124 624125 624126 624130 624131 624132 624133 624134 624135 624136 &
+      624140 624141 624142 624143 624144 624145 624146 624150 624151 624152 &
+      624153 624154 624155 624156 624160 624161 624162 624163 624164 624165 &
+      624166 625100 625101 625102 625103 625104 625105 625106 625110 625111 &
+      625112 625113 625114 625115 625116 625120 625121 625122 625123 625124 &
+      625125 625126 625130 625131 625132 625133 625134 625135 625136 625140 &
+      625141 625142 625143 625144 625145 625146 625150 625151 625152 625153 &
+      625154 625155 625156 625160 625161 625162 625163 625164 625165 625166 &
+      626100 626101 626102 626103 626104 626105 626106 626110 626111 626112 &
+      626113 626114 626115 626116 626120 626121 626122 626123 626124 626125 &
+      626126 626130 626131 626132 626133 626134 626135 626136 626140 626141 &
+      626142 626143 626144 626145 626146 626150 626151 626152 626153 626154 &
+      626155 626156 626160 626161 626162 626163 626164 626165 626166 627100 &
+      627101 627102 627103 627104 627105 627106 627110 627111 627112 627113 &
+      627114 627115 627116 627120 627121 627122 627123 627124 627125 627126 &
+      627130 627131 627132 627133 627134 627135 627136 627140 627141 627142 &
+      627143 627144 627145 627146 627150 627151 627152 627153 627154 627155 &
+      627156 627160 627161 627162 627163 627164 627165 627166 628100 628101 &
+      628102 628103 628104 628105 628106 628110 628111 628112 628113 628114 &
+      628115 628116 628120 628121 628122 628123 628124 628125 628126 628130 &
+      628131 628132 628133 628134 628135 628136 628140 628141 628142 628143 &
+      628144 628145 628146 628150 628151 628152 628153 628154 628155 628156 &
+      628160 628161 628162 628163 628164 628165 628166 629100 629101 629102 &
+      629103 629104 629105 629106 629110 629111 629112 629113 629114 629115 &
+      629116 629120 629121 629122 629123 629124 629125 629126 629130 629131 &
+      629132 629133 629134 629135 629136 629140 629141 629142 629143 629144 &
+      629145 629146 629150 629151 629152 629153 629154 629155 629156 629160 &
+      629161 629162 629163 629164 629165 629166 630100 630101 630102 630103 &
+      630104 630105 630106 630110 630111 630112 630113 630114 630115 630116 &
+      630120 630121 630122 630123 630124 630125 630126 630130 630131 630132 &
+      630133 630134 630135 630136 630140 630141 630142 630143 630144 630145 &
+      630146 630150 630151 630152 630153 630154 630155 630156 630160 630161 &
+      630162 630163 630164 630165 630166 
+f7:n  201100 201101 201102 201103 201104 201105 201106 201110 201111 201112 &
+      201113 201114 201115 201116 201120 201121 201122 201123 201124 201125 &
+      201126 201130 201131 201132 201133 201134 201135 201136 201140 201141 &
+      201142 201143 201144 201145 201146 201150 201151 201152 201153 201154 &
+      201155 201156 201160 201161 201162 201163 201164 201165 201166 202100 &
+      202101 202102 202103 202104 202105 202106 202110 202111 202112 202113 &
+      202114 202115 202116 202120 202121 202122 202123 202124 202125 202126 &
+      202130 202131 202132 202133 202134 202135 202136 202140 202141 202142 &
+      202143 202144 202145 202146 202150 202151 202152 202153 202154 202155 &
+      202156 202160 202161 202162 202163 202164 202165 202166 203100 203101 &
+      203102 203103 203104 203105 203106 203110 203111 203112 203113 203114 &
+      203115 203116 203120 203121 203122 203123 203124 203125 203126 203130 &
+      203131 203132 203133 203134 203135 203136 203140 203141 203142 203143 &
+      203144 203145 203146 203150 203151 203152 203153 203154 203155 203156 &
+      203160 203161 203162 203163 203164 203165 203166 204100 204101 204102 &
+      204103 204104 204105 204106 204110 204111 204112 204113 204114 204115 &
+      204116 204120 204121 204122 204123 204124 204125 204126 204130 204131 &
+      204132 204133 204134 204135 204136 204140 204141 204142 204143 204144 &
+      204145 204146 204150 204151 204152 204153 204154 204155 204156 204160 &
+      204161 204162 204163 204164 204165 204166 205100 205101 205102 205103 &
+      205104 205105 205106 205110 205111 205112 205113 205114 205115 205116 &
+      205120 205121 205122 205123 205124 205125 205126 205130 205131 205132 &
+      205133 205134 205135 205136 205140 205141 205142 205143 205144 205145 &
+      205146 205150 205151 205152 205153 205154 205155 205156 205160 205161 &
+      205162 205163 205164 205165 205166 206100 206101 206102 206103 206104 &
+      206105 206106 206110 206111 206112 206113 206114 206115 206116 206120 &
+      206121 206122 206123 206124 206125 206126 206130 206131 206132 206133 &
+      206134 206135 206136 206140 206141 206142 206143 206144 206145 206146 &
+      206150 206151 206152 206153 206154 206155 206156 206160 206161 206162 &
+      206163 206164 206165 206166 301100 301101 301102 301103 301104 301105 &
+      301106 301110 301111 301112 301113 301114 301115 301116 301120 301121 &
+      301122 301123 301124 301125 301126 301130 301131 301132 301133 301134 &
+      301135 301136 301140 301141 301142 301143 301144 301145 301146 301150 &
+      301151 301152 301153 301154 301155 301156 301160 301161 301162 301163 &
+      301164 301165 301166 302100 302101 302102 302103 302104 302105 302106 &
+      302110 302111 302112 302113 302114 302115 302116 302120 302121 302122 &
+      302123 302124 302125 302126 302130 302131 302132 302133 302134 302135 &
+      302136 302140 302141 302142 302143 302144 302145 302146 302150 302151 &
+      302152 302153 302154 302155 302156 302160 302161 302162 302163 302164 &
+      302165 302166 303100 303101 303102 303103 303104 303105 303106 303110 &
+      303111 303112 303113 303114 303115 303116 303120 303121 303122 303123 &
+      303124 303125 303126 303130 303131 303132 303133 303134 303135 303136 &
+      303140 303141 303142 303143 303144 303145 303146 303150 303151 303152 &
+      303153 303154 303155 303156 303160 303161 303162 303163 303164 303165 &
+      303166 304100 304101 304102 304103 304104 304105 304106 304110 304111 &
+      304112 304113 304114 304115 304116 304120 304121 304122 304123 304124 &
+      304125 304126 304130 304131 304132 304133 304134 304135 304136 304140 &
+      304141 304142 304143 304144 304145 304146 304150 304151 304152 304153 &
+      304154 304155 304156 304160 304161 304162 304163 304164 304165 304166 &
+      305100 305101 305102 305103 305104 305105 305106 305110 305111 305112 &
+      305113 305114 305115 305116 305120 305121 305122 305123 305124 305125 &
+      305126 305130 305131 305132 305133 305134 305135 305136 305140 305141 &
+      305142 305143 305144 305145 305146 305150 305151 305152 305153 305154 &
+      305155 305156 305160 305161 305162 305163 305164 305165 305166 306100 &
+      306101 306102 306103 306104 306105 306106 306110 306111 306112 306113 &
+      306114 306115 306116 306120 306121 306122 306123 306124 306125 306126 &
+      306130 306131 306132 306133 306134 306135 306136 306140 306141 306142 &
+      306143 306144 306145 306146 306150 306151 306152 306153 306154 306155 &
+      306156 306160 306161 306162 306163 306164 306165 306166 308100 308101 &
+      308102 308103 308104 308105 308106 308110 308111 308112 308113 308114 &
+      308115 308116 308120 308121 308122 308123 308124 308125 308126 308130 &
+      308131 308132 308133 308134 308135 308136 308140 308141 308142 308143 &
+      308144 308145 308146 308150 308151 308152 308153 308154 308155 308156 &
+      308160 308161 308162 308163 308164 308165 308166 309100 309101 309102 &
+      309103 309104 309105 309106 309110 309111 309112 309113 309114 309115 &
+      309116 309120 309121 309122 309123 309124 309125 309126 309130 309131 &
+      309132 309133 309134 309135 309136 309140 309141 309142 309143 309144 &
+      309145 309146 309150 309151 309152 309153 309154 309155 309156 309160 &
+      309161 309162 309163 309164 309165 309166 310100 310101 310102 310103 &
+      310104 310105 310106 310110 310111 310112 310113 310114 310115 310116 &
+      310120 310121 310122 310123 310124 310125 310126 310130 310131 310132 &
+      310133 310134 310135 310136 310140 310141 310142 310143 310144 310145 &
+      310146 310150 310151 310152 310153 310154 310155 310156 310160 310161 &
+      310162 310163 310164 310165 310166 311100 311101 311102 311103 311104 &
+      311105 311106 311110 311111 311112 311113 311114 311115 311116 311120 &
+      311121 311122 311123 311124 311125 311126 311130 311131 311132 311133 &
+      311134 311135 311136 311140 311141 311142 311143 311144 311145 311146 &
+      311150 311151 311152 311153 311154 311155 311156 311160 311161 311162 &
+      311163 311164 311165 311166 312100 312101 312102 312103 312104 312105 &
+      312106 312110 312111 312112 312113 312114 312115 312116 312120 312121 &
+      312122 312123 312124 312125 312126 312130 312131 312132 312133 312134 &
+      312135 312136 312140 312141 312142 312143 312144 312145 312146 312150 &
+      312151 312152 312153 312154 312155 312156 312160 312161 312162 312163 &
+      312164 312165 312166 401100 401101 401102 401103 401104 401105 401106 &
+      401110 401111 401112 401113 401114 401115 401116 401120 401121 401122 &
+      401123 401124 401125 401126 401130 401131 401132 401133 401134 401135 &
+      401136 401140 401141 401142 401143 401144 401145 401146 401150 401151 &
+      401152 401153 401154 401155 401156 401160 401161 401162 401163 401164 &
+      401165 401166 402100 402101 402102 402103 402104 402105 402106 402110 &
+      402111 402112 402113 402114 402115 402116 402120 402121 402122 402123 &
+      402124 402125 402126 402130 402131 402132 402133 402134 402135 402136 &
+      402140 402141 402142 402143 402144 402145 402146 402150 402151 402152 &
+      402153 402154 402155 402156 402160 402161 402162 402163 402164 402165 &
+      402166 403100 403101 403102 403103 403104 403105 403106 403110 403111 &
+      403112 403113 403114 403115 403116 403120 403121 403122 403123 403124 &
+      403125 403126 403130 403131 403132 403133 403134 403135 403136 403140 &
+      403141 403142 403143 403144 403145 403146 403150 403151 403152 403153 &
+      403154 403155 403156 403160 403161 403162 403163 403164 403165 403166 &
+      405100 405101 405102 405103 405104 405105 405106 405110 405111 405112 &
+      405113 405114 405115 405116 405120 405121 405122 405123 405124 405125 &
+      405126 405130 405131 405132 405133 405134 405135 405136 405140 405141 &
+      405142 405143 405144 405145 405146 405150 405151 405152 405153 405154 &
+      405155 405156 405160 405161 405162 405163 405164 405165 405166 406100 &
+      406101 406102 406103 406104 406105 406106 406110 406111 406112 406113 &
+      406114 406115 406116 406120 406121 406122 406123 406124 406125 406126 &
+      406130 406131 406132 406133 406134 406135 406136 406140 406141 406142 &
+      406143 406144 406145 406146 406150 406151 406152 406153 406154 406155 &
+      406156 406160 406161 406162 406163 406164 406165 406166 407100 407101 &
+      407102 407103 407104 407105 407106 407110 407111 407112 407113 407114 &
+      407115 407116 407120 407121 407122 407123 407124 407125 407126 407130 &
+      407131 407132 407133 407134 407135 407136 407140 407141 407142 407143 &
+      407144 407145 407146 407150 407151 407152 407153 407154 407155 407156 &
+      407160 407161 407162 407163 407164 407165 407166 408100 408101 408102 &
+      408103 408104 408105 408106 408110 408111 408112 408113 408114 408115 &
+      408116 408120 408121 408122 408123 408124 408125 408126 408130 408131 &
+      408132 408133 408134 408135 408136 408140 408141 408142 408143 408144 &
+      408145 408146 408150 408151 408152 408153 408154 408155 408156 408160 &
+      408161 408162 408163 408164 408165 408166 409100 409101 409102 409103 &
+      409104 409105 409106 409110 409111 409112 409113 409114 409115 409116 &
+      409120 409121 409122 409123 409124 409125 409126 409130 409131 409132 &
+      409133 409134 409135 409136 409140 409141 409142 409143 409144 409145 &
+      409146 409150 409151 409152 409153 409154 409155 409156 409160 409161 &
+      409162 409163 409164 409165 409166 410100 410101 410102 410103 410104 &
+      410105 410106 410110 410111 410112 410113 410114 410115 410116 410120 &
+      410121 410122 410123 410124 410125 410126 410130 410131 410132 410133 &
+      410134 410135 410136 410140 410141 410142 410143 410144 410145 410146 &
+      410150 410151 410152 410153 410154 410155 410156 410160 410161 410162 &
+      410163 410164 410165 410166 411100 411101 411102 411103 411104 411105 &
+      411106 411110 411111 411112 411113 411114 411115 411116 411120 411121 &
+      411122 411123 411124 411125 411126 411130 411131 411132 411133 411134 &
+      411135 411136 411140 411141 411142 411143 411144 411145 411146 411150 &
+      411151 411152 411153 411154 411155 411156 411160 411161 411162 411163 &
+      411164 411165 411166 412100 412101 412102 412103 412104 412105 412106 &
+      412110 412111 412112 412113 412114 412115 412116 412120 412121 412122 &
+      412123 412124 412125 412126 412130 412131 412132 412133 412134 412135 &
+      412136 412140 412141 412142 412143 412144 412145 412146 412150 412151 &
+      412152 412153 412154 412155 412156 412160 412161 412162 412163 412164 &
+      412165 412166 413100 413101 413102 413103 413104 413105 413106 413110 &
+      413111 413112 413113 413114 413115 413116 413120 413121 413122 413123 &
+      413124 413125 413126 413130 413131 413132 413133 413134 413135 413136 &
+      413140 413141 413142 413143 413144 413145 413146 413150 413151 413152 &
+      413153 413154 413155 413156 413160 413161 413162 413163 413164 413165 &
+      413166 414100 414101 414102 414103 414104 414105 414106 414110 414111 &
+      414112 414113 414114 414115 414116 414120 414121 414122 414123 414124 &
+      414125 414126 414130 414131 414132 414133 414134 414135 414136 414140 &
+      414141 414142 414143 414144 414145 414146 414150 414151 414152 414153 &
+      414154 414155 414156 414160 414161 414162 414163 414164 414165 414166 &
+      415100 415101 415102 415103 415104 415105 415106 415110 415111 415112 &
+      415113 415114 415115 415116 415120 415121 415122 415123 415124 415125 &
+      415126 415130 415131 415132 415133 415134 415135 415136 415140 415141 &
+      415142 415143 415144 415145 415146 415150 415151 415152 415153 415154 &
+      415155 415156 415160 415161 415162 415163 415164 415165 415166 417100 &
+      417101 417102 417103 417104 417105 417106 417110 417111 417112 417113 &
+      417114 417115 417116 417120 417121 417122 417123 417124 417125 417126 &
+      417130 417131 417132 417133 417134 417135 417136 417140 417141 417142 &
+      417143 417144 417145 417146 417150 417151 417152 417153 417154 417155 &
+      417156 417160 417161 417162 417163 417164 417165 417166 418100 418101 &
+      418102 418103 418104 418105 418106 418110 418111 418112 418113 418114 &
+      418115 418116 418120 418121 418122 418123 418124 418125 418126 418130 &
+      418131 418132 418133 418134 418135 418136 418140 418141 418142 418143 &
+      418144 418145 418146 418150 418151 418152 418153 418154 418155 418156 &
+      418160 418161 418162 418163 418164 418165 418166 502100 502101 502102 &
+      502103 502104 502105 502106 502110 502111 502112 502113 502114 502115 &
+      502116 502120 502121 502122 502123 502124 502125 502126 502130 502131 &
+      502132 502133 502134 502135 502136 502140 502141 502142 502143 502144 &
+      502145 502146 502150 502151 502152 502153 502154 502155 502156 502160 &
+      502161 502162 502163 502164 502165 502166 503100 503101 503102 503103 &
+      503104 503105 503106 503110 503111 503112 503113 503114 503115 503116 &
+      503120 503121 503122 503123 503124 503125 503126 503130 503131 503132 &
+      503133 503134 503135 503136 503140 503141 503142 503143 503144 503145 &
+      503146 503150 503151 503152 503153 503154 503155 503156 503160 503161 &
+      503162 503163 503164 503165 503166 504100 504101 504102 504103 504104 &
+      504105 504106 504110 504111 504112 504113 504114 504115 504116 504120 &
+      504121 504122 504123 504124 504125 504126 504130 504131 504132 504133 &
+      504134 504135 504136 504140 504141 504142 504143 504144 504145 504146 &
+      504150 504151 504152 504153 504154 504155 504156 504160 504161 504162 &
+      504163 504164 504165 504166 505100 505101 505102 505103 505104 505105 &
+      505106 505110 505111 505112 505113 505114 505115 505116 505120 505121 &
+      505122 505123 505124 505125 505126 505130 505131 505132 505133 505134 &
+      505135 505136 505140 505141 505142 505143 505144 505145 505146 505150 &
+      505151 505152 505153 505154 505155 505156 505160 505161 505162 505163 &
+      505164 505165 505166 506100 506101 506102 506103 506104 506105 506106 &
+      506110 506111 506112 506113 506114 506115 506116 506120 506121 506122 &
+      506123 506124 506125 506126 506130 506131 506132 506133 506134 506135 &
+      506136 506140 506141 506142 506143 506144 506145 506146 506150 506151 &
+      506152 506153 506154 506155 506156 506160 506161 506162 506163 506164 &
+      506165 506166 507100 507101 507102 507103 507104 507105 507106 507110 &
+      507111 507112 507113 507114 507115 507116 507120 507121 507122 507123 &
+      507124 507125 507126 507130 507131 507132 507133 507134 507135 507136 &
+      507140 507141 507142 507143 507144 507145 507146 507150 507151 507152 &
+      507153 507154 507155 507156 507160 507161 507162 507163 507164 507165 &
+      507166 508100 508101 508102 508103 508104 508105 508106 508110 508111 &
+      508112 508113 508114 508115 508116 508120 508121 508122 508123 508124 &
+      508125 508126 508130 508131 508132 508133 508134 508135 508136 508140 &
+      508141 508142 508143 508144 508145 508146 508150 508151 508152 508153 &
+      508154 508155 508156 508160 508161 508162 508163 508164 508165 508166 &
+      509100 509101 509102 509103 509104 509105 509106 509110 509111 509112 &
+      509113 509114 509115 509116 509120 509121 509122 509123 509124 509125 &
+      509126 509130 509131 509132 509133 509134 509135 509136 509140 509141 &
+      509142 509143 509144 509145 509146 509150 509151 509152 509153 509154 &
+      509155 509156 509160 509161 509162 509163 509164 509165 509166 510100 &
+      510101 510102 510103 510104 510105 510106 510110 510111 510112 510113 &
+      510114 510115 510116 510120 510121 510122 510123 510124 510125 510126 &
+      510130 510131 510132 510133 510134 510135 510136 510140 510141 510142 &
+      510143 510144 510145 510146 510150 510151 510152 510153 510154 510155 &
+      510156 510160 510161 510162 510163 510164 510165 510166 511100 511101 &
+      511102 511103 511104 511105 511106 511110 511111 511112 511113 511114 &
+      511115 511116 511120 511121 511122 511123 511124 511125 511126 511130 &
+      511131 511132 511133 511134 511135 511136 511140 511141 511142 511143 &
+      511144 511145 511146 511150 511151 511152 511153 511154 511155 511156 &
+      511160 511161 511162 511163 511164 511165 511166 512100 512101 512102 &
+      512103 512104 512105 512106 512110 512111 512112 512113 512114 512115 &
+      512116 512120 512121 512122 512123 512124 512125 512126 512130 512131 &
+      512132 512133 512134 512135 512136 512140 512141 512142 512143 512144 &
+      512145 512146 512150 512151 512152 512153 512154 512155 512156 512160 &
+      512161 512162 512163 512164 512165 512166 513100 513101 513102 513103 &
+      513104 513105 513106 513110 513111 513112 513113 513114 513115 513116 &
+      513120 513121 513122 513123 513124 513125 513126 513130 513131 513132 &
+      513133 513134 513135 513136 513140 513141 513142 513143 513144 513145 &
+      513146 513150 513151 513152 513153 513154 513155 513156 513160 513161 &
+      513162 513163 513164 513165 513166 514100 514101 514102 514103 514104 &
+      514105 514106 514110 514111 514112 514113 514114 514115 514116 514120 &
+      514121 514122 514123 514124 514125 514126 514130 514131 514132 514133 &
+      514134 514135 514136 514140 514141 514142 514143 514144 514145 514146 &
+      514150 514151 514152 514153 514154 514155 514156 514160 514161 514162 &
+      514163 514164 514165 514166 515100 515101 515102 515103 515104 515105 &
+      515106 515110 515111 515112 515113 515114 515115 515116 515120 515121 &
+      515122 515123 515124 515125 515126 515130 515131 515132 515133 515134 &
+      515135 515136 515140 515141 515142 515143 515144 515145 515146 515150 &
+      515151 515152 515153 515154 515155 515156 515160 515161 515162 515163 &
+      515164 515165 515166 516100 516101 516102 516103 516104 516105 516106 &
+      516110 516111 516112 516113 516114 516115 516116 516120 516121 516122 &
+      516123 516124 516125 516126 516130 516131 516132 516133 516134 516135 &
+      516136 516140 516141 516142 516143 516144 516145 516146 516150 516151 &
+      516152 516153 516154 516155 516156 516160 516161 516162 516163 516164 &
+      516165 516166 517100 517101 517102 517103 517104 517105 517106 517110 &
+      517111 517112 517113 517114 517115 517116 517120 517121 517122 517123 &
+      517124 517125 517126 517130 517131 517132 517133 517134 517135 517136 &
+      517140 517141 517142 517143 517144 517145 517146 517150 517151 517152 &
+      517153 517154 517155 517156 517160 517161 517162 517163 517164 517165 &
+      517166 518100 518101 518102 518103 518104 518105 518106 518110 518111 &
+      518112 518113 518114 518115 518116 518120 518121 518122 518123 518124 &
+      518125 518126 518130 518131 518132 518133 518134 518135 518136 518140 &
+      518141 518142 518143 518144 518145 518146 518150 518151 518152 518153 &
+      518154 518155 518156 518160 518161 518162 518163 518164 518165 518166 &
+      519100 519101 519102 519103 519104 519105 519106 519110 519111 519112 &
+      519113 519114 519115 519116 519120 519121 519122 519123 519124 519125 &
+      519126 519130 519131 519132 519133 519134 519135 519136 519140 519141 &
+      519142 519143 519144 519145 519146 519150 519151 519152 519153 519154 &
+      519155 519156 519160 519161 519162 519163 519164 519165 519166 520100 &
+      520101 520102 520103 520104 520105 520106 520110 520111 520112 520113 &
+      520114 520115 520116 520120 520121 520122 520123 520124 520125 520126 &
+      520130 520131 520132 520133 520134 520135 520136 520140 520141 520142 &
+      520143 520144 520145 520146 520150 520151 520152 520153 520154 520155 &
+      520156 520160 520161 520162 520163 520164 520165 520166 521100 521101 &
+      521102 521103 521104 521105 521106 521110 521111 521112 521113 521114 &
+      521115 521116 521120 521121 521122 521123 521124 521125 521126 521130 &
+      521131 521132 521133 521134 521135 521136 521140 521141 521142 521143 &
+      521144 521145 521146 521150 521151 521152 521153 521154 521155 521156 &
+      521160 521161 521162 521163 521164 521165 521166 522100 522101 522102 &
+      522103 522104 522105 522106 522110 522111 522112 522113 522114 522115 &
+      522116 522120 522121 522122 522123 522124 522125 522126 522130 522131 &
+      522132 522133 522134 522135 522136 522140 522141 522142 522143 522144 &
+      522145 522146 522150 522151 522152 522153 522154 522155 522156 522160 &
+      522161 522162 522163 522164 522165 522166 523100 523101 523102 523103 &
+      523104 523105 523106 523110 523111 523112 523113 523114 523115 523116 &
+      523120 523121 523122 523123 523124 523125 523126 523130 523131 523132 &
+      523133 523134 523135 523136 523140 523141 523142 523143 523144 523145 &
+      523146 523150 523151 523152 523153 523154 523155 523156 523160 523161 &
+      523162 523163 523164 523165 523166 524100 524101 524102 524103 524104 &
+      524105 524106 524110 524111 524112 524113 524114 524115 524116 524120 &
+      524121 524122 524123 524124 524125 524126 524130 524131 524132 524133 &
+      524134 524135 524136 524140 524141 524142 524143 524144 524145 524146 &
+      524150 524151 524152 524153 524154 524155 524156 524160 524161 524162 &
+      524163 524164 524165 524166 601100 601101 601102 601103 601104 601105 &
+      601106 601110 601111 601112 601113 601114 601115 601116 601120 601121 &
+      601122 601123 601124 601125 601126 601130 601131 601132 601133 601134 &
+      601135 601136 601140 601141 601142 601143 601144 601145 601146 601150 &
+      601151 601152 601153 601154 601155 601156 601160 601161 601162 601163 &
+      601164 601165 601166 602100 602101 602102 602103 602104 602105 602106 &
+      602110 602111 602112 602113 602114 602115 602116 602120 602121 602122 &
+      602123 602124 602125 602126 602130 602131 602132 602133 602134 602135 &
+      602136 602140 602141 602142 602143 602144 602145 602146 602150 602151 &
+      602152 602153 602154 602155 602156 602160 602161 602162 602163 602164 &
+      602165 602166 603100 603101 603102 603103 603104 603105 603106 603110 &
+      603111 603112 603113 603114 603115 603116 603120 603121 603122 603123 &
+      603124 603125 603126 603130 603131 603132 603133 603134 603135 603136 &
+      603140 603141 603142 603143 603144 603145 603146 603150 603151 603152 &
+      603153 603154 603155 603156 603160 603161 603162 603163 603164 603165 &
+      603166 604100 604101 604102 604103 604104 604105 604106 604110 604111 &
+      604112 604113 604114 604115 604116 604120 604121 604122 604123 604124 &
+      604125 604126 604130 604131 604132 604133 604134 604135 604136 604140 &
+      604141 604142 604143 604144 604145 604146 604150 604151 604152 604153 &
+      604154 604155 604156 604160 604161 604162 604163 604164 604165 604166 &
+      605100 605101 605102 605103 605104 605105 605106 605110 605111 605112 &
+      605113 605114 605115 605116 605120 605121 605122 605123 605124 605125 &
+      605126 605130 605131 605132 605133 605134 605135 605136 605140 605141 &
+      605142 605143 605144 605145 605146 605150 605151 605152 605153 605154 &
+      605155 605156 605160 605161 605162 605163 605164 605165 605166 606100 &
+      606101 606102 606103 606104 606105 606106 606110 606111 606112 606113 &
+      606114 606115 606116 606120 606121 606122 606123 606124 606125 606126 &
+      606130 606131 606132 606133 606134 606135 606136 606140 606141 606142 &
+      606143 606144 606145 606146 606150 606151 606152 606153 606154 606155 &
+      606156 606160 606161 606162 606163 606164 606165 606166 607100 607101 &
+      607102 607103 607104 607105 607106 607110 607111 607112 607113 607114 &
+      607115 607116 607120 607121 607122 607123 607124 607125 607126 607130 &
+      607131 607132 607133 607134 607135 607136 607140 607141 607142 607143 &
+      607144 607145 607146 607150 607151 607152 607153 607154 607155 607156 &
+      607160 607161 607162 607163 607164 607165 607166 608100 608101 608102 &
+      608103 608104 608105 608106 608110 608111 608112 608113 608114 608115 &
+      608116 608120 608121 608122 608123 608124 608125 608126 608130 608131 &
+      608132 608133 608134 608135 608136 608140 608141 608142 608143 608144 &
+      608145 608146 608150 608151 608152 608153 608154 608155 608156 608160 &
+      608161 608162 608163 608164 608165 608166 609100 609101 609102 609103 &
+      609104 609105 609106 609110 609111 609112 609113 609114 609115 609116 &
+      609120 609121 609122 609123 609124 609125 609126 609130 609131 609132 &
+      609133 609134 609135 609136 609140 609141 609142 609143 609144 609145 &
+      609146 609150 609151 609152 609153 609154 609155 609156 609160 609161 &
+      609162 609163 609164 609165 609166 611100 611101 611102 611103 611104 &
+      611105 611106 611110 611111 611112 611113 611114 611115 611116 611120 &
+      611121 611122 611123 611124 611125 611126 611130 611131 611132 611133 &
+      611134 611135 611136 611140 611141 611142 611143 611144 611145 611146 &
+      611150 611151 611152 611153 611154 611155 611156 611160 611161 611162 &
+      611163 611164 611165 611166 612100 612101 612102 612103 612104 612105 &
+      612106 612110 612111 612112 612113 612114 612115 612116 612120 612121 &
+      612122 612123 612124 612125 612126 612130 612131 612132 612133 612134 &
+      612135 612136 612140 612141 612142 612143 612144 612145 612146 612150 &
+      612151 612152 612153 612154 612155 612156 612160 612161 612162 612163 &
+      612164 612165 612166 613100 613101 613102 613103 613104 613105 613106 &
+      613110 613111 613112 613113 613114 613115 613116 613120 613121 613122 &
+      613123 613124 613125 613126 613130 613131 613132 613133 613134 613135 &
+      613136 613140 613141 613142 613143 613144 613145 613146 613150 613151 &
+      613152 613153 613154 613155 613156 613160 613161 613162 613163 613164 &
+      613165 613166 614100 614101 614102 614103 614104 614105 614106 614110 &
+      614111 614112 614113 614114 614115 614116 614120 614121 614122 614123 &
+      614124 614125 614126 614130 614131 614132 614133 614134 614135 614136 &
+      614140 614141 614142 614143 614144 614145 614146 614150 614151 614152 &
+      614153 614154 614155 614156 614160 614161 614162 614163 614164 614165 &
+      614166 615100 615101 615102 615103 615104 615105 615106 615110 615111 &
+      615112 615113 615114 615115 615116 615120 615121 615122 615123 615124 &
+      615125 615126 615130 615131 615132 615133 615134 615135 615136 615140 &
+      615141 615142 615143 615144 615145 615146 615150 615151 615152 615153 &
+      615154 615155 615156 615160 615161 615162 615163 615164 615165 615166 &
+      616100 616101 616102 616103 616104 616105 616106 616110 616111 616112 &
+      616113 616114 616115 616116 616120 616121 616122 616123 616124 616125 &
+      616126 616130 616131 616132 616133 616134 616135 616136 616140 616141 &
+      616142 616143 616144 616145 616146 616150 616151 616152 616153 616154 &
+      616155 616156 616160 616161 616162 616163 616164 616165 616166 617100 &
+      617101 617102 617103 617104 617105 617106 617110 617111 617112 617113 &
+      617114 617115 617116 617120 617121 617122 617123 617124 617125 617126 &
+      617130 617131 617132 617133 617134 617135 617136 617140 617141 617142 &
+      617143 617144 617145 617146 617150 617151 617152 617153 617154 617155 &
+      617156 617160 617161 617162 617163 617164 617165 617166 618100 618101 &
+      618102 618103 618104 618105 618106 618110 618111 618112 618113 618114 &
+      618115 618116 618120 618121 618122 618123 618124 618125 618126 618130 &
+      618131 618132 618133 618134 618135 618136 618140 618141 618142 618143 &
+      618144 618145 618146 618150 618151 618152 618153 618154 618155 618156 &
+      618160 618161 618162 618163 618164 618165 618166 619100 619101 619102 &
+      619103 619104 619105 619106 619110 619111 619112 619113 619114 619115 &
+      619116 619120 619121 619122 619123 619124 619125 619126 619130 619131 &
+      619132 619133 619134 619135 619136 619140 619141 619142 619143 619144 &
+      619145 619146 619150 619151 619152 619153 619154 619155 619156 619160 &
+      619161 619162 619163 619164 619165 619166 620100 620101 620102 620103 &
+      620104 620105 620106 620110 620111 620112 620113 620114 620115 620116 &
+      620120 620121 620122 620123 620124 620125 620126 620130 620131 620132 &
+      620133 620134 620135 620136 620140 620141 620142 620143 620144 620145 &
+      620146 620150 620151 620152 620153 620154 620155 620156 620160 620161 &
+      620162 620163 620164 620165 620166 621100 621101 621102 621103 621104 &
+      621105 621106 621110 621111 621112 621113 621114 621115 621116 621120 &
+      621121 621122 621123 621124 621125 621126 621130 621131 621132 621133 &
+      621134 621135 621136 621140 621141 621142 621143 621144 621145 621146 &
+      621150 621151 621152 621153 621154 621155 621156 621160 621161 621162 &
+      621163 621164 621165 621166 622100 622101 622102 622103 622104 622105 &
+      622106 622110 622111 622112 622113 622114 622115 622116 622120 622121 &
+      622122 622123 622124 622125 622126 622130 622131 622132 622133 622134 &
+      622135 622136 622140 622141 622142 622143 622144 622145 622146 622150 &
+      622151 622152 622153 622154 622155 622156 622160 622161 622162 622163 &
+      622164 622165 622166 623100 623101 623102 623103 623104 623105 623106 &
+      623110 623111 623112 623113 623114 623115 623116 623120 623121 623122 &
+      623123 623124 623125 623126 623130 623131 623132 623133 623134 623135 &
+      623136 623140 623141 623142 623143 623144 623145 623146 623150 623151 &
+      623152 623153 623154 623155 623156 623160 623161 623162 623163 623164 &
+      623165 623166 624100 624101 624102 624103 624104 624105 624106 624110 &
+      624111 624112 624113 624114 624115 624116 624120 624121 624122 624123 &
+      624124 624125 624126 624130 624131 624132 624133 624134 624135 624136 &
+      624140 624141 624142 624143 624144 624145 624146 624150 624151 624152 &
+      624153 624154 624155 624156 624160 624161 624162 624163 624164 624165 &
+      624166 625100 625101 625102 625103 625104 625105 625106 625110 625111 &
+      625112 625113 625114 625115 625116 625120 625121 625122 625123 625124 &
+      625125 625126 625130 625131 625132 625133 625134 625135 625136 625140 &
+      625141 625142 625143 625144 625145 625146 625150 625151 625152 625153 &
+      625154 625155 625156 625160 625161 625162 625163 625164 625165 625166 &
+      626100 626101 626102 626103 626104 626105 626106 626110 626111 626112 &
+      626113 626114 626115 626116 626120 626121 626122 626123 626124 626125 &
+      626126 626130 626131 626132 626133 626134 626135 626136 626140 626141 &
+      626142 626143 626144 626145 626146 626150 626151 626152 626153 626154 &
+      626155 626156 626160 626161 626162 626163 626164 626165 626166 627100 &
+      627101 627102 627103 627104 627105 627106 627110 627111 627112 627113 &
+      627114 627115 627116 627120 627121 627122 627123 627124 627125 627126 &
+      627130 627131 627132 627133 627134 627135 627136 627140 627141 627142 &
+      627143 627144 627145 627146 627150 627151 627152 627153 627154 627155 &
+      627156 627160 627161 627162 627163 627164 627165 627166 628100 628101 &
+      628102 628103 628104 628105 628106 628110 628111 628112 628113 628114 &
+      628115 628116 628120 628121 628122 628123 628124 628125 628126 628130 &
+      628131 628132 628133 628134 628135 628136 628140 628141 628142 628143 &
+      628144 628145 628146 628150 628151 628152 628153 628154 628155 628156 &
+      628160 628161 628162 628163 628164 628165 628166 629100 629101 629102 &
+      629103 629104 629105 629106 629110 629111 629112 629113 629114 629115 &
+      629116 629120 629121 629122 629123 629124 629125 629126 629130 629131 &
+      629132 629133 629134 629135 629136 629140 629141 629142 629143 629144 &
+      629145 629146 629150 629151 629152 629153 629154 629155 629156 629160 &
+      629161 629162 629163 629164 629165 629166 630100 630101 630102 630103 &
+      630104 630105 630106 630110 630111 630112 630113 630114 630115 630116 &
+      630120 630121 630122 630123 630124 630125 630126 630130 630131 630132 &
+      630133 630134 630135 630136 630140 630141 630142 630143 630144 630145 &
+      630146 630150 630151 630152 630153 630154 630155 630156 630160 630161 &
+      630162 630163 630164 630165 630166 

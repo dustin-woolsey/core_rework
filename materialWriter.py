@@ -22,7 +22,7 @@ class element(object):
         
 class makeFuelData(object):
     def __init__(self, fileName):
-        self.nAxialDiv = 1
+        self.nAxialDiv = 7
         self.getFuelData()
         self.fuelArray(fileName)
         self.writeFuelMats()

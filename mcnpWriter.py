@@ -34,6 +34,27 @@ class writer(object):
         # Create the file
         self.makeFile(outname)
 
+    def getVolumes(self):
+        self.V = [0.0, 0.0, 23186.1, 7981.87, 0.0, 0.0, 0.0, 0.0, 119806.0, 2876.05,
+                  23.606, 0.0, 0.0, 0.0, 27.2206, 263.299, 0.0, 0.0, 0.0, 292.266,
+                  0.0, 0.0, 0.0, 37.203, 360.755, 0.0, 0.0, 0.0, 23.4395, 153.542, 0.0, 0.0]
+        
+        zmin = -19.05
+        zmax = 19.05
+        rmin = 0.2285
+        rmax = 1.8161
+        
+        R = linspace(rmin, rmax, self.nRadialDiv + 1)
+        Z = linspace(zmin, zmax, self.nAxialDiv + 1)
+        
+        for e in range(self.nFuelElements):
+            self.V += [0.0, 0.0, 0.0, 90.5361, 0.0, 6.24953, 90.5361, 26.3186, 0.0, 0.0, 0.0]
+            for j in range(self.nAxialDiv):
+                for i in range(self.nRadialDiv):
+                    self.V.append(pi * (R[i + 1] ** 2 - R[i] ** 2) * (Z[j + 1] - Z[j]))
+                    
+        self.V += [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 602.17, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 18.099, 4.87847, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        
     def getFuelCells(self):
         s = ''
         self.fuelID = []
@@ -57,7 +78,7 @@ class writer(object):
                     s += '  {}   9   -7.9 -14 21                 u={}   $ BOTTOM SS cap\n'.format(ID + 2, e.number)
                     s += '  {}   2   -1.6 14 -13 -202            u={}   $ BOTTOM Axial reflector\n'.format(ID + 3, e.number)
                     s += '  {}   9   -7.9 14 -4 202              u={}   $ Cladding\n'.format(ID + 4, e.number)
-                    #s += '  {}   8   -6.5 13 -10 -200            u={}   $ Zirc FILLER\n'.format(ID + 5, e.number)
+                    s += '  {}   8   -6.5 13 -10 -200            u={}   $ Zirc FILLER\n'.format(ID + 5, e.number)
                     s += '  {}   2   -1.6 10 -6 -202             u={}   $ TOP Axial reflector\n'.format(ID + 6, e.number)
                     s += '  {}   3   -0.001239 6 -4 -202         u={}   $ Air gap\n'.format(ID + 7, e.number)
                     s += '  {}   9   -7.9 4 -3                   u={}   $ TOP SS cap\n'.format(ID + 8, e.number)
@@ -66,7 +87,7 @@ class writer(object):
                     ID += 100
                     for i in range(self.nAxialDiv):
                         for j in range(self.nRadialDiv):
-                            s += '  {}  {}  -{:.3f} {: <3d} -{: <3d} -{: <4d} u={}   $ ELEMENT {}-{}.{}-{}  S/N:{}\n'.format(ID + 10 * i + j, matID - abs(half - i), rho[i], self.fuelPlaneID[i + 1], self.fuelPlaneID[i], rings[j + 1], e.number, e.location[0], e.location[1:], i + 1, j + 1, e.ID)
+                            s += '  {}  {}  -{:.3f} {: <3d} -{: <3d} {: <4d} -{: <4d} u={}   $ ELEMENT {}-{}.{}-{}  S/N:{}\n'.format(ID + 10 * i + j, matID - abs(half - i), rho[i], self.fuelPlaneID[i + 1], self.fuelPlaneID[i], rings[j], rings[j + 1], e.number, e.location[0], e.location[1:], i + 1, j + 1, e.ID)
                             self.fuelID.append(ID + 10 * i + j)
                     IDb = ID
                 else:
@@ -76,7 +97,7 @@ class writer(object):
                     s += '  {} like {} but u={}\n'.format(ID + 2, IDb - 98, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 3, IDb - 97, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 4, IDb - 96, e.number)
-                    #s += '  {} like {} but u={}\n'.format(ID + 5, IDb - 95, e.number)
+                    s += '  {} like {} but u={}\n'.format(ID + 5, IDb - 95, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 6, IDb - 94, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 7, IDb - 93, e.number)
                     s += '  {} like {} but u={}\n'.format(ID + 8, IDb - 92, e.number)
@@ -395,7 +416,19 @@ class writer(object):
         z_fuel_top = 19.05
         self.fuelPlanes = linspace(z_fuel_top, z_fuel_bot, self.nAxialDiv + 1)[1:-1]
         self.fuelPlaneID = [10] + [100 + i for i in range(self.nAxialDiv - 1)] + [13]
-
+        
+    def writeVolumes(self):
+        # Get the cell volumes
+        self.getVolumes()
+        s = ''
+        
+        s += 'c Volume of each cell\n'
+        s += 'VOL NO '
+        for i, v in enumerate(self.V):
+            s += '{: >9.8g} '.format(v)
+            if (i + 1) % 7 == 0 and i != len(self.V) - 1:
+                s += '&\n       '
+        return s + '\n' 
         
     def makeFile(self, outputName):
         self.getFuelPlanes()
@@ -457,6 +490,7 @@ class writer(object):
         s += 'c ******************************************************************************\n'
         s += 'imp:n             0            1 {}r          $ 1, 63012\n'.format(1080 + 85 * self.nRadialDiv * self.nAxialDiv)
         s += 'c ******************************************************************************\n'
+        s += self.writeVolumes()
         s += 'c ******************************************************************************\n'
         s += 'c SOURCE DISTRIBUTED ACROSS THE CORE VOLUME\n'
         s += 'sdef ERG=D1 POS=0 0 -29 AXS=0 0 1 RAD=D2 EXT=D3\n'
@@ -473,8 +507,8 @@ class writer(object):
             f.write(s)
             
 if __name__ == '__main__':
-    nAxialDiv = 1
-    nRadialDiv = 1
+    nAxialDiv = 7
+    nRadialDiv = 7
     data = makeFuelData('currentConfig.txt')
     cntl = controlRods(reg=40, shim=50, pulse=100, safety=10, worthWeighted=True)
     writer(nAxialDiv, nRadialDiv, data, cntl)
